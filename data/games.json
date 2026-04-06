@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T19:53:55.940830+00:00",
+  "updated_at": "2026-04-06T20:34:16.007937+00:00",
   "games": [
     {
       "id": "dce0f3f389617fa7daa990c209ee8acc",
@@ -51,24 +51,17 @@
         "best_book": "FanDuel",
         "num_books": 9
       },
-      "injuries": [
-        {
-          "player": "Landale",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Landale (Out)",
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "recomendacion": {
         "pick": "Sin pick",
-        "tipo": "REVISAR",
-        "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Landale — revisar impacto en línea",
-        "ou_pick": null,
-        "ou_confianza": "—",
-        "ou_notas": "Proyección total: 230.0 pts vs línea 226.5 — diferencia insuficiente para pick O/U (+3.5 pts)"
+        "tipo": "LEAN VISITANTE",
+        "confianza": "baja",
+        "notas": "Knicks mejor diferencial (+4.1) como visitante",
+        "ou_pick": "OVER",
+        "ou_confianza": "baja",
+        "ou_notas": "Proyección total: 232.5 pts vs línea 226.5 (+6.0 pts) — sugiere OVER"
       }
     },
     {
@@ -115,78 +108,23 @@
       },
       "odds": {
         "home_ml": 107,
-        "away_ml": -120,
+        "away_ml": -122,
         "spread_home": 1.5,
         "total_ou": 222.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
-      "injuries": [
-        {
-          "player": "LeVert",
-          "status": "Ques",
-          "weight": 1,
-          "high_impact": false
-        },
-        {
-          "player": "Cunningham",
-          "status": "Doubt",
-          "weight": 2,
-          "high_impact": false
-        },
-        {
-          "player": "Harris",
-          "status": "Doubt",
-          "weight": 2,
-          "high_impact": false
-        },
-        {
-          "player": "Robinson",
-          "status": "Doubt",
-          "weight": 2,
-          "high_impact": false
-        },
-        {
-          "player": "Stewart",
-          "status": "Doubt",
-          "weight": 2,
-          "high_impact": false
-        },
-        {
-          "player": "Black",
-          "status": "Prob",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Howard",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Isaac",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Wagner",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Cunningham (Doubt) | Harris (Doubt) | Robinson (Doubt) | Stewart (Doubt) | Howard (Out) | Isaac (Out) | Wagner (Out)",
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "recomendacion": {
         "pick": "Sin pick",
-        "tipo": "REVISAR",
-        "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Cunningham, Harris, Robinson, Stewart, Howard, Isaac, Wagner — revisar impacto en línea",
-        "ou_pick": "UNDER",
-        "ou_confianza": "media",
-        "ou_notas": "Proyección total: 202.5 pts vs línea 222.5 (-20.0 pts) — sugiere UNDER | Bajas deprimen el total esperado (7 jugadores Out/Doubtful)"
+        "tipo": "NO BET",
+        "confianza": "—",
+        "notas": "Partido equilibrado por diferencial. Analizar O/U.",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección total: 220.0 pts vs línea 222.5 — diferencia insuficiente para pick O/U (-2.5 pts)"
       }
     },
     {
@@ -239,42 +177,17 @@
         "best_book": "MyBookie.ag",
         "num_books": 9
       },
-      "injuries": [
-        {
-          "player": "Broome",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Payne",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Jones Garcia",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Miller",
-          "status": "Ques",
-          "weight": 1,
-          "high_impact": false
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Broome (Out) | Payne (Out)",
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "REVISAR",
-        "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Broome, Payne — revisar impacto en línea",
-        "ou_pick": null,
-        "ou_confianza": "—",
-        "ou_notas": "Proyección total: 231.5 pts vs línea 231.5 — diferencia insuficiente para pick O/U (+0.0 pts)"
+        "pick": "Memphis Grizzlies",
+        "tipo": "ML Grizzlies (local underdog)",
+        "confianza": "baja",
+        "notas": "Grizzlies local underdog (+689) — situación atípica",
+        "ou_pick": "OVER",
+        "ou_confianza": "baja",
+        "ou_notas": "Proyección total: 236.5 pts vs línea 231.5 (+5.0 pts) — sugiere OVER"
       }
     },
     {
@@ -321,132 +234,23 @@
       },
       "odds": {
         "home_ml": -357,
-        "away_ml": 301,
+        "away_ml": 310,
         "spread_home": -8.5,
         "total_ou": 237.5,
         "best_book": "MyBookie.ag",
         "num_books": 9
       },
-      "injuries": [
-        {
-          "player": "Bryant",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Harden",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": true
-        },
-        {
-          "player": "Mitchell",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": true
-        },
-        {
-          "player": "Max Strus",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Tyson",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Dean Wade",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Aldama",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Pope",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Clarke",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Zach Edey",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Ja Morant",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": true
-        },
-        {
-          "player": "Pippen",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Wells",
-          "status": "Ofs",
-          "weight": 0,
-          "high_impact": false
-        },
-        {
-          "player": "Gibson",
-          "status": "Doubt",
-          "weight": 2,
-          "high_impact": false
-        },
-        {
-          "player": "Hendricks",
-          "status": "Doubt",
-          "weight": 2,
-          "high_impact": false
-        },
-        {
-          "player": "Ty Jerome",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Mashack",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        },
-        {
-          "player": "Small",
-          "status": "Out",
-          "weight": 3,
-          "high_impact": false
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Bryant (Out) | Harden (Out) ⚠️ CLAVE | Mitchell (Out) ⚠️ CLAVE | Max Strus (Out) | Tyson (Out) | Dean Wade (Out) | Gibson (Doubt) | Hendricks (Doubt) | Ty Jerome (Out) | Mashack (Out) | Small (Out)",
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "recomendacion": {
         "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers",
-        "confianza": "media-alta",
-        "notas": "Baja clave: Harden, Mitchell — mercado puede no haberlo ajustado aún",
+        "tipo": "ML 76ers (underdog)",
+        "confianza": "baja",
+        "notas": "76ers underdog grande (+310) — evaluar si el mercado exagera",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección total: 200.5 pts vs línea 237.5 (-37.0 pts) — sugiere UNDER | Bajas deprimen el total esperado (11 jugadores Out/Doubtful)"
+        "ou_notas": "Proyección total: 228.0 pts vs línea 237.5 (-9.5 pts) — sugiere UNDER"
       }
     },
     {
@@ -493,7 +297,7 @@
       },
       "odds": {
         "home_ml": -305,
-        "away_ml": 265,
+        "away_ml": 260,
         "spread_home": -7.5,
         "total_ou": 237.5,
         "best_book": "BetRivers",
@@ -559,261 +363,6 @@
         "ou_pick": "UNDER",
         "ou_confianza": "media",
         "ou_notas": "Proyección total: 218.7 pts vs línea 237.5 (-18.8 pts) — sugiere UNDER | Bajas deprimen el total esperado (5 jugadores Out/Doubtful)"
-      }
-    },
-    {
-      "id": "9aaa887e3f4a853902d6613072b2f35b",
-      "home_team": "Toronto Raptors",
-      "away_team": "Miami Heat",
-      "commence_time": "2026-04-07T23:40:00Z",
-      "time_et": "7:40 PM ET",
-      "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "odds": {
-        "home_ml": 106,
-        "away_ml": -122,
-        "spread_home": 1.5,
-        "total_ou": 239.5,
-        "best_book": "FanDuel",
-        "num_books": 2
-      },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "notas": "Partido equilibrado por diferencial. Analizar O/U.",
-        "ou_pick": null,
-        "ou_confianza": "—",
-        "ou_notas": ""
-      }
-    },
-    {
-      "id": "96d26f7a098eba89636e1a99c7c79d8d",
-      "home_team": "Boston Celtics",
-      "away_team": "Charlotte Hornets",
-      "commence_time": "2026-04-08T00:10:00Z",
-      "time_et": "8:10 PM ET",
-      "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "odds": {
-        "home_ml": -230,
-        "away_ml": 194,
-        "spread_home": -6.5,
-        "total_ou": 219.5,
-        "best_book": "DraftKings",
-        "num_books": 2
-      },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "notas": "Partido equilibrado por diferencial. Analizar O/U.",
-        "ou_pick": null,
-        "ou_confianza": "—",
-        "ou_notas": ""
-      }
-    },
-    {
-      "id": "3133467540e08b88d68625ed9e975399",
-      "home_team": "Los Angeles Clippers",
-      "away_team": "Dallas Mavericks",
-      "commence_time": "2026-04-08T02:40:00Z",
-      "time_et": "10:40 PM ET",
-      "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "odds": {
-        "home_ml": -520,
-        "away_ml": 400,
-        "spread_home": -11.0,
-        "total_ou": 235.5,
-        "best_book": "FanDuel",
-        "num_books": 2
-      },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
-      "recomendacion": {
-        "pick": "Dallas Mavericks",
-        "tipo": "ML Mavericks (underdog)",
-        "confianza": "baja",
-        "notas": "Mavericks underdog grande (+400) — evaluar si el mercado exagera",
-        "ou_pick": null,
-        "ou_confianza": "—",
-        "ou_notas": ""
-      }
-    },
-    {
-      "id": "01f002eb30dfd24045740d4fbf68207e",
-      "home_team": "Los Angeles Lakers",
-      "away_team": "Oklahoma City Thunder",
-      "commence_time": "2026-04-08T02:40:00Z",
-      "time_et": "10:40 PM ET",
-      "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "odds": {
-        "home_ml": 810,
-        "away_ml": -1350,
-        "spread_home": 14.5,
-        "total_ou": 224.5,
-        "best_book": "FanDuel",
-        "num_books": 2
-      },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
-      "recomendacion": {
-        "pick": "Los Angeles Lakers",
-        "tipo": "ML Lakers (local underdog)",
-        "confianza": "baja",
-        "notas": "Lakers local underdog (+810) — situación atípica",
-        "ou_pick": null,
-        "ou_confianza": "—",
-        "ou_notas": ""
-      }
-    },
-    {
-      "id": "6ec00d2267f0fe20067d4e2363a17162",
-      "home_team": "Phoenix Suns",
-      "away_team": "Houston Rockets",
-      "commence_time": "2026-04-08T03:10:00Z",
-      "time_et": "11:10 PM ET",
-      "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
-      },
-      "odds": {
-        "home_ml": 105,
-        "away_ml": -116,
-        "spread_home": 1.0,
-        "total_ou": 218.5,
-        "best_book": "DraftKings",
-        "num_books": 2
-      },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "notas": "Partido equilibrado por diferencial. Analizar O/U.",
-        "ou_pick": null,
-        "ou_confianza": "—",
-        "ou_notas": ""
       }
     }
   ]
