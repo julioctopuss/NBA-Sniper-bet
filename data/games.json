@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T19:44:52.736707+00:00",
+  "updated_at": "2026-04-06T19:53:55.940830+00:00",
   "games": [
     {
       "id": "dce0f3f389617fa7daa990c209ee8acc",
@@ -65,7 +65,10 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Landale — revisar impacto en línea"
+        "notas": "Bajas confirmadas: Landale — revisar impacto en línea",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección total: 230.0 pts vs línea 226.5 — diferencia insuficiente para pick O/U (+3.5 pts)"
       }
     },
     {
@@ -112,7 +115,7 @@
       },
       "odds": {
         "home_ml": 107,
-        "away_ml": -122,
+        "away_ml": -120,
         "spread_home": 1.5,
         "total_ou": 222.5,
         "best_book": "LowVig.ag",
@@ -180,7 +183,10 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Cunningham, Harris, Robinson, Stewart, Howard, Isaac, Wagner — revisar impacto en línea"
+        "notas": "Bajas confirmadas: Cunningham, Harris, Robinson, Stewart, Howard, Isaac, Wagner — revisar impacto en línea",
+        "ou_pick": "UNDER",
+        "ou_confianza": "media",
+        "ou_notas": "Proyección total: 202.5 pts vs línea 222.5 (-20.0 pts) — sugiere UNDER | Bajas deprimen el total esperado (7 jugadores Out/Doubtful)"
       }
     },
     {
@@ -227,7 +233,7 @@
       },
       "odds": {
         "home_ml": 689,
-        "away_ml": -910,
+        "away_ml": -900,
         "spread_home": 13.5,
         "total_ou": 231.5,
         "best_book": "MyBookie.ag",
@@ -265,7 +271,10 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Broome, Payne — revisar impacto en línea"
+        "notas": "Bajas confirmadas: Broome, Payne — revisar impacto en línea",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección total: 231.5 pts vs línea 231.5 — diferencia insuficiente para pick O/U (+0.0 pts)"
       }
     },
     {
@@ -434,7 +443,10 @@
         "pick": "Philadelphia 76ers",
         "tipo": "ML 76ers",
         "confianza": "media-alta",
-        "notas": "Baja clave: Harden, Mitchell — mercado puede no haberlo ajustado aún"
+        "notas": "Baja clave: Harden, Mitchell — mercado puede no haberlo ajustado aún",
+        "ou_pick": "UNDER",
+        "ou_confianza": "media",
+        "ou_notas": "Proyección total: 200.5 pts vs línea 237.5 (-37.0 pts) — sugiere UNDER | Bajas deprimen el total esperado (11 jugadores Out/Doubtful)"
       }
     },
     {
@@ -543,7 +555,10 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Grant, Vit Krejci, Sharpe, Jones, Watson — revisar impacto en línea"
+        "notas": "Bajas confirmadas: Grant, Vit Krejci, Sharpe, Jones, Watson — revisar impacto en línea",
+        "ou_pick": "UNDER",
+        "ou_confianza": "media",
+        "ou_notas": "Proyección total: 218.7 pts vs línea 237.5 (-18.8 pts) — sugiere UNDER | Bajas deprimen el total esperado (5 jugadores Out/Doubtful)"
       }
     },
     {
@@ -591,7 +606,10 @@
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
-        "notas": "Partido equilibrado. Sin señal clara."
+        "notas": "Partido equilibrado por diferencial. Analizar O/U.",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": ""
       }
     },
     {
@@ -639,7 +657,10 @@
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
-        "notas": "Partido equilibrado. Sin señal clara."
+        "notas": "Partido equilibrado por diferencial. Analizar O/U.",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": ""
       }
     },
     {
@@ -687,7 +708,10 @@
         "pick": "Dallas Mavericks",
         "tipo": "ML Mavericks (underdog)",
         "confianza": "baja",
-        "notas": "Mavericks underdog grande (+400) — evaluar si el mercado exagera"
+        "notas": "Mavericks underdog grande (+400) — evaluar si el mercado exagera",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": ""
       }
     },
     {
@@ -722,7 +746,7 @@
       },
       "odds": {
         "home_ml": 810,
-        "away_ml": -1200,
+        "away_ml": -1350,
         "spread_home": 14.5,
         "total_ou": 224.5,
         "best_book": "FanDuel",
@@ -735,7 +759,10 @@
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers (local underdog)",
         "confianza": "baja",
-        "notas": "Lakers local underdog (+810) — situación atípica"
+        "notas": "Lakers local underdog (+810) — situación atípica",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": ""
       }
     },
     {
@@ -783,7 +810,10 @@
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
-        "notas": "Partido equilibrado. Sin señal clara."
+        "notas": "Partido equilibrado por diferencial. Analizar O/U.",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": ""
       }
     }
   ]

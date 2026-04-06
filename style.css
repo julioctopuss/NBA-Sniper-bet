@@ -459,3 +459,52 @@ main {
   .pregame-row { grid-template-columns: 1fr; }
   .pregame-head { display: none; }
 }
+
+/* ── O/U picks ─────────────────────────────────────────────────────── */
+.pick-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+}
+.pick-badge.pick-pos  { background:#f0fdf4; border-color:#bbf7d0; }
+.pick-badge.pick-warn { background:#fffbeb; border-color:#fde68a; }
+.pick-badge.pick-wait { background:#eff6ff; border-color:#bfdbfe; }
+.pick-badge.pick-over  { background:#fef9ee; border-color:#fed7aa; }
+.pick-badge.pick-under { background:#f0f9ff; border-color:#bae6fd; }
+.pick-badge.pick-neu  { background:#f8fafc; border-color:#e2e8f0; }
+
+.pick-icono { font-size: 16px; flex-shrink:0; }
+.pick-content { display:flex; flex-direction:column; gap:1px; flex:1; }
+.pick-label { font-size:10px; text-transform:uppercase; letter-spacing:0.4px; color:#94a3b8; font-weight:700; }
+
+.pick-tipo { font-size:13px; font-weight:800; }
+.pick-tipo.pos   { color:#15803d; }
+.pick-tipo.warn  { color:#b45309; }
+.pick-tipo.wait  { color:#1d4ed8; }
+.pick-tipo.over  { color:#c2410c; }
+.pick-tipo.under { color:#0369a1; }
+.pick-tipo.neu   { color:#64748b; }
+
+.pick-confianza { font-size:11px; color:#64748b; white-space:nowrap; }
+
+.team-label-role {
+  font-size:11px;
+  font-weight:700;
+  color:#94a3b8;
+  background:#f1f5f9;
+  border:1px solid #e2e8f0;
+  border-radius:5px;
+  padding:2px 7px;
+  flex-shrink:0;
+}
+
+/* O/U en modal */
+.ou-box { margin-top: 0; }
+.rec-box.over  { background:linear-gradient(180deg,#fef9ee,#fff); border-color:#fed7aa; }
+.rec-box.under { background:linear-gradient(180deg,#f0f9ff,#fff); border-color:#bae6fd; }
+.rec-tipo.over  { background:#fff7ed; color:#c2410c; }
+.rec-tipo.under { background:#e0f2fe; color:#0369a1; }

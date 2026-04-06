@@ -234,6 +234,7 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
     any_out  = [i for i in injuries if i["weight"] >= 2]
     doubtful = [i for i in injuries if i["weight"] == 1]
 
+    # ── Pick de lado (ML) ──────────────────────────────────────────────
     if high_out:
         names = ", ".join(i["player"] for i in high_out)
         notas.append(f"Baja clave: {names} — mercado puede no haberlo ajustado aún")
@@ -250,8 +251,7 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
         notas.append(f"En duda: {names} — esperar confirmación")
         tipo, confianza = "ESPERAR", "pendiente"
 
-    # Sin injuries relevantes → análisis por stats + odds
-    if tipo in ("NO BET",):
+    if tipo == "NO BET":
         ml_h = odds["home_ml"]; ml_a = odds["away_ml"]
         if ml_a is not None and ml_a >= 250:
             notas.append(f"{as_} underdog grande (+{ml_a}) — evaluar si el mercado exagera")
@@ -260,23 +260,79 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
             notas.append(f"{hs} local underdog (+{ml_h}) — situación atípica")
             pick, tipo, confianza = home, f"ML {hs} (local underdog)", "baja"
         else:
-            # Comparar stats ESPN
             try:
                 diff_h = float(str(home_stats.get("diff","0")).replace("+",""))
                 diff_a = float(str(away_stats.get("diff","0")).replace("+",""))
                 if diff_h > diff_a + 3:
-                    notas.append(f"{hs} tiene mejor diferencial de puntos ({home_stats.get('diff')}) vs {as_} ({away_stats.get('diff')})")
+                    notas.append(f"{hs} mejor diferencial ({home_stats.get('diff')}) vs {as_} ({away_stats.get('diff')})")
                     tipo, confianza = "LEAN LOCAL", "baja"
                 elif diff_a > diff_h + 3:
-                    notas.append(f"{as_} tiene mejor diferencial ({away_stats.get('diff')}) como visitante")
+                    notas.append(f"{as_} mejor diferencial ({away_stats.get('diff')}) como visitante")
                     tipo, confianza = "LEAN VISITANTE", "baja"
                 else:
-                    notas.append("Partido equilibrado. Sin señal clara.")
+                    notas.append("Partido equilibrado por diferencial. Analizar O/U.")
             except:
-                notas.append("Sin señales claras por stats. Esperar injury report completo.")
+                notas.append("Sin señal de lado clara.")
 
-    return {"pick": pick, "tipo": tipo, "confianza": confianza,
-            "notas": " | ".join(notas) if notas else "Sin señales claras."}
+    # ── Pick O/U ──────────────────────────────────────────────────────
+    ou_pick = None
+    ou_notas = []
+    try:
+        ppg_h = float(str(home_stats.get("ppg", 0)))
+        ppg_a = float(str(away_stats.get("ppg", 0)))
+        papg_h = float(str(home_stats.get("papg", 0)))
+        papg_a = float(str(away_stats.get("papg", 0)))
+        total_ou = odds.get("total_ou")
+
+        if ppg_h > 0 and ppg_a > 0 and total_ou:
+            # Proyección simple: promedio de ataque de cada equipo vs defensa rival
+            proj_home_score = (ppg_h + papg_a) / 2
+            proj_away_score = (ppg_a + papg_h) / 2
+            proj_total = round(proj_home_score + proj_away_score, 1)
+            diff_ou = round(proj_total - float(total_ou), 1)
+
+            # Ajuste por bajas — cada baja importante resta ~3 pts al total proyectado
+            baja_penalty = len(any_out) * 2.5
+            proj_total_ajustado = round(proj_total - baja_penalty, 1)
+            diff_ajustado = round(proj_total_ajustado - float(total_ou), 1)
+
+            umbral = 4.5  # diferencia mínima para sugerir
+
+            if diff_ajustado >= umbral:
+                ou_pick = "OVER"
+                ou_notas.append(
+                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou} "
+                    f"(+{diff_ajustado} pts) — sugiere OVER"
+                )
+                confianza_ou = "media" if diff_ajustado >= 7 else "baja"
+            elif diff_ajustado <= -umbral:
+                ou_pick = "UNDER"
+                ou_notas.append(
+                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou} "
+                    f"({diff_ajustado} pts) — sugiere UNDER"
+                )
+                confianza_ou = "media" if diff_ajustado <= -7 else "baja"
+                if baja_penalty > 0:
+                    ou_notas.append(f"Bajas deprimen el total esperado ({len(any_out)} jugadores Out/Doubtful)")
+            else:
+                ou_notas.append(
+                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou} "
+                    f"— diferencia insuficiente para pick O/U ({diff_ajustado:+.1f} pts)"
+                )
+                confianza_ou = "—"
+    except Exception as e:
+        ou_notas.append("Sin datos suficientes para proyección O/U.")
+        confianza_ou = "—"
+
+    return {
+        "pick": pick,
+        "tipo": tipo,
+        "confianza": confianza,
+        "notas": " | ".join(notas) if notas else "Sin señal de lado clara.",
+        "ou_pick": ou_pick,
+        "ou_confianza": confianza_ou if ou_pick else "—",
+        "ou_notas": " | ".join(ou_notas) if ou_notas else ""
+    }
 
 
 # ── Main ──────────────────────────────────────────────────────────────
