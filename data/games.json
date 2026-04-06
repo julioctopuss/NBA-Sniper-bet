@@ -1,86 +1,12 @@
 {
-  "updated_at": "2026-04-06T21:58:15.387082+00:00",
+  "updated_at": "2026-04-06T23:20:48.846252+00:00",
   "games": [
-    {
-      "id": "dce0f3f389617fa7daa990c209ee8acc",
-      "home_team": "Atlanta Hawks",
-      "away_team": "New York Knicks",
-      "commence_time": "2026-04-06T23:10:00Z",
-      "time_et": "7:10 PM ET",
-      "home_stats": {
-        "conference": "Este",
-        "record": "40-42",
-        "seed": "9",
-        "ppg": "118.2",
-        "papg": "119.3",
-        "diff": "-1.1",
-        "home_rec": "21-19",
-        "away_rec": "19-22",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "51-31",
-        "seed": "3",
-        "ppg": "115.8",
-        "papg": "111.7",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "24-17",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "G",
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "odds": {
-        "home_ml": -120,
-        "away_ml": 112,
-        "spread_home": -1.5,
-        "total_ou": 226.5,
-        "best_book": "FanDuel",
-        "num_books": 9
-      },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "LEAN VISITANTE",
-        "confianza": "baja",
-        "notas": "Knicks mejor diferencial (+4.1) como visitante",
-        "ou_pick": "OVER",
-        "ou_confianza": "baja",
-        "ou_notas": "Proyección: 232.5 pts vs línea 226.5 (+6.0 pts) | EV: +56.1%",
-        "ev": {
-          "prob_home": 0.2886,
-          "prob_away": 0.7114,
-          "ml_home": -47.1,
-          "ml_away": 50.8,
-          "spread_home": -56.8,
-          "spread_away": 47.7,
-          "over": 56.1,
-          "under": -65.2,
-          "mejor_pick": "OVER (+56.1%)"
-        }
-      }
-    },
     {
       "id": "ec27c42246b5e40c34f4c2d93930ed20",
       "home_team": "Orlando Magic",
       "away_team": "Detroit Pistons",
-      "commence_time": "2026-04-06T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-04-06T23:11:00Z",
+      "time_et": "7:11 PM ET",
       "home_stats": {
         "conference": "Este",
         "record": "41-41",
@@ -118,11 +44,11 @@
         ]
       },
       "odds": {
-        "home_ml": 105,
-        "away_ml": -118,
-        "spread_home": 1.0,
+        "home_ml": 102,
+        "away_ml": 164,
+        "spread_home": -4.5,
         "total_ou": 222.5,
-        "best_book": "BetUS",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "injuries": [],
@@ -139,13 +65,87 @@
         "ev": {
           "prob_home": 0.4341,
           "prob_away": 0.5659,
-          "ml_home": -11.0,
-          "ml_away": 4.5,
-          "spread_home": -4.5,
-          "spread_away": -4.5,
+          "ml_home": -12.3,
+          "ml_away": 49.4,
+          "spread_home": -69.2,
+          "spread_away": 60.2,
           "over": -33.4,
           "under": 24.3,
-          "mejor_pick": "UNDER (+24.3%)"
+          "mejor_pick": "Spread Pistons (+60.2%)"
+        }
+      }
+    },
+    {
+      "id": "dce0f3f389617fa7daa990c209ee8acc",
+      "home_team": "Atlanta Hawks",
+      "away_team": "New York Knicks",
+      "commence_time": "2026-04-06T23:13:00Z",
+      "time_et": "7:13 PM ET",
+      "home_stats": {
+        "conference": "Este",
+        "record": "40-42",
+        "seed": "9",
+        "ppg": "118.2",
+        "papg": "119.3",
+        "diff": "-1.1",
+        "home_rec": "21-19",
+        "away_rec": "19-22",
+        "streak": "W3",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "51-31",
+        "seed": "3",
+        "ppg": "115.8",
+        "papg": "111.7",
+        "diff": "+4.1",
+        "home_rec": "27-14",
+        "away_rec": "24-17",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "G",
+          "G"
+        ]
+      },
+      "odds": {
+        "home_ml": 110,
+        "away_ml": 115,
+        "spread_home": -1.5,
+        "total_ou": 228.5,
+        "best_book": "DraftKings",
+        "num_books": 9
+      },
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "LEAN VISITANTE",
+        "confianza": "baja",
+        "notas": "Knicks mejor diferencial (+4.1) como visitante",
+        "ou_pick": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección: 232.5 pts vs línea 228.5 (+4.0 pts) — diferencia insuficiente",
+        "ev": {
+          "prob_home": 0.2886,
+          "prob_away": 0.7114,
+          "ml_home": -39.4,
+          "ml_away": 53.0,
+          "spread_home": -56.8,
+          "spread_away": 47.7,
+          "over": 39.6,
+          "under": -48.7,
+          "mejor_pick": "ML Knicks (+53.0%)"
         }
       }
     },
@@ -192,11 +192,11 @@
         ]
       },
       "odds": {
-        "home_ml": 689,
+        "home_ml": 700,
         "away_ml": -910,
         "spread_home": 13.5,
         "total_ou": 231.5,
-        "best_book": "MyBookie.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "injuries": [],
@@ -206,20 +206,20 @@
         "pick": "Memphis Grizzlies",
         "tipo": "ML Grizzlies (local underdog)",
         "confianza": "media",
-        "notas": "Grizzlies local underdog con EV positivo (+128.4%) — situación atípica",
+        "notas": "Grizzlies local underdog con EV positivo (+131.6%) — situación atípica",
         "ou_pick": "OVER",
         "ou_confianza": "baja",
         "ou_notas": "Proyección: 236.5 pts vs línea 231.5 (+5.0 pts) | EV: +48.4%",
         "ev": {
           "prob_home": 0.2895,
           "prob_away": 0.7105,
-          "ml_home": 128.4,
+          "ml_home": 131.6,
           "ml_away": -21.1,
           "spread_home": 84.5,
           "spread_away": -93.6,
           "over": 48.4,
           "under": -57.5,
-          "mejor_pick": "ML Grizzlies (+128.4%)"
+          "mejor_pick": "ML Grizzlies (+131.6%)"
         }
       }
     },
@@ -269,8 +269,8 @@
         "home_ml": -360,
         "away_ml": 301,
         "spread_home": -8.5,
-        "total_ou": 237.5,
-        "best_book": "BetRivers",
+        "total_ou": 236.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "injuries": [],
@@ -283,7 +283,7 @@
         "notas": "76ers underdog con EV positivo (+35.2%) — mercado puede exagerar",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección: 228.0 pts vs línea 237.5 (-9.5 pts) | EV: +74.7%",
+        "ou_notas": "Proyección: 228.0 pts vs línea 236.5 (-8.5 pts) | EV: +70.5%",
         "ev": {
           "prob_home": 0.6628,
           "prob_away": 0.3372,
@@ -291,9 +291,9 @@
           "ml_away": 35.2,
           "spread_home": -78.0,
           "spread_away": 68.9,
-          "over": -83.8,
-          "under": 74.7,
-          "mejor_pick": "UNDER (+74.7%)"
+          "over": -79.6,
+          "under": 70.5,
+          "mejor_pick": "UNDER (+70.5%)"
         }
       }
     },
@@ -340,11 +340,11 @@
         ]
       },
       "odds": {
-        "home_ml": -307,
-        "away_ml": 260,
+        "home_ml": -310,
+        "away_ml": 275,
         "spread_home": -7.5,
-        "total_ou": 237.5,
-        "best_book": "LowVig.ag",
+        "total_ou": 235.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "injuries": [
@@ -406,17 +406,17 @@
         "notas": "Bajas confirmadas: Grant, Vit Krejci, Sharpe, Jones, Watson — revisar impacto en línea",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección: 218.8 pts vs línea 237.5 (-18.7 pts) | EV: +89.1% | Bajas deprimen total (5 jugadores Out/Doubtful)",
+        "ou_notas": "Proyección: 218.8 pts vs línea 235.5 (-16.7 pts) | EV: +88.0% | Bajas deprimen total (5 jugadores Out/Doubtful)",
         "ev": {
           "prob_home": 0.7217,
           "prob_away": 0.2783,
-          "ml_home": -4.3,
-          "ml_away": 0.2,
+          "ml_home": -4.5,
+          "ml_away": 4.4,
           "spread_home": -56.8,
           "spread_away": 47.7,
-          "over": -98.2,
-          "under": 89.1,
-          "mejor_pick": "UNDER (+89.1%)"
+          "over": -97.1,
+          "under": 88.0,
+          "mejor_pick": "UNDER (+88.0%)"
         }
       }
     }
