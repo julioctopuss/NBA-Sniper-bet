@@ -109,6 +109,52 @@ def fetch_espn_scoreboard():
     return fetch_json(ESPN_SCOREBOARD) or {}
 
 
+def build_live_scores_map(scoreboard):
+    """
+    Extrae score, periodo, reloj y estado de cada partido del scoreboard ESPN.
+    Retorna dict keyed por nombres de equipo normalizados.
+    """
+    live_map = {}
+    for ev in scoreboard.get("events", []):
+        comp  = ev.get("competitions", [{}])[0]
+        comps = comp.get("competitors", [])
+        status = comp.get("status", {})
+        state  = status.get("type", {}).get("state", "pre")  # pre / in / post
+        period = status.get("period", 0)
+        clock  = status.get("displayClock", "")
+        desc   = status.get("type", {}).get("description", "")
+
+        home = next((c for c in comps if c.get("homeAway") == "home"), None)
+        away = next((c for c in comps if c.get("homeAway") == "away"), None)
+        if not home or not away:
+            continue
+
+        home_name  = home.get("team", {}).get("displayName", "")
+        away_name  = away.get("team", {}).get("displayName", "")
+        home_score = home.get("score", "")
+        away_score = away.get("score", "")
+
+        # Normalizar score — a veces viene como dict
+        if isinstance(home_score, dict):
+            home_score = home_score.get("displayValue", home_score.get("value", ""))
+        if isinstance(away_score, dict):
+            away_score = away_score.get("displayValue", away_score.get("value", ""))
+
+        entry = {
+            "state":      state,
+            "period":     period,
+            "clock":      clock,
+            "description": desc,
+            "home_score": str(home_score) if home_score != "" else None,
+            "away_score": str(away_score) if away_score != "" else None,
+        }
+
+        live_map[home_name] = entry
+        live_map[away_name] = entry
+
+    return live_map
+
+
 def fetch_espn_standings():
     print("  ESPN standings...")
     data = fetch_json(ESPN_STANDINGS)
@@ -146,8 +192,9 @@ def fetch_team_form(team_id, game_date_iso):
         return []
 
     target_ts = datetime.fromisoformat(game_date_iso.replace("Z", "+00:00")).timestamp()
-    results = []
-
+    
+    # Filtrar partidos completados ANTES del partido actual
+    completed = []
     for event in data.get("events", []):
         ev_date = event.get("date", "")
         try:
@@ -156,21 +203,24 @@ def fetch_team_form(team_id, game_date_iso):
             continue
         if ev_ts >= target_ts:
             continue
-
         comp = event.get("competitions", [{}])[0]
         status = comp.get("status", {}).get("type", {})
         if not status.get("completed"):
             continue
+        completed.append((ev_ts, event))
 
+    # Ordenar descendente — más reciente primero
+    completed.sort(key=lambda x: x[0], reverse=True)
+
+    results = []
+    for _, event in completed:
+        comp = event.get("competitions", [{}])[0]
         competitors = comp.get("competitors", [])
         my_team = next((c for c in competitors if str(c.get("team",{}).get("id","")) == str(team_id)), None)
-        opp     = next((c for c in competitors if str(c.get("team",{}).get("id","")) != str(team_id)), None)
-        if not my_team or not opp:
+        if not my_team:
             continue
-
         winner = my_team.get("winner", False)
         results.append("G" if winner else "P")
-
         if len(results) == 5:
             break
 
@@ -614,9 +664,11 @@ def main():
     print(f"  Filtrando partidos del día: {today_et} (ET)")
 
     print("\n[1/4] ESPN...")
-    scoreboard  = fetch_espn_scoreboard()
-    standings   = fetch_espn_standings()
+    scoreboard       = fetch_espn_scoreboard()
+    standings        = fetch_espn_standings()
+    live_scores_map  = build_live_scores_map(scoreboard)
     print(f"  Standings: {len(standings)} equipos")
+    print(f"  Partidos en scoreboard: {len(live_scores_map)//2 if live_scores_map else 0}")
 
     print("\n[2/4] Rotowire...")
     roto_html   = fetch_url(ROTOWIRE_URL)
@@ -684,10 +736,14 @@ def main():
         roto_block = None
         best_diff = 20
         for b in roto_blocks:
+            if b.get("_matched"):
+                continue
             d = abs(et_to_min(b["time_et"]) - odds_min)
             if d < best_diff:
                 best_diff = d
                 roto_block = b
+        if roto_block:
+            roto_block["_matched"] = True
 
         if roto_block:
             injuries = filter_injuries_by_teams(roto_block["injuries"], home, away)
@@ -697,12 +753,23 @@ def main():
         alerta, alerta_msg = build_alerta(injuries)
         rec = calcular_rec(home, away, odds, injuries, home_stats, away_stats)
 
+        # Score en vivo desde ESPN scoreboard
+        live = live_scores_map.get(home) or live_scores_map.get(away) or {}
+
         games.append({
             "id": odds_ev.get("id"),
             "home_team": home,
             "away_team": away,
             "commence_time": commence,
             "time_et": time_et,
+            "live": {
+                "state":      live.get("state", "pre"),
+                "period":     live.get("period", 0),
+                "clock":      live.get("clock", ""),
+                "description": live.get("description", ""),
+                "home_score": live.get("home_score"),
+                "away_score": live.get("away_score"),
+            },
             "home_stats": {
                 "conference": home_stats.get("conference","—"),
                 "record":     home_stats.get("record","—"),

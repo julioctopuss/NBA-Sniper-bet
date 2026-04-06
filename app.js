@@ -1,21 +1,22 @@
-// NBA Sniper Bet - app.js v3
+// NBA Sniper Bet - app.js v4
 
-const statusEl     = document.getElementById("status");
-const gamesCont    = document.getElementById("games");
-const modal        = document.getElementById("game-modal");
-const modalClose   = document.getElementById("modal-close");
-const modalBg      = document.getElementById("modal-close-bg");
-const analysisPanel= document.getElementById("analysis-panel");
-const updatedAtEl  = document.getElementById("updated-at");
+const statusEl      = document.getElementById("status");
+const gamesCont     = document.getElementById("games");
+const modal         = document.getElementById("game-modal");
+const modalClose    = document.getElementById("modal-close");
+const modalBg       = document.getElementById("modal-close-bg");
+const analysisPanel = document.getElementById("analysis-panel");
+const updatedAtEl   = document.getElementById("updated-at");
 
-let allGames = [];
+let allGames     = [];
 let filtroActual = "todos";
 
 function openModal()  { modal.classList.remove("hidden"); modal.setAttribute("aria-hidden","false"); }
 function closeModal() { modal.classList.add("hidden");    modal.setAttribute("aria-hidden","true"); }
 
 function esc(v) {
-  return String(v??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+  return String(v??"")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
     .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 }
 
@@ -44,28 +45,60 @@ function oddsClass(v) {
   return v>0?"pos":"neg";
 }
 
-function esProximo(g) { return new Date(g.commence_time)>new Date(); }
-function esVivo(g)    { const d=(Date.now()-new Date(g.commence_time))/60000; return d>0&&d<180; }
-
-function statusInfo(g) {
-  if (esVivo(g))    return {txt:"En vivo",    cls:""};
-  if (esProximo(g)) return {txt:"Próximo",    cls:"is-scheduled"};
-  return                   {txt:"Finalizado", cls:"is-final"};
-}
-
 function pickCls(tipo) {
   if (!tipo) return "neu";
   const t = tipo.toUpperCase();
-  if (t.includes("NO BET"))                  return "neu";
+  if (t.includes("NO BET"))                        return "neu";
   if (t.includes("ESPERAR")||t.includes("REVISAR")) return "wait";
-  if (t.includes("LEAN"))                    return "warn";
+  if (t.includes("LEAN"))                           return "warn";
   return "pos";
 }
 
-function ouCls(ou_pick) {
-  if (ou_pick==="OVER")  return "over";
-  if (ou_pick==="UNDER") return "under";
+function ouCls(ou) {
+  if (ou==="OVER")  return "over";
+  if (ou==="UNDER") return "under";
   return "neu";
+}
+
+// ── Estado de partido desde live data ─────────────────────────────────
+
+function getGameState(g) {
+  const live = g.live || {};
+  const state = live.state || "pre";
+  if (state === "in")   return "live";
+  if (state === "post") return "final";
+  return "upcoming";
+}
+
+function buildLiveBadge(g) {
+  const live  = g.live || {};
+  const state = live.state || "pre";
+
+  if (state === "in") {
+    const period = live.period || "?";
+    const clock  = live.clock  || "";
+    const hs = live.home_score ?? "—";
+    const as_ = live.away_score ?? "—";
+    return {
+      badgeHtml: `<span class="game-badge badge-live">🔴 Q${period}${clock ? " · "+clock : ""}</span>`,
+      scoreHtml: `<div class="score-live"><span class="score-val away">${esc(as_)}</span><span class="score-sep">—</span><span class="score-val home">${esc(hs)}</span></div>`
+    };
+  }
+
+  if (state === "post") {
+    const hs  = live.home_score ?? "—";
+    const as_ = live.away_score ?? "—";
+    return {
+      badgeHtml: `<span class="game-badge badge-final">Final</span>`,
+      scoreHtml: `<div class="score-final"><span class="score-val away">${esc(as_)}</span><span class="score-sep">—</span><span class="score-val home">${esc(hs)}</span></div>`
+    };
+  }
+
+  // Upcoming
+  return {
+    badgeHtml: `<span class="game-badge badge-upcoming">${fmtHora(g.commence_time)}</span>`,
+    scoreHtml: ""
+  };
 }
 
 function formaChips(forma, right) {
@@ -77,28 +110,31 @@ function formaChips(forma, right) {
 
 function injStatusCls(s) {
   const v=(s||"").toLowerCase();
-  if(v==="out"||v==="ofs")            return "out";
-  if(v==="doubtful"||v==="doubt")     return "doubt";
-  if(v==="questionable"||v==="ques")  return "ques";
+  if(v==="out"||v==="ofs")           return "out";
+  if(v==="doubtful"||v==="doubt")    return "doubt";
+  if(v==="questionable"||v==="ques") return "ques";
   return "prob";
 }
 
-// ── CARD ─────────────────────────────────────────────────────────────
+// ── CARD ──────────────────────────────────────────────────────────────
 
 function renderCard(g) {
-  const odds = g.odds||{};
-  const rec  = g.recomendacion||{};
-  const st   = statusInfo(g);
-  const pCls = pickCls(rec.tipo);
+  const odds    = g.odds || {};
+  const rec     = g.recomendacion || {};
+  const pCls    = pickCls(rec.tipo);
+  const gameState = getGameState(g);
+  const {badgeHtml, scoreHtml} = buildLiveBadge(g);
 
+  // Alerta banner
   const alertaHtml = g.alerta ? `
     <div class="alerta-banner">
       <div class="alerta-titulo">⚠️ Alerta — injury report</div>
       ${esc(g.alerta_msg)}
     </div>` : "";
 
-  // Odds row
-  const oddsHtml = `
+  // Odds — solo mostrar si hay datos
+  const hasOdds = odds.home_ml !== null && odds.home_ml !== undefined;
+  const oddsHtml = hasOdds ? `
     <div class="odds-row">
       <div class="odds-cell">
         <div class="odds-cell-label">Moneyline</div>
@@ -120,38 +156,36 @@ function renderCard(g) {
           <span class="odds-val neu" style="font-size:12px">${odds.total_ou?"O/U "+odds.total_ou:"—"}</span>
         </div>
       </div>
-    </div>`;
-
-  // Pick lado
-  const pickHtml = rec.tipo && rec.tipo!=="NO BET" ? `
-    <div class="pick-badge pick-${pCls}">
-      <span class="pick-icono">🎯</span>
-      <div class="pick-content">
-        <span class="pick-label">Pick lado</span>
-        <span class="pick-tipo ${pCls}">${esc(rec.tipo)}</span>
-      </div>
-      <span class="pick-confianza">${rec.confianza!=="—"?"★ "+esc(rec.confianza):""}</span>
     </div>` : "";
 
-  // Pick O/U
+  // FIX 3: picks siempre visibles (upcoming, live y final)
+  const pickHtml = rec.tipo && rec.tipo !== "NO BET" ? `
+    <div class="pick-badge pick-${pCls}${gameState==="live"?" pick-historical":""}">
+      <span class="pick-icono">🎯</span>
+      <div class="pick-content">
+        <span class="pick-label">${gameState==="live"?"Pick pre-partido":"Pick lado"}</span>
+        <span class="pick-tipo ${pCls}">${esc(rec.tipo)}</span>
+      </div>
+      <span class="pick-confianza">${rec.confianza&&rec.confianza!=="—"?"★ "+esc(rec.confianza):""}</span>
+    </div>` : "";
+
   const ouHtml = rec.ou_pick ? `
-    <div class="pick-badge pick-ou pick-${ouCls(rec.ou_pick)}">
+    <div class="pick-badge pick-ou pick-${ouCls(rec.ou_pick)}${gameState==="live"?" pick-historical":""}">
       <span class="pick-icono">${rec.ou_pick==="OVER"?"📈":"📉"}</span>
       <div class="pick-content">
-        <span class="pick-label">Pick total</span>
+        <span class="pick-label">${gameState==="live"?"Total pre-partido":"Pick total"}</span>
         <span class="pick-tipo ${ouCls(rec.ou_pick)}">${esc(rec.ou_pick)} ${odds.total_ou?"O/U "+odds.total_ou:""}</span>
       </div>
-      <span class="pick-confianza">${rec.ou_confianza!=="—"?"★ "+esc(rec.ou_confianza):""}</span>
+      <span class="pick-confianza">${rec.ou_confianza&&rec.ou_confianza!=="—"?"★ "+esc(rec.ou_confianza):""}</span>
     </div>` : "";
 
   const gData = encodeURIComponent(JSON.stringify(g));
 
   return `
-  <article class="game-card ${g.alerta?"has-alerta":""}">
+  <article class="game-card ${g.alerta?"has-alerta":""} card-${gameState}">
     ${alertaHtml}
     <div class="game-top">
-      <span class="game-status">${esc(st.txt)}</span>
-      <span class="game-date">${fmtHora(g.commence_time)}</span>
+      ${badgeHtml}
     </div>
     <div class="teams">
       <div class="team-row">
@@ -163,10 +197,10 @@ function renderCard(g) {
         <strong class="team-label-role">L</strong>
       </div>
     </div>
+    ${scoreHtml}
     ${oddsHtml}
     ${pickHtml}
     ${ouHtml}
-    <div class="live-extra ${st.cls}">${esc(st.txt)} · ${fmtHora(g.commence_time)}</div>
     <div class="game-actions">
       <button class="analyze-btn" data-game="${gData}">Analizar partido</button>
     </div>
@@ -176,16 +210,44 @@ function renderCard(g) {
 // ── MODAL ─────────────────────────────────────────────────────────────
 
 function renderAnalysis(g) {
-  const hs   = g.home_stats||{};
-  const as_  = g.away_stats||{};
-  const odds = g.odds||{};
-  const rec  = g.recomendacion||{};
-  const pCls = pickCls(rec.tipo);
+  const hs       = g.home_stats || {};
+  const as_      = g.away_stats || {};
+  const odds     = g.odds || {};
+  const rec      = g.recomendacion || {};
+  const pCls     = pickCls(rec.tipo);
+  const gameState = getGameState(g);
+  const live     = g.live || {};
+
+  // Banner de resultado si está en vivo o finalizado
+  let liveBannerHtml = "";
+  if (gameState === "live") {
+    liveBannerHtml = `
+    <div class="live-result-banner banner-live">
+      🔴 <strong>En vivo — Q${live.period}${live.clock?" · "+live.clock:""}</strong>
+      &nbsp;&nbsp; ${esc(g.away_team.split(" ").slice(-1)[0])} <strong>${live.away_score||"—"}</strong>
+      &nbsp;—&nbsp;
+      <strong>${live.home_score||"—"}</strong> ${esc(g.home_team.split(" ").slice(-1)[0])}
+      <span class="historical-note">· Análisis basado en datos pre-partido</span>
+    </div>`;
+  } else if (gameState === "final") {
+    const winner = parseInt(live.home_score||0) > parseInt(live.away_score||0)
+      ? g.home_team.split(" ").slice(-1)[0]
+      : g.away_team.split(" ").slice(-1)[0];
+    liveBannerHtml = `
+    <div class="live-result-banner banner-final">
+      ✅ <strong>Final</strong>
+      &nbsp;&nbsp; ${esc(g.away_team.split(" ").slice(-1)[0])} <strong>${live.away_score||"—"}</strong>
+      &nbsp;—&nbsp;
+      <strong>${live.home_score||"—"}</strong> ${esc(g.home_team.split(" ").slice(-1)[0])}
+      &nbsp; · Ganó <strong>${esc(winner)}</strong>
+    </div>`;
+  }
 
   // Recomendación lado
+  const recLabel = gameState === "upcoming" ? "Pick recomendado" : "Pick pre-partido";
   const recHtml = `
   <div class="rec-box ${pCls}">
-    <div class="rec-kicker">Pick de lado</div>
+    <div class="rec-kicker">${recLabel}</div>
     <div class="rec-pick">${esc(rec.pick||"Sin pick")}</div>
     <span class="rec-tipo ${pCls}">${esc(rec.tipo||"NO BET")}${rec.confianza&&rec.confianza!=="—"?" · Confianza: "+esc(rec.confianza):""}</span>
     <p class="rec-notas">${esc(rec.notas||"—")}</p>
@@ -202,7 +264,7 @@ function renderAnalysis(g) {
   <div class="rec-box neu ou-box">
     <div class="rec-kicker">Pick de total (Over/Under)</div>
     <span class="rec-tipo neu">Sin señal suficiente</span>
-    <p class="rec-notas">${esc(rec.ou_notas||"Datos insuficientes para proyección.")}</p>
+    <p class="rec-notas">${esc(rec.ou_notas||"Sin datos suficientes para proyección.")}</p>
   </div>`;
 
   // Injuries
@@ -220,7 +282,7 @@ function renderAnalysis(g) {
     </div>
   </div>` : `<div class="injury-section"><div class="injury-title">Injury Report</div><p style="font-size:13px;color:#94a3b8">Sin bajas confirmadas.</p></div>`;
 
-  // Comparativa
+  // Comparativa stats
   function wins(r){ return parseInt((r||"0-0").split("-")[0])||0; }
   const wH=wins(hs.record), wA=wins(as_.record);
 
@@ -252,7 +314,7 @@ function renderAnalysis(g) {
   // Odds table
   const oddsHtml = `
   <div class="odds-section">
-    <div class="odds-section-title">Cuotas por casa de apuestas</div>
+    <div class="odds-section-title">Cuotas de apertura (pre-partido)</div>
     <table class="odds-table">
       <thead><tr>
         <th>Casa</th>
@@ -283,6 +345,7 @@ function renderAnalysis(g) {
       <p class="analysis-subtitle">Análisis pregame NBA</p>
       <p class="analysis-date">${fmtFecha(g.commence_time)} · ${fmtHora(g.commence_time)} (Chile)</p>
     </div>
+    ${liveBannerHtml}
     ${recHtml}
     ${ouHtml}
     ${injHtml}
@@ -291,7 +354,7 @@ function renderAnalysis(g) {
   </div>`;
 }
 
-// ── Filtro ────────────────────────────────────────────────────────────
+// ── Filtro y render ────────────────────────────────────────────────────
 
 function setFilter(tipo, el) {
   filtroActual = tipo;
@@ -301,9 +364,9 @@ function setFilter(tipo, el) {
 }
 
 function renderGames() {
-  let lista = filtroActual==="alerta" ? allGames.filter(g=>g.alerta) : allGames;
+  let lista = filtroActual === "alerta" ? allGames.filter(g=>g.alerta) : allGames;
   if (!lista.length) {
-    gamesCont.innerHTML=`<div class="no-games">${filtroActual==="alerta"?"Sin alertas activas hoy.":"Sin partidos disponibles."}</div>`;
+    gamesCont.innerHTML = `<div class="no-games">${filtroActual==="alerta"?"Sin alertas activas hoy.":"Sin partidos disponibles."}</div>`;
     return;
   }
   gamesCont.innerHTML = lista.map(renderCard).join("");
@@ -318,12 +381,21 @@ async function cargarDatos() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     allGames = data.games||[];
-    const proximos = allGames.filter(esProximo).length;
+
+    const vivos    = allGames.filter(g=>g.live?.state==="in").length;
+    const proximos = allGames.filter(g=>g.live?.state==="pre").length;
+    const finales  = allGames.filter(g=>g.live?.state==="post").length;
     const alertas  = allGames.filter(g=>g.alerta).length;
     const ouPicks  = allGames.filter(g=>g.recomendacion?.ou_pick).length;
-    statusEl.innerHTML = `Se cargaron <strong>${allGames.length}</strong> partidos · <strong>${proximos}</strong> próximos · `
-      +`<strong style="color:${alertas?"#b45309":"#64748b"}">${alertas} alertas</strong> · `
-      +`<strong style="color:#1d428a">${ouPicks} picks O/U</strong>`;
+
+    statusEl.innerHTML =
+      `<strong>${allGames.length}</strong> partidos · `
+      + (vivos    ? `<strong style="color:#dc2626">🔴 ${vivos} en vivo</strong> · ` : "")
+      + `<strong>${proximos}</strong> próximos · `
+      + (finales  ? `<strong style="color:#64748b">${finales} finales</strong> · ` : "")
+      + `<strong style="color:${alertas?"#b45309":"#64748b"}">${alertas} alertas</strong> · `
+      + `<strong style="color:#1d428a">${ouPicks} picks O/U</strong>`;
+
     if (data.updated_at) updatedAtEl.textContent = fmtUpdated(data.updated_at);
     renderGames();
   } catch(e) {

@@ -508,3 +508,109 @@ main {
 .rec-box.under { background:linear-gradient(180deg,#f0f9ff,#fff); border-color:#bae6fd; }
 .rec-tipo.over  { background:#fff7ed; color:#c2410c; }
 .rec-tipo.under { background:#e0f2fe; color:#0369a1; }
+
+/* ── Score en vivo / final ──────────────────────────────────────────── */
+.game-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.badge-live {
+  background: #fee2e2;
+  color: #dc2626;
+  animation: pulse-badge 2s ease-in-out infinite;
+}
+
+@keyframes pulse-badge {
+  0%,100% { opacity: 1; }
+  50%      { opacity: 0.7; }
+}
+
+.badge-final    { background: #f1f5f9; color: #64748b; }
+.badge-upcoming { background: #eff6ff; color: #1d428a; font-weight: 600; }
+
+.score-live, .score-final {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 0 4px;
+}
+
+.score-val {
+  font-size: 28px;
+  font-weight: 800;
+  color: #111827;
+  line-height: 1;
+}
+
+.score-sep {
+  font-size: 18px;
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+/* Card states */
+.card-live {
+  border-color: #fca5a5 !important;
+  background: linear-gradient(180deg, #fff5f5, #ffffff) !important;
+}
+
+.card-final { opacity: 0.85; }
+
+/* Pick histórico (mostrado en partidos en vivo/finales) */
+.pick-historical {
+  opacity: 0.75;
+  border-style: dashed !important;
+}
+
+/* Banner en vivo en modal */
+.live-result-banner {
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.banner-live  { background: #fee2e2; border: 1px solid #fca5a5; color: #991b1b; }
+.banner-final { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
+
+.historical-note {
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+/* O/U styles */
+.pick-badge { display:flex; align-items:center; gap:10px; padding:9px 12px; border-radius:10px; background:#f1f5f9; border:1px solid #e2e8f0; }
+.pick-badge.pick-pos   { background:#f0fdf4; border-color:#bbf7d0; }
+.pick-badge.pick-warn  { background:#fffbeb; border-color:#fde68a; }
+.pick-badge.pick-wait  { background:#eff6ff; border-color:#bfdbfe; }
+.pick-badge.pick-over  { background:#fef9ee; border-color:#fed7aa; }
+.pick-badge.pick-under { background:#f0f9ff; border-color:#bae6fd; }
+.pick-badge.pick-neu   { background:#f8fafc; border-color:#e2e8f0; }
+.pick-icono   { font-size:16px; flex-shrink:0; }
+.pick-content { display:flex; flex-direction:column; gap:1px; flex:1; }
+.pick-label   { font-size:10px; text-transform:uppercase; letter-spacing:0.4px; color:#94a3b8; font-weight:700; }
+.pick-tipo    { font-size:13px; font-weight:800; }
+.pick-tipo.pos   { color:#15803d; }
+.pick-tipo.warn  { color:#b45309; }
+.pick-tipo.wait  { color:#1d4ed8; }
+.pick-tipo.over  { color:#c2410c; }
+.pick-tipo.under { color:#0369a1; }
+.pick-tipo.neu   { color:#64748b; }
+.pick-confianza  { font-size:11px; color:#64748b; white-space:nowrap; }
+.team-label-role { font-size:11px; font-weight:700; color:#94a3b8; background:#f1f5f9; border:1px solid #e2e8f0; border-radius:5px; padding:2px 7px; flex-shrink:0; }
+.ou-box { margin-top:0; }
+.rec-box.over  { background:linear-gradient(180deg,#fef9ee,#fff); border-color:#fed7aa; }
+.rec-box.under { background:linear-gradient(180deg,#f0f9ff,#fff); border-color:#bae6fd; }
+.rec-tipo.over  { background:#fff7ed; color:#c2410c; }
+.rec-tipo.under { background:#e0f2fe; color:#0369a1; }

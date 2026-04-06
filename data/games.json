@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T23:20:48.846252+00:00",
+  "updated_at": "2026-04-06T23:55:14.641969+00:00",
   "games": [
     {
       "id": "ec27c42246b5e40c34f4c2d93930ed20",
@@ -7,6 +7,14 @@
       "away_team": "Detroit Pistons",
       "commence_time": "2026-04-06T23:11:00Z",
       "time_et": "7:11 PM ET",
+      "live": {
+        "state": "in",
+        "period": 2,
+        "clock": "8:08",
+        "description": "In Progress",
+        "home_score": "42",
+        "away_score": "34"
+      },
       "home_stats": {
         "conference": "Este",
         "record": "41-41",
@@ -18,11 +26,11 @@
         "away_rec": "19-22",
         "streak": "L1",
         "forma": [
-          "G",
-          "G",
           "P",
           "G",
-          "P"
+          "G",
+          "G",
+          "G"
         ]
       },
       "away_stats": {
@@ -38,18 +46,18 @@
         "forma": [
           "P",
           "P",
+          "G",
           "P",
-          "P",
-          "G"
+          "P"
         ]
       },
       "odds": {
-        "home_ml": 102,
-        "away_ml": 164,
-        "spread_home": -4.5,
+        "home_ml": -182,
+        "away_ml": 176,
+        "spread_home": -5.5,
         "total_ou": 222.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "best_book": "MyBookie.ag",
+        "num_books": 5
       },
       "injuries": [],
       "alerta": false,
@@ -63,15 +71,15 @@
         "ou_confianza": "—",
         "ou_notas": "Proyección: 220.0 pts vs línea 222.5 (-2.5 pts) — diferencia insuficiente",
         "ev": {
-          "prob_home": 0.4341,
-          "prob_away": 0.5659,
-          "ml_home": -12.3,
-          "ml_away": 49.4,
-          "spread_home": -69.2,
-          "spread_away": 60.2,
+          "prob_home": 0.4415,
+          "prob_away": 0.5585,
+          "ml_home": -31.6,
+          "ml_away": 54.1,
+          "spread_home": -76.2,
+          "spread_away": 67.1,
           "over": -33.4,
           "under": 24.3,
-          "mejor_pick": "Spread Pistons (+60.2%)"
+          "mejor_pick": "Spread Pistons (+67.1%)"
         }
       }
     },
@@ -81,6 +89,14 @@
       "away_team": "New York Knicks",
       "commence_time": "2026-04-06T23:13:00Z",
       "time_et": "7:13 PM ET",
+      "live": {
+        "state": "in",
+        "period": 2,
+        "clock": "8:13",
+        "description": "In Progress",
+        "home_score": "36",
+        "away_score": "43"
+      },
       "home_stats": {
         "conference": "Este",
         "record": "40-42",
@@ -94,9 +110,9 @@
         "forma": [
           "G",
           "G",
+          "G",
           "P",
-          "P",
-          "P"
+          "G"
         ]
       },
       "away_stats": {
@@ -110,42 +126,49 @@
         "away_rec": "24-17",
         "streak": "W1",
         "forma": [
-          "P",
           "G",
           "P",
-          "G",
+          "P",
+          "P",
           "G"
         ]
       },
       "odds": {
-        "home_ml": 110,
-        "away_ml": 115,
-        "spread_home": -1.5,
+        "home_ml": 158,
+        "away_ml": -145,
+        "spread_home": 4.5,
         "total_ou": 228.5,
-        "best_book": "DraftKings",
-        "num_books": 9
+        "best_book": "FanDuel",
+        "num_books": 6
       },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "injuries": [
+        {
+          "player": "Robinson",
+          "status": "Out",
+          "weight": 3,
+          "high_impact": false
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Robinson (Out)",
       "recomendacion": {
         "pick": "Sin pick",
-        "tipo": "LEAN VISITANTE",
-        "confianza": "baja",
-        "notas": "Knicks mejor diferencial (+4.1) como visitante",
+        "tipo": "REVISAR",
+        "confianza": "pendiente",
+        "notas": "Bajas confirmadas: Robinson — revisar impacto en línea",
         "ou_pick": null,
         "ou_confianza": "—",
-        "ou_notas": "Proyección: 232.5 pts vs línea 228.5 (+4.0 pts) — diferencia insuficiente",
+        "ou_notas": "Proyección: 230.0 pts vs línea 228.5 (+1.5 pts) — diferencia insuficiente",
         "ev": {
-          "prob_home": 0.2886,
-          "prob_away": 0.7114,
-          "ml_home": -39.4,
-          "ml_away": 53.0,
-          "spread_home": -56.8,
-          "spread_away": 47.7,
-          "over": 39.6,
-          "under": -48.7,
-          "mejor_pick": "ML Knicks (+53.0%)"
+          "prob_home": 0.2948,
+          "prob_away": 0.7052,
+          "ml_home": -23.9,
+          "ml_away": 19.2,
+          "spread_home": 21.9,
+          "spread_away": -31.0,
+          "over": 13.1,
+          "under": -22.2,
+          "mejor_pick": "Spread Hawks (+21.9%)"
         }
       }
     },
@@ -155,6 +178,14 @@
       "away_team": "Cleveland Cavaliers",
       "commence_time": "2026-04-07T00:10:00Z",
       "time_et": "8:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "description": "Scheduled",
+        "home_score": "0",
+        "away_score": "0"
+      },
       "home_stats": {
         "conference": "Oeste",
         "record": "48-34",
@@ -168,9 +199,9 @@
         "forma": [
           "G",
           "P",
-          "G",
           "P",
-          "P"
+          "G",
+          "G"
         ]
       },
       "away_stats": {
@@ -184,19 +215,19 @@
         "away_rec": "30-11",
         "streak": "L1",
         "forma": [
+          "P",
           "G",
+          "P",
           "G",
-          "G",
-          "G",
-          "G"
+          "P"
         ]
       },
       "odds": {
-        "home_ml": 700,
+        "home_ml": 689,
         "away_ml": -910,
         "spread_home": 13.5,
         "total_ou": 231.5,
-        "best_book": "FanDuel",
+        "best_book": "MyBookie.ag",
         "num_books": 9
       },
       "injuries": [],
@@ -206,20 +237,20 @@
         "pick": "Memphis Grizzlies",
         "tipo": "ML Grizzlies (local underdog)",
         "confianza": "media",
-        "notas": "Grizzlies local underdog con EV positivo (+131.6%) — situación atípica",
+        "notas": "Grizzlies local underdog con EV positivo (+148.4%) — situación atípica",
         "ou_pick": "OVER",
         "ou_confianza": "baja",
         "ou_notas": "Proyección: 236.5 pts vs línea 231.5 (+5.0 pts) | EV: +48.4%",
         "ev": {
-          "prob_home": 0.2895,
-          "prob_away": 0.7105,
-          "ml_home": 131.6,
-          "ml_away": -21.1,
+          "prob_home": 0.3148,
+          "prob_away": 0.6852,
+          "ml_home": 148.4,
+          "ml_away": -24.0,
           "spread_home": 84.5,
           "spread_away": -93.6,
           "over": 48.4,
           "under": -57.5,
-          "mejor_pick": "ML Grizzlies (+131.6%)"
+          "mejor_pick": "ML Grizzlies (+148.4%)"
         }
       }
     },
@@ -229,6 +260,14 @@
       "away_team": "Philadelphia 76ers",
       "commence_time": "2026-04-07T00:10:00Z",
       "time_et": "8:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "description": "Scheduled",
+        "home_score": "0",
+        "away_score": "0"
+      },
       "home_stats": {
         "conference": "Oeste",
         "record": "34-48",
@@ -240,11 +279,11 @@
         "away_rec": "13-27",
         "streak": "W1",
         "forma": [
+          "G",
           "P",
           "G",
           "P",
-          "P",
-          "G"
+          "P"
         ]
       },
       "away_stats": {
@@ -270,30 +309,79 @@
         "away_ml": 301,
         "spread_home": -8.5,
         "total_ou": 236.5,
-        "best_book": "Bovada",
+        "best_book": "FanDuel",
         "num_books": 9
       },
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "injuries": [
+        {
+          "player": "Bryant",
+          "status": "Out",
+          "weight": 3,
+          "high_impact": false
+        },
+        {
+          "player": "Harden",
+          "status": "Out",
+          "weight": 3,
+          "high_impact": true
+        },
+        {
+          "player": "Aldama",
+          "status": "Ofs",
+          "weight": 0,
+          "high_impact": false
+        },
+        {
+          "player": "Pope",
+          "status": "Ofs",
+          "weight": 0,
+          "high_impact": false
+        },
+        {
+          "player": "Clarke",
+          "status": "Ofs",
+          "weight": 0,
+          "high_impact": false
+        },
+        {
+          "player": "Zach Edey",
+          "status": "Ofs",
+          "weight": 0,
+          "high_impact": false
+        },
+        {
+          "player": "Taj Gibson",
+          "status": "Out",
+          "weight": 3,
+          "high_impact": false
+        },
+        {
+          "player": "Hendricks",
+          "status": "Out",
+          "weight": 3,
+          "high_impact": false
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Bryant (Out) | Harden (Out) ⚠️ CLAVE | Taj Gibson (Out) | Hendricks (Out)",
       "recomendacion": {
         "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers (underdog)",
-        "confianza": "media",
-        "notas": "76ers underdog con EV positivo (+35.2%) — mercado puede exagerar",
+        "tipo": "ML 76ers",
+        "confianza": "media-alta",
+        "notas": "Baja clave: Harden — mercado puede no haberlo ajustado aún",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección: 228.0 pts vs línea 236.5 (-8.5 pts) | EV: +70.5%",
+        "ou_notas": "Proyección: 218.0 pts vs línea 236.5 (-18.5 pts) | EV: +89.1% | Bajas deprimen total (4 jugadores Out/Doubtful)",
         "ev": {
-          "prob_home": 0.6628,
-          "prob_away": 0.3372,
-          "ml_home": -15.3,
-          "ml_away": 35.2,
+          "prob_home": 0.571,
+          "prob_away": 0.429,
+          "ml_home": -27.0,
+          "ml_away": 72.0,
           "spread_home": -78.0,
           "spread_away": 68.9,
-          "over": -79.6,
-          "under": 70.5,
-          "mejor_pick": "UNDER (+70.5%)"
+          "over": -98.1,
+          "under": 89.1,
+          "mejor_pick": "UNDER (+89.1%)"
         }
       }
     },
@@ -303,6 +391,14 @@
       "away_team": "Portland Trail Blazers",
       "commence_time": "2026-04-07T01:10:00Z",
       "time_et": "9:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "description": "Scheduled",
+        "home_score": "0",
+        "away_score": "0"
+      },
       "home_stats": {
         "conference": "Oeste",
         "record": "50-32",
@@ -314,10 +410,10 @@
         "away_rec": "24-17",
         "streak": "W3",
         "forma": [
-          "P",
-          "P",
           "G",
           "G",
+          "G",
+          "P",
           "P"
         ]
       },
@@ -332,11 +428,11 @@
         "away_rec": "14-27",
         "streak": "W1",
         "forma": [
+          "G",
           "P",
           "P",
           "G",
-          "P",
-          "G"
+          "P"
         ]
       },
       "odds": {
@@ -408,10 +504,10 @@
         "ou_confianza": "media",
         "ou_notas": "Proyección: 218.8 pts vs línea 235.5 (-16.7 pts) | EV: +88.0% | Bajas deprimen total (5 jugadores Out/Doubtful)",
         "ev": {
-          "prob_home": 0.7217,
-          "prob_away": 0.2783,
-          "ml_home": -4.5,
-          "ml_away": 4.4,
+          "prob_home": 0.7277,
+          "prob_away": 0.2723,
+          "ml_home": -3.8,
+          "ml_away": 2.1,
           "spread_home": -56.8,
           "spread_away": 47.7,
           "over": -97.1,
