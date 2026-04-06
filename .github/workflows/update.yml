@@ -1,0 +1,45 @@
+name: NBA Data Scraper
+
+on:
+  schedule:
+    # Horarios en UTC (Chile = UTC-4 en verano, UTC-3 en invierno)
+    # 15:00 Chile = 19:00 UTC → primer scrape del día
+    - cron: '0 19 * * *'
+    # 17:30 Chile = 21:30 UTC → injury reports confirmados
+    - cron: '30 21 * * *'
+    # 18:45 Chile = 22:45 UTC → justo antes del primer tip-off
+    - cron: '45 22 * * *'
+    # 20:30 Chile = 00:30 UTC siguiente día → solo Rotowire
+    - cron: '30 0 * * *'
+    # 22:00 Chile = 02:00 UTC siguiente día → último scrape
+    - cron: '0 2 * * *'
+
+  # Permite correrlo manualmente desde GitHub
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scraper
+        run: python scripts/scrape.py
+
+      - name: Commit y push data/games.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/games.json
+          git diff --staged --quiet || git commit -m "data: update games.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
