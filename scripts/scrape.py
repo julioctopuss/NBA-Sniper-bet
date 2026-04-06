@@ -28,18 +28,50 @@ HIGH_IMPACT = [
 STATUS_W = {"out":3,"doubtful":2,"doubt":2,"questionable":1,"ques":1,"probable":0,"prob":0,"ofs":0}
 
 # Zona horaria ET (UTC-4 verano / UTC-5 invierno)
-# Usamos UTC-4 para cubrir el horario de verano (Eastern Daylight Time)
 ET_OFFSET = timedelta(hours=-4)
+
+# Mapa de nombre de equipo NBA (The Odds API) → palabras clave de jugadores en Rotowire
+# Permite filtrar injuries del bloque Rotowire solo para los equipos del partido
+TEAM_KEYWORDS = {
+    "Atlanta Hawks":            ["hawks","trae","young","murray","capela","hunter","johnson","bogdanovic","okongwu"],
+    "Boston Celtics":           ["celtics","tatum","brown","white","holiday","porzingis","horford","pritchard"],
+    "Brooklyn Nets":            ["nets","bridges","thomas","claxton","johnson","curry","warren"],
+    "Charlotte Hornets":        ["hornets","lamelo","ball","miller","washington","plumlee","richards"],
+    "Chicago Bulls":            ["bulls","lavine","vucevic","derozan","white","drummond","caruso","ball"],
+    "Cleveland Cavaliers":      ["cavaliers","cavs","mitchell","garland","mobley","allen","strus","wade","max strus","dean wade","tyson","isaac okoro"],
+    "Dallas Mavericks":         ["mavericks","mavs","luka","doncic","irving","kleber","hardaway","green","gafford"],
+    "Denver Nuggets":           ["nuggets","jokic","murray","gordon","porter","caldwell","nnaji","brown"],
+    "Detroit Pistons":          ["pistons","cunningham","ivey","stewart","duren","hayes","levert","bey","robinson","harris"],
+    "Golden State Warriors":    ["warriors","curry","thompson","green","wiggins","looney","kuminga","moody"],
+    "Houston Rockets":          ["rockets","green","porter","brooks","sengun","tate","christopher","edwards"],
+    "Indiana Pacers":           ["pacers","haliburton","siakam","nembhard","mathurin","turner","nesmith"],
+    "Los Angeles Clippers":     ["clippers","george","harden","zubac","mann","batum","coffey","powell"],
+    "Los Angeles Lakers":       ["lakers","lebron","davis","reaves","vanderbilt","hayes","walker","westbrook"],
+    "Memphis Grizzlies":        ["grizzlies","morant","aldama","brooks","bane","adams","tillman","ziaire","tyus","ja morant","wells","pippen","mashack","small","ty jerome","clarke"],
+    "Miami Heat":               ["heat","butler","adebayo","herro","lowry","robinson","vincent","strus","highsmith"],
+    "Milwaukee Bucks":          ["bucks","giannis","middleton","dame","lillard","portis","lopez","brook"],
+    "Minnesota Timberwolves":   ["timberwolves","wolves","edwards","towns","gobert","conley","mcdaniels","naz"],
+    "New Orleans Pelicans":     ["pelicans","zion","williamson","ingram","mccollum","valanciunas","jones","murphy"],
+    "New York Knicks":          ["knicks","brunson","randle","barrett","robinson","hartenstein","quickley"],
+    "Oklahoma City Thunder":    ["thunder","sga","holmgren","dort","giddey","williams","jalen","manning","wallace"],
+    "Orlando Magic":            ["magic","banchero","suggs","fultz","harris","wagner","black","isaac","carter","howard","levert"],
+    "Philadelphia 76ers":       ["76ers","sixers","embiid","maxey","harden","harris","thybulle","house","niang","drummond","bryant","gibson","hendricks","paul","george"],
+    "Phoenix Suns":             ["suns","booker","paul","ayton","bridges","johnson","shamet","landry"],
+    "Portland Trail Blazers":   ["blazers","lillard","grant","sharpe","simons","nurkic","little","krejci","vit krejci","jones","watson","brown","nnaji"],
+    "Sacramento Kings":         ["kings","fox","sabonis","huerter","murray","holmes","monk","barnes"],
+    "San Antonio Spurs":        ["spurs","wembanyama","keldon","johnson","sochan","vassell","collins","primo","zach edey","edey","pope","aldama","clarke"],
+    "Toronto Raptors":          ["raptors","siakam","anunoby","quickley","barrett","koloko","trent","gary"],
+    "Utah Jazz":                ["jazz","markkanen","clarkson","sexton","beasley","olynyk","vanderbilt","hendricks"],
+    "Washington Wizards":       ["wizards","beal","kuzma","porzingis","avdija","gafford","holiday","kispert"],
+}
 
 
 def get_today_et():
-    """Retorna la fecha de hoy en ET como string YYYY-MM-DD."""
     now_et = datetime.now(timezone.utc) + ET_OFFSET
     return now_et.date()
 
 
 def es_partido_de_hoy(commence_iso):
-    """Devuelve True si el partido es del día de hoy en ET."""
     try:
         dt_utc = datetime.fromisoformat(commence_iso.replace("Z", "+00:00"))
         dt_et  = dt_utc + ET_OFFSET
@@ -84,7 +116,7 @@ def fetch_espn_standings():
     if not data:
         return {}
 
-    lookup = {}  # team_id → stats dict
+    lookup = {}
     for conference in data.get("children", []):
         conf_name = conference.get("name", "")
         conf_label = "Este" if "East" in conf_name else "Oeste"
@@ -96,21 +128,20 @@ def fetch_espn_standings():
             lookup[team_id] = {
                 "team_name": team_name,
                 "conference": conf_label,
-                "record": stats.get("overall", "—"),
-                "seed": stats.get("playoffSeed", "—"),
-                "ppg": stats.get("avgPointsFor", "—"),
-                "papg": stats.get("avgPointsAgainst", "—"),
-                "diff": stats.get("differential", "—"),
+                "record":   stats.get("overall", "—"),
+                "seed":     stats.get("playoffSeed", "—"),
+                "ppg":      stats.get("avgPointsFor", "—"),
+                "papg":     stats.get("avgPointsAgainst", "—"),
+                "diff":     stats.get("differential", "—"),
                 "home_rec": stats.get("Home", "—"),
                 "away_rec": stats.get("Road", "—"),
-                "streak": stats.get("streak", "—"),
-                "win_pct": stats.get("winPercent", "—"),
+                "streak":   stats.get("streak", "—"),
+                "win_pct":  stats.get("winPercent", "—"),
             }
     return lookup
 
 
 def fetch_team_form(team_id, game_date_iso):
-    """Últimos 5 resultados antes del partido."""
     data = fetch_json(ESPN_SCHEDULE.format(team_id=team_id))
     if not data:
         return []
@@ -150,6 +181,11 @@ def fetch_team_form(team_id, game_date_iso):
 # ── Rotowire ──────────────────────────────────────────────────────────
 
 def parse_rotowire(html):
+    """
+    Parsea el HTML de Rotowire y retorna una lista de bloques por hora ET.
+    Cada bloque contiene TODAS las injuries de esa hora (todos los equipos).
+    El filtrado por equipo se hace luego en filter_injuries_by_teams().
+    """
     clean = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL)
     clean = re.sub(r'<style[^>]*>.*?</style>',  '', clean, flags=re.DOTALL)
     clean = re.sub(r'<[^>]+>', ' ', clean)
@@ -165,7 +201,7 @@ def parse_rotowire(html):
         r'(\d+:\d+\s*[AP]M\s*ET)(.*?)(?=\d+:\d+\s*[AP]M\s*ET|\Z)', re.DOTALL
     )
 
-    games = []
+    blocks = []
     for time_et, block in time_pat.findall(clean):
         mnp_sections = re.findall(
             r'MAY NOT PLAY(.*?)(?=MAY NOT PLAY|LINE\s|\Z)', block, re.DOTALL
@@ -176,24 +212,58 @@ def parse_rotowire(html):
                 sl = status.lower()
                 w  = STATUS_W.get(sl, 0)
                 is_key = any(kw in player.lower() for kw in HIGH_IMPACT)
-                all_injuries.append({"player": player.strip(), "status": status.capitalize(),
-                                     "weight": w, "high_impact": is_key})
+                all_injuries.append({
+                    "player": player.strip(),
+                    "status": status.capitalize(),
+                    "weight": w,
+                    "high_impact": is_key
+                })
 
-        alerta, msgs = False, []
-        for inj in all_injuries:
-            if inj["weight"] >= 2:
-                alerta = True
-                msgs.append(f"{inj['player']} ({inj['status']})" + (" ⚠️ CLAVE" if inj["high_impact"] else ""))
-            elif inj["weight"] >= 1 and inj["high_impact"]:
-                alerta = True
-                msgs.append(f"{inj['player']} (Questionable) — jugador clave")
+        blocks.append({
+            "time_et": time_et.strip(),
+            "injuries": all_injuries,   # todos los equipos de esa hora
+        })
 
-        games.append({"time_et": time_et.strip(), "injuries": all_injuries,
-                      "alerta": alerta, "alerta_msg": " | ".join(msgs)})
+    total_inj = sum(len(b["injuries"]) for b in blocks)
+    print(f"  Rotowire: {len(blocks)} bloques horarios, {total_inj} injuries totales")
+    return blocks
 
-    total_inj = sum(len(g["injuries"]) for g in games)
-    print(f"  Rotowire: {len(games)} partidos, {total_inj} injuries")
-    return games
+
+def filter_injuries_by_teams(all_injuries, home_team, away_team):
+    """
+    Dado el listado de injuries de un bloque horario (puede incluir varios equipos),
+    filtra solo los jugadores que pertenecen a home_team o away_team usando TEAM_KEYWORDS.
+    """
+    home_kws = [kw.lower() for kw in TEAM_KEYWORDS.get(home_team, [])]
+    away_kws = [kw.lower() for kw in TEAM_KEYWORDS.get(away_team, [])]
+    allowed_kws = set(home_kws + away_kws)
+
+    filtered = []
+    for inj in all_injuries:
+        player_lower = inj["player"].lower()
+        # El jugador pertenece al partido si alguna keyword del equipo está en su nombre
+        # O si su nombre (completo o apellido) está en las keywords
+        match = any(
+            kw in player_lower or player_lower in kw
+            for kw in allowed_kws
+        )
+        if match:
+            filtered.append(inj)
+
+    return filtered
+
+
+def build_alerta(injuries):
+    """Construye alerta y alerta_msg desde una lista de injuries filtrada."""
+    alerta, msgs = False, []
+    for inj in injuries:
+        if inj["weight"] >= 2:
+            alerta = True
+            msgs.append(f"{inj['player']} ({inj['status']})" + (" ⚠️ CLAVE" if inj["high_impact"] else ""))
+        elif inj["weight"] >= 1 and inj["high_impact"]:
+            alerta = True
+            msgs.append(f"{inj['player']} (Questionable) — jugador clave")
+    return alerta, " | ".join(msgs)
 
 
 def et_to_min(et_str):
@@ -254,7 +324,7 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
     any_out  = [i for i in injuries if i["weight"] >= 2]
     doubtful = [i for i in injuries if i["weight"] == 1]
 
-    # ── Pick de lado (ML) ──────────────────────────────────────────────
+    # ── Pick de lado (ML) ─────────────────────────────────────────────
     if high_out:
         names = ", ".join(i["player"] for i in high_out)
         notas.append(f"Baja clave: {names} — mercado puede no haberlo ajustado aún")
@@ -294,39 +364,39 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
             except:
                 notas.append("Sin señal de lado clara.")
 
-    # ── Pick O/U ──────────────────────────────────────────────────────
+    # ── Pick O/U ─────────────────────────────────────────────────────
     ou_pick = None
     ou_notas = []
+    confianza_ou = "—"
     try:
-        ppg_h = float(str(home_stats.get("ppg", 0)))
-        ppg_a = float(str(away_stats.get("ppg", 0)))
+        ppg_h  = float(str(home_stats.get("ppg", 0)))
+        ppg_a  = float(str(away_stats.get("ppg", 0)))
         papg_h = float(str(home_stats.get("papg", 0)))
         papg_a = float(str(away_stats.get("papg", 0)))
-        total_ou = odds.get("total_ou")
+        total_ou_line = odds.get("total_ou")
 
-        if ppg_h > 0 and ppg_a > 0 and total_ou:
+        if ppg_h > 0 and ppg_a > 0 and total_ou_line:
             proj_home_score = (ppg_h + papg_a) / 2
             proj_away_score = (ppg_a + papg_h) / 2
             proj_total = round(proj_home_score + proj_away_score, 1)
-            diff_ou = round(proj_total - float(total_ou), 1)
 
             baja_penalty = len(any_out) * 2.5
             proj_total_ajustado = round(proj_total - baja_penalty, 1)
-            diff_ajustado = round(proj_total_ajustado - float(total_ou), 1)
+            diff_ajustado = round(proj_total_ajustado - float(total_ou_line), 1)
 
             umbral = 4.5
 
             if diff_ajustado >= umbral:
                 ou_pick = "OVER"
                 ou_notas.append(
-                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou} "
+                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou_line} "
                     f"(+{diff_ajustado} pts) — sugiere OVER"
                 )
                 confianza_ou = "media" if diff_ajustado >= 7 else "baja"
             elif diff_ajustado <= -umbral:
                 ou_pick = "UNDER"
                 ou_notas.append(
-                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou} "
+                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou_line} "
                     f"({diff_ajustado} pts) — sugiere UNDER"
                 )
                 confianza_ou = "media" if diff_ajustado <= -7 else "baja"
@@ -334,13 +404,11 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
                     ou_notas.append(f"Bajas deprimen el total esperado ({len(any_out)} jugadores Out/Doubtful)")
             else:
                 ou_notas.append(
-                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou} "
+                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou_line} "
                     f"— diferencia insuficiente para pick O/U ({diff_ajustado:+.1f} pts)"
                 )
-                confianza_ou = "—"
     except Exception as e:
         ou_notas.append("Sin datos suficientes para proyección O/U.")
-        confianza_ou = "—"
 
     return {
         "pick": pick,
@@ -367,13 +435,13 @@ def main():
 
     print("\n[2/4] Rotowire...")
     roto_html   = fetch_url(ROTOWIRE_URL)
-    roto_games  = parse_rotowire(roto_html) if roto_html else []
+    roto_blocks = parse_rotowire(roto_html) if roto_html else []
 
     print("\n[3/4] The Odds API...")
     odds_events = fetch_odds()
     print(f"  {len(odds_events)} partidos con odds (sin filtrar)")
 
-    # ── FILTRO: solo partidos de hoy en ET ────────────────────────────
+    # ── FILTRO: solo partidos de hoy en ET ───────────────────────────
     odds_events = [ev for ev in odds_events if es_partido_de_hoy(ev.get("commence_time", ""))]
     print(f"  {len(odds_events)} partidos de hoy ({today_et} ET)")
 
@@ -412,7 +480,7 @@ def main():
         home_stats = standings.get(home_id, {})
         away_stats = standings.get(away_id, {})
 
-        # Forma últimos 5 (desde schedule ESPN)
+        # Forma últimos 5
         home_form, away_form = [], []
         if home_id:
             home_form = fetch_team_form(home_id, commence)
@@ -422,21 +490,25 @@ def main():
         # Odds
         odds = extract_odds(odds_ev)
 
-        # Rotowire match por hora (tolerancia 20 min)
+        # ── Rotowire: buscar bloque por hora y filtrar por equipo ────
         odds_min = et_to_min(time_et)
-        roto = None
-        best_diff = 20
-        for g in roto_games:
-            d = abs(et_to_min(g["time_et"]) - odds_min)
-            if d < best_diff and not g.get("_matched"):
-                best_diff = d; roto = g
-        if roto:
-            roto["_matched"] = True
+        roto_block = None
+        best_diff = 20  # tolerancia 20 min
+        for b in roto_blocks:
+            d = abs(et_to_min(b["time_et"]) - odds_min)
+            if d < best_diff:
+                best_diff = d
+                roto_block = b
+        # NUEVO: no marcar como _matched — cada partido busca su bloque
+        # y luego filtra por sus propios equipos
+        if roto_block:
+            injuries = filter_injuries_by_teams(
+                roto_block["injuries"], home, away
+            )
+        else:
+            injuries = []
 
-        injuries  = roto["injuries"]  if roto else []
-        alerta    = roto["alerta"]    if roto else False
-        alerta_msg= roto["alerta_msg"]if roto else ""
-
+        alerta, alerta_msg = build_alerta(injuries)
         rec = calcular_rec(home, away, odds, injuries, home_stats, away_stats)
 
         games.append({
