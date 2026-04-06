@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T19:39:12.208153+00:00",
+  "updated_at": "2026-04-06T19:44:52.736707+00:00",
   "games": [
     {
       "id": "dce0f3f389617fa7daa990c209ee8acc",
@@ -7,6 +7,42 @@
       "away_team": "New York Knicks",
       "commence_time": "2026-04-06T23:10:00Z",
       "time_et": "7:10 PM ET",
+      "home_stats": {
+        "conference": "Este",
+        "record": "40-42",
+        "seed": "9",
+        "ppg": "118.2",
+        "papg": "119.3",
+        "diff": "-1.1",
+        "home_rec": "21-19",
+        "away_rec": "19-22",
+        "streak": "W3",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "51-31",
+        "seed": "3",
+        "ppg": "115.8",
+        "papg": "111.7",
+        "diff": "+4.1",
+        "home_rec": "27-14",
+        "away_rec": "24-17",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "G",
+          "G"
+        ]
+      },
       "odds": {
         "home_ml": -118,
         "away_ml": 102,
@@ -29,7 +65,7 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Landale"
+        "notas": "Bajas confirmadas: Landale — revisar impacto en línea"
       }
     },
     {
@@ -38,6 +74,42 @@
       "away_team": "Detroit Pistons",
       "commence_time": "2026-04-06T23:10:00Z",
       "time_et": "7:10 PM ET",
+      "home_stats": {
+        "conference": "Este",
+        "record": "41-41",
+        "seed": "7",
+        "ppg": "105.4",
+        "papg": "105.5",
+        "diff": "-0.1",
+        "home_rec": "22-19",
+        "away_rec": "19-22",
+        "streak": "L1",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "G",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "44-38",
+        "seed": "6",
+        "ppg": "115.5",
+        "papg": "113.6",
+        "diff": "+1.9",
+        "home_rec": "22-19",
+        "away_rec": "22-19",
+        "streak": "L2",
+        "forma": [
+          "P",
+          "P",
+          "P",
+          "P",
+          "G"
+        ]
+      },
       "odds": {
         "home_ml": 107,
         "away_ml": -122,
@@ -108,7 +180,7 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Cunningham, Harris, Robinson, Stewart, Howard, Isaac, Wagner"
+        "notas": "Bajas confirmadas: Cunningham, Harris, Robinson, Stewart, Howard, Isaac, Wagner — revisar impacto en línea"
       }
     },
     {
@@ -117,6 +189,42 @@
       "away_team": "Cleveland Cavaliers",
       "commence_time": "2026-04-07T00:10:00Z",
       "time_et": "8:10 PM ET",
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "48-34",
+        "seed": "8",
+        "ppg": "121.7",
+        "papg": "116.9",
+        "diff": "+4.8",
+        "home_rec": "26-15",
+        "away_rec": "22-19",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "P",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "64-18",
+        "seed": "1",
+        "ppg": "121.9",
+        "papg": "112.4",
+        "diff": "+9.5",
+        "home_rec": "34-7",
+        "away_rec": "30-11",
+        "streak": "L1",
+        "forma": [
+          "G",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
       "odds": {
         "home_ml": 689,
         "away_ml": -910,
@@ -157,7 +265,7 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Broome, Payne"
+        "notas": "Bajas confirmadas: Broome, Payne — revisar impacto en línea"
       }
     },
     {
@@ -166,6 +274,42 @@
       "away_team": "Philadelphia 76ers",
       "commence_time": "2026-04-07T00:10:00Z",
       "time_et": "8:10 PM ET",
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "34-48",
+        "seed": "13",
+        "ppg": "113.9",
+        "papg": "116.7",
+        "diff": "-2.8",
+        "home_rec": "20-20",
+        "away_rec": "13-27",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "P",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "24-58",
+        "seed": "13",
+        "ppg": "109.6",
+        "papg": "115.8",
+        "diff": "-6.2",
+        "home_rec": "12-29",
+        "away_rec": "12-29",
+        "streak": "L2",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "P",
+          "P"
+        ]
+      },
       "odds": {
         "home_ml": -357,
         "away_ml": 301,
@@ -285,12 +429,12 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Bryant (Out) | Harden (Out) ⚠️ JUGADOR CLAVE | Mitchell (Out) ⚠️ JUGADOR CLAVE | Max Strus (Out) | Tyson (Out) | Dean Wade (Out) | Gibson (Doubt) | Hendricks (Doubt) | Ty Jerome (Out) | Mashack (Out) | Small (Out)",
+      "alerta_msg": "Bryant (Out) | Harden (Out) ⚠️ CLAVE | Mitchell (Out) ⚠️ CLAVE | Max Strus (Out) | Tyson (Out) | Dean Wade (Out) | Gibson (Doubt) | Hendricks (Doubt) | Ty Jerome (Out) | Mashack (Out) | Small (Out)",
       "recomendacion": {
         "pick": "Philadelphia 76ers",
         "tipo": "ML 76ers",
         "confianza": "media-alta",
-        "notas": "Baja clave en Spurs: Harden, Mitchell — línea puede no reflejar el impacto aún"
+        "notas": "Baja clave: Harden, Mitchell — mercado puede no haberlo ajustado aún"
       }
     },
     {
@@ -299,6 +443,42 @@
       "away_team": "Portland Trail Blazers",
       "commence_time": "2026-04-07T01:10:00Z",
       "time_et": "9:10 PM ET",
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "50-32",
+        "seed": "4",
+        "ppg": "120.8",
+        "papg": "116.9",
+        "diff": "+3.9",
+        "home_rec": "26-15",
+        "away_rec": "24-17",
+        "streak": "W3",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "G",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "36-46",
+        "seed": "12",
+        "ppg": "110.9",
+        "papg": "113.9",
+        "diff": "-3.0",
+        "home_rec": "22-19",
+        "away_rec": "14-27",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "P",
+          "G"
+        ]
+      },
       "odds": {
         "home_ml": -305,
         "away_ml": 265,
@@ -363,7 +543,7 @@
         "pick": "Sin pick",
         "tipo": "REVISAR",
         "confianza": "pendiente",
-        "notas": "Bajas confirmadas: Grant, Vit Krejci, Sharpe, Jones, Watson"
+        "notas": "Bajas confirmadas: Grant, Vit Krejci, Sharpe, Jones, Watson — revisar impacto en línea"
       }
     },
     {
@@ -372,6 +552,30 @@
       "away_team": "Miami Heat",
       "commence_time": "2026-04-07T23:40:00Z",
       "time_et": "7:40 PM ET",
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
       "odds": {
         "home_ml": 106,
         "away_ml": -122,
@@ -387,7 +591,7 @@
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
-        "notas": "Sin valor detectado por odds ni injuries. Análisis ESPN en curso."
+        "notas": "Partido equilibrado. Sin señal clara."
       }
     },
     {
@@ -396,6 +600,30 @@
       "away_team": "Charlotte Hornets",
       "commence_time": "2026-04-08T00:10:00Z",
       "time_et": "8:10 PM ET",
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
       "odds": {
         "home_ml": -230,
         "away_ml": 194,
@@ -411,7 +639,7 @@
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
-        "notas": "Sin valor detectado por odds ni injuries. Análisis ESPN en curso."
+        "notas": "Partido equilibrado. Sin señal clara."
       }
     },
     {
@@ -420,6 +648,30 @@
       "away_team": "Dallas Mavericks",
       "commence_time": "2026-04-08T02:40:00Z",
       "time_et": "10:40 PM ET",
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
       "odds": {
         "home_ml": -520,
         "away_ml": 400,
@@ -435,7 +687,7 @@
         "pick": "Dallas Mavericks",
         "tipo": "ML Mavericks (underdog)",
         "confianza": "baja",
-        "notas": "Mavericks es underdog grande (+400) — evaluar valor real"
+        "notas": "Mavericks underdog grande (+400) — evaluar si el mercado exagera"
       }
     },
     {
@@ -444,6 +696,30 @@
       "away_team": "Oklahoma City Thunder",
       "commence_time": "2026-04-08T02:40:00Z",
       "time_et": "10:40 PM ET",
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
       "odds": {
         "home_ml": 810,
         "away_ml": -1200,
@@ -459,7 +735,7 @@
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers (local underdog)",
         "confianza": "baja",
-        "notas": "Lakers es local underdog (+810) — situación atípica"
+        "notas": "Lakers local underdog (+810) — situación atípica"
       }
     },
     {
@@ -468,13 +744,37 @@
       "away_team": "Houston Rockets",
       "commence_time": "2026-04-08T03:10:00Z",
       "time_et": "11:10 PM ET",
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
       "odds": {
-        "home_ml": -102,
+        "home_ml": 105,
         "away_ml": -116,
         "spread_home": 1.0,
         "total_ou": 218.5,
-        "best_book": "FanDuel",
-        "num_books": 1
+        "best_book": "DraftKings",
+        "num_books": 2
       },
       "injuries": [],
       "alerta": false,
@@ -483,7 +783,7 @@
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
-        "notas": "Sin valor detectado por odds ni injuries. Análisis ESPN en curso."
+        "notas": "Partido equilibrado. Sin señal clara."
       }
     }
   ]
