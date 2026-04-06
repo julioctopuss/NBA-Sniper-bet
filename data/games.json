@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T21:37:47.789572+00:00",
+  "updated_at": "2026-04-06T21:58:15.387082+00:00",
   "games": [
     {
       "id": "dce0f3f389617fa7daa990c209ee8acc",
@@ -44,11 +44,11 @@
         ]
       },
       "odds": {
-        "home_ml": -118,
-        "away_ml": 102,
+        "home_ml": -120,
+        "away_ml": 112,
         "spread_home": -1.5,
         "total_ou": 226.5,
-        "best_book": "LowVig.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "injuries": [],
@@ -65,8 +65,8 @@
         "ev": {
           "prob_home": 0.2886,
           "prob_away": 0.7114,
-          "ml_home": -46.7,
-          "ml_away": 43.7,
+          "ml_home": -47.1,
+          "ml_away": 50.8,
           "spread_home": -56.8,
           "spread_away": 47.7,
           "over": 56.1,
