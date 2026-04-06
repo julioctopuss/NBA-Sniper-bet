@@ -6,7 +6,7 @@ Output: data/games.json
 """
 
 import json, re, sys, os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
@@ -26,6 +26,26 @@ HIGH_IMPACT = [
     "brunson","harden","george","davis","edwards","siakam","sabonis","sga"
 ]
 STATUS_W = {"out":3,"doubtful":2,"doubt":2,"questionable":1,"ques":1,"probable":0,"prob":0,"ofs":0}
+
+# Zona horaria ET (UTC-4 verano / UTC-5 invierno)
+# Usamos UTC-4 para cubrir el horario de verano (Eastern Daylight Time)
+ET_OFFSET = timedelta(hours=-4)
+
+
+def get_today_et():
+    """Retorna la fecha de hoy en ET como string YYYY-MM-DD."""
+    now_et = datetime.now(timezone.utc) + ET_OFFSET
+    return now_et.date()
+
+
+def es_partido_de_hoy(commence_iso):
+    """Devuelve True si el partido es del día de hoy en ET."""
+    try:
+        dt_utc = datetime.fromisoformat(commence_iso.replace("Z", "+00:00"))
+        dt_et  = dt_utc + ET_OFFSET
+        return dt_et.date() == get_today_et()
+    except:
+        return False
 
 
 def fetch_url(url):
@@ -285,18 +305,16 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
         total_ou = odds.get("total_ou")
 
         if ppg_h > 0 and ppg_a > 0 and total_ou:
-            # Proyección simple: promedio de ataque de cada equipo vs defensa rival
             proj_home_score = (ppg_h + papg_a) / 2
             proj_away_score = (ppg_a + papg_h) / 2
             proj_total = round(proj_home_score + proj_away_score, 1)
             diff_ou = round(proj_total - float(total_ou), 1)
 
-            # Ajuste por bajas — cada baja importante resta ~3 pts al total proyectado
             baja_penalty = len(any_out) * 2.5
             proj_total_ajustado = round(proj_total - baja_penalty, 1)
             diff_ajustado = round(proj_total_ajustado - float(total_ou), 1)
 
-            umbral = 4.5  # diferencia mínima para sugerir
+            umbral = 4.5
 
             if diff_ajustado >= umbral:
                 ou_pick = "OVER"
@@ -338,7 +356,9 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
 # ── Main ──────────────────────────────────────────────────────────────
 
 def main():
+    today_et = get_today_et()
     print(f"\n[{datetime.now(timezone.utc).isoformat()}] Iniciando scrape...")
+    print(f"  Filtrando partidos del día: {today_et} (ET)")
 
     print("\n[1/4] ESPN...")
     scoreboard  = fetch_espn_scoreboard()
@@ -351,7 +371,11 @@ def main():
 
     print("\n[3/4] The Odds API...")
     odds_events = fetch_odds()
-    print(f"  {len(odds_events)} partidos con odds")
+    print(f"  {len(odds_events)} partidos con odds (sin filtrar)")
+
+    # ── FILTRO: solo partidos de hoy en ET ────────────────────────────
+    odds_events = [ev for ev in odds_events if es_partido_de_hoy(ev.get("commence_time", ""))]
+    print(f"  {len(odds_events)} partidos de hoy ({today_et} ET)")
 
     print("\n[4/4] Cruzando datos...")
 
@@ -456,7 +480,7 @@ def main():
     output = {"updated_at": datetime.now(timezone.utc).isoformat(), "games": games}
     with open("data/games.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"\n  ✓ data/games.json — {len(games)} partidos")
+    print(f"\n  ✓ data/games.json — {len(games)} partidos (solo hoy {today_et} ET)")
 
     alertas = [g for g in games if g["alerta"]]
     if alertas:
