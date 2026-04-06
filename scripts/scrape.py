@@ -31,7 +31,6 @@ STATUS_W = {"out":3,"doubtful":2,"doubt":2,"questionable":1,"ques":1,"probable":
 ET_OFFSET = timedelta(hours=-4)
 
 # Mapa de nombre de equipo NBA (The Odds API) → palabras clave de jugadores en Rotowire
-# Permite filtrar injuries del bloque Rotowire solo para los equipos del partido
 TEAM_KEYWORDS = {
     "Atlanta Hawks":            ["hawks","trae","young","murray","capela","hunter","johnson","bogdanovic","okongwu"],
     "Boston Celtics":           ["celtics","tatum","brown","white","holiday","porzingis","horford","pritchard"],
@@ -181,11 +180,6 @@ def fetch_team_form(team_id, game_date_iso):
 # ── Rotowire ──────────────────────────────────────────────────────────
 
 def parse_rotowire(html):
-    """
-    Parsea el HTML de Rotowire y retorna una lista de bloques por hora ET.
-    Cada bloque contiene TODAS las injuries de esa hora (todos los equipos).
-    El filtrado por equipo se hace luego en filter_injuries_by_teams().
-    """
     clean = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL)
     clean = re.sub(r'<style[^>]*>.*?</style>',  '', clean, flags=re.DOTALL)
     clean = re.sub(r'<[^>]+>', ' ', clean)
@@ -221,7 +215,7 @@ def parse_rotowire(html):
 
         blocks.append({
             "time_et": time_et.strip(),
-            "injuries": all_injuries,   # todos los equipos de esa hora
+            "injuries": all_injuries,
         })
 
     total_inj = sum(len(b["injuries"]) for b in blocks)
@@ -230,10 +224,6 @@ def parse_rotowire(html):
 
 
 def filter_injuries_by_teams(all_injuries, home_team, away_team):
-    """
-    Dado el listado de injuries de un bloque horario (puede incluir varios equipos),
-    filtra solo los jugadores que pertenecen a home_team o away_team usando TEAM_KEYWORDS.
-    """
     home_kws = [kw.lower() for kw in TEAM_KEYWORDS.get(home_team, [])]
     away_kws = [kw.lower() for kw in TEAM_KEYWORDS.get(away_team, [])]
     allowed_kws = set(home_kws + away_kws)
@@ -241,8 +231,6 @@ def filter_injuries_by_teams(all_injuries, home_team, away_team):
     filtered = []
     for inj in all_injuries:
         player_lower = inj["player"].lower()
-        # El jugador pertenece al partido si alguna keyword del equipo está en su nombre
-        # O si su nombre (completo o apellido) está en las keywords
         match = any(
             kw in player_lower or player_lower in kw
             for kw in allowed_kws
@@ -254,7 +242,6 @@ def filter_injuries_by_teams(all_injuries, home_team, away_team):
 
 
 def build_alerta(injuries):
-    """Construye alerta y alerta_msg desde una lista de injuries filtrada."""
     alerta, msgs = False, []
     for inj in injuries:
         if inj["weight"] >= 2:
@@ -313,6 +300,151 @@ def extract_odds(odds_event):
             "best_book": best_book, "num_books": len(odds_event.get("bookmakers",[]))}
 
 
+# ── EV ────────────────────────────────────────────────────────────────
+
+def ml_to_prob(ml):
+    """Convierte moneyline americano a probabilidad implícita del mercado (sin vig)."""
+    if ml is None:
+        return None
+    if ml > 0:
+        return 100 / (ml + 100)
+    else:
+        return abs(ml) / (abs(ml) + 100)
+
+
+def calcular_win_prob(home_stats, away_stats, injuries, es_local):
+    """
+    Estima win probability del equipo LOCAL usando fórmula revisada:
+      - Diferencial de puntos:        55%
+      - PPG/PAPG relativo:            25%
+      - Home/Away record específico:  15%
+      - Forma últimos 5:               5%
+    Retorna (prob_home_win, prob_away_win)
+    """
+    try:
+        # ── 1. Diferencial (55%) ──────────────────────────────────────
+        diff_h = float(str(home_stats.get("diff", "0")).replace("+", ""))
+        diff_a = float(str(away_stats.get("diff", "0")).replace("+", ""))
+        # El diferencial máximo real en NBA es ~+12, usamos 24 como rango total
+        raw_diff = diff_h - diff_a
+        score_diff = max(min(raw_diff / 12.0, 1.0), -1.0)  # normalizado [-1, 1]
+
+        # ── 2. PPG/PAPG relativo (25%) ────────────────────────────────
+        ppg_h  = float(str(home_stats.get("ppg",  "110")))
+        papg_h = float(str(home_stats.get("papg", "110")))
+        ppg_a  = float(str(away_stats.get("ppg",  "110")))
+        papg_a = float(str(away_stats.get("papg", "110")))
+        # Proyección de margen basada en eficiencia cruzada
+        proj_home = (ppg_h + papg_a) / 2
+        proj_away = (ppg_a + papg_h) / 2
+        proj_margin = proj_home - proj_away
+        score_ppg = max(min(proj_margin / 15.0, 1.0), -1.0)  # normalizado [-1, 1]
+
+        # ── 3. Home/Away record específico (15%) ──────────────────────
+        def rec_to_pct(rec_str):
+            try:
+                w, l = map(int, rec_str.split("-"))
+                return w / (w + l) if (w + l) > 0 else 0.5
+            except:
+                return 0.5
+
+        home_home_pct = rec_to_pct(home_stats.get("home_rec", "0-0"))  # local como local
+        away_away_pct = rec_to_pct(away_stats.get("away_rec", "0-0"))  # visitante como visitante
+        score_rec = (home_home_pct - away_away_pct)  # rango aprox [-1, 1]
+
+        # ── 4. Forma últimos 5 (5%) ───────────────────────────────────
+        forma_h = home_stats.get("forma", [])
+        forma_a = away_stats.get("forma", [])
+        wins_h = sum(1 for r in forma_h if r == "G") / max(len(forma_h), 1)
+        wins_a = sum(1 for r in forma_a if r == "G") / max(len(forma_a), 1)
+        score_forma = (wins_h - wins_a)  # rango [-1, 1]
+
+        # ── Score compuesto ponderado ─────────────────────────────────
+        score = (
+            0.55 * score_diff  +
+            0.25 * score_ppg   +
+            0.15 * score_rec   +
+            0.05 * score_forma
+        )
+
+        # ── Penalización por bajas ────────────────────────────────────
+        # Bajas del equipo local reducen su probabilidad
+        any_out = [i for i in injuries if i["weight"] >= 2]
+        high_out = [i for i in injuries if i["weight"] >= 2 and i["high_impact"]]
+        baja_penalty = len(any_out) * 0.02 + len(high_out) * 0.05
+        score -= baja_penalty
+
+        # ── Mapeo logístico a probabilidad ───────────────────────────
+        # Usamos función logística: prob = 1 / (1 + e^(-k*score))
+        # k=3 da una curva razonablemente empinada sin extremos
+        import math
+        k = 3.0
+        prob_home = 1 / (1 + math.exp(-k * score))
+        prob_away = 1 - prob_home
+
+        return round(prob_home, 4), round(prob_away, 4)
+
+    except Exception as e:
+        return 0.5, 0.5
+
+
+def calcular_ev_ml(prob_estimada, ml):
+    """
+    EV% = (prob_estimada * pago_neto) - (1 - prob_estimada)
+    donde pago_neto = ml/100 si ml>0, o 100/abs(ml) si ml<0
+    Retorna EV como porcentaje (ej: +5.2 o -3.1)
+    """
+    if ml is None or prob_estimada is None:
+        return None
+    if ml > 0:
+        pago_neto = ml / 100
+    else:
+        pago_neto = 100 / abs(ml)
+    ev = (prob_estimada * pago_neto) - (1 - prob_estimada)
+    return round(ev * 100, 1)  # como porcentaje
+
+
+def calcular_ev_ou(proj_total, linea, num_bajas=0):
+    """
+    Para O/U, la prob. implícita del mercado es ~52.4% (precio -110 estándar).
+    Estimamos prob. del OVER basada en distancia proyección vs línea.
+    EV% = (prob_over * 0.909) - (1 - prob_over)  → precio -110 paga 0.909x
+    """
+    if proj_total is None or linea is None:
+        return None, None
+    import math
+    diff = proj_total - linea
+    # Función logística sobre la diferencia: k=0.25 da curva suave
+    prob_over = 1 / (1 + math.exp(-0.25 * diff))
+    prob_under = 1 - prob_over
+    pago = 100 / 110  # precio estándar -110
+
+    ev_over  = round(((prob_over  * pago) - prob_under) * 100, 1)
+    ev_under = round(((prob_under * pago) - prob_over)  * 100, 1)
+    return ev_over, ev_under
+
+
+def calcular_ev_spread(proj_margin, spread_home, num_bajas=0):
+    """
+    Estimamos prob de cubrir el spread local usando logística sobre
+    (margen proyectado - spread de mercado).
+    Precio estándar -110.
+    """
+    if proj_margin is None or spread_home is None:
+        return None, None
+    import math
+    # spread_home es negativo si el local es favorito (ej: -7.5)
+    # El local cubre si gana por más que abs(spread_home)
+    edge = proj_margin - abs(spread_home) if spread_home < 0 else proj_margin + spread_home
+    prob_cover_home = 1 / (1 + math.exp(-0.3 * edge))
+    prob_cover_away = 1 - prob_cover_home
+    pago = 100 / 110
+
+    ev_home = round(((prob_cover_home * pago) - prob_cover_away) * 100, 1)
+    ev_away = round(((prob_cover_away * pago) - prob_cover_home) * 100, 1)
+    return ev_home, ev_away
+
+
 # ── Recomendación ─────────────────────────────────────────────────────
 
 def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
@@ -323,6 +455,39 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
     high_out = [i for i in injuries if i["weight"] >= 2 and i["high_impact"]]
     any_out  = [i for i in injuries if i["weight"] >= 2]
     doubtful = [i for i in injuries if i["weight"] == 1]
+
+    # ── Calcular probabilidades estimadas ────────────────────────────
+    prob_home, prob_away = calcular_win_prob(home_stats, away_stats, injuries, es_local=True)
+
+    # ── EV Moneyline ─────────────────────────────────────────────────
+    ev_ml_home = calcular_ev_ml(prob_home, odds.get("home_ml"))
+    ev_ml_away = calcular_ev_ml(prob_away, odds.get("away_ml"))
+
+    # ── EV O/U ───────────────────────────────────────────────────────
+    try:
+        ppg_h  = float(str(home_stats.get("ppg",  "0")))
+        ppg_a  = float(str(away_stats.get("ppg",  "0")))
+        papg_h = float(str(home_stats.get("papg", "0")))
+        papg_a = float(str(away_stats.get("papg", "0")))
+        total_ou_line = odds.get("total_ou")
+
+        proj_home_score = (ppg_h + papg_a) / 2
+        proj_away_score = (ppg_a + papg_h) / 2
+        proj_total_base = proj_home_score + proj_away_score
+        baja_penalty    = len(any_out) * 2.5
+        proj_total      = round(proj_total_base - baja_penalty, 1)
+        proj_margin     = round(proj_home_score - proj_away_score, 1)
+
+        ev_over, ev_under = calcular_ev_ou(proj_total, total_ou_line)
+        diff_ou = round(proj_total - float(total_ou_line), 1) if total_ou_line else None
+    except:
+        proj_total, proj_margin, diff_ou = None, None, None
+        ev_over, ev_under = None, None
+
+    # ── EV Spread ────────────────────────────────────────────────────
+    ev_spread_home, ev_spread_away = calcular_ev_spread(
+        proj_margin, odds.get("spread_home"), len(any_out)
+    )
 
     # ── Pick de lado (ML) ─────────────────────────────────────────────
     if high_out:
@@ -342,14 +507,27 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
         tipo, confianza = "ESPERAR", "pendiente"
 
     if tipo == "NO BET":
-        ml_h = odds["home_ml"]; ml_a = odds["away_ml"]
-        if ml_a is not None and ml_a >= 250:
-            notas.append(f"{as_} underdog grande (+{ml_a}) — evaluar si el mercado exagera")
-            pick, tipo, confianza = away, f"ML {as_} (underdog)", "baja"
-        elif ml_h is not None and ml_h >= 180:
-            notas.append(f"{hs} local underdog (+{ml_h}) — situación atípica")
-            pick, tipo, confianza = home, f"ML {hs} (local underdog)", "baja"
+        ml_h = odds.get("home_ml")
+        ml_a = odds.get("away_ml")
+        # ── Lógica contextual con EV: solo sugerir si EV > 0 ─────────
+        if ev_ml_away is not None and ev_ml_away > 0 and ml_a is not None and ml_a >= 250:
+            # Filtros contextuales anti-mecánicos
+            diff_h = float(str(home_stats.get("diff", "0")).replace("+", ""))
+            diff_a = float(str(away_stats.get("diff", "0")).replace("+", ""))
+            spread = abs(odds.get("spread_home") or 0)
+            forma_a = away_stats.get("forma", [])
+            wins_recientes_a = sum(1 for r in forma_a if r == "G")
+            # Solo sugerir si: diferencial no es enorme Y spread no excesivo Y forma tolerable
+            if (diff_a > diff_h - 8) and (spread <= 12) and (wins_recientes_a >= 1):
+                notas.append(f"{as_} underdog con EV positivo (+{ev_ml_away}%) — mercado puede exagerar")
+                pick, tipo, confianza = away, f"ML {as_} (underdog)", "baja" if ev_ml_away < 5 else "media"
+            else:
+                notas.append(f"{as_} underdog pero sin valor contextual (spread {spread:.1f}, forma {wins_recientes_a}/5, diff gap {diff_h-diff_a:.1f})")
+        elif ev_ml_home is not None and ev_ml_home > 0 and ml_h is not None and ml_h >= 180:
+            notas.append(f"{hs} local underdog con EV positivo (+{ev_ml_home}%) — situación atípica")
+            pick, tipo, confianza = home, f"ML {hs} (local underdog)", "baja" if ev_ml_home < 5 else "media"
         else:
+            # Sin pick de ML con EV claro — usar diferencial como LEAN
             try:
                 diff_h = float(str(home_stats.get("diff","0")).replace("+",""))
                 diff_a = float(str(away_stats.get("diff","0")).replace("+",""))
@@ -369,46 +547,42 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
     ou_notas = []
     confianza_ou = "—"
     try:
-        ppg_h  = float(str(home_stats.get("ppg", 0)))
-        ppg_a  = float(str(away_stats.get("ppg", 0)))
-        papg_h = float(str(home_stats.get("papg", 0)))
-        papg_a = float(str(away_stats.get("papg", 0)))
-        total_ou_line = odds.get("total_ou")
-
-        if ppg_h > 0 and ppg_a > 0 and total_ou_line:
-            proj_home_score = (ppg_h + papg_a) / 2
-            proj_away_score = (ppg_a + papg_h) / 2
-            proj_total = round(proj_home_score + proj_away_score, 1)
-
-            baja_penalty = len(any_out) * 2.5
-            proj_total_ajustado = round(proj_total - baja_penalty, 1)
-            diff_ajustado = round(proj_total_ajustado - float(total_ou_line), 1)
-
-            umbral = 4.5
-
-            if diff_ajustado >= umbral:
+        umbral = 4.5
+        if diff_ou is not None and total_ou_line:
+            if diff_ou >= umbral and ev_over is not None and ev_over > 0:
                 ou_pick = "OVER"
                 ou_notas.append(
-                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou_line} "
-                    f"(+{diff_ajustado} pts) — sugiere OVER"
+                    f"Proyección: {proj_total} pts vs línea {total_ou_line} "
+                    f"(+{diff_ou} pts) | EV: +{ev_over}%"
                 )
-                confianza_ou = "media" if diff_ajustado >= 7 else "baja"
-            elif diff_ajustado <= -umbral:
+                confianza_ou = "media" if diff_ou >= 7 else "baja"
+            elif diff_ou <= -umbral and ev_under is not None and ev_under > 0:
                 ou_pick = "UNDER"
                 ou_notas.append(
-                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou_line} "
-                    f"({diff_ajustado} pts) — sugiere UNDER"
+                    f"Proyección: {proj_total} pts vs línea {total_ou_line} "
+                    f"({diff_ou} pts) | EV: +{ev_under}%"
                 )
-                confianza_ou = "media" if diff_ajustado <= -7 else "baja"
+                confianza_ou = "media" if diff_ou <= -7 else "baja"
                 if baja_penalty > 0:
-                    ou_notas.append(f"Bajas deprimen el total esperado ({len(any_out)} jugadores Out/Doubtful)")
+                    ou_notas.append(f"Bajas deprimen total ({len(any_out)} jugadores Out/Doubtful)")
             else:
                 ou_notas.append(
-                    f"Proyección total: {proj_total_ajustado} pts vs línea {total_ou_line} "
-                    f"— diferencia insuficiente para pick O/U ({diff_ajustado:+.1f} pts)"
+                    f"Proyección: {proj_total} pts vs línea {total_ou_line} "
+                    f"({diff_ou:+.1f} pts) — diferencia insuficiente"
                 )
     except Exception as e:
         ou_notas.append("Sin datos suficientes para proyección O/U.")
+
+    # ── Mejor pick EV global ──────────────────────────────────────────
+    ev_candidates = []
+    if ev_ml_home is not None: ev_candidates.append(("ML " + hs, ev_ml_home))
+    if ev_ml_away is not None: ev_candidates.append(("ML " + as_, ev_ml_away))
+    if ev_spread_home is not None: ev_candidates.append(("Spread " + hs, ev_spread_home))
+    if ev_spread_away is not None: ev_candidates.append(("Spread " + as_, ev_spread_away))
+    if ev_over  is not None: ev_candidates.append(("OVER",  ev_over))
+    if ev_under is not None: ev_candidates.append(("UNDER", ev_under))
+
+    mejor_ev = max(ev_candidates, key=lambda x: x[1]) if ev_candidates else None
 
     return {
         "pick": pick,
@@ -417,7 +591,18 @@ def calcular_rec(home, away, odds, injuries, home_stats, away_stats):
         "notas": " | ".join(notas) if notas else "Sin señal de lado clara.",
         "ou_pick": ou_pick,
         "ou_confianza": confianza_ou if ou_pick else "—",
-        "ou_notas": " | ".join(ou_notas) if ou_notas else ""
+        "ou_notas": " | ".join(ou_notas) if ou_notas else "",
+        "ev": {
+            "prob_home": prob_home,
+            "prob_away": prob_away,
+            "ml_home":   ev_ml_home,
+            "ml_away":   ev_ml_away,
+            "spread_home": ev_spread_home,
+            "spread_away": ev_spread_away,
+            "over":  ev_over,
+            "under": ev_under,
+            "mejor_pick": f"{mejor_ev[0]} ({'+' if mejor_ev[1]>0 else ''}{mejor_ev[1]}%)" if mejor_ev else None
+        }
     }
 
 
@@ -487,24 +672,25 @@ def main():
         if away_id:
             away_form = fetch_team_form(away_id, commence)
 
+        # Añadir forma al stats dict para que calcular_rec lo use
+        home_stats["forma"] = home_form
+        away_stats["forma"] = away_form
+
         # Odds
         odds = extract_odds(odds_ev)
 
-        # ── Rotowire: buscar bloque por hora y filtrar por equipo ────
+        # ── Rotowire ────────────────────────────────────────────────
         odds_min = et_to_min(time_et)
         roto_block = None
-        best_diff = 20  # tolerancia 20 min
+        best_diff = 20
         for b in roto_blocks:
             d = abs(et_to_min(b["time_et"]) - odds_min)
             if d < best_diff:
                 best_diff = d
                 roto_block = b
-        # NUEVO: no marcar como _matched — cada partido busca su bloque
-        # y luego filtra por sus propios equipos
+
         if roto_block:
-            injuries = filter_injuries_by_teams(
-                roto_block["injuries"], home, away
-            )
+            injuries = filter_injuries_by_teams(roto_block["injuries"], home, away)
         else:
             injuries = []
 
