@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T20:57:07.379153+00:00",
+  "updated_at": "2026-04-06T21:37:47.789572+00:00",
   "games": [
     {
       "id": "dce0f3f389617fa7daa990c209ee8acc",
@@ -48,7 +48,7 @@
         "away_ml": 102,
         "spread_home": -1.5,
         "total_ou": 226.5,
-        "best_book": "FanDuel",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "injuries": [],
@@ -118,11 +118,11 @@
         ]
       },
       "odds": {
-        "home_ml": 107,
-        "away_ml": -122,
-        "spread_home": 1.5,
+        "home_ml": 105,
+        "away_ml": -118,
+        "spread_home": 1.0,
         "total_ou": 222.5,
-        "best_book": "LowVig.ag",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "injuries": [],
@@ -139,10 +139,10 @@
         "ev": {
           "prob_home": 0.4341,
           "prob_away": 0.5659,
-          "ml_home": -10.1,
-          "ml_away": 3.0,
-          "spread_home": 2.6,
-          "spread_away": -11.7,
+          "ml_home": -11.0,
+          "ml_away": 4.5,
+          "spread_home": -4.5,
+          "spread_away": -4.5,
           "over": -33.4,
           "under": 24.3,
           "mejor_pick": "UNDER (+24.3%)"
@@ -192,11 +192,11 @@
         ]
       },
       "odds": {
-        "home_ml": 700,
-        "away_ml": -900,
+        "home_ml": 689,
+        "away_ml": -910,
         "spread_home": 13.5,
         "total_ou": 231.5,
-        "best_book": "FanDuel",
+        "best_book": "MyBookie.ag",
         "num_books": 9
       },
       "injuries": [],
@@ -206,20 +206,20 @@
         "pick": "Memphis Grizzlies",
         "tipo": "ML Grizzlies (local underdog)",
         "confianza": "media",
-        "notas": "Grizzlies local underdog con EV positivo (+131.6%) — situación atípica",
+        "notas": "Grizzlies local underdog con EV positivo (+128.4%) — situación atípica",
         "ou_pick": "OVER",
         "ou_confianza": "baja",
         "ou_notas": "Proyección: 236.5 pts vs línea 231.5 (+5.0 pts) | EV: +48.4%",
         "ev": {
           "prob_home": 0.2895,
           "prob_away": 0.7105,
-          "ml_home": 131.6,
+          "ml_home": 128.4,
           "ml_away": -21.1,
           "spread_home": 84.5,
           "spread_away": -93.6,
           "over": 48.4,
           "under": -57.5,
-          "mejor_pick": "ML Grizzlies (+131.6%)"
+          "mejor_pick": "ML Grizzlies (+128.4%)"
         }
       }
     },
@@ -340,11 +340,11 @@
         ]
       },
       "odds": {
-        "home_ml": -300,
+        "home_ml": -307,
         "away_ml": 260,
         "spread_home": -7.5,
         "total_ou": 237.5,
-        "best_book": "FanDuel",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "injuries": [
@@ -410,7 +410,7 @@
         "ev": {
           "prob_home": 0.7217,
           "prob_away": 0.2783,
-          "ml_home": -3.8,
+          "ml_home": -4.3,
           "ml_away": 0.2,
           "spread_home": -56.8,
           "spread_away": 47.7,
