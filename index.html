@@ -3,19 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NBA Betting Dashboard</title>
-  <link rel="stylesheet" href="style.css?v=50" />
+  <title>NBA Sniper Bet</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>NBA Betting Dashboard</h1>
-    <p>Listado de partidos NBA</p>
+    <h1>NBA Sniper Bet</h1>
+    <p>Análisis pregame · Odds en vivo · Injury Report</p>
   </header>
 
   <main>
-    <section class="card">
-      <h2>Estado</h2>
-      <p id="status">Cargando partidos...</p>
+    <section class="card status-card">
+      <div class="status-row">
+        <p id="status">Cargando partidos...</p>
+        <div class="header-actions">
+          <span id="updated-at" class="updated-at"></span>
+          <div class="filter-tabs">
+            <button class="tab active" onclick="setFilter('todos',this)">Todos</button>
+            <button class="tab" onclick="setFilter('alerta',this)">⚠️ Alertas</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="card">
@@ -26,24 +34,17 @@
 
   <div id="game-modal" class="modal hidden" aria-hidden="true">
     <div class="modal-backdrop" id="modal-close-bg"></div>
-
-    <section
-      class="modal-panel"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="modal-title"
-    >
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       <div class="modal-header">
         <h2 id="modal-title">Análisis del partido</h2>
-        <button id="modal-close" class="close-btn" type="button" aria-label="Cerrar análisis">✕</button>
+        <button id="modal-close" class="close-btn" type="button">✕ Cerrar</button>
       </div>
-
       <div id="analysis-panel">
-        <p>Haz clic en “Analizar partido” para ver detalles.</p>
+        <p>Cargando análisis...</p>
       </div>
     </section>
   </div>
 
-  <script src="app.js?v=79" defer></script>
+  <script src="app.js" defer></script>
 </body>
 </html>
