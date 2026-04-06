@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T20:34:16.007937+00:00",
+  "updated_at": "2026-04-06T20:57:07.379153+00:00",
   "games": [
     {
       "id": "dce0f3f389617fa7daa990c209ee8acc",
@@ -61,7 +61,18 @@
         "notas": "Knicks mejor diferencial (+4.1) como visitante",
         "ou_pick": "OVER",
         "ou_confianza": "baja",
-        "ou_notas": "Proyección total: 232.5 pts vs línea 226.5 (+6.0 pts) — sugiere OVER"
+        "ou_notas": "Proyección: 232.5 pts vs línea 226.5 (+6.0 pts) | EV: +56.1%",
+        "ev": {
+          "prob_home": 0.2886,
+          "prob_away": 0.7114,
+          "ml_home": -46.7,
+          "ml_away": 43.7,
+          "spread_home": -56.8,
+          "spread_away": 47.7,
+          "over": 56.1,
+          "under": -65.2,
+          "mejor_pick": "OVER (+56.1%)"
+        }
       }
     },
     {
@@ -124,7 +135,18 @@
         "notas": "Partido equilibrado por diferencial. Analizar O/U.",
         "ou_pick": null,
         "ou_confianza": "—",
-        "ou_notas": "Proyección total: 220.0 pts vs línea 222.5 — diferencia insuficiente para pick O/U (-2.5 pts)"
+        "ou_notas": "Proyección: 220.0 pts vs línea 222.5 (-2.5 pts) — diferencia insuficiente",
+        "ev": {
+          "prob_home": 0.4341,
+          "prob_away": 0.5659,
+          "ml_home": -10.1,
+          "ml_away": 3.0,
+          "spread_home": 2.6,
+          "spread_away": -11.7,
+          "over": -33.4,
+          "under": 24.3,
+          "mejor_pick": "UNDER (+24.3%)"
+        }
       }
     },
     {
@@ -170,11 +192,11 @@
         ]
       },
       "odds": {
-        "home_ml": 689,
+        "home_ml": 700,
         "away_ml": -900,
         "spread_home": 13.5,
         "total_ou": 231.5,
-        "best_book": "MyBookie.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "injuries": [],
@@ -183,11 +205,22 @@
       "recomendacion": {
         "pick": "Memphis Grizzlies",
         "tipo": "ML Grizzlies (local underdog)",
-        "confianza": "baja",
-        "notas": "Grizzlies local underdog (+689) — situación atípica",
+        "confianza": "media",
+        "notas": "Grizzlies local underdog con EV positivo (+131.6%) — situación atípica",
         "ou_pick": "OVER",
         "ou_confianza": "baja",
-        "ou_notas": "Proyección total: 236.5 pts vs línea 231.5 (+5.0 pts) — sugiere OVER"
+        "ou_notas": "Proyección: 236.5 pts vs línea 231.5 (+5.0 pts) | EV: +48.4%",
+        "ev": {
+          "prob_home": 0.2895,
+          "prob_away": 0.7105,
+          "ml_home": 131.6,
+          "ml_away": -21.1,
+          "spread_home": 84.5,
+          "spread_away": -93.6,
+          "over": 48.4,
+          "under": -57.5,
+          "mejor_pick": "ML Grizzlies (+131.6%)"
+        }
       }
     },
     {
@@ -233,11 +266,11 @@
         ]
       },
       "odds": {
-        "home_ml": -357,
-        "away_ml": 310,
+        "home_ml": -360,
+        "away_ml": 301,
         "spread_home": -8.5,
         "total_ou": 237.5,
-        "best_book": "MyBookie.ag",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "injuries": [],
@@ -246,11 +279,22 @@
       "recomendacion": {
         "pick": "Philadelphia 76ers",
         "tipo": "ML 76ers (underdog)",
-        "confianza": "baja",
-        "notas": "76ers underdog grande (+310) — evaluar si el mercado exagera",
+        "confianza": "media",
+        "notas": "76ers underdog con EV positivo (+35.2%) — mercado puede exagerar",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección total: 228.0 pts vs línea 237.5 (-9.5 pts) — sugiere UNDER"
+        "ou_notas": "Proyección: 228.0 pts vs línea 237.5 (-9.5 pts) | EV: +74.7%",
+        "ev": {
+          "prob_home": 0.6628,
+          "prob_away": 0.3372,
+          "ml_home": -15.3,
+          "ml_away": 35.2,
+          "spread_home": -78.0,
+          "spread_away": 68.9,
+          "over": -83.8,
+          "under": 74.7,
+          "mejor_pick": "UNDER (+74.7%)"
+        }
       }
     },
     {
@@ -296,11 +340,11 @@
         ]
       },
       "odds": {
-        "home_ml": -305,
+        "home_ml": -300,
         "away_ml": 260,
         "spread_home": -7.5,
         "total_ou": 237.5,
-        "best_book": "BetRivers",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "injuries": [
@@ -362,7 +406,18 @@
         "notas": "Bajas confirmadas: Grant, Vit Krejci, Sharpe, Jones, Watson — revisar impacto en línea",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección total: 218.7 pts vs línea 237.5 (-18.8 pts) — sugiere UNDER | Bajas deprimen el total esperado (5 jugadores Out/Doubtful)"
+        "ou_notas": "Proyección: 218.8 pts vs línea 237.5 (-18.7 pts) | EV: +89.1% | Bajas deprimen total (5 jugadores Out/Doubtful)",
+        "ev": {
+          "prob_home": 0.7217,
+          "prob_away": 0.2783,
+          "ml_home": -3.8,
+          "ml_away": 0.2,
+          "spread_home": -56.8,
+          "spread_away": 47.7,
+          "over": -98.2,
+          "under": 89.1,
+          "mejor_pick": "UNDER (+89.1%)"
+        }
       }
     }
   ]
