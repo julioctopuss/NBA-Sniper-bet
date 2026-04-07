@@ -8,7 +8,7 @@ Fuentes:
 Output: data/games.json
 """
 
-import json, re, os, sys, time
+import json, re, os, sys, time, math
 from datetime import datetime, timezone, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError
@@ -320,110 +320,176 @@ def is_today_et(iso):
         return False
 
 
-# ── Recomendación ─────────────────────────────────────────────────────
+# ── Recomendación ─────────────────────────────────────────────────
+# ── EV puro ───────────────────────────────────────────────────────────
+
+def sigmoid(x):
+    return 1 / (1 + math.exp(-x))
+
+
+def implied_prob_no_vig(ml_home, ml_away):
+    """Probabilidad implícita del mercado sin vig."""
+    def raw(ml):
+        if ml is None: return None
+        return 100 / (ml + 100) if ml > 0 else abs(ml) / (abs(ml) + 100)
+    r_h, r_a = raw(ml_home), raw(ml_away)
+    if r_h is None or r_a is None: return None, None
+    total = r_h + r_a
+    return r_h / total, r_a / total
+
+
+def ml_to_decimal(ml):
+    if ml is None: return None
+    return ml / 100 if ml > 0 else 100 / abs(ml)
+
+
+def calcular_ev(prob_modelo, ml):
+    g = ml_to_decimal(ml)
+    if g is None: return None
+    return round(prob_modelo * g - (1 - prob_modelo), 4)
+
+
+def calcular_prob_modelo(home_stats, away_stats, home_inj, away_inj):
+    """
+    Probabilidad de ganar del local, independiente de las odds.
+    Pesos: 55% diferencial | 25% ppg/papg | 15% home/away rec | 5% forma
+    Ajuste final por PRA perdido en bajas.
+    """
+    try:
+        # 1. Diferencial (55%)
+        diff_h = float(str(home_stats.get("diff", "0")).replace("+", ""))
+        diff_a = float(str(away_stats.get("diff", "0")).replace("+", ""))
+        score_diff = max(min((diff_h - diff_a) / 12.0, 1.0), -1.0)
+
+        # 2. PPG/PAPG relativo (25%)
+        ppg_h  = float(str(home_stats.get("ppg",  "110")))
+        papg_h = float(str(home_stats.get("papg", "110")))
+        ppg_a  = float(str(away_stats.get("ppg",  "110")))
+        papg_a = float(str(away_stats.get("papg", "110")))
+        proj_margin = ((ppg_h + papg_a) / 2) - ((ppg_a + papg_h) / 2)
+        score_ppg = max(min(proj_margin / 15.0, 1.0), -1.0)
+
+        # 3. Home/Away record (15%)
+        def rec_pct(s):
+            try:
+                w, l = map(int, s.split("-"))
+                return w / (w + l) if (w + l) > 0 else 0.5
+            except: return 0.5
+        score_venue = rec_pct(home_stats.get("home_rec", "0-0")) - rec_pct(away_stats.get("away_rec", "0-0"))
+
+        # 4. Forma últimos 5 (5%)
+        forma_h = home_stats.get("forma", [])
+        forma_a = away_stats.get("forma", [])
+        wins_h  = sum(1 for r in forma_h if r == "G") / max(len(forma_h), 1)
+        wins_a  = sum(1 for r in forma_a if r == "G") / max(len(forma_a), 1)
+        score_forma = wins_h - wins_a
+
+        # Solo stats — sin bajas. El mercado ya las procesó.
+        score_final = (0.55 * score_diff + 0.25 * score_ppg +
+                       0.15 * score_venue + 0.05 * score_forma)
+
+        prob_home = sigmoid(3 * score_final)
+        return round(prob_home, 4), round(1 - prob_home, 4)
+    except:
+        return 0.5, 0.5
+
 
 def calcular_rec(home, away, odds, home_inj, away_inj, home_stats, away_stats):
-    notas   = []
-    pick    = "Sin pick"
-    tipo    = "NO BET"
-    conf    = "—"
-    hs      = home.split()[-1]
-    as_     = away.split()[-1]
+    """Recomendación basada en EV puro. Modelo estima prob sin mirar odds."""
+    hs  = home.split()[-1]
+    as_ = away.split()[-1]
 
-    # ── Impacto de bajas ──────────────────────────────────────────────
-    # Suma de PRA de bajas Out/Doubtful por equipo
     home_pra_out = sum(i["pra"] for i in home_inj if i["weight"] >= 2)
     away_pra_out = sum(i["pra"] for i in away_inj if i["weight"] >= 2)
 
-    if home_pra_out >= 30:
-        top = [i for i in home_inj if i["weight"] >= 2][:2]
-        names = ", ".join(f"{i['player']} (PRA {i['pra']})" for i in top)
-        notas.append(f"Bajas críticas en {hs}: {names} — {home_pra_out:.0f} PRA perdido")
-        if odds.get("away_ml") is not None:
-            pick, tipo, conf = away, f"ML {as_}", "media-alta"
+    # 1. Probabilidad modelo (independiente de odds)
+    prob_home, prob_away = calcular_prob_modelo(home_stats, away_stats, home_inj, away_inj)
 
-    elif away_pra_out >= 30:
-        top = [i for i in away_inj if i["weight"] >= 2][:2]
-        names = ", ".join(f"{i['player']} (PRA {i['pra']})" for i in top)
-        notas.append(f"Bajas críticas en {as_}: {names} — {away_pra_out:.0f} PRA perdido")
-        if odds.get("home_ml") is not None:
-            pick, tipo, conf = home, f"ML {hs}", "media-alta"
+    # 2. Probabilidad mercado sin vig
+    ml_h, ml_a = odds.get("home_ml"), odds.get("away_ml")
+    mkt_home, mkt_away = implied_prob_no_vig(ml_h, ml_a)
 
-    elif home_pra_out >= 15 or away_pra_out >= 15:
-        notas.append(f"Bajas moderadas — {hs}: {home_pra_out:.0f} PRA | {as_}: {away_pra_out:.0f} PRA. Revisar movimiento de línea.")
-        tipo, conf = "REVISAR", "pendiente"
+    # 3. EV por lado
+    ev_home = calcular_ev(prob_home, ml_h)
+    ev_away = calcular_ev(prob_away, ml_a)
 
-    # ── Sin bajas significativas: análisis por stats ──────────────────
-    if tipo in ("NO BET",):
-        ml_h = odds.get("home_ml")
-        ml_a = odds.get("away_ml")
+    # 4. Pick solo si EV > 5%
+    UMBRAL = 0.05
+    pick, tipo, conf, ev_pick = "Sin pick", "NO BET", "—", None
+    notas = []
 
-        if ml_a is not None and ml_a >= 250:
-            notas.append(f"{as_} underdog grande (+{ml_a}) — evaluar si el mercado exagera")
-            pick, tipo, conf = away, f"ML {as_} (underdog)", "baja"
-        elif ml_h is not None and ml_h >= 180:
-            notas.append(f"{hs} local underdog (+{ml_h}) — situación atípica")
-            pick, tipo, conf = home, f"ML {hs} (local underdog)", "baja"
+    if home_pra_out >= 20:
+        top = sorted([i for i in home_inj if i["weight"] >= 2], key=lambda x: x["pra"], reverse=True)[:2]
+        notas.append(f"Bajas {hs}: " + ", ".join(f"{i['player']} ({i['pra']} PRA)" for i in top) + f" ({home_pra_out:.0f} PRA total)")
+    if away_pra_out >= 20:
+        top = sorted([i for i in away_inj if i["weight"] >= 2], key=lambda x: x["pra"], reverse=True)[:2]
+        notas.append(f"Bajas {as_}: " + ", ".join(f"{i['player']} ({i['pra']} PRA)" for i in top) + f" ({away_pra_out:.0f} PRA total)")
+
+    # Límite de credibilidad: si la diferencia modelo vs mercado
+    # supera 25 puntos, el modelo no tiene información que el mercado no tenga
+    LIMITE_EDGE = 0.25
+
+    if ev_home is not None and ev_away is not None:
+        edge_home = prob_home - (mkt_home or 0)
+        edge_away = prob_away - (mkt_away or 0)
+
+        if ev_home >= UMBRAL and ev_home >= ev_away and abs(edge_home) <= LIMITE_EDGE:
+            pick, tipo, ev_pick = home, f"ML {hs}", ev_home
+            conf = "alta" if ev_home >= 0.15 else "media" if ev_home >= 0.08 else "baja"
+            notas.append(f"Modelo: {prob_home*100:.1f}% | Mercado: {(mkt_home or 0)*100:.1f}% | Edge: +{edge_home*100:.1f}%")
+        elif ev_away >= UMBRAL and abs(edge_away) <= LIMITE_EDGE:
+            pick, tipo, ev_pick = away, f"ML {as_}", ev_away
+            conf = "alta" if ev_away >= 0.15 else "media" if ev_away >= 0.08 else "baja"
+            notas.append(f"Modelo: {prob_away*100:.1f}% | Mercado: {(mkt_away or 0)*100:.1f}% | Edge: +{edge_away*100:.1f}%")
+        elif abs(edge_home) > LIMITE_EDGE or abs(edge_away) > LIMITE_EDGE:
+            # Diferencia demasiado grande — el mercado tiene info que el modelo no
+            notas.append(f"Diferencia modelo/mercado excesiva ({max(abs(edge_home),abs(edge_away))*100:.0f}%) — mercado probablemente incorporó bajas u otra info reciente.")
+            notas.append(f"Modelo local: {prob_home*100:.1f}% | Mercado: {(mkt_home or 0)*100:.1f}%")
         else:
-            try:
-                diff_h = float(str(home_stats.get("diff","0")).replace("+",""))
-                diff_a = float(str(away_stats.get("diff","0")).replace("+",""))
-                if diff_h > diff_a + 3:
-                    notas.append(f"{hs} mejor diferencial ({home_stats.get('diff')}) vs {as_} ({away_stats.get('diff')})")
-                    tipo, conf = "LEAN LOCAL", "baja"
-                elif diff_a > diff_h + 3:
-                    notas.append(f"{as_} mejor diferencial ({away_stats.get('diff')}) vs {hs} ({home_stats.get('diff')})")
-                    tipo, conf = "LEAN VISITANTE", "baja"
-                else:
-                    notas.append("Partido equilibrado por diferencial. Analizar O/U.")
-            except:
-                notas.append("Sin señal de lado clara.")
+            best = max(ev_home, ev_away)
+            notas.append(f"Sin EV suficiente. Mejor: {best*100:.1f}% (umbral 5%)")
+            notas.append(f"Modelo local: {prob_home*100:.1f}% | Mercado: {(mkt_home or 0)*100:.1f}%")
 
-    # ── Pick O/U ──────────────────────────────────────────────────────
-    ou_pick   = None
-    ou_conf   = "—"
-    ou_notas  = ""
+    # O/U
+    ou_pick, ou_conf, ou_notas = calcular_ou(odds, home_stats, away_stats, home_pra_out, away_pra_out)
+
+    return {
+        "pick":          pick,
+        "tipo":          tipo,
+        "confianza":     conf,
+        "ev":            round(ev_pick * 100, 1) if ev_pick else None,
+        "prob_modelo":   round(prob_home * 100, 1),
+        "prob_mercado":  round((mkt_home or 0) * 100, 1),
+        "notas":         " | ".join(notas) if notas else "Sin señal clara.",
+        "ou_pick":       ou_pick,
+        "ou_confianza":  ou_conf,
+        "ou_notas":      ou_notas,
+        "home_pra_out":  round(home_pra_out, 1),
+        "away_pra_out":  round(away_pra_out, 1),
+    }
+
+
+def calcular_ou(odds, home_stats, away_stats, home_pra_out, away_pra_out):
     try:
         ppg_h  = float(str(home_stats.get("ppg",  0)))
         papg_h = float(str(home_stats.get("papg", 0)))
         ppg_a  = float(str(away_stats.get("ppg",  0)))
         papg_a = float(str(away_stats.get("papg", 0)))
         total  = odds.get("total_ou")
-
-        if ppg_h > 0 and ppg_a > 0 and total:
-            proj_home  = (ppg_h + papg_a) / 2
-            proj_away  = (ppg_a + papg_h) / 2
-            proj_total = round(proj_home + proj_away, 1)
-
-            # Penalización por PRA perdido (cada punto de PRA ≈ 0.5 pts de equipo aprox)
-            penalty = (home_pra_out + away_pra_out) * 0.4
-            proj_adj = round(proj_total - penalty, 1)
-            diff     = round(proj_adj - float(total), 1)
-
-            if diff >= 5:
-                ou_pick  = "OVER"
-                ou_conf  = "media" if diff >= 8 else "baja"
-                ou_notas = f"Proyección {proj_adj} pts vs línea {total} (+{diff}) — OVER. Penalty bajas: {penalty:.1f} pts."
-            elif diff <= -5:
-                ou_pick  = "UNDER"
-                ou_conf  = "media" if diff <= -8 else "baja"
-                ou_notas = f"Proyección {proj_adj} pts vs línea {total} ({diff}) — UNDER. Penalty bajas: {penalty:.1f} pts."
-            else:
-                ou_notas = f"Proyección {proj_adj} pts vs línea {total} ({diff:+.1f}) — diferencia insuficiente."
+        if not (ppg_h > 0 and ppg_a > 0 and total):
+            return None, "—", "Sin datos."
+        proj   = ((ppg_h + papg_a) / 2) + ((ppg_a + papg_h) / 2)
+        penalty = (home_pra_out + away_pra_out) * 0.35
+        proj_adj = round(proj - penalty, 1)
+        diff     = round(proj_adj - float(total), 1)
+        if diff >= 5:
+            return "OVER",  "media" if diff >= 8 else "baja", f"Proyección {proj_adj} vs {total} (+{diff}) | Penalty: {penalty:.1f} pts"
+        elif diff <= -5:
+            return "UNDER", "media" if diff <= -8 else "baja", f"Proyección {proj_adj} vs {total} ({diff}) | Penalty: {penalty:.1f} pts"
+        return None, "—", f"Proyección {proj_adj} vs {total} ({diff:+.1f}) — insuficiente"
     except Exception as e:
-        ou_notas = f"Sin datos para O/U: {e}"
+        return None, "—", f"Error: {e}"
 
-    return {
-        "pick":       pick,
-        "tipo":       tipo,
-        "confianza":  conf,
-        "notas":      " | ".join(notas) if notas else "Sin señal clara.",
-        "ou_pick":    ou_pick,
-        "ou_confianza": ou_conf,
-        "ou_notas":   ou_notas,
-        "home_pra_out": round(home_pra_out, 1),
-        "away_pra_out": round(away_pra_out, 1),
-    }
 
 
 # ── Main ──────────────────────────────────────────────────────────────

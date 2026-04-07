@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-07T00:35:57.434548+00:00",
+  "updated_at": "2026-04-07T00:58:16.496367+00:00",
   "games": [
     {
       "id": "ec27c42246b5e40c34f4c2d93930ed20",
@@ -10,9 +10,9 @@
       "live": {
         "state": "in",
         "period": 3,
-        "clock": "10:14",
-        "home_score": "73",
-        "away_score": "59"
+        "clock": "58.4",
+        "home_score": "95",
+        "away_score": "71"
       },
       "home_stats": {
         "conference": "Este",
@@ -171,21 +171,24 @@
       "alerta": true,
       "alerta_msg": "Franz Wagner Out (PRA 29.4) | Jett Howard Out (PRA 7.9) | Jonathan Isaac Out (PRA 5.5) | Cade Cunningham Out (PRA 40.0) | Tobias Harris Out (PRA 20.9) | Duncan Robinson Out (PRA 16.8) | Isaiah Stewart Out (PRA 16.3) | Caris LeVert Out (PRA 12.1)",
       "odds": {
-        "home_ml": -550,
-        "away_ml": 450,
-        "spread_home": -9.5,
-        "total_ou": 230.5,
+        "home_ml": -10000,
+        "away_ml": 3300,
+        "spread_home": -21.5,
+        "total_ou": 223.5,
         "best_book": "BetMGM",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Detroit Pistons",
-        "tipo": "ML Pistons",
-        "confianza": "media-alta",
-        "notas": "Bajas críticas en Magic: Franz Wagner (PRA 29.4), Jett Howard (PRA 7.9) — 43 PRA perdido",
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 20.3,
+        "prob_mercado": 97.1,
+        "notas": "Bajas Magic: Franz Wagner (29.4 PRA), Jett Howard (7.9 PRA) (43 PRA total) | Bajas Pistons: Cade Cunningham (40.0 PRA), Tobias Harris (20.9 PRA) (106 PRA total) | Diferencia modelo/mercado excesiva (77%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 20.3% | Mercado: 97.1%",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección 169.2 pts vs línea 230.5 (-61.3) — UNDER. Penalty bajas: 59.6 pts.",
+        "ou_notas": "Proyección 176.7 vs 223.5 (-46.8) | Penalty: 52.1 pts",
         "home_pra_out": 42.8,
         "away_pra_out": 106.1
       }
@@ -199,9 +202,9 @@
       "live": {
         "state": "in",
         "period": 3,
-        "clock": "7:50",
-        "home_score": "69",
-        "away_score": "61"
+        "clock": "0.0",
+        "home_score": "79",
+        "away_score": "81"
       },
       "home_stats": {
         "conference": "Este",
@@ -261,21 +264,24 @@
       "alerta": true,
       "alerta_msg": "Jock Landale Out (PRA 18.0)",
       "odds": {
-        "home_ml": -170,
-        "away_ml": 255,
-        "spread_home": -6.5,
-        "total_ou": 218.5,
-        "best_book": "Bovada",
+        "home_ml": 114,
+        "away_ml": -118,
+        "spread_home": 1.5,
+        "total_ou": 213.5,
+        "best_book": "FanDuel",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "REVISAR",
-        "confianza": "pendiente",
-        "notas": "Bajas moderadas — Hawks: 18 PRA | Knicks: 0 PRA. Revisar movimiento de línea.",
+        "pick": "New York Knicks",
+        "tipo": "ML Knicks",
+        "confianza": "alta",
+        "ev": 16.2,
+        "prob_modelo": 37.1,
+        "prob_mercado": 46.3,
+        "notas": "Modelo: 62.9% | Mercado: 53.7% | Edge: +9.2%",
         "ou_pick": "OVER",
-        "ou_confianza": "baja",
-        "ou_notas": "Proyección 223.7 pts vs línea 218.5 (+5.2) — OVER. Penalty bajas: 7.2 pts.",
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 224.6 vs 213.5 (+11.1) | Penalty: 6.3 pts",
         "home_pra_out": 18.0,
         "away_pra_out": 0
       }
@@ -288,10 +294,10 @@
       "time_et": "8:11 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "0.0",
-        "home_score": "36",
-        "away_score": "24"
+        "period": 2,
+        "clock": "3:00",
+        "home_score": "57",
+        "away_score": "52"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -590,21 +596,24 @@
       "alerta": true,
       "alerta_msg": "Ja Morant Out (PRA 30.9) | Ty Jerome Out (PRA 28.2) | Zach Edey Out (PRA 25.8) | Santi Aldama Out (PRA 23.6) | Scotty Pippen Jr. Out (PRA 18.3) | Jaylen Wells Out (PRA 17.3) | Javon Small Out (PRA 16.4) | Kentavious Caldwell-Pope Out (PRA 13.6) | Taylor Hendricks Out (PRA 11.9) | Jahmai Mashack Out (PRA 9.2) | Brandon Clarke Out (PRA 7.5) | Taj Gibson Out (PRA 6.7) | Donovan Mitchell Out (PRA 38.0) | James Harden Out (PRA 36.7) | Max Strus Out (PRA 20.9) | Jaylon Tyson Out (PRA 20.4) | Dean Wade Out (PRA 11.5) | Thomas Bryant Out (PRA 10.2)",
       "odds": {
-        "home_ml": 350,
-        "away_ml": -182,
-        "spread_home": 3.5,
-        "total_ou": 236.5,
-        "best_book": "Bovada",
+        "home_ml": 260,
+        "away_ml": -205,
+        "spread_home": 5.5,
+        "total_ou": 241.5,
+        "best_book": "BetMGM",
         "num_books": 6
       },
       "recomendacion": {
         "pick": "Cleveland Cavaliers",
         "tipo": "ML Cavaliers",
-        "confianza": "media-alta",
-        "notas": "Bajas críticas en Grizzlies: Ja Morant (PRA 30.9), Ty Jerome (PRA 28.2) — 209 PRA perdido",
+        "confianza": "alta",
+        "ev": 25.7,
+        "prob_modelo": 15.5,
+        "prob_mercado": 29.2,
+        "notas": "Bajas Grizzlies: Ja Morant (30.9 PRA), Ty Jerome (28.2 PRA) (209 PRA total) | Bajas Cavaliers: Donovan Mitchell (38.0 PRA), James Harden (36.7 PRA) (138 PRA total) | Modelo: 84.5% | Mercado: 70.8% | Edge: +13.7%",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección 95.6 pts vs línea 236.5 (-140.9) — UNDER. Penalty bajas: 138.8 pts.",
+        "ou_notas": "Proyección 113.0 vs 241.5 (-128.5) | Penalty: 121.5 pts",
         "home_pra_out": 209.4,
         "away_pra_out": 137.7
       }
@@ -617,10 +626,10 @@
       "time_et": "8:11 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "32.2",
-        "home_score": "29",
-        "away_score": "26"
+        "period": 2,
+        "clock": "5:31",
+        "home_score": "49",
+        "away_score": "45"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -660,10 +669,10 @@
       },
       "home_injuries": [
         {
-          "player": "Stephon Castle",
-          "position": "G",
+          "player": "Victor Wembanyama",
+          "position": "F",
           "status": "Day-To-Day",
-          "pra": 29.2,
+          "pra": 39.6,
           "weight": 1
         },
         {
@@ -699,10 +708,10 @@
       ],
       "injuries": [
         {
-          "player": "Stephon Castle",
-          "position": "G",
+          "player": "Victor Wembanyama",
+          "position": "F",
           "status": "Day-To-Day",
-          "pra": 29.2,
+          "pra": 39.6,
           "weight": 1
         },
         {
@@ -737,21 +746,24 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out (PRA 5.7) | Cameron Payne Out (PRA 12.0) | Johni Broome Out (PRA 2.8)",
       "odds": {
-        "home_ml": -335,
-        "away_ml": 300,
-        "spread_home": -7.5,
-        "total_ou": 234.5,
-        "best_book": "Bovada",
+        "home_ml": -360,
+        "away_ml": 400,
+        "spread_home": -9.5,
+        "total_ou": 240.5,
+        "best_book": "DraftKings",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers (underdog)",
+        "pick": "San Antonio Spurs",
+        "tipo": "ML Spurs",
         "confianza": "baja",
-        "notas": "76ers underdog grande (+300) — evaluar si el mercado exagera",
+        "ev": 5.2,
+        "prob_modelo": 82.4,
+        "prob_mercado": 79.6,
+        "notas": "Modelo: 82.4% | Mercado: 79.6% | Edge: +2.7%",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección 223.8 pts vs línea 234.5 (-10.7) — UNDER. Penalty bajas: 8.2 pts.",
+        "ou_notas": "Proyección 224.8 vs 240.5 (-15.7) | Penalty: 7.2 pts",
         "home_pra_out": 5.7,
         "away_pra_out": 14.8
       }
@@ -898,21 +910,24 @@
       "alerta": true,
       "alerta_msg": "Peyton Watson Out (PRA 21.6) | Spencer Jones Out (PRA 9.6) | Shaedon Sharpe Out (PRA 28.4) | Jerami Grant Out (PRA 24.2) | Vit Krejci Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -315,
+        "home_ml": -290,
         "away_ml": 271,
         "spread_home": -7.5,
         "total_ou": 235.5,
-        "best_book": "BetRivers",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Portland Trail Blazers",
-        "tipo": "ML Blazers",
-        "confianza": "media-alta",
-        "notas": "Bajas críticas en Nuggets: Peyton Watson (PRA 21.6), Spencer Jones (PRA 9.6) — 31 PRA perdido",
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 72.7,
+        "prob_mercado": 73.4,
+        "notas": "Bajas Nuggets: Peyton Watson (21.6 PRA), Spencer Jones (9.6 PRA) (31 PRA total) | Bajas Blazers: Shaedon Sharpe (28.4 PRA), Jerami Grant (24.2 PRA) (53 PRA total) | Sin EV suficiente. Mejor: 1.3% (umbral 5%) | Modelo local: 72.7% | Mercado: 73.4%",
         "ou_pick": "UNDER",
         "ou_confianza": "media",
-        "ou_notas": "Proyección 201.3 pts vs línea 235.5 (-34.2) — UNDER. Penalty bajas: 33.5 pts.",
+        "ou_notas": "Proyección 205.5 vs 235.5 (-30.0) | Penalty: 29.3 pts",
         "home_pra_out": 31.2,
         "away_pra_out": 52.6
       }
