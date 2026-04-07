@@ -2,25 +2,24 @@ name: NBA Data Scraper
 
 on:
   schedule:
-    # Horarios en UTC (Chile = UTC-4 en verano, UTC-3 en invierno)
-    # 15:00 Chile = 19:00 UTC → primer scrape del día
+    # Horarios en UTC (Chile EDT = UTC-4)
+    # 15:00 Chile = 19:00 UTC
     - cron: '0 19 * * *'
-    # 17:30 Chile = 21:30 UTC → injury reports confirmados
+    # 17:30 Chile = 21:30 UTC
     - cron: '30 21 * * *'
-    # 18:45 Chile = 22:45 UTC → justo antes del primer tip-off
+    # 18:45 Chile = 22:45 UTC
     - cron: '45 22 * * *'
-    # 20:30 Chile = 00:30 UTC siguiente día → solo Rotowire
+    # 20:30 Chile = 00:30 UTC
     - cron: '30 0 * * *'
-    # 22:00 Chile = 02:00 UTC siguiente día → último scrape
+    # 22:00 Chile = 02:00 UTC
     - cron: '0 2 * * *'
 
-  # Permite correrlo manualmente desde GitHub
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
 
@@ -32,6 +31,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install nba_api requests
 
       - name: Run scraper
         run: python scripts/scrape.py
