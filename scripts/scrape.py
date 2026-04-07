@@ -450,23 +450,97 @@ def calcular_rec(home, away, odds, home_inj, away_inj, home_stats, away_stats):
             notas.append(f"Sin EV suficiente. Mejor: {best*100:.1f}% (umbral 5%)")
             notas.append(f"Modelo local: {prob_home*100:.1f}% | Mercado: {(mkt_home or 0)*100:.1f}%")
 
-    # O/U
-    ou_pick, ou_conf, ou_notas = calcular_ou(odds, home_stats, away_stats, home_pra_out, away_pra_out)
+    # Spread EV
+    spread_lado, spread_ev, spread_conf, spread_notas = calcular_spread_ev(odds, home_stats, away_stats)
+
+    # O/U EV
+    ou_pick, ou_ev, ou_conf, ou_notas = calcular_ou(odds, home_stats, away_stats, home_pra_out, away_pra_out)
 
     return {
-        "pick":          pick,
-        "tipo":          tipo,
-        "confianza":     conf,
-        "ev":            round(ev_pick * 100, 1) if ev_pick else None,
-        "prob_modelo":   round(prob_home * 100, 1),
-        "prob_mercado":  round((mkt_home or 0) * 100, 1),
-        "notas":         " | ".join(notas) if notas else "Sin señal clara.",
-        "ou_pick":       ou_pick,
-        "ou_confianza":  ou_conf,
-        "ou_notas":      ou_notas,
-        "home_pra_out":  round(home_pra_out, 1),
-        "away_pra_out":  round(away_pra_out, 1),
+        "pick":           pick,
+        "tipo":           tipo,
+        "confianza":      conf,
+        "ev":             round(ev_pick * 100, 1) if ev_pick else None,
+        "prob_modelo":    round(prob_home * 100, 1),
+        "prob_mercado":   round((mkt_home or 0) * 100, 1),
+        "notas":          " | ".join(notas) if notas else "Sin señal clara.",
+        "spread_lado":    spread_lado,
+        "spread_ev":      spread_ev,
+        "spread_conf":    spread_conf,
+        "spread_notas":   spread_notas,
+        "ou_pick":        ou_pick,
+        "ou_ev":          ou_ev,
+        "ou_confianza":   ou_conf,
+        "ou_notas":       ou_notas,
+        "home_pra_out":   round(home_pra_out, 1),
+        "away_pra_out":   round(away_pra_out, 1),
     }
+
+
+def normal_cdf(x, sigma=12):
+    """Probabilidad de que una variable normal(0, sigma) supere x."""
+    import math
+    return 0.5 * (1 + math.erf(x / (sigma * math.sqrt(2))))
+
+
+def calcular_spread_ev(odds, home_stats, away_stats):
+    """
+    EV para el spread.
+    Proyecta margen local con ppg/papg cruzado.
+    Compara contra el spread de la casa usando distribución normal (σ=12).
+    Las odds del spread son casi siempre -110 para ambos lados.
+    """
+    try:
+        ppg_h  = float(str(home_stats.get("ppg",  0)))
+        papg_h = float(str(home_stats.get("papg", 0)))
+        ppg_a  = float(str(away_stats.get("ppg",  0)))
+        papg_a = float(str(away_stats.get("papg", 0)))
+        spread = odds.get("spread_home")  # negativo = local favorito
+
+        if not (ppg_h > 0 and ppg_a > 0 and spread is not None):
+            return None, None, "—", "Sin datos para spread."
+
+        # Margen proyectado por el modelo (positivo = local gana)
+        proj_margin = ((ppg_h + papg_a) / 2) - ((ppg_a + papg_h) / 2)
+
+        # Prob de que el local cubra el spread
+        # Si spread = -7.5, el local necesita ganar por más de 7.5
+        # prob_cubrir_local = prob(margen_real > 7.5) con σ=12
+        spread_abs = float(spread)  # negativo si local es favorito
+        # Cuánto supera el modelo la línea
+        edge_spread = proj_margin - abs(spread_abs)
+
+        # Prob usando normal: ¿cuánto del tiempo el margen real supera la línea?
+        if spread_abs < 0:  # local es favorito
+            prob_home_cubre = normal_cdf(edge_spread, sigma=12)
+            prob_away_cubre = 1 - prob_home_cubre
+        else:  # local es underdog, recibe puntos
+            prob_home_cubre = normal_cdf(proj_margin + spread_abs, sigma=12)
+            prob_away_cubre = 1 - prob_home_cubre
+
+        # Ganancia estándar -110 → 100/110
+        ganancia_spread = 100 / 110
+
+        ev_home_spread = round(prob_home_cubre * ganancia_spread - (1 - prob_home_cubre), 4)
+        ev_away_spread = round(prob_away_cubre * ganancia_spread - (1 - prob_away_cubre), 4)
+
+        UMBRAL = 0.05
+        if ev_home_spread >= UMBRAL and ev_home_spread >= ev_away_spread:
+            conf = "media" if ev_home_spread >= 0.08 else "baja"
+            nota = (f"Margen proyectado: +{proj_margin:.1f} | Línea: {spread_abs:+.1f} | "
+                    f"Prob cubrir local: {prob_home_cubre*100:.1f}%")
+            return "LOCAL", round(ev_home_spread * 100, 1), conf, nota
+        elif ev_away_spread >= UMBRAL:
+            conf = "media" if ev_away_spread >= 0.08 else "baja"
+            nota = (f"Margen proyectado: +{proj_margin:.1f} | Línea: {spread_abs:+.1f} | "
+                    f"Prob cubrir visitante: {prob_away_cubre*100:.1f}%")
+            return "VISITANTE", round(ev_away_spread * 100, 1), conf, nota
+        else:
+            nota = (f"Margen proyectado: +{proj_margin:.1f} | Línea: {spread_abs:+.1f} | "
+                    f"Sin EV en spread (local: {ev_home_spread*100:.1f}%, visit: {ev_away_spread*100:.1f}%)")
+            return None, None, "—", nota
+    except Exception as e:
+        return None, None, "—", f"Error spread: {e}"
 
 
 def calcular_ou(odds, home_stats, away_stats, home_pra_out, away_pra_out):
@@ -477,18 +551,31 @@ def calcular_ou(odds, home_stats, away_stats, home_pra_out, away_pra_out):
         papg_a = float(str(away_stats.get("papg", 0)))
         total  = odds.get("total_ou")
         if not (ppg_h > 0 and ppg_a > 0 and total):
-            return None, "—", "Sin datos."
-        proj   = ((ppg_h + papg_a) / 2) + ((ppg_a + papg_h) / 2)
+            return None, None, "—", "Sin datos."
+        proj    = ((ppg_h + papg_a) / 2) + ((ppg_a + papg_h) / 2)
         penalty = (home_pra_out + away_pra_out) * 0.35
         proj_adj = round(proj - penalty, 1)
         diff     = round(proj_adj - float(total), 1)
-        if diff >= 5:
-            return "OVER",  "media" if diff >= 8 else "baja", f"Proyección {proj_adj} vs {total} (+{diff}) | Penalty: {penalty:.1f} pts"
-        elif diff <= -5:
-            return "UNDER", "media" if diff <= -8 else "baja", f"Proyección {proj_adj} vs {total} ({diff}) | Penalty: {penalty:.1f} pts"
-        return None, "—", f"Proyección {proj_adj} vs {total} ({diff:+.1f}) — insuficiente"
+
+        ganancia_ou = 100 / 110
+        prob_over  = normal_cdf(diff, sigma=10)   # prob de que real > línea
+        prob_under = 1 - prob_over
+
+        ev_over  = round(prob_over  * ganancia_ou - (1 - prob_over),  4)
+        ev_under = round(prob_under * ganancia_ou - (1 - prob_under), 4)
+
+        UMBRAL = 0.05
+        nota = f"Proyección {proj_adj} vs línea {total} ({diff:+.1f}) | Penalty bajas: {penalty:.1f} pts"
+
+        if ev_over >= UMBRAL and ev_over >= ev_under:
+            conf = "media" if ev_over >= 0.08 else "baja"
+            return "OVER", round(ev_over * 100, 1), conf, nota
+        elif ev_under >= UMBRAL:
+            conf = "media" if ev_under >= 0.08 else "baja"
+            return "UNDER", round(ev_under * 100, 1), conf, nota
+        return None, None, "—", nota + " — sin EV suficiente"
     except Exception as e:
-        return None, "—", f"Error: {e}"
+        return None, None, "—", f"Error: {e}"
 
 
 

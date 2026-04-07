@@ -660,3 +660,9 @@ main {
   font-size: 13px;
   color: #475569;
 }
+
+/* Spread badge */
+.pick-badge.pick-spread {
+  background: #f0f9ff;
+  border: 1px solid #7dd3fc;
+}

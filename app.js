@@ -173,6 +173,19 @@ function renderCard(g) {
       </div>
     </div>` : "";
 
+  const spreadHtml = rec.spread_lado ? `
+    <div class="pick-badge pick-spread${gameState==="live"?" pick-historical":""}">
+      <span class="pick-icono">📊</span>
+      <div class="pick-content">
+        <span class="pick-label">${gameState==="live"?"Spread pre-partido":"Pick spread"}</span>
+        <span class="pick-tipo pos">${esc(rec.spread_lado)} ${odds.spread_home!=null?(odds.spread_home>0?"+":"")+odds.spread_home:""}</span>
+      </div>
+      <div style="text-align:right">
+        ${rec.spread_ev ? `<span class="ev-tag">EV +${rec.spread_ev}%</span>` : ""}
+        <span class="pick-confianza">${rec.spread_conf&&rec.spread_conf!=="—"?"★ "+esc(rec.spread_conf):""}</span>
+      </div>
+    </div>` : "";
+
   const ouHtml = rec.ou_pick ? `
     <div class="pick-badge pick-ou pick-${ouCls(rec.ou_pick)}${gameState==="live"?" pick-historical":""}">
       <span class="pick-icono">${rec.ou_pick==="OVER"?"📈":"📉"}</span>
@@ -180,7 +193,10 @@ function renderCard(g) {
         <span class="pick-label">${gameState==="live"?"Total pre-partido":"Pick total"}</span>
         <span class="pick-tipo ${ouCls(rec.ou_pick)}">${esc(rec.ou_pick)} ${odds.total_ou?"O/U "+odds.total_ou:""}</span>
       </div>
-      <span class="pick-confianza">${rec.ou_confianza&&rec.ou_confianza!=="—"?"★ "+esc(rec.ou_confianza):""}</span>
+      <div style="text-align:right">
+        ${rec.ou_ev ? `<span class="ev-tag">EV +${rec.ou_ev}%</span>` : ""}
+        <span class="pick-confianza">${rec.ou_confianza&&rec.ou_confianza!=="—"?"★ "+esc(rec.ou_confianza):""}</span>
+      </div>
     </div>` : "";
 
   const gData = encodeURIComponent(JSON.stringify(g));
@@ -204,6 +220,7 @@ function renderCard(g) {
     ${scoreHtml}
     ${oddsHtml}
     ${pickHtml}
+    ${spreadHtml}
     ${ouHtml}
     <div class="game-actions">
       <button class="analyze-btn" data-game="${gData}">Analizar partido</button>
@@ -264,11 +281,31 @@ function renderAnalysis(g) {
     </div>` : ""}
   </div>`;
 
+  // Spread
+  const spreadModalHtml = rec.spread_lado ? `
+  <div class="rec-box pos ou-box">
+    <div class="rec-kicker">Pick de spread</div>
+    <div class="rec-pick-row">
+      <div class="rec-pick">📊 ${esc(rec.spread_lado)} ${odds.spread_home!=null?(odds.spread_home>0?"+":"")+odds.spread_home:""}</div>
+      ${rec.spread_ev ? `<div class="ev-badge-modal">+${rec.spread_ev}% EV</div>` : ""}
+    </div>
+    <span class="rec-tipo pos">SPREAD ${esc(rec.spread_lado)}${rec.spread_conf&&rec.spread_conf!=="—"?" · Confianza: "+esc(rec.spread_conf):""}</span>
+    <p class="rec-notas">${esc(rec.spread_notas||"—")}</p>
+  </div>` : `
+  <div class="rec-box neu ou-box">
+    <div class="rec-kicker">Pick de spread</div>
+    <span class="rec-tipo neu">Sin EV suficiente</span>
+    <p class="rec-notas">${esc(rec.spread_notas||"—")}</p>
+  </div>`;
+
   // Recomendación O/U
   const ouHtml = rec.ou_pick ? `
   <div class="rec-box ${ouCls(rec.ou_pick)} ou-box">
     <div class="rec-kicker">Pick de total (Over/Under)</div>
-    <div class="rec-pick">${rec.ou_pick==="OVER"?"📈":"📉"} ${esc(rec.ou_pick)} ${odds.total_ou?"— Línea "+odds.total_ou:""}</div>
+    <div class="rec-pick-row">
+      <div class="rec-pick">${rec.ou_pick==="OVER"?"📈":"📉"} ${esc(rec.ou_pick)} ${odds.total_ou?"— Línea "+odds.total_ou:""}</div>
+      ${rec.ou_ev ? `<div class="ev-badge-modal">+${rec.ou_ev}% EV</div>` : ""}
+    </div>
     <span class="rec-tipo ${ouCls(rec.ou_pick)}">${rec.ou_pick}${rec.ou_confianza&&rec.ou_confianza!=="—"?" · Confianza: "+esc(rec.ou_confianza):""}</span>
     <p class="rec-notas">${esc(rec.ou_notas||"—")}</p>
   </div>` : `
@@ -358,6 +395,7 @@ function renderAnalysis(g) {
     </div>
     ${liveBannerHtml}
     ${recHtml}
+    ${spreadModalHtml}
     ${ouHtml}
     ${injHtml}
     ${compareHtml}
