@@ -1,4 +1,4 @@
-// NBA Sniper Bet - app.js v4
+// NBA Sniper Bet - app.js v4 - FIXED LIVE UPDATES ✅
 
 const statusEl      = document.getElementById("status");
 const gamesCont     = document.getElementById("games");
@@ -15,7 +15,7 @@ function openModal()  { modal.classList.remove("hidden"); modal.setAttribute("ar
 function closeModal() { modal.classList.add("hidden");    modal.setAttribute("aria-hidden","true"); }
 
 function esc(v) {
-  return String(v??"")
+  return String(v??'')
     .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
     .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 }
@@ -61,7 +61,6 @@ function ouCls(ou) {
 }
 
 // ── Estado de partido desde live data ─────────────────────────────────
-
 function getGameState(g) {
   const live = g.live || {};
   const state = live.state || "pre";
@@ -117,7 +116,6 @@ function injStatusCls(s) {
 }
 
 // ── CARD ──────────────────────────────────────────────────────────────
-
 function renderCard(g) {
   const odds    = g.odds || {};
   const rec     = g.recomendacion || {};
@@ -125,14 +123,12 @@ function renderCard(g) {
   const gameState = getGameState(g);
   const {badgeHtml, scoreHtml} = buildLiveBadge(g);
 
-  // Alerta banner
   const alertaHtml = g.alerta ? `
     <div class="alerta-banner">
       <div class="alerta-titulo">⚠️ Alerta — injury report</div>
       ${esc(g.alerta_msg)}
     </div>` : "";
 
-  // Odds — solo mostrar si hay datos
   const hasOdds = odds.home_ml !== null && odds.home_ml !== undefined;
   const oddsHtml = hasOdds ? `
     <div class="odds-row">
@@ -158,7 +154,6 @@ function renderCard(g) {
       </div>
     </div>` : "";
 
-  // FIX 3: picks siempre visibles (upcoming, live y final)
   const evStr = rec.ev ? `EV +${rec.ev}%` : "";
   const pickHtml = rec.tipo && rec.tipo !== "NO BET" ? `
     <div class="pick-badge pick-${pCls}${gameState==="live"?" pick-historical":""}">
@@ -229,7 +224,6 @@ function renderCard(g) {
 }
 
 // ── MODAL ─────────────────────────────────────────────────────────────
-
 function renderAnalysis(g) {
   const hs       = g.home_stats || {};
   const as_      = g.away_stats || {};
@@ -239,7 +233,6 @@ function renderAnalysis(g) {
   const gameState = getGameState(g);
   const live     = g.live || {};
 
-  // Banner de resultado si está en vivo o finalizado
   let liveBannerHtml = "";
   if (gameState === "live") {
     liveBannerHtml = `
@@ -264,7 +257,6 @@ function renderAnalysis(g) {
     </div>`;
   }
 
-  // Recomendación lado
   const recLabel = gameState === "upcoming" ? "Pick recomendado" : "Pick pre-partido";
   const recHtml = `
   <div class="rec-box ${pCls}">
@@ -281,7 +273,6 @@ function renderAnalysis(g) {
     </div>` : ""}
   </div>`;
 
-  // Spread
   const spreadModalHtml = rec.spread_lado ? `
   <div class="rec-box pos ou-box">
     <div class="rec-kicker">Pick de spread</div>
@@ -298,7 +289,6 @@ function renderAnalysis(g) {
     <p class="rec-notas">${esc(rec.spread_notas||"—")}</p>
   </div>`;
 
-  // Recomendación O/U
   const ouHtml = rec.ou_pick ? `
   <div class="rec-box ${ouCls(rec.ou_pick)} ou-box">
     <div class="rec-kicker">Pick de total (Over/Under)</div>
@@ -315,7 +305,6 @@ function renderAnalysis(g) {
     <p class="rec-notas">${esc(rec.ou_notas||"Sin datos suficientes para proyección.")}</p>
   </div>`;
 
-  // Injuries
   const injuries = (g.injuries||[]).filter(i=>i.weight>0);
   const injHtml = injuries.length ? `
   <div class="injury-section">
@@ -330,7 +319,6 @@ function renderAnalysis(g) {
     </div>
   </div>` : `<div class="injury-section"><div class="injury-title">Injury Report</div><p style="font-size:13px;color:#94a3b8">Sin bajas confirmadas.</p></div>`;
 
-  // Comparativa stats
   function wins(r){ return parseInt((r||"0-0").split("-")[0])||0; }
   const wH=wins(hs.record), wA=wins(as_.record);
 
@@ -359,7 +347,6 @@ function renderAnalysis(g) {
     </div>
   </div>`;
 
-  // Odds table
   const oddsHtml = `
   <div class="odds-section">
     <div class="odds-section-title">Cuotas de apertura (pre-partido)</div>
@@ -404,7 +391,6 @@ function renderAnalysis(g) {
 }
 
 // ── Filtro y render ────────────────────────────────────────────────────
-
 function setFilter(tipo, el) {
   filtroActual = tipo;
   document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
@@ -422,7 +408,6 @@ function renderGames() {
 }
 
 // ── Carga ─────────────────────────────────────────────────────────────
-
 async function cargarDatos() {
   statusEl.textContent = "Cargando datos...";
   try {
@@ -447,27 +432,12 @@ async function cargarDatos() {
 
     if (data.updated_at) updatedAtEl.textContent = fmtUpdated(data.updated_at);
     renderGames();
-    iniciarLiveScores();
   } catch(e) {
     statusEl.textContent = "Error: "+e.message;
   }
 }
 
-// ── Events ────────────────────────────────────────────────────────────
-
-gamesCont.addEventListener("click", e => {
-  const btn = e.target.closest(".analyze-btn");
-  if (!btn) return;
-  const g = JSON.parse(decodeURIComponent(btn.dataset.game));
-  document.getElementById("modal-title").textContent = `${g.away_team} vs ${g.home_team}`;
-  analysisPanel.innerHTML = renderAnalysis(g);
-  openModal();
-});
-
-modalClose.addEventListener("click", closeModal);
-modalBg.addEventListener("click", closeModal);
-document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeModal(); });
-
+// ── LIVE SCORES FIXED ─────────────────────────────────────────────────
 const ESPN_SCOREBOARD_URL = 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard';
 let liveInterval = null;
 
@@ -477,7 +447,6 @@ async function actualizarScores() {
     if (!res.ok) return;
     const data = await res.json();
 
-    // Mapa: home_name → live data
     const scoreMap = {};
     for (const ev of data.events || []) {
       const comp   = ev.competitions?.[0];
@@ -496,67 +465,47 @@ async function actualizarScores() {
       scoreMap[home.team.displayName] = {
         state, period, clock,
         home_score: parseScore(home.score),
-        away_score: parseScore(away.score)
+        away_score: parseScore(away.score),
+        away_name: away.team.displayName
       };
     }
 
-    // Actualizar allGames y el DOM
-    let hayVivos = false;
     for (const g of allGames) {
       const fresh = scoreMap[g.home_team];
       if (!fresh) continue;
+
       g.live = fresh;
-      if (fresh.state === 'in') hayVivos = true;
 
-      // Actualizar solo el score en el DOM sin re-renderizar toda la card
-      const scoreEl = document.querySelector();
-      const badgeEl = document.querySelector();
+      const card = document.querySelector(`[data-game-id="${g.id}"]`);
+      if (!card) continue;
 
-      if (fresh.state === 'in') {
-        if (badgeEl) {
+      // Actualizar badge
+      const badgeEl = card.querySelector('.game-badge');
+      if (badgeEl) {
+        if (fresh.state === 'in') {
           badgeEl.className = 'game-badge badge-live';
-          badgeEl.textContent = `🔴 Q${fresh.period}${fresh.clock ? ' · ' + fresh.clock : ''}`;
-        }
-        const card = document.querySelector(`[data-game-id="${g.id}"]`);
-        if (card) {
-          let scoreDiv = card.querySelector('.score-live');
-          if (!scoreDiv) {
-            scoreDiv = document.createElement('div');
-            scoreDiv.className = 'score-live';
-            const teamsDiv = card.querySelector('.teams');
-            if (teamsDiv) teamsDiv.after(scoreDiv);
-          }
-          scoreDiv.innerHTML = `
-            <span class="score-val away">${fresh.away_score}</span>
-            <span class="score-sep">—</span>
-            <span class="score-val home">${fresh.home_score}</span>
-          `;
-          card.className = card.className.replace('card-upcoming', 'card-live');
-        }
-      } else if (fresh.state === 'post') {
-        if (badgeEl) {
+          badgeEl.innerHTML = `🔴 Q${fresh.period}${fresh.clock ? ' · ' + fresh.clock : ''}`;
+          card.className = card.className.replace(/card-(upcoming|final)/g, 'card-live');
+        } else if (fresh.state === 'post') {
           badgeEl.className = 'game-badge badge-final';
           badgeEl.textContent = 'Final';
-        }
-        const card = document.querySelector(`[data-game-id="${g.id}"]`);
-        if (card) {
-          let scoreDiv = card.querySelector('.score-live, .score-final');
-          if (scoreDiv) {
-            scoreDiv.className = 'score-final';
-            scoreDiv.innerHTML = `
-              <span class="score-val away">${fresh.away_score}</span>
-              <span class="score-sep">—</span>
-              <span class="score-val home">${fresh.home_score}</span>
-            `;
-          }
+          card.className = card.className.replace(/card-(upcoming|live)/g, 'card-final');
         }
       }
-    }
 
-    // Si ya no hay vivos, parar el interval
-    if (!hayVivos && liveInterval) {
-      clearInterval(liveInterval);
-      liveInterval = null;
+      // Actualizar score
+      let scoreDiv = card.querySelector('.score-live, .score-final');
+      if (!scoreDiv) {
+        scoreDiv = document.createElement('div');
+        const teamsDiv = card.querySelector('.teams');
+        if (teamsDiv) teamsDiv.after(scoreDiv);
+      }
+      scoreDiv.className = fresh.state === 'in' ? 'score-live' : 'score-final';
+      scoreDiv.innerHTML = `
+        <span class="score-val away">${fresh.away_score}</span>
+        <span class="score-sep">—</span>
+        <span class="score-val home">${fresh.home_score}</span>
+      `;
     }
 
   } catch(e) {
@@ -564,14 +513,27 @@ async function actualizarScores() {
   }
 }
 
+// ✅ FIX: Intervalo SIEMPRE activo cada 10s — sin condiciones
 function iniciarLiveScores() {
-  const hayVivos = allGames.some(g => g.live?.state === 'in');
-  if (!hayVivos) return;
-  // Actualizar inmediatamente y luego cada 10 segundos
+  if (liveInterval) return;
+  console.log("🔴 Live polling iniciado (10s)");
   actualizarScores();
-  if (!liveInterval) {
-    liveInterval = setInterval(actualizarScores, 10000);
-  }
+  liveInterval = setInterval(actualizarScores, 10000);
 }
 
+// ── Events ────────────────────────────────────────────────────────────
+gamesCont.addEventListener("click", e => {
+  const btn = e.target.closest(".analyze-btn");
+  if (!btn) return;
+  const g = JSON.parse(decodeURIComponent(btn.dataset.game));
+  document.getElementById("modal-title").textContent = `${g.away_team} vs ${g.home_team}`;
+  analysisPanel.innerHTML = renderAnalysis(g);
+  openModal();
+});
+
+modalClose.addEventListener("click", closeModal);
+modalBg.addEventListener("click", closeModal);
+document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeModal(); });
+
 cargarDatos();
+iniciarLiveScores(); // ✅ SIEMPRE activo desde el inicio
