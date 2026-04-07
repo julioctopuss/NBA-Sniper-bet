@@ -202,7 +202,7 @@ function renderCard(g) {
   const gData = encodeURIComponent(JSON.stringify(g));
 
   return `
-  <article class="game-card ${g.alerta?"has-alerta":""} card-${gameState}">
+  <article class="game-card ${g.alerta?"has-alerta":""} card-${gameState}" data-game-id="${esc(g.id)}">
     ${alertaHtml}
     <div class="game-top">
       ${badgeHtml}
@@ -447,6 +447,7 @@ async function cargarDatos() {
 
     if (data.updated_at) updatedAtEl.textContent = fmtUpdated(data.updated_at);
     renderGames();
+    iniciarLiveScores();
   } catch(e) {
     statusEl.textContent = "Error: "+e.message;
   }
@@ -466,5 +467,111 @@ gamesCont.addEventListener("click", e => {
 modalClose.addEventListener("click", closeModal);
 modalBg.addEventListener("click", closeModal);
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeModal(); });
+
+const ESPN_SCOREBOARD_URL = 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard';
+let liveInterval = null;
+
+async function actualizarScores() {
+  try {
+    const res = await fetch(ESPN_SCOREBOARD_URL);
+    if (!res.ok) return;
+    const data = await res.json();
+
+    // Mapa: home_name → live data
+    const scoreMap = {};
+    for (const ev of data.events || []) {
+      const comp   = ev.competitions?.[0];
+      const status = comp?.status || {};
+      const state  = status.type?.state || 'pre';
+      const period = status.period || 0;
+      const clock  = status.displayClock || '';
+      const comps  = comp?.competitors || [];
+      const home   = comps.find(c => c.homeAway === 'home');
+      const away   = comps.find(c => c.homeAway === 'away');
+      if (!home || !away) continue;
+
+      const parseScore = s =>
+        typeof s === 'object' ? (s.displayValue ?? s.value ?? '0') : String(s ?? '0');
+
+      scoreMap[home.team.displayName] = {
+        state, period, clock,
+        home_score: parseScore(home.score),
+        away_score: parseScore(away.score)
+      };
+    }
+
+    // Actualizar allGames y el DOM
+    let hayVivos = false;
+    for (const g of allGames) {
+      const fresh = scoreMap[g.home_team];
+      if (!fresh) continue;
+      g.live = fresh;
+      if (fresh.state === 'in') hayVivos = true;
+
+      // Actualizar solo el score en el DOM sin re-renderizar toda la card
+      const scoreEl = document.querySelector();
+      const badgeEl = document.querySelector();
+
+      if (fresh.state === 'in') {
+        if (badgeEl) {
+          badgeEl.className = 'game-badge badge-live';
+          badgeEl.textContent = `🔴 Q${fresh.period}${fresh.clock ? ' · ' + fresh.clock : ''}`;
+        }
+        const card = document.querySelector(`[data-game-id="${g.id}"]`);
+        if (card) {
+          let scoreDiv = card.querySelector('.score-live');
+          if (!scoreDiv) {
+            scoreDiv = document.createElement('div');
+            scoreDiv.className = 'score-live';
+            const teamsDiv = card.querySelector('.teams');
+            if (teamsDiv) teamsDiv.after(scoreDiv);
+          }
+          scoreDiv.innerHTML = `
+            <span class="score-val away">${fresh.away_score}</span>
+            <span class="score-sep">—</span>
+            <span class="score-val home">${fresh.home_score}</span>
+          `;
+          card.className = card.className.replace('card-upcoming', 'card-live');
+        }
+      } else if (fresh.state === 'post') {
+        if (badgeEl) {
+          badgeEl.className = 'game-badge badge-final';
+          badgeEl.textContent = 'Final';
+        }
+        const card = document.querySelector(`[data-game-id="${g.id}"]`);
+        if (card) {
+          let scoreDiv = card.querySelector('.score-live, .score-final');
+          if (scoreDiv) {
+            scoreDiv.className = 'score-final';
+            scoreDiv.innerHTML = `
+              <span class="score-val away">${fresh.away_score}</span>
+              <span class="score-sep">—</span>
+              <span class="score-val home">${fresh.home_score}</span>
+            `;
+          }
+        }
+      }
+    }
+
+    // Si ya no hay vivos, parar el interval
+    if (!hayVivos && liveInterval) {
+      clearInterval(liveInterval);
+      liveInterval = null;
+    }
+
+  } catch(e) {
+    console.warn('ESPN score update failed:', e.message);
+  }
+}
+
+function iniciarLiveScores() {
+  const hayVivos = allGames.some(g => g.live?.state === 'in');
+  if (!hayVivos) return;
+  // Actualizar inmediatamente y luego cada 10 segundos
+  actualizarScores();
+  if (!liveInterval) {
+    liveInterval = setInterval(actualizarScores, 10000);
+  }
+}
 
 cargarDatos();
