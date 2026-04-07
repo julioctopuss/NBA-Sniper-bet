@@ -159,6 +159,7 @@ function renderCard(g) {
     </div>` : "";
 
   // FIX 3: picks siempre visibles (upcoming, live y final)
+  const evStr = rec.ev ? `EV +${rec.ev}%` : "";
   const pickHtml = rec.tipo && rec.tipo !== "NO BET" ? `
     <div class="pick-badge pick-${pCls}${gameState==="live"?" pick-historical":""}">
       <span class="pick-icono">🎯</span>
@@ -166,7 +167,10 @@ function renderCard(g) {
         <span class="pick-label">${gameState==="live"?"Pick pre-partido":"Pick lado"}</span>
         <span class="pick-tipo ${pCls}">${esc(rec.tipo)}</span>
       </div>
-      <span class="pick-confianza">${rec.confianza&&rec.confianza!=="—"?"★ "+esc(rec.confianza):""}</span>
+      <div style="text-align:right">
+        ${rec.ev ? `<span class="ev-tag">${evStr}</span>` : ""}
+        <span class="pick-confianza">${rec.confianza&&rec.confianza!=="—"?"★ "+esc(rec.confianza):""}</span>
+      </div>
     </div>` : "";
 
   const ouHtml = rec.ou_pick ? `
@@ -248,9 +252,16 @@ function renderAnalysis(g) {
   const recHtml = `
   <div class="rec-box ${pCls}">
     <div class="rec-kicker">${recLabel}</div>
-    <div class="rec-pick">${esc(rec.pick||"Sin pick")}</div>
+    <div class="rec-pick-row">
+      <div class="rec-pick">${esc(rec.pick||"Sin pick")}</div>
+      ${rec.ev ? `<div class="ev-badge-modal">${rec.ev > 0 ? "+" : ""}${rec.ev}% EV</div>` : ""}
+    </div>
     <span class="rec-tipo ${pCls}">${esc(rec.tipo||"NO BET")}${rec.confianza&&rec.confianza!=="—"?" · Confianza: "+esc(rec.confianza):""}</span>
     <p class="rec-notas">${esc(rec.notas||"—")}</p>
+    ${rec.prob_modelo ? `<div class="prob-row">
+      <span class="prob-item">🤖 Modelo: <strong>${rec.prob_modelo}%</strong></span>
+      <span class="prob-item">🏦 Mercado: <strong>${rec.prob_mercado}%</strong></span>
+    </div>` : ""}
   </div>`;
 
   // Recomendación O/U
