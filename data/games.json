@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08T19:59:08.264211+00:00",
+  "updated_at": "2026-04-08T22:05:58.776946+00:00",
   "games": [
     {
       "id": "3fe42fd427985fed1fee7c2e58935a67",
@@ -129,11 +129,11 @@
       "alerta": true,
       "alerta_msg": "Thomas Bryant Out | Jaylon Tyson Out | Dean Wade Out | Jock Landale Out",
       "odds": {
-        "home_ml": -129,
-        "away_ml": 117,
-        "spread_home": -2.0,
+        "home_ml": -150,
+        "away_ml": 136,
+        "spread_home": -3.0,
         "total_ou": 236.5,
-        "best_book": "BetRivers",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
@@ -142,12 +142,12 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 57.7,
-        "prob_mercado": 55.0,
-        "notas": "Sin EV suficiente. Mejor: 2.5% (umbral 5%) | Modelo local: 57.7% | Mercado: 55.0%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +0.8 | Línea: -2.0 | Sin EV en spread (local: -11.8%, visit: 2.7%)",
+        "prob_mercado": 58.6,
+        "notas": "Sin EV suficiente. Mejor: -0.2% (umbral 5%) | Modelo local: 57.7% | Mercado: 58.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 9.0,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +0.8 | Línea: -3.0 | Prob cubrir visitante: 57.1%",
         "ou_pick": "UNDER",
         "ou_ev": 10.6,
         "ou_confianza": "media",
@@ -327,7 +327,7 @@
       "alerta_msg": "Cade Cunningham Out | Isaiah Stewart Out | Giannis Antetokounmpo Out | Kyle Kuzma Out | Kevin Porter Jr. Out | Bobby Portis Out | Myles Turner Out",
       "odds": {
         "home_ml": -2500,
-        "away_ml": 1500,
+        "away_ml": 1450,
         "spread_home": -20.5,
         "total_ou": 222.5,
         "best_book": "FanDuel",
@@ -337,10 +337,10 @@
         "pick": "Milwaukee Bucks",
         "tipo": "ML Bucks",
         "confianza": "alta",
-        "ev": 56.6,
+        "ev": 51.7,
         "prob_modelo": 90.2,
-        "prob_mercado": 93.9,
-        "notas": "Modelo: 9.8% | Mercado: 6.1% | Edge: +3.7%",
+        "prob_mercado": 93.7,
+        "notas": "Modelo: 9.8% | Mercado: 6.3% | Edge: +3.5%",
         "spread_lado": "VISITANTE",
         "spread_ev": 66.4,
         "spread_conf": "media",
@@ -404,20 +404,6 @@
       },
       "home_injuries": [
         {
-          "player": "Jamal Cain",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Wendell Carter Jr.",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Jett Howard",
           "position": "G",
           "status": "Out",
@@ -462,13 +448,6 @@
           "weight": 3
         },
         {
-          "player": "Jaden McDaniels",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Julius Randle",
           "position": "F",
           "status": "Out",
@@ -477,20 +456,6 @@
         }
       ],
       "injuries": [
-        {
-          "player": "Jamal Cain",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Wendell Carter Jr.",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
         {
           "player": "Jett Howard",
           "position": "G",
@@ -534,13 +499,6 @@
           "weight": 3
         },
         {
-          "player": "Jaden McDaniels",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Julius Randle",
           "position": "F",
           "status": "Out",
@@ -549,12 +507,12 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Jett Howard Out | Jonathan Isaac Out | Mike Conley Out | Ayo Dosunmu Out | Anthony Edwards Out | Rudy Gobert Out | Jaden McDaniels Out | Julius Randle Out",
+      "alerta_msg": "Jett Howard Out | Jonathan Isaac Out | Mike Conley Out | Ayo Dosunmu Out | Anthony Edwards Out | Rudy Gobert Out | Julius Randle Out",
       "odds": {
-        "home_ml": -410,
-        "away_ml": 340,
+        "home_ml": -415,
+        "away_ml": 360,
         "spread_home": -10.5,
-        "total_ou": 229.5,
+        "total_ou": 232.5,
         "best_book": "Bovada",
         "num_books": 9
       },
@@ -564,16 +522,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 39.2,
-        "prob_mercado": 78.0,
-        "notas": "Diferencia modelo/mercado excesiva (39%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 39.2% | Mercado: 78.0%",
+        "prob_mercado": 78.8,
+        "notas": "Diferencia modelo/mercado excesiva (40%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 39.2% | Mercado: 78.8%",
         "spread_lado": "VISITANTE",
         "spread_ev": 61.0,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-1.6 | Línea: -10.5 | Prob cubrir visitante: 84.3%",
-        "ou_pick": "OVER",
-        "ou_ev": 8.3,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.2 vs línea 229.5 (+1.7) | Penalty bajas: 0.0 pts",
+        "ou_pick": "UNDER",
+        "ou_ev": 5.3,
+        "ou_confianza": "baja",
+        "ou_notas": "Proyección 231.2 vs línea 232.5 (-1.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -751,7 +709,7 @@
         "home_ml": -155,
         "away_ml": 140,
         "spread_home": -3.5,
-        "total_ou": 228.5,
+        "total_ou": 229.5,
         "best_book": "BetOnline.ag",
         "num_books": 9
       },
@@ -768,9 +726,9 @@
         "spread_conf": "—",
         "spread_notas": "Margen proyectado: +4.5 | Línea: -3.5 | Sin EV en spread (local: 1.5%, visit: -10.6%)",
         "ou_pick": "OVER",
-        "ou_ev": 16.5,
+        "ou_ev": 9.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 228.5 (+2.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.3 vs línea 229.5 (+1.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -1121,8 +1079,22 @@
       },
       "home_injuries": [
         {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Haywood Highsmith",
           "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -1195,8 +1167,22 @@
       ],
       "injuries": [
         {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Haywood Highsmith",
           "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -1266,12 +1252,12 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Haywood Highsmith Out | Daniel Gafford Out | Kyrie Irving Out | Dereck Lively II Out | Caleb Martin Out",
+      "alerta_msg": "Haywood Highsmith Out | Mark Williams Out | Daniel Gafford Out | Kyrie Irving Out | Dereck Lively II Out | Caleb Martin Out",
       "odds": {
         "home_ml": -615,
         "away_ml": 480,
         "spread_home": -12.5,
-        "total_ou": 231.5,
+        "total_ou": 233.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -1288,9 +1274,9 @@
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +3.5 | Línea: -12.5 | Prob cubrir visitante: 77.2%",
         "ou_pick": "UNDER",
-        "ou_ev": 16.5,
+        "ou_ev": 30.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.7 vs línea 231.5 (-2.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 228.7 vs línea 233.5 (-4.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -1346,13 +1332,6 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "injuries": [
@@ -1362,33 +1341,26 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "Thomas Sorber Out",
       "odds": {
-        "home_ml": 225,
-        "away_ml": -250,
+        "home_ml": 275,
+        "away_ml": -305,
         "spread_home": 7.5,
-        "total_ou": 227.5,
-        "best_book": "FanDuel",
+        "total_ou": 225.5,
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
         "confianza": "alta",
-        "ev": 26.3,
+        "ev": 19.8,
         "prob_modelo": 9.8,
-        "prob_mercado": 30.1,
-        "notas": "Modelo: 90.2% | Mercado: 69.9% | Edge: +20.3%",
+        "prob_mercado": 26.2,
+        "notas": "Modelo: 90.2% | Mercado: 73.8% | Edge: +16.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
