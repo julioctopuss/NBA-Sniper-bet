@@ -1,4 +1,4157 @@
 {
-  "updated_at": "2026-04-12T03:51:20.474037+00:00",
-  "games": []
+  "updated_at": "2026-04-12T04:49:14.856624+00:00",
+  "games": [
+    {
+      "id": "22dcb3e32847c7eab5774e8927016216",
+      "home_team": "Miami Heat",
+      "away_team": "Atlanta Hawks",
+      "commence_time": "2026-04-12T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "42-39",
+        "seed": "10",
+        "ppg": "120.6",
+        "papg": "118.6",
+        "diff": "+2.0",
+        "home_rec": "25-15",
+        "away_rec": "17-24",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "G",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "46-35",
+        "seed": "5",
+        "ppg": "118.5",
+        "papg": "115.7",
+        "diff": "+2.8",
+        "home_rec": "24-17",
+        "away_rec": "22-18",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "G",
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Simone Fontecchio",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Nikola Jovic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Norman Powell",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Dru Smith",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Nickeil Alexander-Walker",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Dyson Daniels",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jalen Johnson",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jonathan Kuminga",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jock Landale",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "CJ McCollum",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Onyeka Okongwu",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Simone Fontecchio",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Nikola Jovic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Norman Powell",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Dru Smith",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nickeil Alexander-Walker",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Dyson Daniels",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jalen Johnson",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jonathan Kuminga",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jock Landale",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "CJ McCollum",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Onyeka Okongwu",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Nikola Jovic Out | Dru Smith Out | Jock Landale Out",
+      "odds": {
+        "home_ml": -159,
+        "away_ml": 142,
+        "spread_home": -3.5,
+        "total_ou": 242.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Atlanta Hawks",
+        "tipo": "ML Hawks",
+        "confianza": "alta",
+        "ev": 28.6,
+        "prob_modelo": 46.9,
+        "prob_mercado": 59.8,
+        "notas": "Modelo: 53.1% | Mercado: 40.2% | Edge: +12.9%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 19.8,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-0.4 | Línea: -3.5 | Prob cubrir visitante: 62.7%",
+        "ou_pick": "UNDER",
+        "ou_ev": 37.3,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 236.7 vs línea 242.5 (-5.8) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "f78d40af453b24c39e18559579894d14",
+      "home_team": "Boston Celtics",
+      "away_team": "Orlando Magic",
+      "commence_time": "2026-04-12T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "55-26",
+        "seed": "2",
+        "ppg": "114.9",
+        "papg": "107.1",
+        "diff": "+7.8",
+        "home_rec": "29-11",
+        "away_rec": "26-15",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "45-36",
+        "seed": "7",
+        "ppg": "115.8",
+        "papg": "115.1",
+        "diff": "+0.7",
+        "home_rec": "25-15",
+        "away_rec": "19-19",
+        "streak": "W5",
+        "forma": [
+          "G",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Jaylen Brown",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Sam Hauser",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Payton Pritchard",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Neemias Queta",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jayson Tatum",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nikola Vucevic",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Derrick White",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Jett Howard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jaylen Brown",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Sam Hauser",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Payton Pritchard",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Neemias Queta",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jayson Tatum",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nikola Vucevic",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Derrick White",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jett Howard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jaylen Brown Out | Neemias Queta Out | Jayson Tatum Out | Derrick White Out | Jett Howard Out | Jonathan Isaac Out",
+      "odds": {
+        "home_ml": 450,
+        "away_ml": -572,
+        "spread_home": 11.5,
+        "total_ou": 217.5,
+        "best_book": "FanDuel",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 77.3,
+        "prob_mercado": 17.6,
+        "notas": "Diferencia modelo/mercado excesiva (60%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 77.3% | Mercado: 17.6%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 70.9,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +3.6 | Línea: +11.5 | Prob cubrir local: 89.5%",
+        "ou_pick": "OVER",
+        "ou_ev": 55.3,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 226.4 vs línea 217.5 (+8.9) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "d55bfef33abc5dc6dba0717236d0ee80",
+      "home_team": "Toronto Raptors",
+      "away_team": "Brooklyn Nets",
+      "commence_time": "2026-04-12T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "45-36",
+        "seed": "6",
+        "ppg": "114.4",
+        "papg": "111.9",
+        "diff": "+2.5",
+        "home_rec": "23-17",
+        "away_rec": "22-19",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "P",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "20-61",
+        "seed": "13",
+        "ppg": "106.0",
+        "papg": "115.7",
+        "diff": "-9.7",
+        "home_rec": "12-29",
+        "away_rec": "8-32",
+        "streak": "L2",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "G",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "RJ Barrett",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Trayce Jackson-Davis",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Collin Murray-Boyles",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Ochai Agbaji",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Nic Claxton",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Noah Clowney",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Egor Demin",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Terance Mann",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Josh Minott",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Michael Porter Jr.",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Day'Ron Sharpe",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nolan Traore",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Ziaire Williams",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Danny Wolf",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "RJ Barrett",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Trayce Jackson-Davis",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Collin Murray-Boyles",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Ochai Agbaji",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Nic Claxton",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Noah Clowney",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Egor Demin",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Terance Mann",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Josh Minott",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Michael Porter Jr.",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Day'Ron Sharpe",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nolan Traore",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Ziaire Williams",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Danny Wolf",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Chucky Hepburn Out | Nic Claxton Out | Noah Clowney Out | Egor Demin Out | Terance Mann Out | Josh Minott Out | Michael Porter Jr. Out | Day'Ron Sharpe Out | Ziaire Williams Out | Danny Wolf Out",
+      "odds": {
+        "home_ml": -8000,
+        "away_ml": 2400,
+        "spread_home": -22.5,
+        "total_ou": 219.5,
+        "best_book": "DraftKings",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Brooklyn Nets",
+        "tipo": "ML Nets",
+        "confianza": "alta",
+        "ev": 160.0,
+        "prob_modelo": 89.6,
+        "prob_mercado": 96.1,
+        "notas": "Modelo: 10.4% | Mercado: 3.9% | Edge: +6.5%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 74.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +6.1 | Línea: -22.5 | Prob cubrir visitante: 91.4%",
+        "ou_pick": "OVER",
+        "ou_ev": 28.6,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 224.0 vs línea 219.5 (+4.5) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "38b10a0526d5b246097a502269bcdf71",
+      "home_team": "New York Knicks",
+      "away_team": "Charlotte Hornets",
+      "commence_time": "2026-04-12T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "53-28",
+        "seed": "3",
+        "ppg": "116.7",
+        "papg": "110.1",
+        "diff": "+6.6",
+        "home_rec": "30-9",
+        "away_rec": "22-19",
+        "streak": "W5",
+        "forma": [
+          "G",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "43-38",
+        "seed": "9",
+        "ppg": "116.1",
+        "papg": "111.4",
+        "diff": "+4.7",
+        "home_rec": "21-20",
+        "away_rec": "22-18",
+        "streak": "L2",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "OG Anunoby",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Brunson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Josh Hart",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tyler Kolek",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mitchell Robinson",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "PJ Hall",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Coby White",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "injuries": [
+        {
+          "player": "OG Anunoby",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Brunson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Josh Hart",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tyler Kolek",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mitchell Robinson",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "PJ Hall",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Coby White",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "OG Anunoby Out | Jalen Brunson Out | Josh Hart Out | Tyler Kolek Out | Mitchell Robinson Out | Karl-Anthony Towns Out | PJ Hall Out",
+      "odds": {
+        "home_ml": 560,
+        "away_ml": -689,
+        "spread_home": 13.0,
+        "total_ou": 216.5,
+        "best_book": "FanDuel",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 61.5,
+        "prob_mercado": 14.8,
+        "notas": "Diferencia modelo/mercado excesiva (47%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 61.5% | Mercado: 14.8%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 67.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +1.0 | Línea: +13.0 | Prob cubrir local: 87.7%",
+        "ou_pick": "OVER",
+        "ou_ev": 63.7,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 227.2 vs línea 216.5 (+10.7) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "ad75b36adad0af42dea87b9bcdfa91f8",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "Washington Wizards",
+      "commence_time": "2026-04-12T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "51-30",
+        "seed": "4",
+        "ppg": "119.4",
+        "papg": "115.4",
+        "diff": "+4.0",
+        "home_rec": "26-14",
+        "away_rec": "25-16",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "17-64",
+        "seed": "15",
+        "ppg": "112.9",
+        "papg": "124.8",
+        "diff": "-11.9",
+        "home_rec": "11-30",
+        "away_rec": "6-34",
+        "streak": "L9",
+        "forma": [
+          "P",
+          "P",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Jarrett Allen",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Bryant",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keon Ellis",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "James Harden",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Sam Merrill",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Donovan Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Evan Mobley",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dennis Schroder",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dean Wade",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Bilal Coulibaly",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Anthony Davis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kyshawn George",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Anthony Gill",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Tre Johnson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "D'Angelo Russell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Alex Sarr",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tristan Vukcevic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cam Whitmore",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Trae Young",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jarrett Allen",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Bryant",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keon Ellis",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "James Harden",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Sam Merrill",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Donovan Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Evan Mobley",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dennis Schroder",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dean Wade",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Bilal Coulibaly",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Anthony Davis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kyshawn George",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Anthony Gill",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Tre Johnson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "D'Angelo Russell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Alex Sarr",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tristan Vukcevic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cam Whitmore",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Trae Young",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jarrett Allen Out | Thomas Bryant Out | Keon Ellis Out | James Harden Out | Sam Merrill Out | Donovan Mitchell Out | Evan Mobley Out | Dennis Schroder Out | Dean Wade Out | Bilal Coulibaly Out | Anthony Davis Out | Kyshawn George Out | Tre Johnson Out | D'Angelo Russell Out | Alex Sarr Out | Tristan Vukcevic Out | Cam Whitmore Out | Trae Young Out",
+      "odds": {
+        "home_ml": -476,
+        "away_ml": 400,
+        "spread_home": -10.5,
+        "total_ou": 235.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Cleveland Cavaliers",
+        "tipo": "ML Cavaliers",
+        "confianza": "media",
+        "ev": 10.9,
+        "prob_modelo": 91.6,
+        "prob_mercado": 80.5,
+        "notas": "Modelo: 91.6% | Mercado: 80.5% | Edge: +11.1%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 11.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +7.9 | Línea: -10.5 | Prob cubrir visitante: 58.4%",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección 236.2 vs línea 235.5 (+0.7) | Penalty bajas: 0.0 pts — sin EV suficiente",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "4675acfb68965858aa571a0493a222da",
+      "home_team": "Indiana Pacers",
+      "away_team": "Detroit Pistons",
+      "commence_time": "2026-04-12T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "19-62",
+        "seed": "14",
+        "ppg": "112.3",
+        "papg": "120.3",
+        "diff": "-8.0",
+        "home_rec": "11-29",
+        "away_rec": "8-33",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "59-22",
+        "seed": "1",
+        "ppg": "117.6",
+        "papg": "109.5",
+        "diff": "+8.1",
+        "home_rec": "31-9",
+        "away_rec": "27-13",
+        "streak": "W2",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "G",
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Kobe Brown",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Johnny Furphy",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tyrese Haliburton",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "T.J. McConnell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Andrew Nembhard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Aaron Nesmith",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ben Sheppard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Pascal Siakam",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jarace Walker",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Ivica Zubac",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Jalen Duren",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Kobe Brown",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Johnny Furphy",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tyrese Haliburton",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "T.J. McConnell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Andrew Nembhard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Aaron Nesmith",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ben Sheppard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Pascal Siakam",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jarace Walker",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Ivica Zubac",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Duren",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Johnny Furphy Out | Tyrese Haliburton Out | T.J. McConnell Out | Andrew Nembhard Out | Aaron Nesmith Out | Ben Sheppard Out | Pascal Siakam Out | Ivica Zubac Out | Jalen Duren Out",
+      "odds": {
+        "home_ml": 631,
+        "away_ml": -820,
+        "spread_home": 13.0,
+        "total_ou": 228.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 8.9,
+        "prob_mercado": 13.3,
+        "notas": "Sin EV suficiente. Mejor: 2.2% (umbral 5%) | Modelo local: 8.9% | Mercado: 13.3%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 26.0,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-8.0 | Línea: +13.0 | Prob cubrir local: 66.0%",
+        "ou_pick": "OVER",
+        "ou_ev": 5.3,
+        "ou_confianza": "baja",
+        "ou_notas": "Proyección 229.8 vs línea 228.5 (+1.3) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "23c66e71d25675800d939e532e38bcd2",
+      "home_team": "Philadelphia 76ers",
+      "away_team": "Milwaukee Bucks",
+      "commence_time": "2026-04-12T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "44-37",
+        "seed": "8",
+        "ppg": "115.8",
+        "papg": "116.2",
+        "diff": "-0.4",
+        "home_rec": "22-18",
+        "away_rec": "22-19",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "P",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "32-49",
+        "seed": "11",
+        "ppg": "110.7",
+        "papg": "116.7",
+        "diff": "-6.0",
+        "home_rec": "19-22",
+        "away_rec": "13-27",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "G",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Johni Broome",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Giannis Antetokounmpo",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Gary Harris",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Kyle Kuzma",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Pete Nance",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Kevin Porter Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Bobby Portis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ryan Rollins",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Gary Trent Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Myles Turner",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Johni Broome",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Giannis Antetokounmpo",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Gary Harris",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Kyle Kuzma",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Pete Nance",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Kevin Porter Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Bobby Portis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ryan Rollins",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Gary Trent Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Myles Turner",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Johni Broome Out | Joel Embiid Out | Giannis Antetokounmpo Out | Kyle Kuzma Out | Kevin Porter Jr. Out | Bobby Portis Out | Ryan Rollins Out | Gary Trent Jr. Out | Myles Turner Out",
+      "odds": {
+        "home_ml": -1100,
+        "away_ml": 781,
+        "spread_home": -16.0,
+        "total_ou": 227.5,
+        "best_book": "DraftKings",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Milwaukee Bucks",
+        "tipo": "ML Bucks",
+        "confianza": "alta",
+        "ev": 135.0,
+        "prob_modelo": 73.3,
+        "prob_mercado": 89.0,
+        "notas": "Modelo: 26.7% | Mercado: 11.0% | Edge: +15.7%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 65.0,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +2.8 | Línea: -16.0 | Prob cubrir visitante: 86.4%",
+        "ou_pick": "OVER",
+        "ou_ev": 12.1,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.7 vs línea 227.5 (+2.2) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "c8cde1aa908581185caf0bb87659055a",
+      "home_team": "Dallas Mavericks",
+      "away_team": "Chicago Bulls",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "25-56",
+        "seed": "13",
+        "ppg": "113.7",
+        "papg": "119.5",
+        "diff": "-5.8",
+        "home_rec": "15-25",
+        "away_rec": "10-30",
+        "streak": "L3",
+        "forma": [
+          "P",
+          "P",
+          "P",
+          "G",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "31-50",
+        "seed": "12",
+        "ppg": "116.2",
+        "papg": "121.2",
+        "diff": "-5.0",
+        "home_rec": "18-23",
+        "away_rec": "13-27",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "P",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Marvin Bagley III",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Daniel Gafford",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kyrie Irving",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dereck Lively II",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Naji Marshall",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Caleb Martin",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "P.J. Washington",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Brandon Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Matas Buzelis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zach Collins",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Noa Essengue",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Josh Giddey",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaac Okoro",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Lachlan Olbrich",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Nick Richards",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Collin Sexton",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Anfernee Simons",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Smith",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Patrick Williams",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Guerschon Yabusele",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Marvin Bagley III",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Daniel Gafford",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kyrie Irving",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dereck Lively II",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Naji Marshall",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Caleb Martin",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "P.J. Washington",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Brandon Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Matas Buzelis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zach Collins",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Noa Essengue",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Josh Giddey",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaac Okoro",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Lachlan Olbrich",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Nick Richards",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Collin Sexton",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Anfernee Simons",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Smith",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Patrick Williams",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Guerschon Yabusele",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Daniel Gafford Out | Kyrie Irving Out | Dereck Lively II Out | Naji Marshall Out | Caleb Martin Out | P.J. Washington Out | Brandon Williams Out | Matas Buzelis Out | Zach Collins Out | Noa Essengue Out | Josh Giddey Out | Isaac Okoro Out | Nick Richards Out | Anfernee Simons Out | Jalen Smith Out | Guerschon Yabusele Out",
+      "odds": {
+        "home_ml": -250,
+        "away_ml": 230,
+        "spread_home": -7.0,
+        "total_ou": 245.5,
+        "best_book": "Bovada",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Chicago Bulls",
+        "tipo": "ML Bulls",
+        "confianza": "alta",
+        "ev": 76.3,
+        "prob_modelo": 46.6,
+        "prob_mercado": 70.2,
+        "notas": "Modelo: 53.4% | Mercado: 29.8% | Edge: +23.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 39.6,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-0.4 | Línea: -7.0 | Prob cubrir visitante: 73.1%",
+        "ou_pick": "UNDER",
+        "ou_ev": 61.5,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 235.3 vs línea 245.5 (-10.2) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "09604d4c311c1eb2215317d12154f42a",
+      "home_team": "San Antonio Spurs",
+      "away_team": "Denver Nuggets",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "62-19",
+        "seed": "2",
+        "ppg": "119.9",
+        "papg": "111.3",
+        "diff": "+8.6",
+        "home_rec": "32-7",
+        "away_rec": "29-12",
+        "streak": "W3",
+        "forma": [
+          "G",
+          "G",
+          "G",
+          "P",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "53-28",
+        "seed": "3",
+        "ppg": "122.0",
+        "papg": "116.9",
+        "diff": "+5.1",
+        "home_rec": "28-13",
+        "away_rec": "25-15",
+        "streak": "W11",
+        "forma": [
+          "G",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Stephon Castle",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Luke Kornet",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Devin Vassell",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Victor Wembanyama",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Christian Braun",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Aaron Gordon",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tim Hardaway Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cameron Johnson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nikola Jokic",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Spencer Jones",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jamal Murray",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Peyton Watson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Stephon Castle",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Luke Kornet",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Devin Vassell",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Victor Wembanyama",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Christian Braun",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Aaron Gordon",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Tim Hardaway Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cameron Johnson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nikola Jokic",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Spencer Jones",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jamal Murray",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Peyton Watson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "David Jones Garcia Out | Luke Kornet Out | Christian Braun Out | Aaron Gordon Out | Tim Hardaway Jr. Out | Cameron Johnson Out | Spencer Jones Out | Jamal Murray Out | Peyton Watson Out",
+      "odds": {
+        "home_ml": -500,
+        "away_ml": 404,
+        "spread_home": -11.5,
+        "total_ou": 232.5,
+        "best_book": "BetMGM",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Denver Nuggets",
+        "tipo": "ML Nuggets",
+        "confianza": "alta",
+        "ev": 75.5,
+        "prob_modelo": 65.2,
+        "prob_mercado": 80.8,
+        "notas": "Modelo: 34.8% | Mercado: 19.2% | Edge: +15.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 51.1,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +1.8 | Línea: -11.5 | Prob cubrir visitante: 79.2%",
+        "ou_pick": "OVER",
+        "ou_ev": 15.0,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 235.1 vs línea 232.5 (+2.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "06ccc7d0ba2acaf031c7d42eea09672c",
+      "home_team": "Los Angeles Clippers",
+      "away_team": "Golden State Warriors",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "37-44",
+        "seed": "10",
+        "ppg": "114.7",
+        "papg": "115.2",
+        "diff": "-0.5",
+        "home_rec": "22-19",
+        "away_rec": "15-25",
+        "streak": "L2",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "P",
+          "P"
+        ]
+      },
+      "home_injuries": [],
+      "away_injuries": [
+        {
+          "player": "Jimmy Butler III",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LJ Cryer",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Draymond Green",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Moses Moody",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Quinten Post",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Will Richard",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jimmy Butler III",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LJ Cryer",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Draymond Green",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Moses Moody",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Quinten Post",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Will Richard",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jimmy Butler III Out | LJ Cryer Out | Moses Moody Out | Quinten Post Out",
+      "odds": {
+        "home_ml": -235,
+        "away_ml": 210,
+        "spread_home": -6.5,
+        "total_ou": 224.5,
+        "best_book": "FanDuel",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Golden State Warriors",
+        "tipo": "ML Warriors",
+        "confianza": "alta",
+        "ev": 46.7,
+        "prob_modelo": 52.7,
+        "prob_mercado": 68.5,
+        "notas": "Modelo: 47.3% | Mercado: 31.5% | Edge: +15.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "fdd561cce076bab5eb0f0651d1d0f8e4",
+      "home_team": "Houston Rockets",
+      "away_team": "Memphis Grizzlies",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "51-30",
+        "seed": "5",
+        "ppg": "115.0",
+        "papg": "110.1",
+        "diff": "+4.9",
+        "home_rec": "29-11",
+        "away_rec": "22-19",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "25-56",
+        "seed": "12",
+        "ppg": "114.8",
+        "papg": "120.5",
+        "diff": "-5.7",
+        "home_rec": "13-27",
+        "away_rec": "11-28",
+        "streak": "L7",
+        "forma": [
+          "P",
+          "P",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Steven Adams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kevin Durant",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Alperen Sengun",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jabari Smith Jr.",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Amen Thompson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Fred VanVleet",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Santi Aldama",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Adama Bal",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Kentavious Caldwell-Pope",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Brandon Clarke",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Walter Clayton Jr.",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Cedric Coward",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zach Edey",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Taylor Hendricks",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "GG Jackson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ty Jerome",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ja Morant",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Scotty Pippen Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Olivier-Maxence Prosper",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Javon Small",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cam Spencer",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaylen Wells",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Steven Adams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kevin Durant",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Alperen Sengun",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jabari Smith Jr.",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Amen Thompson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Fred VanVleet",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Santi Aldama",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Adama Bal",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Kentavious Caldwell-Pope",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Brandon Clarke",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Walter Clayton Jr.",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Cedric Coward",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zach Edey",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Taylor Hendricks",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "GG Jackson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ty Jerome",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ja Morant",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Scotty Pippen Jr.",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Olivier-Maxence Prosper",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Javon Small",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cam Spencer",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaylen Wells",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Steven Adams Out | Kevin Durant Out | Alperen Sengun Out | Jabari Smith Jr. Out | Amen Thompson Out | Fred VanVleet Out | Santi Aldama Out | Kentavious Caldwell-Pope Out | Brandon Clarke Out | Cedric Coward Out | Zach Edey Out | Taylor Hendricks Out | GG Jackson Out | Ty Jerome Out | Ja Morant Out | Scotty Pippen Jr. Out | Javon Small Out | Cam Spencer Out | Jaylen Wells Out",
+      "odds": {
+        "home_ml": -720,
+        "away_ml": 558,
+        "spread_home": -13.5,
+        "total_ou": 223.5,
+        "best_book": "FanDuel",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 88.5,
+        "prob_mercado": 85.2,
+        "notas": "Sin EV suficiente. Mejor: 0.8% (umbral 5%) | Modelo local: 88.5% | Mercado: 85.2%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 43.7,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +5.3 | Línea: -13.5 | Prob cubrir visitante: 75.3%",
+        "ou_pick": "OVER",
+        "ou_ev": 42.9,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 230.2 vs línea 223.5 (+6.7) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "3f3bec3a69985062b105b5fe8bf06fe9",
+      "home_team": "Los Angeles Lakers",
+      "away_team": "Utah Jazz",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "52-29",
+        "seed": "4",
+        "ppg": "116.2",
+        "papg": "114.7",
+        "diff": "+1.5",
+        "home_rec": "27-13",
+        "away_rec": "25-16",
+        "streak": "W2",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "22-59",
+        "seed": "15",
+        "ppg": "117.7",
+        "papg": "126.0",
+        "diff": "-8.3",
+        "home_rec": "14-27",
+        "away_rec": "8-32",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Luka Doncic",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaxson Hayes",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LeBron James",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Austin Reaves",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Isaiah Collier",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kyle Filipowski",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keyonte George",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Elijah Harkless",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaren Jackson Jr.",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Walker Kessler",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Lauri Markkanen",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jusuf Nurkic",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Luka Doncic",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaxson Hayes",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LeBron James",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Austin Reaves",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaiah Collier",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kyle Filipowski",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keyonte George",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Elijah Harkless",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaren Jackson Jr.",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Walker Kessler",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Lauri Markkanen",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jusuf Nurkic",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Luka Doncic Out | Jaxson Hayes Out | Austin Reaves Out | Isaiah Collier Out | Kyle Filipowski Out | Keyonte George Out | Elijah Harkless Out | Jaren Jackson Jr. Out | Walker Kessler Out | Lauri Markkanen Out | Jusuf Nurkic Out",
+      "odds": {
+        "home_ml": -1174,
+        "away_ml": 810,
+        "spread_home": -15.0,
+        "total_ou": 237.0,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Utah Jazz",
+        "tipo": "ML Jazz",
+        "confianza": "alta",
+        "ev": 25.1,
+        "prob_modelo": 86.2,
+        "prob_mercado": 89.3,
+        "notas": "Modelo: 13.8% | Mercado: 10.7% | Edge: +3.1%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 52.7,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +4.9 | Línea: -15.0 | Prob cubrir visitante: 80.0%",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección 237.3 vs línea 237.0 (+0.3) | Penalty bajas: 0.0 pts — sin EV suficiente",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "47ede7b5685ae38218b5c2ea1ffd1699",
+      "home_team": "Minnesota Timberwolves",
+      "away_team": "New Orleans Pelicans",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "48-33",
+        "seed": "6",
+        "ppg": "117.8",
+        "papg": "114.5",
+        "diff": "+3.3",
+        "home_rec": "25-15",
+        "away_rec": "23-18",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "P",
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "26-55",
+        "seed": "11",
+        "ppg": "115.4",
+        "papg": "119.9",
+        "diff": "-4.5",
+        "home_rec": "17-24",
+        "away_rec": "9-31",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "P",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Kyle Anderson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mike Conley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Anthony Edwards",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Rudy Gobert",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Bones Hyland",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaden McDaniels",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Julius Randle",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Naz Reid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Saddiq Bey",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Herbert Jones",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Karlo Matkovic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Bryce McGowens",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Yves Missi",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Trey Murphy III",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dejounte Murray",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zion Williamson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Kyle Anderson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mike Conley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Anthony Edwards",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Rudy Gobert",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Bones Hyland",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaden McDaniels",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Julius Randle",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Naz Reid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Saddiq Bey",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Herbert Jones",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Karlo Matkovic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Bryce McGowens",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Yves Missi",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Trey Murphy III",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dejounte Murray",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zion Williamson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Kyle Anderson Out | Mike Conley Out | Ayo Dosunmu Out | Anthony Edwards Out | Rudy Gobert Out | Bones Hyland Out | Jaden McDaniels Out | Julius Randle Out | Naz Reid Out | Saddiq Bey Out | Herbert Jones Out | Karlo Matkovic Out | Bryce McGowens Out | Yves Missi Out | Trey Murphy III Out | Dejounte Murray Out | Zion Williamson Out",
+      "odds": {
+        "home_ml": -267,
+        "away_ml": 225,
+        "spread_home": -6.5,
+        "total_ou": 235.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Minnesota Timberwolves",
+        "tipo": "ML Timberwolves",
+        "confianza": "media",
+        "ev": 11.9,
+        "prob_modelo": 81.4,
+        "prob_mercado": 70.3,
+        "notas": "Modelo: 81.4% | Mercado: 70.3% | Edge: +11.1%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 11.8,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +3.9 | Línea: -6.5 | Prob cubrir visitante: 58.6%",
+        "ou_pick": "UNDER",
+        "ou_ev": 8.3,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 233.8 vs línea 235.5 (-1.7) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "8c4fafe262a5424f243a130d7ab60e82",
+      "home_team": "Oklahoma City Thunder",
+      "away_team": "Phoenix Suns",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "64-17",
+        "seed": "1",
+        "ppg": "119.2",
+        "papg": "107.5",
+        "diff": "+11.7",
+        "home_rec": "34-6",
+        "away_rec": "30-10",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "44-37",
+        "seed": "7",
+        "ppg": "112.3",
+        "papg": "111.2",
+        "diff": "+1.1",
+        "home_rec": "25-16",
+        "away_rec": "19-21",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "G",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Alex Caruso",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaiah Hartenstein",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Chet Holmgren",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaiah Joe",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ajay Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cason Wallace",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaylin Williams",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Devin Booker",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dillon Brooks",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Collin Gillespie",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jalen Green",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Haywood Highsmith",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Royce O'Neale",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Alex Caruso",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaiah Hartenstein",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Chet Holmgren",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaiah Joe",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ajay Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Cason Wallace",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaylin Williams",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Devin Booker",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Dillon Brooks",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Collin Gillespie",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jalen Green",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Haywood Highsmith",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Royce O'Neale",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Alex Caruso Out | Shai Gilgeous-Alexander Out | Isaiah Hartenstein Out | Chet Holmgren Out | Isaiah Joe Out | Ajay Mitchell Out | Thomas Sorber Out | Cason Wallace Out | Jalen Williams Out | Jaylin Williams Out | Grayson Allen Out | Devin Booker Out | Dillon Brooks Out | Haywood Highsmith Out | Royce O'Neale Out",
+      "odds": {
+        "home_ml": -225,
+        "away_ml": 203,
+        "spread_home": -5.5,
+        "total_ou": 212.5,
+        "best_book": "FanDuel",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Oklahoma City Thunder",
+        "tipo": "ML Thunder",
+        "confianza": "alta",
+        "ev": 26.5,
+        "prob_modelo": 87.6,
+        "prob_mercado": 67.7,
+        "notas": "Modelo: 87.6% | Mercado: 67.7% | Edge: +19.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +5.3 | Línea: -5.5 | Sin EV en spread (local: -5.8%, visit: -3.3%)",
+        "ou_pick": "OVER",
+        "ou_ev": 71.1,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 225.1 vs línea 212.5 (+12.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "3f5adb3e93b0c63eb14ed1d0e8b90a43",
+      "home_team": "Portland Trail Blazers",
+      "away_team": "Sacramento Kings",
+      "commence_time": "2026-04-13T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "41-40",
+        "seed": "8",
+        "ppg": "115.4",
+        "papg": "115.8",
+        "diff": "-0.4",
+        "home_rec": "23-17",
+        "away_rec": "18-23",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "G",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "22-59",
+        "seed": "14",
+        "ppg": "111.0",
+        "papg": "121.0",
+        "diff": "-10.0",
+        "home_rec": "15-26",
+        "away_rec": "7-33",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "G",
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Jerami Grant",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Vit Krejci",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Matisse Thybulle",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "DeMar DeRozan",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Drew Eubanks",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "De'Andre Hunter",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zach LaVine",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Malik Monk",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keegan Murray",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Domantas Sabonis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaiah Stevens",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Russell Westbrook",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jerami Grant",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Vit Krejci",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Matisse Thybulle",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "DeMar DeRozan",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Drew Eubanks",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "De'Andre Hunter",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Zach LaVine",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Malik Monk",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keegan Murray",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Domantas Sabonis",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Isaiah Stevens",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Russell Westbrook",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jerami Grant Out | Vit Krejci Out | Damian Lillard Out | DeMar DeRozan Out | Drew Eubanks Out | De'Andre Hunter Out | Zach LaVine Out | Malik Monk Out | Keegan Murray Out | Domantas Sabonis Out | Isaiah Stevens Out | Russell Westbrook Out",
+      "odds": {
+        "home_ml": -1365,
+        "away_ml": 875,
+        "spread_home": -16.5,
+        "total_ou": 228.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sacramento Kings",
+        "tipo": "ML Kings",
+        "confianza": "alta",
+        "ev": 45.6,
+        "prob_modelo": 85.1,
+        "prob_mercado": 90.1,
+        "notas": "Modelo: 14.9% | Mercado: 9.9% | Edge: +5.0%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 59.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +4.8 | Línea: -16.5 | Prob cubrir visitante: 83.5%",
+        "ou_pick": "OVER",
+        "ou_ev": 18.7,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 231.6 vs línea 228.5 (+3.1) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    }
+  ]
 }
