@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T20:05:20.890061+00:00",
+  "updated_at": "2026-04-14T22:10:06.911519+00:00",
   "games": [
     {
       "id": "25f53495c4044a1d8fb682e3715eb7b3",
@@ -89,29 +89,29 @@
       "alerta": true,
       "alerta_msg": "PJ Hall Out | Nikola Jovic Out | Dru Smith Out",
       "odds": {
-        "home_ml": -232,
-        "away_ml": 210,
+        "home_ml": -238,
+        "away_ml": 215,
         "spread_home": -6.0,
-        "total_ou": 229.5,
-        "best_book": "LowVig.ag",
+        "total_ou": 227.5,
+        "best_book": "DraftKings",
         "num_books": 8
       },
       "recomendacion": {
         "pick": "Miami Heat",
         "tipo": "ML Heat",
         "confianza": "alta",
-        "ev": 21.9,
+        "ev": 23.9,
         "prob_modelo": 60.7,
-        "prob_mercado": 68.4,
-        "notas": "Modelo: 39.3% | Mercado: 31.6% | Edge: +7.7%",
+        "prob_mercado": 68.9,
+        "notas": "Modelo: 39.3% | Mercado: 31.1% | Edge: +8.2%",
         "spread_lado": "VISITANTE",
         "spread_ev": 25.1,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +1.2 | Línea: -6.0 | Prob cubrir visitante: 65.5%",
         "ou_pick": "OVER",
-        "ou_ev": 23.7,
+        "ou_ev": 37.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 233.3 vs línea 229.5 (+3.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 233.3 vs línea 227.5 (+5.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -204,11 +204,11 @@
       "alerta": true,
       "alerta_msg": "Jerami Grant Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -150,
+        "home_ml": -146,
         "away_ml": 136,
         "spread_home": -2.5,
-        "total_ou": 217.5,
-        "best_book": "BetUS",
+        "total_ou": 216.5,
+        "best_book": "FanDuel",
         "num_books": 8
       },
       "recomendacion": {
@@ -217,16 +217,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 59.1,
-        "prob_mercado": 58.6,
-        "notas": "Sin EV suficiente. Mejor: -1.5% (umbral 5%) | Modelo local: 59.1% | Mercado: 58.6%",
+        "prob_mercado": 58.3,
+        "notas": "Sin EV suficiente. Mejor: -0.4% (umbral 5%) | Modelo local: 59.1% | Mercado: 58.3%",
         "spread_lado": "VISITANTE",
         "spread_ev": 5.6,
         "spread_conf": "baja",
         "spread_notas": "Margen proyectado: +0.9 | Línea: -2.5 | Prob cubrir visitante: 55.3%",
         "ou_pick": "OVER",
-        "ou_ev": 60.6,
+        "ou_ev": 65.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.5 vs línea 217.5 (+10.0) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.5 vs línea 216.5 (+11.0) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
