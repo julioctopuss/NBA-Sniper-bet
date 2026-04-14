@@ -1,4 +1,249 @@
 {
-  "updated_at": "2026-04-14T03:49:15.380329+00:00",
-  "games": []
+  "updated_at": "2026-04-14T04:47:11.654408+00:00",
+  "games": [
+    {
+      "id": "25f53495c4044a1d8fb682e3715eb7b3",
+      "home_team": "Charlotte Hornets",
+      "away_team": "Miami Heat",
+      "commence_time": "2026-04-14T23:30:00Z",
+      "time_et": "7:30 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "44-38",
+        "seed": "9",
+        "ppg": "116.0",
+        "papg": "111.2",
+        "diff": "+4.8",
+        "home_rec": "21-20",
+        "away_rec": "23-18",
+        "streak": "W1",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "43-39",
+        "seed": "10",
+        "ppg": "120.9",
+        "papg": "118.5",
+        "diff": "+2.4",
+        "home_rec": "26-15",
+        "away_rec": "17-24",
+        "streak": "W2",
+        "forma": []
+      },
+      "home_injuries": [
+        {
+          "player": "PJ Hall",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Nikola Jovic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Pelle Larsson",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Dru Smith",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "PJ Hall",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Nikola Jovic",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Pelle Larsson",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Dru Smith",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "PJ Hall Out | Nikola Jovic Out | Dru Smith Out",
+      "odds": {
+        "home_ml": -215,
+        "away_ml": 191,
+        "spread_home": -5.5,
+        "total_ou": 228.5,
+        "best_book": "FanDuel",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Miami Heat",
+        "tipo": "ML Heat",
+        "confianza": "media",
+        "ev": 14.4,
+        "prob_modelo": 60.7,
+        "prob_mercado": 66.5,
+        "notas": "Modelo: 39.3% | Mercado: 33.5% | Edge: +5.8%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 22.2,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +1.2 | Línea: -5.5 | Prob cubrir visitante: 64.0%",
+        "ou_pick": "OVER",
+        "ou_ev": 30.7,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 233.3 vs línea 228.5 (+4.8) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "0999cb23cd03811476b378dd4045ea16",
+      "home_team": "Phoenix Suns",
+      "away_team": "Portland Trail Blazers",
+      "commence_time": "2026-04-15T02:10:00Z",
+      "time_et": "10:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "45-37",
+        "seed": "7",
+        "ppg": "112.6",
+        "papg": "111.1",
+        "diff": "+1.5",
+        "home_rec": "25-16",
+        "away_rec": "20-21",
+        "streak": "W1",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "42-40",
+        "seed": "8",
+        "ppg": "115.5",
+        "papg": "115.8",
+        "diff": "-0.3",
+        "home_rec": "24-17",
+        "away_rec": "18-23",
+        "streak": "W2",
+        "forma": []
+      },
+      "home_injuries": [
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Jerami Grant",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jerami Grant",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jerami Grant Out | Damian Lillard Out",
+      "odds": {
+        "home_ml": -162,
+        "away_ml": 145,
+        "spread_home": -3.5,
+        "total_ou": 217.5,
+        "best_book": "DraftKings",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 59.1,
+        "prob_mercado": 60.2,
+        "notas": "Sin EV suficiente. Mejor: 0.1% (umbral 5%) | Modelo local: 59.1% | Mercado: 60.2%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 11.8,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +0.9 | Línea: -3.5 | Prob cubrir visitante: 58.6%",
+        "ou_pick": "OVER",
+        "ou_ev": 60.6,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 227.5 vs línea 217.5 (+10.0) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0,
+        "away_pra_out": 0.0
+      }
+    }
+  ]
 }
