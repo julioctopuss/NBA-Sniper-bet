@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-14T04:47:11.654408+00:00",
+  "updated_at": "2026-04-14T20:05:20.890061+00:00",
   "games": [
     {
       "id": "25f53495c4044a1d8fb682e3715eb7b3",
       "home_team": "Charlotte Hornets",
       "away_team": "Miami Heat",
-      "commence_time": "2026-04-14T23:30:00Z",
-      "time_et": "7:30 PM ET",
+      "commence_time": "2026-04-14T23:40:00Z",
+      "time_et": "7:40 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
@@ -56,13 +56,6 @@
           "weight": 3
         },
         {
-          "player": "Pelle Larsson",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Dru Smith",
           "position": "G",
           "status": "Out",
@@ -86,13 +79,6 @@
           "weight": 3
         },
         {
-          "player": "Pelle Larsson",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Dru Smith",
           "position": "G",
           "status": "Out",
@@ -103,29 +89,29 @@
       "alerta": true,
       "alerta_msg": "PJ Hall Out | Nikola Jovic Out | Dru Smith Out",
       "odds": {
-        "home_ml": -215,
-        "away_ml": 191,
-        "spread_home": -5.5,
-        "total_ou": 228.5,
-        "best_book": "FanDuel",
+        "home_ml": -232,
+        "away_ml": 210,
+        "spread_home": -6.0,
+        "total_ou": 229.5,
+        "best_book": "LowVig.ag",
         "num_books": 8
       },
       "recomendacion": {
         "pick": "Miami Heat",
         "tipo": "ML Heat",
-        "confianza": "media",
-        "ev": 14.4,
+        "confianza": "alta",
+        "ev": 21.9,
         "prob_modelo": 60.7,
-        "prob_mercado": 66.5,
-        "notas": "Modelo: 39.3% | Mercado: 33.5% | Edge: +5.8%",
+        "prob_mercado": 68.4,
+        "notas": "Modelo: 39.3% | Mercado: 31.6% | Edge: +7.7%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 22.2,
+        "spread_ev": 25.1,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.2 | Línea: -5.5 | Prob cubrir visitante: 64.0%",
+        "spread_notas": "Margen proyectado: +1.2 | Línea: -6.0 | Prob cubrir visitante: 65.5%",
         "ou_pick": "OVER",
-        "ou_ev": 30.7,
+        "ou_ev": 23.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 233.3 vs línea 228.5 (+4.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 233.3 vs línea 229.5 (+3.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -218,11 +204,11 @@
       "alerta": true,
       "alerta_msg": "Jerami Grant Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -162,
-        "away_ml": 145,
-        "spread_home": -3.5,
+        "home_ml": -150,
+        "away_ml": 136,
+        "spread_home": -2.5,
         "total_ou": 217.5,
-        "best_book": "DraftKings",
+        "best_book": "BetUS",
         "num_books": 8
       },
       "recomendacion": {
@@ -231,12 +217,12 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 59.1,
-        "prob_mercado": 60.2,
-        "notas": "Sin EV suficiente. Mejor: 0.1% (umbral 5%) | Modelo local: 59.1% | Mercado: 60.2%",
+        "prob_mercado": 58.6,
+        "notas": "Sin EV suficiente. Mejor: -1.5% (umbral 5%) | Modelo local: 59.1% | Mercado: 58.6%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 11.8,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.9 | Línea: -3.5 | Prob cubrir visitante: 58.6%",
+        "spread_ev": 5.6,
+        "spread_conf": "baja",
+        "spread_notas": "Margen proyectado: +0.9 | Línea: -2.5 | Prob cubrir visitante: 55.3%",
         "ou_pick": "OVER",
         "ou_ev": 60.6,
         "ou_confianza": "media",
