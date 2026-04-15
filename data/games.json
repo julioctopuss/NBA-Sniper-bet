@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T20:03:05.136123+00:00",
+  "updated_at": "2026-04-15T22:08:48.250629+00:00",
   "games": [
     {
       "id": "f7264c00c662a127d58f4ab12fc498bc",
@@ -63,13 +63,6 @@
       ],
       "away_injuries": [
         {
-          "player": "Jett Howard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Jonathan Isaac",
           "position": "F",
           "status": "Out",
@@ -100,13 +93,6 @@
           "weight": 1
         },
         {
-          "player": "Jett Howard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Jonathan Isaac",
           "position": "F",
           "status": "Out",
@@ -115,23 +101,23 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Johni Broome Out | Joel Embiid Out | Jett Howard Out | Jonathan Isaac Out",
+      "alerta_msg": "Johni Broome Out | Joel Embiid Out | Jonathan Isaac Out",
       "odds": {
         "home_ml": -120,
-        "away_ml": 110,
+        "away_ml": 104,
         "spread_home": -1.5,
         "total_ou": 223.5,
-        "best_book": "Bovada",
+        "best_book": "DraftKings",
         "num_books": 8
       },
       "recomendacion": {
         "pick": "Orlando Magic",
         "tipo": "ML Magic",
-        "confianza": "media",
-        "ev": 10.1,
+        "confianza": "baja",
+        "ev": 6.9,
         "prob_modelo": 47.6,
-        "prob_mercado": 53.4,
-        "notas": "Modelo: 52.4% | Mercado: 46.6% | Edge: +5.8%",
+        "prob_mercado": 52.7,
+        "notas": "Modelo: 52.4% | Mercado: 47.3% | Edge: +5.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 7.5,
         "spread_conf": "baja",
@@ -246,7 +232,7 @@
       "alerta_msg": "Jimmy Butler III Out | LJ Cryer Out | Moses Moody Out | Quinten Post Out",
       "odds": {
         "home_ml": -215,
-        "away_ml": 188,
+        "away_ml": 190,
         "spread_home": -5.5,
         "total_ou": 220.5,
         "best_book": "FanDuel",
@@ -256,10 +242,10 @@
         "pick": "Golden State Warriors",
         "tipo": "ML Warriors",
         "confianza": "alta",
-        "ev": 32.6,
+        "ev": 33.6,
         "prob_modelo": 53.9,
-        "prob_mercado": 66.3,
-        "notas": "Modelo: 46.1% | Mercado: 33.7% | Edge: +12.3%",
+        "prob_mercado": 66.4,
+        "notas": "Modelo: 46.1% | Mercado: 33.6% | Edge: +12.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
