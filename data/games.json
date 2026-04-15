@@ -1,105 +1,144 @@
 {
-  "updated_at": "2026-04-15T03:47:53.215980+00:00",
+  "updated_at": "2026-04-15T04:47:23.789576+00:00",
   "games": [
     {
-      "id": "0999cb23cd03811476b378dd4045ea16",
-      "home_team": "Phoenix Suns",
-      "away_team": "Portland Trail Blazers",
-      "commence_time": "2026-04-15T02:15:47Z",
-      "time_et": "10:15 PM ET",
+      "id": "f7264c00c662a127d58f4ab12fc498bc",
+      "home_team": "Philadelphia 76ers",
+      "away_team": "Orlando Magic",
+      "commence_time": "2026-04-15T23:40:00Z",
+      "time_et": "7:40 PM ET",
       "live": {
-        "state": "in",
-        "period": 3,
-        "clock": "7:19",
-        "home_score": "66",
-        "away_score": "77"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "112.6",
-        "papg": "111.1",
-        "diff": "+1.5",
-        "home_rec": "25-16",
-        "away_rec": "20-21",
-        "streak": "W1",
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
         "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "42-40",
-        "seed": "8",
-        "ppg": "115.5",
-        "papg": "115.8",
-        "diff": "-0.3",
-        "home_rec": "24-17",
-        "away_rec": "18-23",
-        "streak": "W2",
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
         "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Grayson Allen",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Grayson Allen",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Grayson Allen Out | Damian Lillard Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": 285,
-        "away_ml": -260,
-        "spread_home": 6.5,
-        "total_ou": 224.5,
-        "best_book": "FanDuel",
-        "num_books": 5
+        "home_ml": -124,
+        "away_ml": 112,
+        "spread_home": -2.0,
+        "total_ou": 222.5,
+        "best_book": "BetRivers",
+        "num_books": 8
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 59.1,
-        "prob_mercado": 26.5,
-        "notas": "Diferencia modelo/mercado excesiva (33%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 59.1% | Mercado: 26.5%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 39.6,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.9 | Línea: +6.5 | Prob cubrir local: 73.1%",
-        "ou_pick": "OVER",
-        "ou_ev": 18.0,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.5 vs línea 224.5 (+3.0) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "pick": "Orlando Magic",
+        "tipo": "ML Magic",
+        "confianza": "baja",
+        "ev": 6.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 54.0,
+        "notas": "Modelo: 50.0% | Mercado: 46.0% | Edge: +4.0%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "7cfae0891b99865ef7fc9d357b69ca28",
+      "home_team": "Los Angeles Clippers",
+      "away_team": "Golden State Warriors",
+      "commence_time": "2026-04-16T02:10:00Z",
+      "time_et": "10:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -205,
+        "away_ml": 188,
+        "spread_home": -5.5,
+        "total_ou": 221.5,
+        "best_book": "DraftKings",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Golden State Warriors",
+        "tipo": "ML Warriors",
+        "confianza": "alta",
+        "ev": 44.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 65.9,
+        "notas": "Modelo: 50.0% | Mercado: 34.1% | Edge: +15.9%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
