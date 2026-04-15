@@ -1,133 +1,18 @@
 {
-  "updated_at": "2026-04-14T23:29:23.858415+00:00",
+  "updated_at": "2026-04-15T03:47:53.215980+00:00",
   "games": [
-    {
-      "id": "25f53495c4044a1d8fb682e3715eb7b3",
-      "home_team": "Charlotte Hornets",
-      "away_team": "Miami Heat",
-      "commence_time": "2026-04-14T23:40:00Z",
-      "time_et": "7:40 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "44-38",
-        "seed": "9",
-        "ppg": "116.0",
-        "papg": "111.2",
-        "diff": "+4.8",
-        "home_rec": "21-20",
-        "away_rec": "23-18",
-        "streak": "W1",
-        "forma": []
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "43-39",
-        "seed": "10",
-        "ppg": "120.9",
-        "papg": "118.5",
-        "diff": "+2.4",
-        "home_rec": "26-15",
-        "away_rec": "17-24",
-        "streak": "W2",
-        "forma": []
-      },
-      "home_injuries": [
-        {
-          "player": "PJ Hall",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Nikola Jovic",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Dru Smith",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "PJ Hall",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Nikola Jovic",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Dru Smith",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "PJ Hall Out | Nikola Jovic Out | Dru Smith Out",
-      "odds": {
-        "home_ml": -238,
-        "away_ml": 218,
-        "spread_home": -6.0,
-        "total_ou": 227.5,
-        "best_book": "DraftKings",
-        "num_books": 8
-      },
-      "recomendacion": {
-        "pick": "Miami Heat",
-        "tipo": "ML Heat",
-        "confianza": "alta",
-        "ev": 25.0,
-        "prob_modelo": 60.7,
-        "prob_mercado": 69.1,
-        "notas": "Modelo: 39.3% | Mercado: 30.9% | Edge: +8.4%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 25.1,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.2 | Línea: -6.0 | Prob cubrir visitante: 65.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 37.3,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 233.3 vs línea 227.5 (+5.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "0999cb23cd03811476b378dd4045ea16",
       "home_team": "Phoenix Suns",
       "away_team": "Portland Trail Blazers",
-      "commence_time": "2026-04-15T02:10:00Z",
-      "time_et": "10:10 PM ET",
+      "commence_time": "2026-04-15T02:15:47Z",
+      "time_et": "10:15 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 3,
+        "clock": "7:19",
+        "home_score": "66",
+        "away_score": "77"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -157,19 +42,12 @@
         {
           "player": "Grayson Allen",
           "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Jerami Grant",
-          "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
+        }
+      ],
+      "away_injuries": [
         {
           "player": "Damian Lillard",
           "position": "G",
@@ -182,13 +60,6 @@
         {
           "player": "Grayson Allen",
           "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Jerami Grant",
-          "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -202,14 +73,14 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Jerami Grant Out | Damian Lillard Out",
+      "alerta_msg": "Grayson Allen Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -142,
-        "away_ml": 135,
-        "spread_home": -3.5,
-        "total_ou": 216.5,
+        "home_ml": 285,
+        "away_ml": -260,
+        "spread_home": 6.5,
+        "total_ou": 224.5,
         "best_book": "FanDuel",
-        "num_books": 8
+        "num_books": 5
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -217,17 +88,17 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 59.1,
-        "prob_mercado": 58.0,
-        "notas": "Sin EV suficiente. Mejor: 0.8% (umbral 5%) | Modelo local: 59.1% | Mercado: 58.0%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 11.8,
+        "prob_mercado": 26.5,
+        "notas": "Diferencia modelo/mercado excesiva (33%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 59.1% | Mercado: 26.5%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 39.6,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.9 | Línea: -3.5 | Prob cubrir visitante: 58.6%",
+        "spread_notas": "Margen proyectado: +0.9 | Línea: +6.5 | Prob cubrir local: 73.1%",
         "ou_pick": "OVER",
-        "ou_ev": 65.0,
+        "ou_ev": 18.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.5 vs línea 216.5 (+11.0) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
+        "ou_notas": "Proyección 227.5 vs línea 224.5 (+3.0) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
     }
