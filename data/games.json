@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-15T22:08:48.250629+00:00",
+  "updated_at": "2026-04-15T23:28:46.746208+00:00",
   "games": [
     {
       "id": "f7264c00c662a127d58f4ab12fc498bc",
       "home_team": "Philadelphia 76ers",
       "away_team": "Orlando Magic",
-      "commence_time": "2026-04-15T23:40:00Z",
-      "time_et": "7:40 PM ET",
+      "commence_time": "2026-04-15T23:42:00Z",
+      "time_et": "7:42 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
@@ -52,13 +52,6 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Trendon Watford",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "away_injuries": [
@@ -86,13 +79,6 @@
           "weight": 3
         },
         {
-          "player": "Trendon Watford",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Jonathan Isaac",
           "position": "F",
           "status": "Out",
@@ -103,21 +89,21 @@
       "alerta": true,
       "alerta_msg": "Johni Broome Out | Joel Embiid Out | Jonathan Isaac Out",
       "odds": {
-        "home_ml": -120,
-        "away_ml": 104,
+        "home_ml": -112,
+        "away_ml": 100,
         "spread_home": -1.5,
         "total_ou": 223.5,
-        "best_book": "DraftKings",
+        "best_book": "LowVig.ag",
         "num_books": 8
       },
       "recomendacion": {
-        "pick": "Orlando Magic",
-        "tipo": "ML Magic",
-        "confianza": "baja",
-        "ev": 6.9,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 47.6,
-        "prob_mercado": 52.7,
-        "notas": "Modelo: 52.4% | Mercado: 47.3% | Edge: +5.1%",
+        "prob_mercado": 51.4,
+        "notas": "Sin EV suficiente. Mejor: 4.8% (umbral 5%) | Modelo local: 47.6% | Mercado: 51.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 7.5,
         "spread_conf": "baja",
@@ -232,7 +218,7 @@
       "alerta_msg": "Jimmy Butler III Out | LJ Cryer Out | Moses Moody Out | Quinten Post Out",
       "odds": {
         "home_ml": -215,
-        "away_ml": 190,
+        "away_ml": 191,
         "spread_home": -5.5,
         "total_ou": 220.5,
         "best_book": "FanDuel",
@@ -242,10 +228,10 @@
         "pick": "Golden State Warriors",
         "tipo": "ML Warriors",
         "confianza": "alta",
-        "ev": 33.6,
+        "ev": 34.0,
         "prob_modelo": 53.9,
-        "prob_mercado": 66.4,
-        "notas": "Modelo: 46.1% | Mercado: 33.6% | Edge: +12.5%",
+        "prob_mercado": 66.5,
+        "notas": "Modelo: 46.1% | Mercado: 33.5% | Edge: +12.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
