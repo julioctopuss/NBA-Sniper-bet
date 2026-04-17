@@ -1,4 +1,299 @@
 {
-  "updated_at": "2026-04-17T03:51:09.820266+00:00",
-  "games": []
+  "updated_at": "2026-04-17T04:50:53.461191+00:00",
+  "games": [
+    {
+      "id": "fc16dfbe5b438857b93902fa811dd8f6",
+      "home_team": "Orlando Magic",
+      "away_team": "Charlotte Hornets",
+      "commence_time": "2026-04-17T23:40:00Z",
+      "time_et": "7:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "115.7",
+        "papg": "115.1",
+        "diff": "+0.6",
+        "home_rec": "25-15",
+        "away_rec": "19-20",
+        "streak": "L1",
+        "forma": [
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "44-38",
+        "seed": "9",
+        "ppg": "116.0",
+        "papg": "111.2",
+        "diff": "+4.8",
+        "home_rec": "21-20",
+        "away_rec": "23-18",
+        "streak": "W1",
+        "forma": [
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Moussa Diabate",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "PJ Hall",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Moussa Diabate",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "PJ Hall",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jonathan Isaac Out | PJ Hall Out",
+      "odds": {
+        "home_ml": 144,
+        "away_ml": -160,
+        "spread_home": 3.5,
+        "total_ou": 217.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Charlotte Hornets",
+        "tipo": "ML Hornets",
+        "confianza": "media",
+        "ev": 12.2,
+        "prob_modelo": 30.9,
+        "prob_mercado": 40.0,
+        "notas": "Modelo: 69.1% | Mercado: 60.0% | Edge: +9.1%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +-2.1 | Línea: +3.5 | Sin EV en spread (local: 4.3%, visit: -13.4%)",
+        "ou_pick": "OVER",
+        "ou_ev": 67.0,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.0 vs línea 217.5 (+11.5) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "c8d1b7fd06c21e259b9416daf596f023",
+      "home_team": "Phoenix Suns",
+      "away_team": "Golden State Warriors",
+      "commence_time": "2026-04-18T02:10:00Z",
+      "time_et": "10:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "112.6",
+        "papg": "111.1",
+        "diff": "+1.5",
+        "home_rec": "25-16",
+        "away_rec": "20-21",
+        "streak": "W1",
+        "forma": [
+          "P"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "37-45",
+        "seed": "10",
+        "ppg": "114.6",
+        "papg": "115.2",
+        "diff": "-0.6",
+        "home_rec": "22-19",
+        "away_rec": "15-26",
+        "streak": "L3",
+        "forma": [
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Jimmy Butler III",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LJ Cryer",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Moses Moody",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kristaps Porzingis",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Quinten Post",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jimmy Butler III",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LJ Cryer",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Moses Moody",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kristaps Porzingis",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Quinten Post",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jimmy Butler III Out | LJ Cryer Out | Moses Moody Out | Quinten Post Out",
+      "odds": {
+        "home_ml": -150,
+        "away_ml": 136,
+        "spread_home": -3.5,
+        "total_ou": 219.5,
+        "best_book": "Bovada",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 57.5,
+        "prob_mercado": 58.6,
+        "notas": "Sin EV suficiente. Mejor: 0.4% (umbral 5%) | Modelo local: 57.5% | Mercado: 58.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 10.9,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +1.1 | Línea: -3.5 | Prob cubrir visitante: 58.1%",
+        "ou_pick": "OVER",
+        "ou_ev": 46.5,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 226.8 vs línea 219.5 (+7.3) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0,
+        "away_pra_out": 0.0
+      }
+    }
+  ]
 }
