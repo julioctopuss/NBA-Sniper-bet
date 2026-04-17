@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T19:58:32.173645+00:00",
+  "updated_at": "2026-04-17T22:05:29.763598+00:00",
   "games": [
     {
       "id": "fc16dfbe5b438857b93902fa811dd8f6",
@@ -93,7 +93,7 @@
       "alerta": true,
       "alerta_msg": "Jonathan Isaac Out | PJ Hall Out",
       "odds": {
-        "home_ml": 136,
+        "home_ml": 134,
         "away_ml": -150,
         "spread_home": 3.5,
         "total_ou": 218.5,
@@ -106,8 +106,8 @@
         "confianza": "alta",
         "ev": 15.1,
         "prob_modelo": 30.9,
-        "prob_mercado": 41.4,
-        "notas": "Modelo: 69.1% | Mercado: 58.6% | Edge: +10.5%",
+        "prob_mercado": 41.6,
+        "notas": "Modelo: 69.1% | Mercado: 58.4% | Edge: +10.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -268,11 +268,11 @@
       "alerta": true,
       "alerta_msg": "Jimmy Butler III Out | LJ Cryer Out | Moses Moody Out | Quinten Post Out",
       "odds": {
-        "home_ml": -140,
-        "away_ml": 128,
+        "home_ml": -138,
+        "away_ml": 127,
         "spread_home": -2.5,
-        "total_ou": 220.5,
-        "best_book": "Bovada",
+        "total_ou": 219.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -281,16 +281,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 57.5,
-        "prob_mercado": 57.1,
-        "notas": "Sin EV suficiente. Mejor: -1.5% (umbral 5%) | Modelo local: 57.5% | Mercado: 57.1%",
+        "prob_mercado": 56.8,
+        "notas": "Sin EV suficiente. Mejor: -0.9% (umbral 5%) | Modelo local: 57.5% | Mercado: 56.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
         "spread_notas": "Margen proyectado: +1.1 | Línea: -2.5 | Sin EV en spread (local: -13.7%, visit: 4.6%)",
         "ou_pick": "OVER",
-        "ou_ev": 40.4,
+        "ou_ev": 46.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 226.8 vs línea 220.5 (+6.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 226.8 vs línea 219.5 (+7.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
