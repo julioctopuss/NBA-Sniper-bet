@@ -1,123 +1,18 @@
 {
-  "updated_at": "2026-04-17T23:24:48.996290+00:00",
+  "updated_at": "2026-04-18T03:36:24.534049+00:00",
   "games": [
-    {
-      "id": "fc16dfbe5b438857b93902fa811dd8f6",
-      "home_team": "Orlando Magic",
-      "away_team": "Charlotte Hornets",
-      "commence_time": "2026-04-17T23:40:00Z",
-      "time_et": "7:40 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "8",
-        "ppg": "115.7",
-        "papg": "115.1",
-        "diff": "+0.6",
-        "home_rec": "25-15",
-        "away_rec": "19-20",
-        "streak": "L1",
-        "forma": [
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "44-38",
-        "seed": "9",
-        "ppg": "116.0",
-        "papg": "111.2",
-        "diff": "+4.8",
-        "home_rec": "21-20",
-        "away_rec": "23-18",
-        "streak": "W1",
-        "forma": [
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "PJ Hall",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "PJ Hall",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jonathan Isaac Out | PJ Hall Out",
-      "odds": {
-        "home_ml": 130,
-        "away_ml": -142,
-        "spread_home": 3.5,
-        "total_ou": 218.5,
-        "best_book": "DraftKings",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Charlotte Hornets",
-        "tipo": "ML Hornets",
-        "confianza": "alta",
-        "ev": 17.7,
-        "prob_modelo": 30.9,
-        "prob_mercado": 42.6,
-        "notas": "Modelo: 69.1% | Mercado: 57.4% | Edge: +11.6%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-2.1 | Línea: +3.5 | Sin EV en spread (local: 4.3%, visit: -13.4%)",
-        "ou_pick": "OVER",
-        "ou_ev": 62.9,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.0 vs línea 218.5 (+10.5) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "c8d1b7fd06c21e259b9416daf596f023",
       "home_team": "Phoenix Suns",
       "away_team": "Golden State Warriors",
-      "commence_time": "2026-04-18T02:10:00Z",
-      "time_et": "10:10 PM ET",
+      "commence_time": "2026-04-18T02:18:02Z",
+      "time_et": "10:18 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
+        "state": "in",
+        "period": 2,
         "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "home_score": "50",
+        "away_score": "45"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -149,18 +44,11 @@
       },
       "home_injuries": [
         {
-          "player": "Grayson Allen",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Mark Williams",
           "position": "C",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "away_injuries": [
@@ -186,13 +74,6 @@
           "weight": 3
         },
         {
-          "player": "Kristaps Porzingis",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Quinten Post",
           "position": "C",
           "status": "Out",
@@ -202,18 +83,11 @@
       ],
       "injuries": [
         {
-          "player": "Grayson Allen",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Mark Williams",
           "position": "C",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Jimmy Butler III",
@@ -237,13 +111,6 @@
           "weight": 3
         },
         {
-          "player": "Kristaps Porzingis",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Quinten Post",
           "position": "C",
           "status": "Out",
@@ -252,32 +119,32 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Jimmy Butler III Out | LJ Cryer Out | Moses Moody Out | Quinten Post Out",
+      "alerta_msg": "Mark Williams Out | Jimmy Butler III Out | LJ Cryer Out | Moses Moody Out | Quinten Post Out",
       "odds": {
-        "home_ml": -142,
-        "away_ml": 127,
-        "spread_home": -2.5,
-        "total_ou": 219.5,
-        "best_book": "DraftKings",
-        "num_books": 9
+        "home_ml": -185,
+        "away_ml": 162,
+        "spread_home": -4.5,
+        "total_ou": 202.5,
+        "best_book": "BetMGM",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Golden State Warriors",
+        "tipo": "ML Warriors",
+        "confianza": "media",
+        "ev": 11.4,
         "prob_modelo": 57.5,
-        "prob_mercado": 57.1,
-        "notas": "Sin EV suficiente. Mejor: -2.1% (umbral 5%) | Modelo local: 57.5% | Mercado: 57.1%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +1.1 | Línea: -2.5 | Sin EV en spread (local: -13.7%, visit: 4.6%)",
+        "prob_mercado": 63.0,
+        "notas": "Modelo: 42.5% | Mercado: 37.0% | Edge: +5.5%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 17.1,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +1.1 | Línea: -4.5 | Prob cubrir visitante: 61.3%",
         "ou_pick": "OVER",
-        "ou_ev": 46.5,
+        "ou_ev": 89.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 226.8 vs línea 219.5 (+7.3) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
+        "ou_notas": "Proyección 226.8 vs línea 202.5 (+24.3) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
     }
