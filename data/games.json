@@ -1,133 +1,18 @@
 {
-  "updated_at": "2026-04-18T19:41:01.727008+00:00",
+  "updated_at": "2026-04-18T21:57:21.615461+00:00",
   "games": [
-    {
-      "id": "2a8e5a45f1bcb477a6f9cbd7739d005e",
-      "home_team": "Cleveland Cavaliers",
-      "away_team": "Toronto Raptors",
-      "commence_time": "2026-04-18T17:09:17Z",
-      "time_et": "1:09 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "2:17",
-        "home_score": "122",
-        "away_score": "107"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": []
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "5",
-        "ppg": "114.6",
-        "papg": "111.8",
-        "diff": "+2.8",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": []
-      },
-      "home_injuries": [
-        {
-          "player": "Thomas Bryant",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Thomas Bryant",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Thomas Bryant Out | Chucky Hepburn Out | Immanuel Quickley Out",
-      "odds": {
-        "home_ml": null,
-        "away_ml": null,
-        "spread_home": -15.5,
-        "total_ou": 238.5,
-        "best_book": "",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 56.6,
-        "prob_mercado": 0,
-        "notas": "Sin señal clara.",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 70.3,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.7 | Línea: -15.5 | Prob cubrir visitante: 89.2%",
-        "ou_pick": "UNDER",
-        "ou_ev": 49.4,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.7 vs línea 238.5 (-7.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "526f783434e5dabca25ee032d8fee612",
       "home_team": "Denver Nuggets",
       "away_team": "Minnesota Timberwolves",
-      "commence_time": "2026-04-18T19:45:00Z",
-      "time_et": "3:45 PM ET",
+      "commence_time": "2026-04-18T19:41:33Z",
+      "time_et": "3:41 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "5:12",
+        "home_score": "104",
+        "away_score": "95"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -175,29 +60,29 @@
       "alerta": true,
       "alerta_msg": "Peyton Watson Out",
       "odds": {
-        "home_ml": -270,
-        "away_ml": 240,
-        "spread_home": -7.5,
-        "total_ou": 232.5,
-        "best_book": "DraftKings",
-        "num_books": 9
+        "home_ml": -1100,
+        "away_ml": 1000,
+        "spread_home": -8.5,
+        "total_ou": 226.5,
+        "best_book": "Bovada",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Minnesota Timberwolves",
-        "tipo": "ML Timberwolves",
-        "confianza": "alta",
-        "ev": 40.8,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 58.6,
-        "prob_mercado": 71.3,
-        "notas": "Modelo: 41.4% | Mercado: 28.7% | Edge: +12.7%",
+        "prob_mercado": 91.0,
+        "notas": "Diferencia modelo/mercado excesiva (32%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 58.6% | Mercado: 91.0%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 35.3,
+        "spread_ev": 40.6,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.9 | Línea: -7.5 | Prob cubrir visitante: 70.9%",
+        "spread_notas": "Margen proyectado: +0.9 | Línea: -8.5 | Prob cubrir visitante: 73.7%",
         "ou_pick": "OVER",
-        "ou_ev": 20.1,
+        "ou_ev": 57.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 235.8 vs línea 232.5 (+3.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 235.8 vs línea 226.5 (+9.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -261,11 +146,11 @@
       "alerta": true,
       "alerta_msg": "Jock Landale Out",
       "odds": {
-        "home_ml": -245,
+        "home_ml": -225,
         "away_ml": 215,
         "spread_home": -6.0,
         "total_ou": 217.5,
-        "best_book": "BetRivers",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -274,8 +159,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 67.5,
-        "prob_mercado": 69.1,
-        "notas": "Sin EV suficiente. Mejor: 2.4% (umbral 5%) | Modelo local: 67.5% | Mercado: 69.1%",
+        "prob_mercado": 68.6,
+        "notas": "Sin EV suficiente. Mejor: 2.4% (umbral 5%) | Modelo local: 67.5% | Mercado: 68.6%",
         "spread_lado": "VISITANTE",
         "spread_ev": 20.7,
         "spread_conf": "media",
@@ -407,7 +292,7 @@
         "home_ml": 179,
         "away_ml": -200,
         "spread_home": 4.5,
-        "total_ou": 208.5,
+        "total_ou": 209.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -424,9 +309,9 @@
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-1.8 | Línea: +4.5 | Prob cubrir local: 59.1%",
         "ou_pick": "OVER",
-        "ou_ev": 86.1,
+        "ou_ev": 84.9,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.1 vs línea 208.5 (+19.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 228.1 vs línea 209.5 (+18.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
