@@ -1,144 +1,195 @@
 {
-  "updated_at": "2026-04-19T04:52:59.084777+00:00",
+  "updated_at": "2026-04-19T19:41:16.868646+00:00",
   "games": [
     {
       "id": "00d1efd43d0790297fb68684a9171191",
       "home_team": "Boston Celtics",
       "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-04-19T17:10:00Z",
-      "time_et": "1:10 PM ET",
+      "commence_time": "2026-04-19T17:11:04Z",
+      "time_et": "1:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "state": "post",
+        "period": 4,
+        "clock": "0.0",
+        "home_score": "123",
+        "away_score": "91"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "56-26",
+        "seed": "2",
+        "ppg": "114.9",
+        "papg": "107.2",
+        "diff": "+7.7",
+        "home_rec": "30-11",
+        "away_rec": "26-15",
+        "streak": "W2",
+        "forma": [
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "45-37",
+        "seed": "7",
+        "ppg": "115.9",
+        "papg": "116.1",
+        "diff": "-0.2",
+        "home_rec": "23-18",
+        "away_rec": "22-19",
+        "streak": "W2",
+        "forma": [
+          "P"
+        ]
       },
       "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "away_injuries": [
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Joel Embiid Out",
       "odds": {
-        "home_ml": -786,
-        "away_ml": 610,
-        "spread_home": -12.5,
-        "total_ou": 213.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": null,
+        "away_ml": null,
+        "spread_home": -32.5,
+        "total_ou": 214.5,
+        "best_book": "",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 50.0,
-        "prob_mercado": 86.3,
-        "notas": "Diferencia modelo/mercado excesiva (36%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 86.3%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
+        "prob_modelo": 82.1,
+        "prob_mercado": 0,
+        "notas": "Sin señal clara.",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 89.2,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +3.9 | Línea: -32.5 | Prob cubrir visitante: 99.1%",
+        "ou_pick": "OVER",
+        "ou_ev": 71.1,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 227.1 vs línea 214.5 (+12.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
-        "away_pra_out": 0
+        "away_pra_out": 0.0
       }
     },
     {
       "id": "ef6021edff80a85fe2dae5cf3530d9d4",
       "home_team": "Oklahoma City Thunder",
       "away_team": "Phoenix Suns",
-      "commence_time": "2026-04-19T19:40:00Z",
-      "time_et": "3:40 PM ET",
+      "commence_time": "2026-04-19T19:44:00Z",
+      "time_et": "3:44 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
+        "conference": "Oeste",
+        "record": "64-18",
+        "seed": "1",
+        "ppg": "119.0",
+        "papg": "107.9",
+        "diff": "+11.1",
+        "home_rec": "34-7",
+        "away_rec": "30-10",
+        "streak": "L2",
         "forma": []
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
+        "conference": "Oeste",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "112.6",
+        "papg": "111.1",
+        "diff": "+1.5",
+        "home_rec": "25-16",
+        "away_rec": "20-21",
+        "streak": "W1",
         "forma": []
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Thomas Sorber Out | Mark Williams Out",
       "odds": {
-        "home_ml": -1000,
-        "away_ml": 757,
-        "spread_home": -13.5,
-        "total_ou": 215.5,
+        "home_ml": -1430,
+        "away_ml": 1100,
+        "spread_home": -16.5,
+        "total_ou": 216.5,
         "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 50.0,
-        "prob_mercado": 88.6,
-        "notas": "Diferencia modelo/mercado excesiva (39%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 88.6%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "pick": "Phoenix Suns",
+        "tipo": "ML Suns",
+        "confianza": "alta",
+        "ev": 83.2,
+        "prob_modelo": 84.7,
+        "prob_mercado": 91.8,
+        "notas": "Modelo: 15.3% | Mercado: 8.2% | Edge: +7.1%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 59.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +4.8 | Línea: -16.5 | Prob cubrir visitante: 83.5%",
+        "ou_pick": "OVER",
+        "ou_ev": 54.8,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 225.3 vs línea 216.5 (+8.8) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     },
     {
@@ -150,44 +201,74 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
+        "conference": "Este",
+        "record": "60-22",
+        "seed": "1",
+        "ppg": "117.8",
+        "papg": "109.6",
+        "diff": "+8.2",
+        "home_rec": "31-9",
+        "away_rec": "28-13",
+        "streak": "W3",
         "forma": []
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
+        "conference": "Este",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "115.7",
+        "papg": "115.1",
+        "diff": "+0.6",
+        "home_rec": "25-15",
+        "away_rec": "19-20",
+        "streak": "L1",
         "forma": []
       },
       "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "away_injuries": [
+        {
+          "player": "Desmond Bane",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Desmond Bane",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jonathan Isaac Out",
       "odds": {
-        "home_ml": -345,
-        "away_ml": 304,
+        "home_ml": -375,
+        "away_ml": 333,
         "spread_home": -8.5,
-        "total_ou": 218.5,
+        "total_ou": 221.5,
         "best_book": "DraftKings",
         "num_books": 9
       },
@@ -196,19 +277,19 @@
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 50.0,
-        "prob_mercado": 75.8,
-        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 75.8%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
+        "prob_modelo": 79.7,
+        "prob_mercado": 77.4,
+        "notas": "Sin EV suficiente. Mejor: 0.9% (umbral 5%) | Modelo local: 79.7% | Mercado: 77.4%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 24.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +3.8 | Línea: -8.5 | Prob cubrir visitante: 65.2%",
+        "ou_pick": "OVER",
+        "ou_ev": 48.2,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.1 vs línea 221.5 (+7.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
-        "away_pra_out": 0
+        "away_pra_out": 0.0
       }
     },
     {
@@ -220,45 +301,90 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
+        "conference": "Oeste",
+        "record": "62-20",
+        "seed": "2",
+        "ppg": "119.8",
+        "papg": "111.5",
+        "diff": "+8.3",
+        "home_rec": "32-8",
+        "away_rec": "29-12",
+        "streak": "L1",
         "forma": []
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
+        "conference": "Oeste",
+        "record": "42-40",
+        "seed": "7",
+        "ppg": "115.5",
+        "papg": "115.8",
+        "diff": "-0.3",
+        "home_rec": "24-17",
+        "away_rec": "18-23",
+        "streak": "W2",
         "forma": []
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jordan McLaughlin",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jordan McLaughlin",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "David Jones Garcia Out | Jordan McLaughlin Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -535,
-        "away_ml": 465,
+        "home_ml": -550,
+        "away_ml": 468,
         "spread_home": -11.0,
         "total_ou": 221.5,
-        "best_book": "DraftKings",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -266,19 +392,19 @@
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 50.0,
-        "prob_mercado": 82.6,
-        "notas": "Diferencia modelo/mercado excesiva (33%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 82.6%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "prob_modelo": 82.6,
+        "prob_mercado": 82.8,
+        "notas": "Sin EV suficiente. Mejor: -1.3% (umbral 5%) | Modelo local: 82.6% | Mercado: 82.8%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 35.9,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +4.3 | Línea: -11.0 | Prob cubrir visitante: 71.2%",
+        "ou_pick": "OVER",
+        "ou_ev": 59.7,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 231.3 vs línea 221.5 (+9.8) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     }
   ]
