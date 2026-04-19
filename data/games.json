@@ -1,108 +1,18 @@
 {
-  "updated_at": "2026-04-19T19:41:16.868646+00:00",
+  "updated_at": "2026-04-19T21:57:26.445673+00:00",
   "games": [
-    {
-      "id": "00d1efd43d0790297fb68684a9171191",
-      "home_team": "Boston Celtics",
-      "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-04-19T17:11:04Z",
-      "time_et": "1:11 PM ET",
-      "live": {
-        "state": "post",
-        "period": 4,
-        "clock": "0.0",
-        "home_score": "123",
-        "away_score": "91"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "56-26",
-        "seed": "2",
-        "ppg": "114.9",
-        "papg": "107.2",
-        "diff": "+7.7",
-        "home_rec": "30-11",
-        "away_rec": "26-15",
-        "streak": "W2",
-        "forma": [
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "P"
-        ]
-      },
-      "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Joel Embiid Out",
-      "odds": {
-        "home_ml": null,
-        "away_ml": null,
-        "spread_home": -32.5,
-        "total_ou": 214.5,
-        "best_book": "",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 82.1,
-        "prob_mercado": 0,
-        "notas": "Sin señal clara.",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 89.2,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.9 | Línea: -32.5 | Prob cubrir visitante: 99.1%",
-        "ou_pick": "OVER",
-        "ou_ev": 71.1,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 214.5 (+12.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "ef6021edff80a85fe2dae5cf3530d9d4",
       "home_team": "Oklahoma City Thunder",
       "away_team": "Phoenix Suns",
-      "commence_time": "2026-04-19T19:44:00Z",
-      "time_et": "3:44 PM ET",
+      "commence_time": "2026-04-19T19:46:15Z",
+      "time_et": "3:46 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "7:34",
+        "home_score": "104",
+        "away_score": "70"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -139,6 +49,13 @@
       ],
       "away_injuries": [
         {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Mark Williams",
           "position": "C",
           "status": "Out",
@@ -155,6 +72,13 @@
           "weight": 3
         },
         {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Mark Williams",
           "position": "C",
           "status": "Out",
@@ -165,29 +89,29 @@
       "alerta": true,
       "alerta_msg": "Thomas Sorber Out | Mark Williams Out",
       "odds": {
-        "home_ml": -1430,
-        "away_ml": 1100,
-        "spread_home": -16.5,
-        "total_ou": 216.5,
-        "best_book": "BetRivers",
-        "num_books": 9
+        "home_ml": null,
+        "away_ml": null,
+        "spread_home": -34.5,
+        "total_ou": 204.5,
+        "best_book": "",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Phoenix Suns",
-        "tipo": "ML Suns",
-        "confianza": "alta",
-        "ev": 83.2,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 84.7,
-        "prob_mercado": 91.8,
-        "notas": "Modelo: 15.3% | Mercado: 8.2% | Edge: +7.1%",
+        "prob_mercado": 0,
+        "notas": "Sin señal clara.",
         "spread_lado": "VISITANTE",
-        "spread_ev": 59.5,
+        "spread_ev": 89.6,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.8 | Línea: -16.5 | Prob cubrir visitante: 83.5%",
+        "spread_notas": "Margen proyectado: +4.8 | Línea: -34.5 | Prob cubrir visitante: 99.3%",
         "ou_pick": "OVER",
-        "ou_ev": 54.8,
+        "ou_ev": 87.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 225.3 vs línea 216.5 (+8.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 225.3 vs línea 204.5 (+20.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -232,13 +156,6 @@
       "home_injuries": [],
       "away_injuries": [
         {
-          "player": "Desmond Bane",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Jonathan Isaac",
           "position": "F",
           "status": "Out",
@@ -247,13 +164,6 @@
         }
       ],
       "injuries": [
-        {
-          "player": "Desmond Bane",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
         {
           "player": "Jonathan Isaac",
           "position": "F",
@@ -266,7 +176,7 @@
       "alerta_msg": "Jonathan Isaac Out",
       "odds": {
         "home_ml": -375,
-        "away_ml": 333,
+        "away_ml": 330,
         "spread_home": -8.5,
         "total_ou": 221.5,
         "best_book": "DraftKings",
@@ -278,8 +188,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 79.7,
-        "prob_mercado": 77.4,
-        "notas": "Sin EV suficiente. Mejor: 0.9% (umbral 5%) | Modelo local: 79.7% | Mercado: 77.4%",
+        "prob_mercado": 77.2,
+        "notas": "Sin EV suficiente. Mejor: 0.9% (umbral 5%) | Modelo local: 79.7% | Mercado: 77.2%",
         "spread_lado": "VISITANTE",
         "spread_ev": 24.5,
         "spread_conf": "media",
@@ -380,29 +290,29 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out | Jordan McLaughlin Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -550,
-        "away_ml": 468,
+        "home_ml": -585,
+        "away_ml": 525,
         "spread_home": -11.0,
-        "total_ou": 221.5,
+        "total_ou": 222.5,
         "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Portland Trail Blazers",
+        "tipo": "ML Blazers",
+        "confianza": "media",
+        "ev": 8.6,
         "prob_modelo": 82.6,
-        "prob_mercado": 82.8,
-        "notas": "Sin EV suficiente. Mejor: -1.3% (umbral 5%) | Modelo local: 82.6% | Mercado: 82.8%",
+        "prob_mercado": 84.2,
+        "notas": "Modelo: 17.4% | Mercado: 15.8% | Edge: +1.6%",
         "spread_lado": "VISITANTE",
         "spread_ev": 35.9,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +4.3 | Línea: -11.0 | Prob cubrir visitante: 71.2%",
         "ou_pick": "OVER",
-        "ou_ev": 59.7,
+        "ou_ev": 54.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 221.5 (+9.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.3 vs línea 222.5 (+8.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
