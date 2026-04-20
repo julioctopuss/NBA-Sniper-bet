@@ -1,4 +1,215 @@
 {
-  "updated_at": "2026-04-20T03:57:58.838230+00:00",
-  "games": []
+  "updated_at": "2026-04-20T05:14:54.205412+00:00",
+  "games": [
+    {
+      "id": "273905d6a4ae9217ec0734b66a0eb28b",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "Toronto Raptors",
+      "commence_time": "2026-04-20T23:10:00Z",
+      "time_et": "7:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -345,
+        "away_ml": 297,
+        "spread_home": -8.5,
+        "total_ou": 222.5,
+        "best_book": "DraftKings",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 50.0,
+        "prob_mercado": 75.5,
+        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 75.5%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "a1b444bd00a27cbae3cf7ca3bf75a3f0",
+      "home_team": "New York Knicks",
+      "away_team": "Atlanta Hawks",
+      "commence_time": "2026-04-21T00:10:00Z",
+      "time_et": "8:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -222,
+        "away_ml": 192,
+        "spread_home": -5.5,
+        "total_ou": 216.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Atlanta Hawks",
+        "tipo": "ML Hawks",
+        "confianza": "alta",
+        "ev": 46.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 66.8,
+        "notas": "Modelo: 50.0% | Mercado: 33.2% | Edge: +16.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "a52365fe7f7123df1c4220d9591a6da2",
+      "home_team": "Denver Nuggets",
+      "away_team": "Minnesota Timberwolves",
+      "commence_time": "2026-04-21T02:40:00Z",
+      "time_et": "10:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -255,
+        "away_ml": 225,
+        "spread_home": -6.5,
+        "total_ou": 230.5,
+        "best_book": "FanDuel",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Minnesota Timberwolves",
+        "tipo": "ML Timberwolves",
+        "confianza": "alta",
+        "ev": 62.5,
+        "prob_modelo": 50.0,
+        "prob_mercado": 70.0,
+        "notas": "Modelo: 50.0% | Mercado: 30.0% | Edge: +20.0%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    }
+  ]
 }
