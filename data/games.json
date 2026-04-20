@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-04-20T22:07:14.210741+00:00",
+  "updated_at": "2026-04-20T23:28:01.228989+00:00",
   "games": [
     {
       "id": "273905d6a4ae9217ec0734b66a0eb28b",
       "home_team": "Cleveland Cavaliers",
       "away_team": "Toronto Raptors",
-      "commence_time": "2026-04-20T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-04-20T23:13:02Z",
+      "time_et": "7:13 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "4:34",
+        "home_score": "19",
+        "away_score": "10"
       },
       "home_stats": {
         "conference": "Este",
@@ -47,23 +47,23 @@
           "player": "Thomas Bryant",
           "position": "C",
           "status": "Out",
-          "pra": 10.2,
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "away_injuries": [
         {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 26.3,
-          "weight": 3
-        },
-        {
           "player": "Chucky Hepburn",
           "position": "G",
           "status": "Out",
-          "pra": 1.5,
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Immanuel Quickley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
           "weight": 3
         }
       ],
@@ -72,31 +72,31 @@
           "player": "Thomas Bryant",
           "position": "C",
           "status": "Out",
-          "pra": 10.2,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 26.3,
+          "pra": 0.0,
           "weight": 3
         },
         {
           "player": "Chucky Hepburn",
           "position": "G",
           "status": "Out",
-          "pra": 1.5,
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Immanuel Quickley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Thomas Bryant Out (PRA 10.2) | Immanuel Quickley Out (PRA 26.3) | Chucky Hepburn Out (PRA 1.5)",
+      "alerta_msg": "Thomas Bryant Out | Chucky Hepburn Out | Immanuel Quickley Out",
       "odds": {
-        "home_ml": -410,
-        "away_ml": 370,
-        "spread_home": -9.5,
-        "total_ou": 222.5,
+        "home_ml": -415,
+        "away_ml": 600,
+        "spread_home": -14.5,
+        "total_ou": 217.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -104,20 +104,20 @@
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 86.8,
+        "ev": 178.2,
         "prob_modelo": 60.3,
-        "prob_mercado": 79.1,
-        "notas": "Bajas Raptors: Immanuel Quickley (26.3 PRA), Chucky Hepburn (1.5 PRA) (28 PRA total) | Modelo: 39.7% | Mercado: 20.9% | Edge: +18.8%",
+        "prob_mercado": 84.9,
+        "notas": "Modelo: 39.7% | Mercado: 15.1% | Edge: +24.7%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 46.9,
+        "spread_ev": 67.2,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.7 | Línea: -9.5 | Prob cubrir visitante: 77.0%",
-        "ou_pick": "UNDER",
-        "ou_ev": 33.3,
+        "spread_notas": "Margen proyectado: +0.7 | Línea: -14.5 | Prob cubrir visitante: 87.6%",
+        "ou_pick": "OVER",
+        "ou_ev": 73.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 217.3 vs línea 222.5 (-5.2) | Penalty bajas: 13.3 pts",
-        "home_pra_out": 10.2,
-        "away_pra_out": 27.8
+        "ou_notas": "Proyección 230.7 vs línea 217.5 (+13.2) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     },
     {
@@ -161,62 +161,33 @@
           "P"
         ]
       },
-      "home_injuries": [
-        {
-          "player": "OG Anunoby",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 24.1,
-          "weight": 1
-        }
-      ],
+      "home_injuries": [],
       "away_injuries": [
-        {
-          "player": "Onyeka Okongwu",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 25.9,
-          "weight": 1
-        },
         {
           "player": "Jock Landale",
           "position": "C",
           "status": "Out",
-          "pra": 18.0,
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "injuries": [
         {
-          "player": "OG Anunoby",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 24.1,
-          "weight": 1
-        },
-        {
-          "player": "Onyeka Okongwu",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 25.9,
-          "weight": 1
-        },
-        {
           "player": "Jock Landale",
           "position": "C",
           "status": "Out",
-          "pra": 18.0,
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Jock Landale Out (PRA 18.0)",
+      "alerta_msg": "Jock Landale Out",
       "odds": {
-        "home_ml": -250,
-        "away_ml": 222,
+        "home_ml": -238,
+        "away_ml": 215,
         "spread_home": -6.5,
         "total_ou": 217.5,
-        "best_book": "DraftKings",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -225,18 +196,18 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 70.7,
-        "prob_mercado": 69.7,
-        "notas": "Sin EV suficiente. Mejor: -1.1% (umbral 5%) | Modelo local: 70.7% | Mercado: 69.7%",
+        "prob_mercado": 68.9,
+        "notas": "Sin EV suficiente. Mejor: 0.4% (umbral 5%) | Modelo local: 70.7% | Mercado: 68.9%",
         "spread_lado": "VISITANTE",
         "spread_ev": 23.7,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +2.0 | Línea: -6.5 | Prob cubrir visitante: 64.8%",
         "ou_pick": "OVER",
-        "ou_ev": 42.9,
+        "ou_ev": 72.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 224.2 vs línea 217.5 (+6.7) | Penalty bajas: 6.3 pts",
+        "ou_notas": "Proyección 230.6 vs línea 217.5 (+13.1) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
-        "away_pra_out": 18.0
+        "away_pra_out": 0.0
       }
     },
     {
@@ -285,7 +256,7 @@
           "player": "Peyton Watson",
           "position": "G",
           "status": "Out",
-          "pra": 21.6,
+          "pra": 0.0,
           "weight": 3
         }
       ],
@@ -295,12 +266,12 @@
           "player": "Peyton Watson",
           "position": "G",
           "status": "Out",
-          "pra": 21.6,
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Peyton Watson Out (PRA 21.6)",
+      "alerta_msg": "Peyton Watson Out",
       "odds": {
         "home_ml": -298,
         "away_ml": 253,
@@ -316,16 +287,16 @@
         "ev": 33.5,
         "prob_modelo": 62.2,
         "prob_mercado": 72.6,
-        "notas": "Bajas Nuggets: Peyton Watson (21.6 PRA) (22 PRA total) | Modelo: 37.8% | Mercado: 27.4% | Edge: +10.4%",
+        "notas": "Modelo: 37.8% | Mercado: 27.4% | Edge: +10.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 35.3,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +0.9 | Línea: -7.5 | Prob cubrir visitante: 70.9%",
-        "ou_pick": "UNDER",
-        "ou_ev": 20.1,
+        "ou_pick": "OVER",
+        "ou_ev": 27.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.2 vs línea 231.5 (-3.3) | Penalty bajas: 7.6 pts",
-        "home_pra_out": 21.6,
+        "ou_notas": "Proyección 235.8 vs línea 231.5 (+4.3) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     }
