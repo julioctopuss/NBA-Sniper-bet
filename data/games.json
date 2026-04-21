@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T20:03:06.990678+00:00",
+  "updated_at": "2026-04-21T22:06:56.187953+00:00",
   "games": [
     {
       "id": "d1a7a6e7b024f888e922a62b14fcf466",
@@ -42,15 +42,7 @@
           "P"
         ]
       },
-      "home_injuries": [
-        {
-          "player": "Ron Harper Jr.",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "home_injuries": [],
       "away_injuries": [
         {
           "player": "Joel Embiid",
@@ -62,13 +54,6 @@
       ],
       "injuries": [
         {
-          "player": "Ron Harper Jr.",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Joel Embiid",
           "position": "C",
           "status": "Out",
@@ -79,8 +64,8 @@
       "alerta": true,
       "alerta_msg": "Joel Embiid Out",
       "odds": {
-        "home_ml": -834,
-        "away_ml": 700,
+        "home_ml": -810,
+        "away_ml": 607,
         "spread_home": -14.5,
         "total_ou": 217.5,
         "best_book": "LowVig.ag",
@@ -90,10 +75,10 @@
         "pick": "Philadelphia 76ers",
         "tipo": "ML 76ers",
         "confianza": "alta",
-        "ev": 43.4,
+        "ev": 26.7,
         "prob_modelo": 82.1,
-        "prob_mercado": 87.7,
-        "notas": "Modelo: 17.9% | Mercado: 12.3% | Edge: +5.6%",
+        "prob_mercado": 86.3,
+        "notas": "Modelo: 17.9% | Mercado: 13.7% | Edge: +4.2%",
         "spread_lado": "VISITANTE",
         "spread_ev": 54.7,
         "spread_conf": "media",
@@ -198,11 +183,11 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out | Jordan McLaughlin Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -650,
-        "away_ml": 536,
-        "spread_home": -11.5,
+        "home_ml": -620,
+        "away_ml": 496,
+        "spread_home": -11.0,
         "total_ou": 220.5,
-        "best_book": "Bovada",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -211,12 +196,12 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 84.7,
-        "prob_mercado": 84.6,
-        "notas": "Sin EV suficiente. Mejor: -2.3% (umbral 5%) | Modelo local: 84.7% | Mercado: 84.6%",
+        "prob_mercado": 83.7,
+        "notas": "Sin EV suficiente. Mejor: -1.7% (umbral 5%) | Modelo local: 84.7% | Mercado: 83.7%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 38.6,
+        "spread_ev": 35.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.3 | Línea: -11.5 | Prob cubrir visitante: 72.6%",
+        "spread_notas": "Margen proyectado: +4.3 | Línea: -11.0 | Prob cubrir visitante: 71.2%",
         "ou_pick": "OVER",
         "ou_ev": 64.2,
         "ou_confianza": "media",
@@ -345,21 +330,21 @@
       "alerta": true,
       "alerta_msg": "Luka Doncic Out | Austin Reaves Out | Steven Adams Out | Kevin Durant Out | Fred VanVleet Out",
       "odds": {
-        "home_ml": 174,
+        "home_ml": 180,
         "away_ml": -195,
         "spread_home": 5.0,
         "total_ou": 207.5,
-        "best_book": "LowVig.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers",
-        "confianza": "media",
-        "ev": 13.1,
+        "confianza": "alta",
+        "ev": 15.6,
         "prob_modelo": 41.3,
-        "prob_mercado": 35.6,
-        "notas": "Modelo: 41.3% | Mercado: 35.6% | Edge: +5.7%",
+        "prob_mercado": 35.1,
+        "notas": "Modelo: 41.3% | Mercado: 35.1% | Edge: +6.2%",
         "spread_lado": "LOCAL",
         "spread_ev": 15.8,
         "spread_conf": "media",
