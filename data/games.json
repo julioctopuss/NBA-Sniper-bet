@@ -1,227 +1,18 @@
 {
-  "updated_at": "2026-04-21T23:23:10.929229+00:00",
+  "updated_at": "2026-04-22T03:47:28.679243+00:00",
   "games": [
-    {
-      "id": "d1a7a6e7b024f888e922a62b14fcf466",
-      "home_team": "Boston Celtics",
-      "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-04-21T23:12:57Z",
-      "time_et": "7:12 PM ET",
-      "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "6:43",
-        "home_score": "15",
-        "away_score": "13"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "56-26",
-        "seed": "2",
-        "ppg": "114.9",
-        "papg": "107.2",
-        "diff": "+7.7",
-        "home_rec": "30-11",
-        "away_rec": "26-15",
-        "streak": "W2",
-        "forma": [
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "P"
-        ]
-      },
-      "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Joel Embiid Out",
-      "odds": {
-        "home_ml": -786,
-        "away_ml": 600,
-        "spread_home": -13.5,
-        "total_ou": 221.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers",
-        "confianza": "alta",
-        "ev": 25.4,
-        "prob_modelo": 82.1,
-        "prob_mercado": 86.1,
-        "notas": "Modelo: 17.9% | Mercado: 13.9% | Edge: +4.1%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 50.2,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.9 | Línea: -13.5 | Prob cubrir visitante: 78.7%",
-        "ou_pick": "OVER",
-        "ou_ev": 36.0,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 221.5 (+5.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "680084e4612c197a1cf4170d82ba6f10",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Portland Trail Blazers",
-      "commence_time": "2026-04-22T00:10:00Z",
-      "time_et": "8:10 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Oeste",
-        "record": "62-20",
-        "seed": "2",
-        "ppg": "119.8",
-        "papg": "111.5",
-        "diff": "+8.3",
-        "home_rec": "32-8",
-        "away_rec": "29-12",
-        "streak": "L1",
-        "forma": [
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Oeste",
-        "record": "42-40",
-        "seed": "7",
-        "ppg": "115.5",
-        "papg": "115.8",
-        "diff": "-0.3",
-        "home_rec": "24-17",
-        "away_rec": "18-23",
-        "streak": "W2",
-        "forma": [
-          "P"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jordan McLaughlin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jordan McLaughlin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "David Jones Garcia Out | Jordan McLaughlin Out | Damian Lillard Out",
-      "odds": {
-        "home_ml": -590,
-        "away_ml": 483,
-        "spread_home": -11.0,
-        "total_ou": 220.5,
-        "best_book": "FanDuel",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 84.7,
-        "prob_mercado": 83.3,
-        "notas": "Sin EV suficiente. Mejor: -1.0% (umbral 5%) | Modelo local: 84.7% | Mercado: 83.3%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 35.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.3 | Línea: -11.0 | Prob cubrir visitante: 71.2%",
-        "ou_pick": "OVER",
-        "ou_ev": 64.2,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 220.5 (+10.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "d3d28b764e5099920880de59a45e82cf",
       "home_team": "Los Angeles Lakers",
       "away_team": "Houston Rockets",
-      "commence_time": "2026-04-22T02:40:00Z",
-      "time_et": "10:40 PM ET",
+      "commence_time": "2026-04-22T02:47:00Z",
+      "time_et": "10:47 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 2,
+        "clock": "51.9",
+        "home_score": "54",
+        "away_score": "50"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -276,13 +67,6 @@
           "weight": 3
         },
         {
-          "player": "Kevin Durant",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Fred VanVleet",
           "position": "G",
           "status": "Out",
@@ -313,13 +97,6 @@
           "weight": 3
         },
         {
-          "player": "Kevin Durant",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Fred VanVleet",
           "position": "G",
           "status": "Out",
@@ -328,31 +105,31 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Luka Doncic Out | Austin Reaves Out | Steven Adams Out | Kevin Durant Out | Fred VanVleet Out",
+      "alerta_msg": "Luka Doncic Out | Austin Reaves Out | Steven Adams Out | Fred VanVleet Out",
       "odds": {
-        "home_ml": 188,
-        "away_ml": -205,
-        "spread_home": 5.5,
-        "total_ou": 207.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": 150,
+        "away_ml": -143,
+        "spread_home": 2.5,
+        "total_ou": 215.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Los Angeles Lakers",
-        "tipo": "ML Lakers",
-        "confianza": "alta",
-        "ev": 18.9,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 41.3,
-        "prob_mercado": 34.1,
-        "notas": "Modelo: 41.3% | Mercado: 34.1% | Edge: +7.2%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 18.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.8 | Línea: +5.5 | Prob cubrir local: 62.3%",
+        "prob_mercado": 40.5,
+        "notas": "Sin EV suficiente. Mejor: 3.2% (umbral 5%) | Modelo local: 41.3% | Mercado: 40.5%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +-1.8 | Línea: +2.5 | Sin EV en spread (local: 0.2%, visit: -9.3%)",
         "ou_pick": "OVER",
-        "ou_ev": 87.2,
+        "ou_ev": 71.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.1 vs línea 207.5 (+20.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 228.1 vs línea 215.5 (+12.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
