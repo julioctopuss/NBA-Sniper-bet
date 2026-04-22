@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T04:48:13.960170+00:00",
+  "updated_at": "2026-04-22T20:05:08.673852+00:00",
   "games": [
     {
       "id": "c9bc6bcae048283407d1cb53995eee8e",
@@ -10,45 +10,65 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "60-22",
+        "seed": "1",
+        "ppg": "117.8",
+        "papg": "109.6",
+        "diff": "+8.2",
+        "home_rec": "31-9",
+        "away_rec": "28-13",
+        "streak": "W3",
+        "forma": [
+          "P"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "115.7",
+        "papg": "115.1",
+        "diff": "+0.6",
+        "home_rec": "25-15",
+        "away_rec": "19-20",
+        "streak": "L1",
+        "forma": [
+          "G"
+        ]
       },
       "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "away_injuries": [
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jonathan Isaac Out",
       "odds": {
-        "home_ml": -386,
-        "away_ml": 316,
+        "home_ml": -360,
+        "away_ml": 318,
         "spread_home": -8.5,
         "total_ou": 218.5,
-        "best_book": "LowVig.ag",
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
@@ -56,19 +76,19 @@
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 50.0,
-        "prob_mercado": 76.8,
-        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 76.8%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
+        "prob_modelo": 77.1,
+        "prob_mercado": 76.6,
+        "notas": "Sin EV suficiente. Mejor: -1.5% (umbral 5%) | Modelo local: 77.1% | Mercado: 76.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 24.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +3.8 | Línea: -8.5 | Prob cubrir visitante: 65.2%",
+        "ou_pick": "OVER",
+        "ou_ev": 63.3,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.1 vs línea 218.5 (+10.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
-        "away_pra_out": 0
+        "away_pra_out": 0.0
       }
     },
     {
@@ -80,65 +100,128 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "64-18",
+        "seed": "1",
+        "ppg": "119.0",
+        "papg": "107.9",
+        "diff": "+11.1",
+        "home_rec": "34-7",
+        "away_rec": "30-10",
+        "streak": "L2",
+        "forma": [
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "112.6",
+        "papg": "111.1",
+        "diff": "+1.5",
+        "home_rec": "25-16",
+        "away_rec": "20-21",
+        "streak": "W1",
+        "forma": [
+          "P"
+        ]
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Grayson Allen",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Thomas Sorber Out | Grayson Allen Out",
       "odds": {
-        "home_ml": -1950,
+        "home_ml": -1755,
         "away_ml": 1100,
         "spread_home": -17.5,
-        "total_ou": 215.5,
+        "total_ou": 216.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 50.0,
+        "pick": "Phoenix Suns",
+        "tipo": "ML Suns",
+        "confianza": "alta",
+        "ev": 61.2,
+        "prob_modelo": 86.6,
         "prob_mercado": 91.9,
-        "notas": "Diferencia modelo/mercado excesiva (42%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 91.9%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "notas": "Modelo: 13.4% | Mercado: 8.1% | Edge: +5.3%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 63.2,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +4.8 | Línea: -17.5 | Prob cubrir visitante: 85.5%",
+        "ou_pick": "OVER",
+        "ou_ev": 54.8,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 225.3 vs línea 216.5 (+8.8) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     }
   ]
