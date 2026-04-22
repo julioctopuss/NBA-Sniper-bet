@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T20:05:08.673852+00:00",
+  "updated_at": "2026-04-22T22:10:14.010975+00:00",
   "games": [
     {
       "id": "c9bc6bcae048283407d1cb53995eee8e",
@@ -64,8 +64,8 @@
       "alerta": true,
       "alerta_msg": "Jonathan Isaac Out",
       "odds": {
-        "home_ml": -360,
-        "away_ml": 318,
+        "home_ml": -345,
+        "away_ml": 311,
         "spread_home": -8.5,
         "total_ou": 218.5,
         "best_book": "DraftKings",
@@ -77,8 +77,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 77.1,
-        "prob_mercado": 76.6,
-        "notas": "Sin EV suficiente. Mejor: -1.5% (umbral 5%) | Modelo local: 77.1% | Mercado: 76.6%",
+        "prob_mercado": 76.1,
+        "notas": "Sin EV suficiente. Mejor: -0.5% (umbral 5%) | Modelo local: 77.1% | Mercado: 76.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 24.5,
         "spread_conf": "media",
@@ -197,9 +197,9 @@
       "alerta": true,
       "alerta_msg": "Thomas Sorber Out | Grayson Allen Out",
       "odds": {
-        "home_ml": -1755,
+        "home_ml": -1561,
         "away_ml": 1100,
-        "spread_home": -17.5,
+        "spread_home": -16.5,
         "total_ou": 216.5,
         "best_book": "LowVig.ag",
         "num_books": 9
@@ -213,9 +213,9 @@
         "prob_mercado": 91.9,
         "notas": "Modelo: 13.4% | Mercado: 8.1% | Edge: +5.3%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 63.2,
+        "spread_ev": 59.5,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.8 | Línea: -17.5 | Prob cubrir visitante: 85.5%",
+        "spread_notas": "Margen proyectado: +4.8 | Línea: -16.5 | Prob cubrir visitante: 83.5%",
         "ou_pick": "OVER",
         "ou_ev": 54.8,
         "ou_confianza": "media",
