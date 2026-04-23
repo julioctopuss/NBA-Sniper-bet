@@ -1,108 +1,18 @@
 {
-  "updated_at": "2026-04-22T23:32:33.059545+00:00",
+  "updated_at": "2026-04-23T03:53:55.519005+00:00",
   "games": [
-    {
-      "id": "c9bc6bcae048283407d1cb53995eee8e",
-      "home_team": "Detroit Pistons",
-      "away_team": "Orlando Magic",
-      "commence_time": "2026-04-22T23:13:00Z",
-      "time_et": "7:13 PM ET",
-      "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "4:11",
-        "home_score": "18",
-        "away_score": "15"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "8",
-        "ppg": "115.7",
-        "papg": "115.1",
-        "diff": "+0.6",
-        "home_rec": "25-15",
-        "away_rec": "19-20",
-        "streak": "L1",
-        "forma": [
-          "G"
-        ]
-      },
-      "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jonathan Isaac Out",
-      "odds": {
-        "home_ml": -400,
-        "away_ml": 400,
-        "spread_home": -11.5,
-        "total_ou": 215.5,
-        "best_book": "BetRivers",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Orlando Magic",
-        "tipo": "ML Magic",
-        "confianza": "media",
-        "ev": 14.4,
-        "prob_modelo": 77.1,
-        "prob_mercado": 80.0,
-        "notas": "Modelo: 22.9% | Mercado: 20.0% | Edge: +2.9%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 41.2,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.8 | Línea: -11.5 | Prob cubrir visitante: 73.9%",
-        "ou_pick": "OVER",
-        "ou_ev": 74.3,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 215.5 (+13.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "0ce48ecb61f40bc3bd784adfe7f8e811",
       "home_team": "Oklahoma City Thunder",
       "away_team": "Phoenix Suns",
-      "commence_time": "2026-04-23T01:40:00Z",
-      "time_et": "9:40 PM ET",
+      "commence_time": "2026-04-23T01:48:04Z",
+      "time_et": "9:48 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "7:51",
+        "home_score": "106",
+        "away_score": "89"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -139,29 +49,29 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
         }
       ],
       "away_injuries": [
         {
-          "player": "Grayson Allen",
+          "player": "Jordan Goodwin",
           "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Jordan Goodwin",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Mark Williams",
           "position": "C",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "injuries": [
@@ -173,53 +83,53 @@
           "weight": 3
         },
         {
-          "player": "Grayson Allen",
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jordan Goodwin",
           "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Jordan Goodwin",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Mark Williams",
           "position": "C",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Thomas Sorber Out | Grayson Allen Out",
+      "alerta_msg": "Thomas Sorber Out | Jordan Goodwin Out | Mark Williams Out",
       "odds": {
-        "home_ml": -1464,
-        "away_ml": 1100,
-        "spread_home": -17.5,
-        "total_ou": 216.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": -10000,
+        "away_ml": 3300,
+        "spread_home": -18.5,
+        "total_ou": 228.5,
+        "best_book": "BetMGM",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Phoenix Suns",
         "tipo": "ML Suns",
         "confianza": "alta",
-        "ev": 61.2,
+        "ev": 356.6,
         "prob_modelo": 86.6,
-        "prob_mercado": 91.8,
-        "notas": "Modelo: 13.4% | Mercado: 8.2% | Edge: +5.3%",
+        "prob_mercado": 97.1,
+        "notas": "Modelo: 13.4% | Mercado: 2.9% | Edge: +10.5%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 63.2,
+        "spread_ev": 66.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.8 | Línea: -17.5 | Prob cubrir visitante: 85.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 54.8,
+        "spread_notas": "Margen proyectado: +4.8 | Línea: -18.5 | Prob cubrir visitante: 87.3%",
+        "ou_pick": "UNDER",
+        "ou_ev": 19.4,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 225.3 vs línea 216.5 (+8.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 225.3 vs línea 228.5 (-3.2) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
