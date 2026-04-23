@@ -1,137 +1,214 @@
 {
-  "updated_at": "2026-04-23T03:53:55.519005+00:00",
+  "updated_at": "2026-04-23T04:52:02.473076+00:00",
   "games": [
     {
-      "id": "0ce48ecb61f40bc3bd784adfe7f8e811",
-      "home_team": "Oklahoma City Thunder",
-      "away_team": "Phoenix Suns",
-      "commence_time": "2026-04-23T01:48:04Z",
-      "time_et": "9:48 PM ET",
+      "id": "b2b129565e14b8782b318b699b05ab3b",
+      "home_team": "Atlanta Hawks",
+      "away_team": "New York Knicks",
+      "commence_time": "2026-04-23T23:10:00Z",
+      "time_et": "7:10 PM ET",
       "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "7:51",
-        "home_score": "106",
-        "away_score": "89"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "64-18",
-        "seed": "1",
-        "ppg": "119.0",
-        "papg": "107.9",
-        "diff": "+11.1",
-        "home_rec": "34-7",
-        "away_rec": "30-10",
-        "streak": "L2",
-        "forma": [
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "45-37",
-        "seed": "8",
-        "ppg": "112.6",
-        "papg": "111.1",
-        "diff": "+1.5",
-        "home_rec": "25-16",
-        "away_rec": "20-21",
-        "streak": "W1",
-        "forma": [
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Jordan Goodwin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mark Williams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Jordan Goodwin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mark Williams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Thomas Sorber Out | Jordan Goodwin Out | Mark Williams Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -10000,
-        "away_ml": 3300,
-        "spread_home": -18.5,
-        "total_ou": 228.5,
-        "best_book": "BetMGM",
-        "num_books": 6
+        "home_ml": 112,
+        "away_ml": -110,
+        "spread_home": -1.5,
+        "total_ou": 216.5,
+        "best_book": "BetRivers",
+        "num_books": 9
       },
       "recomendacion": {
-        "pick": "Phoenix Suns",
-        "tipo": "ML Suns",
+        "pick": "Atlanta Hawks",
+        "tipo": "ML Hawks",
+        "confianza": "baja",
+        "ev": 6.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 47.4,
+        "notas": "Modelo: 50.0% | Mercado: 47.4% | Edge: +2.6%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "b754568efb2036d7f3b661cc8093e66f",
+      "home_team": "Toronto Raptors",
+      "away_team": "Cleveland Cavaliers",
+      "commence_time": "2026-04-24T00:10:00Z",
+      "time_et": "8:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": 132,
+        "away_ml": -149,
+        "spread_home": 2.5,
+        "total_ou": 219.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Toronto Raptors",
+        "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 356.6,
-        "prob_modelo": 86.6,
-        "prob_mercado": 97.1,
-        "notas": "Modelo: 13.4% | Mercado: 2.9% | Edge: +10.5%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 66.7,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.8 | Línea: -18.5 | Prob cubrir visitante: 87.3%",
-        "ou_pick": "UNDER",
-        "ou_ev": 19.4,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 225.3 vs línea 228.5 (-3.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "ev": 16.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 41.9,
+        "notas": "Modelo: 50.0% | Mercado: 41.9% | Edge: +8.1%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "c548073cbcde990c77986a123bd2d5bd",
+      "home_team": "Minnesota Timberwolves",
+      "away_team": "Denver Nuggets",
+      "commence_time": "2026-04-24T01:30:00Z",
+      "time_et": "9:30 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": 117,
+        "away_ml": -125,
+        "spread_home": 1.5,
+        "total_ou": 234.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Minnesota Timberwolves",
+        "tipo": "ML Timberwolves",
+        "confianza": "media",
+        "ev": 8.5,
+        "prob_modelo": 50.0,
+        "prob_mercado": 45.3,
+        "notas": "Modelo: 50.0% | Mercado: 45.3% | Edge: +4.7%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
