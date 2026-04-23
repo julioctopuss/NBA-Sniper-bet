@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T20:05:47.141284+00:00",
+  "updated_at": "2026-04-23T22:06:50.529170+00:00",
   "games": [
     {
       "id": "b2b129565e14b8782b318b699b05ab3b",
@@ -80,8 +80,8 @@
       "alerta": true,
       "alerta_msg": "Keshon Gilbert Out | Jock Landale Out",
       "odds": {
-        "home_ml": 100,
-        "away_ml": -112,
+        "home_ml": 105,
+        "away_ml": -113,
         "spread_home": 1.5,
         "total_ou": 214.5,
         "best_book": "DraftKings",
@@ -91,10 +91,10 @@
         "pick": "New York Knicks",
         "tipo": "ML Knicks",
         "confianza": "alta",
-        "ev": 22.7,
+        "ev": 22.2,
         "prob_modelo": 35.2,
-        "prob_mercado": 48.6,
-        "notas": "Modelo: 64.8% | Mercado: 51.4% | Edge: +13.5%",
+        "prob_mercado": 47.9,
+        "notas": "Modelo: 64.8% | Mercado: 52.1% | Edge: +12.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -202,9 +202,9 @@
       "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out | Thomas Bryant Out",
       "odds": {
         "home_ml": 130,
-        "away_ml": -143,
+        "away_ml": -140,
         "spread_home": 2.5,
-        "total_ou": 222.5,
+        "total_ou": 221.5,
         "best_book": "DraftKings",
         "num_books": 9
       },
@@ -214,16 +214,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 40.8,
-        "prob_mercado": 42.5,
-        "notas": "Sin EV suficiente. Mejor: 0.6% (umbral 5%) | Modelo local: 40.8% | Mercado: 42.5%",
+        "prob_mercado": 42.7,
+        "notas": "Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 40.8% | Mercado: 42.7%",
         "spread_lado": "LOCAL",
         "spread_ev": 7.1,
         "spread_conf": "baja",
         "spread_notas": "Margen proyectado: +-0.7 | Línea: +2.5 | Prob cubrir local: 56.1%",
         "ou_pick": "OVER",
-        "ou_ev": 51.6,
+        "ou_ev": 56.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.7 vs línea 222.5 (+8.2) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.7 vs línea 221.5 (+9.2) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -298,9 +298,9 @@
         {
           "player": "Aaron Gordon",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Peyton Watson",
@@ -335,9 +335,9 @@
         {
           "player": "Aaron Gordon",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Peyton Watson",
@@ -348,31 +348,31 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Peyton Watson Out",
+      "alerta_msg": "Aaron Gordon Out | Peyton Watson Out",
       "odds": {
-        "home_ml": 115,
-        "away_ml": -126,
-        "spread_home": 2.5,
-        "total_ou": 233.5,
-        "best_book": "Bovada",
+        "home_ml": 101,
+        "away_ml": -111,
+        "spread_home": 1.5,
+        "total_ou": 231.5,
+        "best_book": "MyBookie.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Denver Nuggets",
+        "tipo": "ML Nuggets",
+        "confianza": "media",
+        "ev": 8.8,
         "prob_modelo": 42.7,
-        "prob_mercado": 45.5,
-        "notas": "Sin EV suficiente. Mejor: 2.7% (umbral 5%) | Modelo local: 42.7% | Mercado: 45.5%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 5.6,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +-0.9 | Línea: +2.5 | Prob cubrir local: 55.3%",
+        "prob_mercado": 48.6,
+        "notas": "Modelo: 57.3% | Mercado: 51.4% | Edge: +5.9%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +-0.9 | Línea: +1.5 | Sin EV en spread (local: -0.7%, visit: -8.3%)",
         "ou_pick": "OVER",
-        "ou_ev": 12.8,
+        "ou_ev": 27.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 235.8 vs línea 233.5 (+2.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 235.8 vs línea 231.5 (+4.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
