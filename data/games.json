@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-04-23T22:06:50.529170+00:00",
+  "updated_at": "2026-04-23T23:30:13.966867+00:00",
   "games": [
     {
       "id": "b2b129565e14b8782b318b699b05ab3b",
       "home_team": "Atlanta Hawks",
       "away_team": "New York Knicks",
-      "commence_time": "2026-04-23T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-04-23T23:11:00Z",
+      "time_et": "7:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "4:48",
+        "home_score": "13",
+        "away_score": "9"
       },
       "home_stats": {
         "conference": "Este",
@@ -80,29 +80,29 @@
       "alerta": true,
       "alerta_msg": "Keshon Gilbert Out | Jock Landale Out",
       "odds": {
-        "home_ml": 105,
-        "away_ml": -113,
-        "spread_home": 1.5,
-        "total_ou": 214.5,
+        "home_ml": -125,
+        "away_ml": 118,
+        "spread_home": -1.5,
+        "total_ou": 202.5,
         "best_book": "DraftKings",
-        "num_books": 9
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "New York Knicks",
         "tipo": "ML Knicks",
         "confianza": "alta",
-        "ev": 22.2,
+        "ev": 41.3,
         "prob_modelo": 35.2,
-        "prob_mercado": 47.9,
-        "notas": "Modelo: 64.8% | Mercado: 52.1% | Edge: +12.7%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-2.0 | Línea: +1.5 | Sin EV en spread (local: -7.4%, visit: -1.7%)",
+        "prob_mercado": 54.8,
+        "notas": "Modelo: 64.8% | Mercado: 45.2% | Edge: +19.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 17.1,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-2.0 | Línea: -1.5 | Prob cubrir visitante: 61.3%",
         "ou_pick": "OVER",
-        "ou_ev": 80.7,
+        "ou_ev": 90.4,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.6 vs línea 214.5 (+16.1) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.6 vs línea 202.5 (+28.1) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -166,15 +166,7 @@
           "weight": 3
         }
       ],
-      "away_injuries": [
-        {
-          "player": "Thomas Bryant",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
+      "away_injuries": [],
       "injuries": [
         {
           "player": "Chucky Hepburn",
@@ -189,23 +181,16 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Thomas Bryant",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out | Thomas Bryant Out",
+      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
       "odds": {
-        "home_ml": 130,
-        "away_ml": -140,
+        "home_ml": 127,
+        "away_ml": -144,
         "spread_home": 2.5,
         "total_ou": 221.5,
-        "best_book": "DraftKings",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -215,7 +200,7 @@
         "ev": null,
         "prob_modelo": 40.8,
         "prob_mercado": 42.7,
-        "notas": "Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 40.8% | Mercado: 42.7%",
+        "notas": "Sin EV suficiente. Mejor: 0.3% (umbral 5%) | Modelo local: 40.8% | Mercado: 42.7%",
         "spread_lado": "LOCAL",
         "spread_ev": 7.1,
         "spread_conf": "baja",
@@ -225,7 +210,7 @@
         "ou_confianza": "media",
         "ou_notas": "Proyección 230.7 vs línea 221.5 (+9.2) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "away_pra_out": 0
       }
     },
     {
@@ -275,9 +260,9 @@
         {
           "player": "Jaylen Clark",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Anthony Edwards",
@@ -289,9 +274,9 @@
         {
           "player": "Terrence Shannon Jr.",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "away_injuries": [
@@ -314,9 +299,9 @@
         {
           "player": "Jaylen Clark",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Anthony Edwards",
@@ -328,9 +313,9 @@
         {
           "player": "Terrence Shannon Jr.",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Aaron Gordon",
@@ -348,32 +333,32 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Aaron Gordon Out | Peyton Watson Out",
+      "alerta_msg": "Jaylen Clark Out | Terrence Shannon Jr. Out | Aaron Gordon Out | Peyton Watson Out",
       "odds": {
-        "home_ml": 101,
-        "away_ml": -111,
+        "home_ml": 100,
+        "away_ml": -110,
         "spread_home": 1.5,
-        "total_ou": 231.5,
-        "best_book": "MyBookie.ag",
+        "total_ou": 232.5,
+        "best_book": "BetMGM",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Denver Nuggets",
         "tipo": "ML Nuggets",
         "confianza": "media",
-        "ev": 8.8,
+        "ev": 9.3,
         "prob_modelo": 42.7,
-        "prob_mercado": 48.6,
-        "notas": "Modelo: 57.3% | Mercado: 51.4% | Edge: +5.9%",
+        "prob_mercado": 48.8,
+        "notas": "Modelo: 57.3% | Mercado: 51.2% | Edge: +6.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
         "spread_notas": "Margen proyectado: +-0.9 | Línea: +1.5 | Sin EV en spread (local: -0.7%, visit: -8.3%)",
         "ou_pick": "OVER",
-        "ou_ev": 27.2,
+        "ou_ev": 20.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 235.8 vs línea 231.5 (+4.3) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
+        "ou_notas": "Proyección 235.8 vs línea 232.5 (+3.3) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
     }
