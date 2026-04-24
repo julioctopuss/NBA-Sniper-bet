@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-04-24T22:07:14.185139+00:00",
+  "updated_at": "2026-04-24T23:26:10.260789+00:00",
   "games": [
     {
       "id": "8d8ab21ae69d529ee4bd01fb8ace8276",
       "home_team": "Philadelphia 76ers",
       "away_team": "Boston Celtics",
-      "commence_time": "2026-04-24T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-04-24T23:12:57Z",
+      "time_et": "7:12 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "7:09",
+        "home_score": "9",
+        "away_score": "6"
       },
       "home_stats": {
         "conference": "Este",
@@ -66,29 +66,29 @@
       "alerta": true,
       "alerta_msg": "Joel Embiid Out",
       "odds": {
-        "home_ml": 295,
-        "away_ml": -356,
+        "home_ml": 340,
+        "away_ml": -298,
         "spread_home": 8.5,
-        "total_ou": 215.5,
-        "best_book": "DraftKings",
+        "total_ou": 208.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Boston Celtics",
+        "tipo": "ML Celtics",
+        "confianza": "baja",
+        "ev": 5.3,
         "prob_modelo": 21.1,
-        "prob_mercado": 24.5,
-        "notas": "Sin EV suficiente. Mejor: 1.0% (umbral 5%) | Modelo local: 21.1% | Mercado: 24.5%",
+        "prob_mercado": 23.3,
+        "notas": "Modelo: 78.9% | Mercado: 76.7% | Edge: +2.1%",
         "spread_lado": "LOCAL",
         "spread_ev": 23.7,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-3.9 | Línea: +8.5 | Prob cubrir local: 64.8%",
         "ou_pick": "OVER",
-        "ou_ev": 67.4,
+        "ou_ev": 84.9,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 215.5 (+11.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.1 vs línea 208.5 (+18.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -147,9 +147,9 @@
         {
           "player": "Kevin Durant",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Fred VanVleet",
@@ -186,9 +186,9 @@
         {
           "player": "Kevin Durant",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Fred VanVleet",
@@ -213,27 +213,27 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Steven Adams Out | Fred VanVleet Out | Luka Doncic Out | Austin Reaves Out",
+      "alerta_msg": "Steven Adams Out | Kevin Durant Out | Fred VanVleet Out | Luka Doncic Out | Austin Reaves Out",
       "odds": {
-        "home_ml": -340,
-        "away_ml": 295,
-        "spread_home": -9.5,
+        "home_ml": -195,
+        "away_ml": 185,
+        "spread_home": -6.5,
         "total_ou": 206.5,
-        "best_book": "DraftKings",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers",
-        "confianza": "alta",
-        "ev": 51.6,
+        "confianza": "media",
+        "ev": 9.4,
         "prob_modelo": 61.6,
-        "prob_mercado": 75.3,
-        "notas": "Modelo: 38.4% | Mercado: 24.7% | Edge: +13.7%",
+        "prob_mercado": 65.3,
+        "notas": "Modelo: 38.4% | Mercado: 34.7% | Edge: +3.7%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 41.4,
+        "spread_ev": 24.8,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.8 | Línea: -9.5 | Prob cubrir visitante: 74.1%",
+        "spread_notas": "Margen proyectado: +1.8 | Línea: -6.5 | Prob cubrir visitante: 65.4%",
         "ou_pick": "OVER",
         "ou_ev": 88.0,
         "ou_confianza": "media",
@@ -350,25 +350,25 @@
       "alerta": true,
       "alerta_msg": "Damian Lillard Out | David Jones Garcia Out | Jordan McLaughlin Out",
       "odds": {
-        "home_ml": 142,
-        "away_ml": -150,
-        "spread_home": 3.0,
+        "home_ml": 150,
+        "away_ml": -160,
+        "spread_home": 3.5,
         "total_ou": 219.5,
-        "best_book": "LowVig.ag",
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
         "confianza": "alta",
-        "ev": 35.1,
+        "ev": 31.7,
         "prob_modelo": 19.0,
-        "prob_mercado": 40.8,
-        "notas": "Modelo: 81.0% | Mercado: 59.2% | Edge: +21.8%",
+        "prob_mercado": 39.4,
+        "notas": "Modelo: 81.0% | Mercado: 60.6% | Edge: +20.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-4.3 | Línea: +3.0 | Sin EV en spread (local: -12.8%, visit: 3.7%)",
+        "spread_notas": "Margen proyectado: +-4.3 | Línea: +3.5 | Sin EV en spread (local: -9.6%, visit: 0.5%)",
         "ou_pick": "OVER",
         "ou_ev": 68.2,
         "ou_confianza": "media",
