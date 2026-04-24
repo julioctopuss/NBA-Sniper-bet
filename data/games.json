@@ -1,230 +1,18 @@
 {
-  "updated_at": "2026-04-23T23:30:13.966867+00:00",
+  "updated_at": "2026-04-24T03:57:31.657968+00:00",
   "games": [
-    {
-      "id": "b2b129565e14b8782b318b699b05ab3b",
-      "home_team": "Atlanta Hawks",
-      "away_team": "New York Knicks",
-      "commence_time": "2026-04-23T23:11:00Z",
-      "time_et": "7:11 PM ET",
-      "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "4:48",
-        "home_score": "13",
-        "away_score": "9"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "6",
-        "ppg": "118.5",
-        "papg": "116.0",
-        "diff": "+2.5",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Keshon Gilbert",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jock Landale",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [],
-      "injuries": [
-        {
-          "player": "Keshon Gilbert",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jock Landale",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Keshon Gilbert Out | Jock Landale Out",
-      "odds": {
-        "home_ml": -125,
-        "away_ml": 118,
-        "spread_home": -1.5,
-        "total_ou": 202.5,
-        "best_book": "DraftKings",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "New York Knicks",
-        "tipo": "ML Knicks",
-        "confianza": "alta",
-        "ev": 41.3,
-        "prob_modelo": 35.2,
-        "prob_mercado": 54.8,
-        "notas": "Modelo: 64.8% | Mercado: 45.2% | Edge: +19.6%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 17.1,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-2.0 | Línea: -1.5 | Prob cubrir visitante: 61.3%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.4,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.6 vs línea 202.5 (+28.1) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0
-      }
-    },
-    {
-      "id": "b754568efb2036d7f3b661cc8093e66f",
-      "home_team": "Toronto Raptors",
-      "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-04-24T00:10:00Z",
-      "time_et": "8:10 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "5",
-        "ppg": "114.6",
-        "papg": "111.8",
-        "diff": "+2.8",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [],
-      "injuries": [
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
-      "odds": {
-        "home_ml": 127,
-        "away_ml": -144,
-        "spread_home": 2.5,
-        "total_ou": 221.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 40.8,
-        "prob_mercado": 42.7,
-        "notas": "Sin EV suficiente. Mejor: 0.3% (umbral 5%) | Modelo local: 40.8% | Mercado: 42.7%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 7.1,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +-0.7 | Línea: +2.5 | Prob cubrir local: 56.1%",
-        "ou_pick": "OVER",
-        "ou_ev": 56.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.7 vs línea 221.5 (+9.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0
-      }
-    },
     {
       "id": "c548073cbcde990c77986a123bd2d5bd",
       "home_team": "Minnesota Timberwolves",
       "away_team": "Denver Nuggets",
-      "commence_time": "2026-04-24T01:30:00Z",
-      "time_et": "9:30 PM ET",
+      "commence_time": "2026-04-24T01:48:00Z",
+      "time_et": "9:48 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "5:07",
+        "home_score": "98",
+        "away_score": "81"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -335,29 +123,29 @@
       "alerta": true,
       "alerta_msg": "Jaylen Clark Out | Terrence Shannon Jr. Out | Aaron Gordon Out | Peyton Watson Out",
       "odds": {
-        "home_ml": 100,
-        "away_ml": -110,
-        "spread_home": 1.5,
-        "total_ou": 232.5,
+        "home_ml": -10000,
+        "away_ml": 3300,
+        "spread_home": -15.5,
+        "total_ou": 201.5,
         "best_book": "BetMGM",
-        "num_books": 9
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Denver Nuggets",
-        "tipo": "ML Nuggets",
-        "confianza": "media",
-        "ev": 9.3,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 42.7,
-        "prob_mercado": 48.8,
-        "notas": "Modelo: 57.3% | Mercado: 51.2% | Edge: +6.1%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-0.9 | Línea: +1.5 | Sin EV en spread (local: -0.7%, visit: -8.3%)",
+        "prob_mercado": 97.1,
+        "notas": "Diferencia modelo/mercado excesiva (54%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 42.7% | Mercado: 97.1%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 74.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-0.9 | Línea: -15.5 | Prob cubrir visitante: 91.4%",
         "ou_pick": "OVER",
-        "ou_ev": 20.1,
+        "ou_ev": 90.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 235.8 vs línea 232.5 (+3.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 235.8 vs línea 201.5 (+34.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
