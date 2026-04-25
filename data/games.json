@@ -1,113 +1,6 @@
 {
-  "updated_at": "2026-04-25T19:43:27.533927+00:00",
+  "updated_at": "2026-04-25T21:59:34.380358+00:00",
   "games": [
-    {
-      "id": "e480da9a1b9dacbed9120388db4f133f",
-      "home_team": "Orlando Magic",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-04-25T17:08:00Z",
-      "time_et": "1:08 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "1:29",
-        "home_score": "109",
-        "away_score": "105"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "8",
-        "ppg": "115.7",
-        "papg": "115.1",
-        "diff": "+0.6",
-        "home_rec": "25-15",
-        "away_rec": "19-20",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "P"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jonathan Isaac Out",
-      "odds": {
-        "home_ml": -400,
-        "away_ml": 700,
-        "spread_home": -4.5,
-        "total_ou": 223.5,
-        "best_book": "BetRivers",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 22.1,
-        "prob_mercado": 86.5,
-        "notas": "Diferencia modelo/mercado excesiva (64%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 22.1% | Mercado: 86.5%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 44.2,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-3.8 | Línea: -4.5 | Prob cubrir visitante: 75.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 36.0,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 223.5 (+5.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0
-      }
-    },
     {
       "id": "9f41c322eb6aa09683dc241cacc31d7c",
       "home_team": "Phoenix Suns",
@@ -116,10 +9,10 @@
       "time_et": "3:38 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "9:10",
-        "home_score": "6",
-        "away_score": "9"
+        "period": 4,
+        "clock": "1:10",
+        "home_score": "104",
+        "away_score": "118"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -230,29 +123,29 @@
       "alerta": true,
       "alerta_msg": "Jordan Goodwin Out | Mark Williams Out | Isaiah Joe Out | Thomas Sorber Out | Jalen Williams Out",
       "odds": {
-        "home_ml": 350,
-        "away_ml": -386,
-        "spread_home": 8.5,
-        "total_ou": 215.5,
-        "best_book": "BetMGM",
-        "num_books": 9
+        "home_ml": null,
+        "away_ml": null,
+        "spread_home": 14.5,
+        "total_ou": 222.5,
+        "best_book": "",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Oklahoma City Thunder",
-        "tipo": "ML Thunder",
-        "confianza": "baja",
-        "ev": 7.6,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 14.5,
-        "prob_mercado": 21.9,
-        "notas": "Modelo: 85.5% | Mercado: 78.1% | Edge: +7.3%",
+        "prob_mercado": 0,
+        "notas": "Sin señal clara.",
         "spread_lado": "LOCAL",
-        "spread_ev": 18.6,
+        "spread_ev": 50.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.8 | Línea: +8.5 | Prob cubrir local: 62.1%",
+        "spread_notas": "Margen proyectado: +-4.8 | Línea: +14.5 | Prob cubrir local: 79.1%",
         "ou_pick": "OVER",
-        "ou_ev": 59.7,
+        "ou_ev": 16.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 225.3 vs línea 215.5 (+9.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 225.3 vs línea 222.5 (+2.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -261,8 +154,8 @@
       "id": "184d31a9a32dffc9c91eac3766d6f12d",
       "home_team": "Atlanta Hawks",
       "away_team": "New York Knicks",
-      "commence_time": "2026-04-25T22:10:00Z",
-      "time_et": "6:10 PM ET",
+      "commence_time": "2026-04-25T22:12:00Z",
+      "time_et": "6:12 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
@@ -338,10 +231,10 @@
       "alerta": true,
       "alerta_msg": "Keshon Gilbert Out | Jock Landale Out",
       "odds": {
-        "home_ml": 116,
+        "home_ml": 113,
         "away_ml": -125,
-        "spread_home": 1.5,
-        "total_ou": 214.5,
+        "spread_home": 2.5,
+        "total_ou": 215.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -351,16 +244,16 @@
         "confianza": "media",
         "ev": 14.6,
         "prob_modelo": 36.3,
-        "prob_mercado": 45.5,
-        "notas": "Modelo: 63.7% | Mercado: 54.5% | Edge: +9.1%",
+        "prob_mercado": 45.8,
+        "notas": "Modelo: 63.7% | Mercado: 54.2% | Edge: +9.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-2.0 | Línea: +1.5 | Sin EV en spread (local: -7.4%, visit: -1.7%)",
+        "spread_notas": "Margen proyectado: +-2.0 | Línea: +2.5 | Sin EV en spread (local: -1.1%, visit: -8.0%)",
         "ou_pick": "OVER",
-        "ou_ev": 80.7,
+        "ou_ev": 78.4,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.6 vs línea 214.5 (+16.1) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.6 vs línea 215.5 (+15.1) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
