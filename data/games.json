@@ -1,167 +1,18 @@
 {
-  "updated_at": "2026-04-25T21:59:34.380358+00:00",
+  "updated_at": "2026-04-25T23:22:32.322890+00:00",
   "games": [
-    {
-      "id": "9f41c322eb6aa09683dc241cacc31d7c",
-      "home_team": "Phoenix Suns",
-      "away_team": "Oklahoma City Thunder",
-      "commence_time": "2026-04-25T19:38:00Z",
-      "time_et": "3:38 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "1:10",
-        "home_score": "104",
-        "away_score": "118"
-      },
-      "home_stats": {
-        "conference": "Oeste",
-        "record": "45-37",
-        "seed": "8",
-        "ppg": "112.6",
-        "papg": "111.1",
-        "diff": "+1.5",
-        "home_rec": "25-16",
-        "away_rec": "20-21",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Oeste",
-        "record": "64-18",
-        "seed": "1",
-        "ppg": "119.0",
-        "papg": "107.9",
-        "diff": "+11.1",
-        "home_rec": "34-7",
-        "away_rec": "30-10",
-        "streak": "L2",
-        "forma": [
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Jordan Goodwin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mark Williams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Isaiah Joe",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jordan Goodwin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mark Williams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Isaiah Joe",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jordan Goodwin Out | Mark Williams Out | Isaiah Joe Out | Thomas Sorber Out | Jalen Williams Out",
-      "odds": {
-        "home_ml": null,
-        "away_ml": null,
-        "spread_home": 14.5,
-        "total_ou": 222.5,
-        "best_book": "",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 14.5,
-        "prob_mercado": 0,
-        "notas": "Sin señal clara.",
-        "spread_lado": "LOCAL",
-        "spread_ev": 50.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.8 | Línea: +14.5 | Prob cubrir local: 79.1%",
-        "ou_pick": "OVER",
-        "ou_ev": 16.5,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 225.3 vs línea 222.5 (+2.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "184d31a9a32dffc9c91eac3766d6f12d",
       "home_team": "Atlanta Hawks",
       "away_team": "New York Knicks",
-      "commence_time": "2026-04-25T22:12:00Z",
-      "time_et": "6:12 PM ET",
+      "commence_time": "2026-04-25T22:13:05Z",
+      "time_et": "6:13 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
+        "state": "in",
+        "period": 2,
         "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "home_score": "44",
+        "away_score": "58"
       },
       "home_stats": {
         "conference": "Este",
@@ -231,29 +82,29 @@
       "alerta": true,
       "alerta_msg": "Keshon Gilbert Out | Jock Landale Out",
       "odds": {
-        "home_ml": 113,
-        "away_ml": -125,
-        "spread_home": 2.5,
-        "total_ou": 215.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": 650,
+        "away_ml": -900,
+        "spread_home": 12.5,
+        "total_ou": 206.5,
+        "best_book": "DraftKings",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "New York Knicks",
-        "tipo": "ML Knicks",
-        "confianza": "media",
-        "ev": 14.6,
+        "pick": "Atlanta Hawks",
+        "tipo": "ML Hawks",
+        "confianza": "alta",
+        "ev": 172.3,
         "prob_modelo": 36.3,
-        "prob_mercado": 45.8,
-        "notas": "Modelo: 63.7% | Mercado: 54.2% | Edge: +9.5%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-2.0 | Línea: +2.5 | Sin EV en spread (local: -1.1%, visit: -8.0%)",
+        "prob_mercado": 12.9,
+        "notas": "Modelo: 36.3% | Mercado: 12.9% | Edge: +23.4%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 54.7,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-2.0 | Línea: +12.5 | Prob cubrir local: 81.0%",
         "ou_pick": "OVER",
-        "ou_ev": 78.4,
+        "ou_ev": 89.4,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.6 vs línea 215.5 (+15.1) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.6 vs línea 206.5 (+24.1) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -339,29 +190,29 @@
       "alerta": true,
       "alerta_msg": "Peyton Watson Out",
       "odds": {
-        "home_ml": 102,
-        "away_ml": -118,
-        "spread_home": 1.5,
-        "total_ou": 229.5,
-        "best_book": "DraftKings",
+        "home_ml": -110,
+        "away_ml": -105,
+        "spread_home": -1.0,
+        "total_ou": 228.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Denver Nuggets",
+        "tipo": "ML Nuggets",
+        "confianza": "media",
+        "ev": 9.4,
         "prob_modelo": 44.0,
-        "prob_mercado": 47.8,
-        "notas": "Sin EV suficiente. Mejor: 3.5% (umbral 5%) | Modelo local: 44.0% | Mercado: 47.8%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-0.9 | Línea: +1.5 | Sin EV en spread (local: -0.7%, visit: -8.3%)",
+        "prob_mercado": 50.6,
+        "notas": "Modelo: 56.0% | Mercado: 49.4% | Edge: +6.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 7.5,
+        "spread_conf": "baja",
+        "spread_notas": "Margen proyectado: +-0.9 | Línea: -1.0 | Prob cubrir visitante: 56.3%",
         "ou_pick": "OVER",
-        "ou_ev": 40.4,
+        "ou_ev": 46.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 235.8 vs línea 229.5 (+6.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 235.8 vs línea 228.5 (+7.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
