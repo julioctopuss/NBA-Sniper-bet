@@ -1,139 +1,284 @@
 {
-  "updated_at": "2026-04-25T03:39:52.725428+00:00",
+  "updated_at": "2026-04-25T04:38:00.537453+00:00",
   "games": [
     {
-      "id": "af4847d63733e67ddd02f2bafac8ea6f",
-      "home_team": "Portland Trail Blazers",
-      "away_team": "San Antonio Spurs",
-      "commence_time": "2026-04-25T02:48:00Z",
-      "time_et": "10:48 PM ET",
+      "id": "e480da9a1b9dacbed9120388db4f133f",
+      "home_team": "Orlando Magic",
+      "away_team": "Detroit Pistons",
+      "commence_time": "2026-04-25T17:10:00Z",
+      "time_et": "1:10 PM ET",
       "live": {
-        "state": "in",
-        "period": 2,
-        "clock": "5:34",
-        "home_score": "47",
-        "away_score": "43"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "42-40",
-        "seed": "7",
-        "ppg": "115.5",
-        "papg": "115.8",
-        "diff": "-0.3",
-        "home_rec": "24-17",
-        "away_rec": "18-23",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "62-20",
-        "seed": "2",
-        "ppg": "119.8",
-        "papg": "111.5",
-        "diff": "+8.3",
-        "home_rec": "32-8",
-        "away_rec": "29-12",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jordan McLaughlin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Victor Wembanyama",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jordan McLaughlin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Victor Wembanyama",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Damian Lillard Out | David Jones Garcia Out | Jordan McLaughlin Out | Victor Wembanyama Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -118,
-        "away_ml": 125,
-        "spread_home": -1.5,
-        "total_ou": 225.5,
-        "best_book": "MyBookie.ag",
-        "num_books": 6
+        "home_ml": 127,
+        "away_ml": -135,
+        "spread_home": 2.5,
+        "total_ou": 213.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Orlando Magic",
+        "tipo": "ML Magic",
+        "confianza": "media",
+        "ev": 13.5,
+        "prob_modelo": 50.0,
+        "prob_mercado": 43.4,
+        "notas": "Modelo: 50.0% | Mercado: 43.4% | Edge: +6.6%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "9f41c322eb6aa09683dc241cacc31d7c",
+      "home_team": "Phoenix Suns",
+      "away_team": "Oklahoma City Thunder",
+      "commence_time": "2026-04-25T19:40:00Z",
+      "time_et": "3:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": 350,
+        "away_ml": -395,
+        "spread_home": 9.5,
+        "total_ou": 214.5,
+        "best_book": "FanDuel",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 19.0,
-        "prob_mercado": 54.9,
-        "notas": "Diferencia modelo/mercado excesiva (36%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 19.0% | Mercado: 54.9%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 30.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.3 | Línea: -1.5 | Prob cubrir visitante: 68.6%",
-        "ou_pick": "OVER",
-        "ou_ev": 37.3,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 225.5 (+5.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "prob_modelo": 50.0,
+        "prob_mercado": 21.8,
+        "notas": "Diferencia modelo/mercado excesiva (28%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 21.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "184d31a9a32dffc9c91eac3766d6f12d",
+      "home_team": "Atlanta Hawks",
+      "away_team": "New York Knicks",
+      "commence_time": "2026-04-25T22:10:00Z",
+      "time_et": "6:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": 120,
+        "away_ml": -123,
+        "spread_home": 2.5,
+        "total_ou": 214.5,
+        "best_book": "BetUS",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Atlanta Hawks",
+        "tipo": "ML Hawks",
+        "confianza": "media",
+        "ev": 10.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 45.2,
+        "notas": "Modelo: 50.0% | Mercado: 45.2% | Edge: +4.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "b24e970fd53cf667dd009e54d107d4b1",
+      "home_team": "Minnesota Timberwolves",
+      "away_team": "Denver Nuggets",
+      "commence_time": "2026-04-26T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": 106,
+        "away_ml": -115,
+        "spread_home": 1.5,
+        "total_ou": 229.5,
+        "best_book": "FanDuel",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 50.0,
+        "prob_mercado": 47.6,
+        "notas": "Sin EV suficiente. Mejor: 3.0% (umbral 5%) | Modelo local: 50.0% | Mercado: 47.6%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
