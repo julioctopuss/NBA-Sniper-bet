@@ -1,126 +1,18 @@
 {
-  "updated_at": "2026-04-26T19:46:04.646182+00:00",
+  "updated_at": "2026-04-26T22:01:38.440278+00:00",
   "games": [
-    {
-      "id": "d94d967f8600a3fb8b869f32c31a7357",
-      "home_team": "Toronto Raptors",
-      "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-04-26T17:13:41Z",
-      "time_et": "1:13 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "34.6",
-        "home_score": "88",
-        "away_score": "87"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "5",
-        "ppg": "114.6",
-        "papg": "111.8",
-        "diff": "+2.8",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [],
-      "injuries": [
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
-      "odds": {
-        "home_ml": 600,
-        "away_ml": 112,
-        "spread_home": -1.5,
-        "total_ou": 180.5,
-        "best_book": "MyBookie.ag",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Toronto Raptors",
-        "tipo": "ML Raptors",
-        "confianza": "alta",
-        "ev": 202.7,
-        "prob_modelo": 43.2,
-        "prob_mercado": 23.2,
-        "notas": "Modelo: 43.2% | Mercado: 23.2% | Edge: +20.0%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 9.0,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-0.7 | Línea: -1.5 | Prob cubrir visitante: 57.1%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.9,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.7 vs línea 180.5 (+50.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0
-      }
-    },
     {
       "id": "0cab123e90bdf5d1d144a7e26ebc339c",
       "home_team": "Portland Trail Blazers",
       "away_team": "San Antonio Spurs",
-      "commence_time": "2026-04-26T19:52:00Z",
-      "time_et": "3:52 PM ET",
+      "commence_time": "2026-04-26T19:49:48Z",
+      "time_et": "3:49 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "5:02",
+        "home_score": "81",
+        "away_score": "96"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -191,29 +83,29 @@
       "alerta": true,
       "alerta_msg": "Damian Lillard Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": 192,
-        "away_ml": -210,
-        "spread_home": 5.5,
-        "total_ou": 217.5,
-        "best_book": "MyBookie.ag",
-        "num_books": 9
+        "home_ml": 3300,
+        "away_ml": -10000,
+        "spread_home": 14.5,
+        "total_ou": 198.5,
+        "best_book": "BetMGM",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "San Antonio Spurs",
-        "tipo": "ML Spurs",
+        "pick": "Portland Trail Blazers",
+        "tipo": "ML Blazers",
         "confianza": "alta",
-        "ev": 20.7,
+        "ev": 519.1,
         "prob_modelo": 18.2,
-        "prob_mercado": 33.6,
-        "notas": "Modelo: 81.8% | Mercado: 66.4% | Edge: +15.4%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-4.3 | Línea: +5.5 | Sin EV en spread (local: 3.1%, visit: -12.2%)",
+        "prob_mercado": 2.9,
+        "notas": "Modelo: 18.2% | Mercado: 2.9% | Edge: +15.3%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 53.2,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-4.3 | Línea: +14.5 | Prob cubrir local: 80.2%",
         "ou_pick": "OVER",
-        "ou_ev": 74.9,
+        "ou_ev": 90.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 217.5 (+13.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.3 vs línea 198.5 (+32.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -300,28 +192,28 @@
       "alerta_msg": "Joel Embiid Out",
       "odds": {
         "home_ml": 270,
-        "away_ml": -305,
-        "spread_home": 8.0,
-        "total_ou": 213.5,
-        "best_book": "BetMGM",
+        "away_ml": -243,
+        "spread_home": 6.5,
+        "total_ou": 214.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Boston Celtics",
         "tipo": "ML Celtics",
-        "confianza": "baja",
-        "ev": 5.8,
+        "confianza": "media",
+        "ev": 12.5,
         "prob_modelo": 20.3,
-        "prob_mercado": 26.4,
-        "notas": "Modelo: 79.7% | Mercado: 73.6% | Edge: +6.1%",
+        "prob_mercado": 27.6,
+        "notas": "Modelo: 79.7% | Mercado: 72.4% | Edge: +7.3%",
         "spread_lado": "LOCAL",
-        "spread_ev": 20.7,
+        "spread_ev": 11.5,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-3.9 | Línea: +8.0 | Prob cubrir local: 63.2%",
+        "spread_notas": "Margen proyectado: +-3.9 | Línea: +6.5 | Prob cubrir local: 58.4%",
         "ou_pick": "OVER",
-        "ou_ev": 74.3,
+        "ou_ev": 71.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 213.5 (+13.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.1 vs línea 214.5 (+12.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -382,9 +274,9 @@
         {
           "player": "Kevin Durant",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Fred VanVleet",
@@ -421,9 +313,9 @@
         {
           "player": "Kevin Durant",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Fred VanVleet",
@@ -448,27 +340,27 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Steven Adams Out | Fred VanVleet Out | Luka Doncic Out | Austin Reaves Out",
+      "alerta_msg": "Steven Adams Out | Kevin Durant Out | Fred VanVleet Out | Luka Doncic Out | Austin Reaves Out",
       "odds": {
-        "home_ml": -138,
-        "away_ml": 125,
-        "spread_home": -2.5,
+        "home_ml": -134,
+        "away_ml": 122,
+        "spread_home": -3.5,
         "total_ou": 205.5,
-        "best_book": "FanDuel",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Houston Rockets",
         "tipo": "ML Rockets",
         "confianza": "baja",
-        "ev": 6.3,
+        "ev": 7.6,
         "prob_modelo": 61.6,
-        "prob_mercado": 56.6,
-        "notas": "Modelo: 61.6% | Mercado: 56.6% | Edge: +5.0%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +1.8 | Línea: -2.5 | Sin EV en spread (local: -9.3%, visit: 0.2%)",
+        "prob_mercado": 56.0,
+        "notas": "Modelo: 61.6% | Mercado: 56.0% | Edge: +5.6%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 6.5,
+        "spread_conf": "baja",
+        "spread_notas": "Margen proyectado: +1.8 | Línea: -3.5 | Prob cubrir visitante: 55.8%",
         "ou_pick": "OVER",
         "ou_ev": 88.6,
         "ou_confianza": "media",
