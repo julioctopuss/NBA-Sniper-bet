@@ -1,127 +1,18 @@
 {
-  "updated_at": "2026-04-26T22:01:38.440278+00:00",
+  "updated_at": "2026-04-26T23:24:26.451615+00:00",
   "games": [
-    {
-      "id": "0cab123e90bdf5d1d144a7e26ebc339c",
-      "home_team": "Portland Trail Blazers",
-      "away_team": "San Antonio Spurs",
-      "commence_time": "2026-04-26T19:49:48Z",
-      "time_et": "3:49 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "5:02",
-        "home_score": "81",
-        "away_score": "96"
-      },
-      "home_stats": {
-        "conference": "Oeste",
-        "record": "42-40",
-        "seed": "7",
-        "ppg": "115.5",
-        "papg": "115.8",
-        "diff": "-0.3",
-        "home_rec": "24-17",
-        "away_rec": "18-23",
-        "streak": "W2",
-        "forma": [
-          "P",
-          "G",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Oeste",
-        "record": "62-20",
-        "seed": "2",
-        "ppg": "119.8",
-        "papg": "111.5",
-        "diff": "+8.3",
-        "home_rec": "32-8",
-        "away_rec": "29-12",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "P",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Damian Lillard Out | David Jones Garcia Out",
-      "odds": {
-        "home_ml": 3300,
-        "away_ml": -10000,
-        "spread_home": 14.5,
-        "total_ou": 198.5,
-        "best_book": "BetMGM",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Portland Trail Blazers",
-        "tipo": "ML Blazers",
-        "confianza": "alta",
-        "ev": 519.1,
-        "prob_modelo": 18.2,
-        "prob_mercado": 2.9,
-        "notas": "Modelo: 18.2% | Mercado: 2.9% | Edge: +15.3%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 53.2,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.3 | Línea: +14.5 | Prob cubrir local: 80.2%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 198.5 (+32.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "62dc6619019d4366984883a71b283077",
       "home_team": "Philadelphia 76ers",
       "away_team": "Boston Celtics",
-      "commence_time": "2026-04-26T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-04-26T23:07:00Z",
+      "time_et": "7:07 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "4:53",
+        "home_score": "10",
+        "away_score": "12"
       },
       "home_stats": {
         "conference": "Este",
@@ -155,66 +46,36 @@
           "G"
         ]
       },
-      "home_injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kelly Oubre Jr.",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "home_injuries": [],
       "away_injuries": [],
-      "injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kelly Oubre Jr.",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Joel Embiid Out",
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": 270,
-        "away_ml": -243,
-        "spread_home": 6.5,
-        "total_ou": 214.5,
-        "best_book": "Bovada",
-        "num_books": 9
+        "home_ml": 200,
+        "away_ml": -195,
+        "spread_home": 5.5,
+        "total_ou": 203.5,
+        "best_book": "BetUS",
+        "num_books": 7
       },
       "recomendacion": {
         "pick": "Boston Celtics",
         "tipo": "ML Celtics",
-        "confianza": "media",
-        "ev": 12.5,
+        "confianza": "alta",
+        "ev": 20.5,
         "prob_modelo": 20.3,
-        "prob_mercado": 27.6,
-        "notas": "Modelo: 79.7% | Mercado: 72.4% | Edge: +7.3%",
+        "prob_mercado": 33.5,
+        "notas": "Modelo: 79.7% | Mercado: 66.5% | Edge: +13.2%",
         "spread_lado": "LOCAL",
-        "spread_ev": 11.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-3.9 | Línea: +6.5 | Prob cubrir local: 58.4%",
+        "spread_ev": 5.3,
+        "spread_conf": "baja",
+        "spread_notas": "Margen proyectado: +-3.9 | Línea: +5.5 | Prob cubrir local: 55.1%",
         "ou_pick": "OVER",
-        "ou_ev": 71.1,
+        "ou_ev": 89.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 214.5 (+12.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
+        "ou_notas": "Proyección 227.1 vs línea 203.5 (+23.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0,
         "away_pra_out": 0
       }
     },
@@ -342,9 +203,9 @@
       "alerta": true,
       "alerta_msg": "Steven Adams Out | Kevin Durant Out | Fred VanVleet Out | Luka Doncic Out | Austin Reaves Out",
       "odds": {
-        "home_ml": -134,
-        "away_ml": 122,
-        "spread_home": -3.5,
+        "home_ml": -133,
+        "away_ml": 120,
+        "spread_home": -2.5,
         "total_ou": 205.5,
         "best_book": "LowVig.ag",
         "num_books": 9
@@ -353,14 +214,14 @@
         "pick": "Houston Rockets",
         "tipo": "ML Rockets",
         "confianza": "baja",
-        "ev": 7.6,
+        "ev": 8.0,
         "prob_modelo": 61.6,
-        "prob_mercado": 56.0,
-        "notas": "Modelo: 61.6% | Mercado: 56.0% | Edge: +5.6%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 6.5,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +1.8 | Línea: -3.5 | Prob cubrir visitante: 55.8%",
+        "prob_mercado": 55.7,
+        "notas": "Modelo: 61.6% | Mercado: 55.7% | Edge: +6.0%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +1.8 | Línea: -2.5 | Sin EV en spread (local: -9.3%, visit: 0.2%)",
         "ou_pick": "OVER",
         "ou_ev": 88.6,
         "ou_confianza": "media",
