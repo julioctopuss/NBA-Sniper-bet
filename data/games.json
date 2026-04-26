@@ -1,73 +1,111 @@
 {
-  "updated_at": "2026-04-26T05:13:07.815686+00:00",
+  "updated_at": "2026-04-26T19:46:04.646182+00:00",
   "games": [
     {
       "id": "d94d967f8600a3fb8b869f32c31a7357",
       "home_team": "Toronto Raptors",
       "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-04-26T17:10:00Z",
-      "time_et": "1:10 PM ET",
+      "commence_time": "2026-04-26T17:13:41Z",
+      "time_et": "1:13 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "state": "in",
+        "period": 4,
+        "clock": "34.6",
+        "home_score": "88",
+        "away_score": "87"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "46-36",
+        "seed": "5",
+        "ppg": "114.6",
+        "papg": "111.8",
+        "diff": "+2.8",
+        "home_rec": "24-17",
+        "away_rec": "22-19",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "P"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "52-30",
+        "seed": "4",
+        "ppg": "119.5",
+        "papg": "115.4",
+        "diff": "+4.1",
+        "home_rec": "27-14",
+        "away_rec": "25-16",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "G",
+          "G"
+        ]
       },
-      "home_injuries": [],
+      "home_injuries": [
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Immanuel Quickley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
       "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "injuries": [
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Immanuel Quickley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
       "odds": {
-        "home_ml": 152,
-        "away_ml": -164,
-        "spread_home": 3.5,
-        "total_ou": 220.5,
-        "best_book": "FanDuel",
-        "num_books": 9
+        "home_ml": 600,
+        "away_ml": 112,
+        "spread_home": -1.5,
+        "total_ou": 180.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 26.0,
-        "prob_modelo": 50.0,
-        "prob_mercado": 39.0,
-        "notas": "Modelo: 50.0% | Mercado: 39.0% | Edge: +11.0%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
+        "ev": 202.7,
+        "prob_modelo": 43.2,
+        "prob_mercado": 23.2,
+        "notas": "Modelo: 43.2% | Mercado: 23.2% | Edge: +20.0%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 9.0,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-0.7 | Línea: -1.5 | Prob cubrir visitante: 57.1%",
+        "ou_pick": "OVER",
+        "ou_ev": 90.9,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 230.7 vs línea 180.5 (+50.2) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     },
@@ -75,70 +113,109 @@
       "id": "0cab123e90bdf5d1d144a7e26ebc339c",
       "home_team": "Portland Trail Blazers",
       "away_team": "San Antonio Spurs",
-      "commence_time": "2026-04-26T19:40:00Z",
-      "time_et": "3:40 PM ET",
+      "commence_time": "2026-04-26T19:52:00Z",
+      "time_et": "3:52 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "42-40",
+        "seed": "7",
+        "ppg": "115.5",
+        "papg": "115.8",
+        "diff": "-0.3",
+        "home_rec": "24-17",
+        "away_rec": "18-23",
+        "streak": "W2",
+        "forma": [
+          "P",
+          "G",
+          "P"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "62-20",
+        "seed": "2",
+        "ppg": "119.8",
+        "papg": "111.5",
+        "diff": "+8.3",
+        "home_rec": "32-8",
+        "away_rec": "29-12",
+        "streak": "L1",
+        "forma": [
+          "G",
+          "P",
+          "G"
+        ]
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Damian Lillard",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Damian Lillard Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": 185,
+        "home_ml": 192,
         "away_ml": -210,
         "spread_home": 5.5,
-        "total_ou": 218.5,
-        "best_book": "LowVig.ag",
+        "total_ou": 217.5,
+        "best_book": "MyBookie.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Portland Trail Blazers",
-        "tipo": "ML Blazers",
+        "pick": "San Antonio Spurs",
+        "tipo": "ML Spurs",
         "confianza": "alta",
-        "ev": 42.5,
-        "prob_modelo": 50.0,
-        "prob_mercado": 34.1,
-        "notas": "Modelo: 50.0% | Mercado: 34.1% | Edge: +15.9%",
+        "ev": 20.7,
+        "prob_modelo": 18.2,
+        "prob_mercado": 33.6,
+        "notas": "Modelo: 81.8% | Mercado: 66.4% | Edge: +15.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "spread_notas": "Margen proyectado: +-4.3 | Línea: +5.5 | Sin EV en spread (local: 3.1%, visit: -12.2%)",
+        "ou_pick": "OVER",
+        "ou_ev": 74.9,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 231.3 vs línea 217.5 (+13.8) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     },
     {
@@ -150,64 +227,102 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "45-37",
+        "seed": "7",
+        "ppg": "115.9",
+        "papg": "116.1",
+        "diff": "-0.2",
+        "home_rec": "23-18",
+        "away_rec": "22-19",
+        "streak": "W2",
+        "forma": [
+          "P",
+          "G",
+          "P"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "56-26",
+        "seed": "2",
+        "ppg": "114.9",
+        "papg": "107.2",
+        "diff": "+7.7",
+        "home_rec": "30-11",
+        "away_rec": "26-15",
+        "streak": "W2",
+        "forma": [
+          "G",
+          "P",
+          "G"
+        ]
       },
-      "home_injuries": [],
+      "home_injuries": [
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kelly Oubre Jr.",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
       "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "injuries": [
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kelly Oubre Jr.",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Joel Embiid Out",
       "odds": {
-        "home_ml": 260,
-        "away_ml": -290,
-        "spread_home": 7.5,
+        "home_ml": 270,
+        "away_ml": -305,
+        "spread_home": 8.0,
         "total_ou": 213.5,
-        "best_book": "Bovada",
+        "best_book": "BetMGM",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers",
-        "confianza": "alta",
-        "ev": 80.0,
-        "prob_modelo": 50.0,
-        "prob_mercado": 27.2,
-        "notas": "Modelo: 50.0% | Mercado: 27.2% | Edge: +22.8%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
+        "pick": "Boston Celtics",
+        "tipo": "ML Celtics",
+        "confianza": "baja",
+        "ev": 5.8,
+        "prob_modelo": 20.3,
+        "prob_mercado": 26.4,
+        "notas": "Modelo: 79.7% | Mercado: 73.6% | Edge: +6.1%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 20.7,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-3.9 | Línea: +8.0 | Prob cubrir local: 63.2%",
+        "ou_pick": "OVER",
+        "ou_ev": 74.3,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 227.1 vs línea 213.5 (+13.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     },
@@ -220,65 +335,146 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "52-30",
+        "seed": "5",
+        "ppg": "115.2",
+        "papg": "110.0",
+        "diff": "+5.2",
+        "home_rec": "30-11",
+        "away_rec": "22-19",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "P",
+          "P"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "53-29",
+        "seed": "4",
+        "ppg": "116.3",
+        "papg": "114.6",
+        "diff": "+1.7",
+        "home_rec": "28-13",
+        "away_rec": "25-16",
+        "streak": "W3",
+        "forma": [
+          "G",
+          "G",
+          "G"
+        ]
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "Steven Adams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kevin Durant",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Fred VanVleet",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Luka Doncic",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Austin Reaves",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Steven Adams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Kevin Durant",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Fred VanVleet",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Luka Doncic",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Austin Reaves",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Steven Adams Out | Fred VanVleet Out | Luka Doncic Out | Austin Reaves Out",
       "odds": {
-        "home_ml": -175,
-        "away_ml": 160,
-        "spread_home": -4.5,
-        "total_ou": 207.5,
-        "best_book": "Bovada",
+        "home_ml": -138,
+        "away_ml": 125,
+        "spread_home": -2.5,
+        "total_ou": 205.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Los Angeles Lakers",
-        "tipo": "ML Lakers",
-        "confianza": "alta",
-        "ev": 30.0,
-        "prob_modelo": 50.0,
-        "prob_mercado": 62.3,
-        "notas": "Modelo: 50.0% | Mercado: 37.7% | Edge: +12.3%",
+        "pick": "Houston Rockets",
+        "tipo": "ML Rockets",
+        "confianza": "baja",
+        "ev": 6.3,
+        "prob_modelo": 61.6,
+        "prob_mercado": 56.6,
+        "notas": "Modelo: 61.6% | Mercado: 56.6% | Edge: +5.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "spread_notas": "Margen proyectado: +1.8 | Línea: -2.5 | Sin EV en spread (local: -9.3%, visit: 0.2%)",
+        "ou_pick": "OVER",
+        "ou_ev": 88.6,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 228.1 vs línea 205.5 (+22.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     }
   ]
