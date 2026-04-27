@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T20:08:14.414832+00:00",
+  "updated_at": "2026-04-27T22:13:11.476904+00:00",
   "games": [
     {
       "id": "846b0e9b691b5a291619fa22f96c7dfa",
@@ -83,10 +83,10 @@
       "alerta": true,
       "alerta_msg": "Jonathan Isaac Out",
       "odds": {
-        "home_ml": 140,
+        "home_ml": 141,
         "away_ml": -155,
         "spread_home": 3.5,
-        "total_ou": 215.5,
+        "total_ou": 214.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -96,16 +96,16 @@
         "confianza": "alta",
         "ev": 26.8,
         "prob_modelo": 22.9,
-        "prob_mercado": 40.7,
-        "notas": "Modelo: 77.0% | Mercado: 59.3% | Edge: +17.7%",
+        "prob_mercado": 40.6,
+        "notas": "Modelo: 77.0% | Mercado: 59.4% | Edge: +17.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
         "spread_notas": "Margen proyectado: +-3.8 | Línea: +3.5 | Sin EV en spread (local: -6.5%, visit: -2.6%)",
         "ou_pick": "OVER",
-        "ou_ev": 74.3,
+        "ou_ev": 77.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 215.5 (+13.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.1 vs línea 214.5 (+14.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -159,9 +159,9 @@
         {
           "player": "Jordan Goodwin",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Mark Williams",
@@ -191,9 +191,9 @@
         {
           "player": "Jordan Goodwin",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Mark Williams",
@@ -218,11 +218,11 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Mark Williams Out | Thomas Sorber Out | Jalen Williams Out",
+      "alerta_msg": "Jordan Goodwin Out | Mark Williams Out | Thomas Sorber Out | Jalen Williams Out",
       "odds": {
         "home_ml": 425,
-        "away_ml": -500,
-        "spread_home": 10.5,
+        "away_ml": -526,
+        "spread_home": 11.5,
         "total_ou": 214.5,
         "best_book": "BetUS",
         "num_books": 9
@@ -233,12 +233,12 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 14.5,
-        "prob_mercado": 18.6,
-        "notas": "Sin EV suficiente. Mejor: 2.6% (umbral 5%) | Modelo local: 14.5% | Mercado: 18.6%",
+        "prob_mercado": 18.5,
+        "notas": "Sin EV suficiente. Mejor: 1.7% (umbral 5%) | Modelo local: 14.5% | Mercado: 18.5%",
         "spread_lado": "LOCAL",
-        "spread_ev": 30.3,
+        "spread_ev": 35.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.8 | Línea: +10.5 | Prob cubrir local: 68.3%",
+        "spread_notas": "Margen proyectado: +-4.8 | Línea: +11.5 | Prob cubrir local: 71.2%",
         "ou_pick": "OVER",
         "ou_ev": 64.2,
         "ou_confianza": "media",
@@ -360,9 +360,9 @@
       "alerta_msg": "Peyton Watson Out | Donte DiVincenzo Out | Anthony Edwards Out",
       "odds": {
         "home_ml": -490,
-        "away_ml": 401,
+        "away_ml": 420,
         "spread_home": -11.5,
-        "total_ou": 223.5,
+        "total_ou": 224.5,
         "best_book": "BetUS",
         "num_books": 9
       },
@@ -370,18 +370,18 @@
         "pick": "Minnesota Timberwolves",
         "tipo": "ML Timberwolves",
         "confianza": "alta",
-        "ev": 116.6,
+        "ev": 124.8,
         "prob_modelo": 56.8,
-        "prob_mercado": 80.6,
-        "notas": "Modelo: 43.2% | Mercado: 19.4% | Edge: +23.9%",
+        "prob_mercado": 81.2,
+        "notas": "Modelo: 43.2% | Mercado: 18.8% | Edge: +24.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 54.9,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +0.9 | Línea: -11.5 | Prob cubrir visitante: 81.1%",
         "ou_pick": "OVER",
-        "ou_ev": 70.0,
+        "ou_ev": 66.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 235.8 vs línea 223.5 (+12.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 235.8 vs línea 224.5 (+11.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
