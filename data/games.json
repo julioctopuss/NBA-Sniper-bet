@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T22:13:11.476904+00:00",
+  "updated_at": "2026-04-27T23:37:31.790305+00:00",
   "games": [
     {
       "id": "846b0e9b691b5a291619fa22f96c7dfa",
@@ -55,15 +55,7 @@
           "weight": 3
         }
       ],
-      "away_injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "away_injuries": [],
       "injuries": [
         {
           "player": "Jonathan Isaac",
@@ -71,20 +63,13 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "Jonathan Isaac Out",
       "odds": {
-        "home_ml": 141,
-        "away_ml": -155,
+        "home_ml": 149,
+        "away_ml": -165,
         "spread_home": 3.5,
         "total_ou": 214.5,
         "best_book": "LowVig.ag",
@@ -94,10 +79,10 @@
         "pick": "Detroit Pistons",
         "tipo": "ML Pistons",
         "confianza": "alta",
-        "ev": 26.8,
+        "ev": 23.8,
         "prob_modelo": 22.9,
-        "prob_mercado": 40.6,
-        "notas": "Modelo: 77.0% | Mercado: 59.4% | Edge: +17.6%",
+        "prob_mercado": 39.2,
+        "notas": "Modelo: 77.0% | Mercado: 60.8% | Edge: +16.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -220,11 +205,11 @@
       "alerta": true,
       "alerta_msg": "Jordan Goodwin Out | Mark Williams Out | Thomas Sorber Out | Jalen Williams Out",
       "odds": {
-        "home_ml": 425,
+        "home_ml": 440,
         "away_ml": -526,
         "spread_home": 11.5,
-        "total_ou": 214.5,
-        "best_book": "BetUS",
+        "total_ou": 215.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -233,16 +218,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 14.5,
-        "prob_mercado": 18.5,
-        "notas": "Sin EV suficiente. Mejor: 1.7% (umbral 5%) | Modelo local: 14.5% | Mercado: 18.5%",
+        "prob_mercado": 18.1,
+        "notas": "Sin EV suficiente. Mejor: 1.7% (umbral 5%) | Modelo local: 14.5% | Mercado: 18.1%",
         "spread_lado": "LOCAL",
         "spread_ev": 35.9,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-4.8 | Línea: +11.5 | Prob cubrir local: 71.2%",
         "ou_pick": "OVER",
-        "ou_ev": 64.2,
+        "ou_ev": 59.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 225.3 vs línea 214.5 (+10.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 225.3 vs línea 215.5 (+9.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -359,21 +344,21 @@
       "alerta": true,
       "alerta_msg": "Peyton Watson Out | Donte DiVincenzo Out | Anthony Edwards Out",
       "odds": {
-        "home_ml": -490,
-        "away_ml": 420,
+        "home_ml": -500,
+        "away_ml": 450,
         "spread_home": -11.5,
         "total_ou": 224.5,
-        "best_book": "BetUS",
+        "best_book": "BetMGM",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Minnesota Timberwolves",
-        "tipo": "ML Timberwolves",
-        "confianza": "alta",
-        "ev": 124.8,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 56.8,
-        "prob_mercado": 81.2,
-        "notas": "Modelo: 43.2% | Mercado: 18.8% | Edge: +24.4%",
+        "prob_mercado": 82.1,
+        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 56.8% | Mercado: 82.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 54.9,
         "spread_conf": "media",
