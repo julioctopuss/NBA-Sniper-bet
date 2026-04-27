@@ -1,50 +1,42 @@
 {
-  "updated_at": "2026-04-26T23:24:26.451615+00:00",
+  "updated_at": "2026-04-27T04:07:12.804194+00:00",
   "games": [
     {
-      "id": "62dc6619019d4366984883a71b283077",
-      "home_team": "Philadelphia 76ers",
-      "away_team": "Boston Celtics",
-      "commence_time": "2026-04-26T23:07:00Z",
-      "time_et": "7:07 PM ET",
+      "id": "846b0e9b691b5a291619fa22f96c7dfa",
+      "home_team": "Orlando Magic",
+      "away_team": "Detroit Pistons",
+      "commence_time": "2026-04-28T00:10:00Z",
+      "time_et": "8:10 PM ET",
       "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "4:53",
-        "home_score": "10",
-        "away_score": "12"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "P",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Este",
-        "record": "56-26",
-        "seed": "2",
-        "ppg": "114.9",
-        "papg": "107.2",
-        "diff": "+7.7",
-        "home_rec": "30-11",
-        "away_rec": "26-15",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "P",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "home_injuries": [],
       "away_injuries": [],
@@ -52,182 +44,171 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 200,
-        "away_ml": -195,
-        "spread_home": 5.5,
-        "total_ou": 203.5,
-        "best_book": "BetUS",
-        "num_books": 7
+        "home_ml": 136,
+        "away_ml": -148,
+        "spread_home": 2.5,
+        "total_ou": 214.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
       },
       "recomendacion": {
-        "pick": "Boston Celtics",
-        "tipo": "ML Celtics",
+        "pick": "Orlando Magic",
+        "tipo": "ML Magic",
         "confianza": "alta",
-        "ev": 20.5,
-        "prob_modelo": 20.3,
-        "prob_mercado": 33.5,
-        "notas": "Modelo: 79.7% | Mercado: 66.5% | Edge: +13.2%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 5.3,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +-3.9 | Línea: +5.5 | Prob cubrir local: 55.1%",
-        "ou_pick": "OVER",
-        "ou_ev": 89.2,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 203.5 (+23.6) | Penalty bajas: 0.0 pts",
+        "ev": 18.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 41.5,
+        "notas": "Modelo: 50.0% | Mercado: 41.5% | Edge: +8.5%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
         "home_pra_out": 0,
         "away_pra_out": 0
       }
     },
     {
-      "id": "399d2e69e4408801d09e614c88779989",
-      "home_team": "Houston Rockets",
-      "away_team": "Los Angeles Lakers",
-      "commence_time": "2026-04-27T01:40:00Z",
+      "id": "b3eb8f644d05290981f8805f5410f24a",
+      "home_team": "Phoenix Suns",
+      "away_team": "Oklahoma City Thunder",
+      "commence_time": "2026-04-28T01:40:00Z",
       "time_et": "9:40 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "52-30",
-        "seed": "5",
-        "ppg": "115.2",
-        "papg": "110.0",
-        "diff": "+5.2",
-        "home_rec": "30-11",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "P",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "53-29",
-        "seed": "4",
-        "ppg": "116.3",
-        "papg": "114.6",
-        "diff": "+1.7",
-        "home_rec": "28-13",
-        "away_rec": "25-16",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Steven Adams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kevin Durant",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Fred VanVleet",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Austin Reaves",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Steven Adams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kevin Durant",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Fred VanVleet",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Austin Reaves",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Steven Adams Out | Kevin Durant Out | Fred VanVleet Out | Luka Doncic Out | Austin Reaves Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -133,
-        "away_ml": 120,
-        "spread_home": -2.5,
-        "total_ou": 205.5,
+        "home_ml": 390,
+        "away_ml": -493,
+        "spread_home": 10.5,
+        "total_ou": 213.5,
+        "best_book": "BetRivers",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 50.0,
+        "prob_mercado": 19.7,
+        "notas": "Diferencia modelo/mercado excesiva (30%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 19.7%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "e4d639b6c49e5fd0accc6e80636e88fe",
+      "home_team": "Denver Nuggets",
+      "away_team": "Minnesota Timberwolves",
+      "commence_time": "2026-04-28T02:40:00Z",
+      "time_et": "10:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -469,
+        "away_ml": 420,
+        "spread_home": -10.5,
+        "total_ou": 221.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Houston Rockets",
-        "tipo": "ML Rockets",
-        "confianza": "baja",
-        "ev": 8.0,
-        "prob_modelo": 61.6,
-        "prob_mercado": 55.7,
-        "notas": "Modelo: 61.6% | Mercado: 55.7% | Edge: +6.0%",
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 50.0,
+        "prob_mercado": 81.1,
+        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 81.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +1.8 | Línea: -2.5 | Sin EV en spread (local: -9.3%, visit: 0.2%)",
-        "ou_pick": "OVER",
-        "ou_ev": 88.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 228.1 vs línea 205.5 (+22.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
