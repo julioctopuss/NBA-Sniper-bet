@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T04:07:12.804194+00:00",
+  "updated_at": "2026-04-27T05:25:57.171083+00:00",
   "games": [
     {
       "id": "846b0e9b691b5a291619fa22f96c7dfa",
@@ -44,8 +44,8 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 136,
-        "away_ml": -148,
+        "home_ml": 132,
+        "away_ml": -146,
         "spread_home": 2.5,
         "total_ou": 214.5,
         "best_book": "LowVig.ag",
@@ -55,10 +55,10 @@
         "pick": "Orlando Magic",
         "tipo": "ML Magic",
         "confianza": "alta",
-        "ev": 18.0,
+        "ev": 16.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 41.5,
-        "notas": "Modelo: 50.0% | Mercado: 41.5% | Edge: +8.5%",
+        "prob_mercado": 42.1,
+        "notas": "Modelo: 50.0% | Mercado: 42.1% | Edge: +7.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,11 +114,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 390,
+        "home_ml": 400,
         "away_ml": -493,
         "spread_home": 10.5,
         "total_ou": 213.5,
-        "best_book": "BetRivers",
+        "best_book": "BetMGM",
         "num_books": 9
       },
       "recomendacion": {
@@ -127,8 +127,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 19.7,
-        "notas": "Diferencia modelo/mercado excesiva (30%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 19.7%",
+        "prob_mercado": 19.4,
+        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 19.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -184,8 +184,8 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -469,
-        "away_ml": 420,
+        "home_ml": -479,
+        "away_ml": 400,
         "spread_home": -10.5,
         "total_ou": 221.5,
         "best_book": "LowVig.ag",
@@ -197,8 +197,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 81.1,
-        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 81.1%",
+        "prob_mercado": 80.5,
+        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 80.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
