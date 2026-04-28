@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-28T04:13:05.321642+00:00",
+  "updated_at": "2026-04-28T05:32:53.944788+00:00",
   "games": [
     {
       "id": "d749c50ad2a2660df91f9dc1b8e20d78",
@@ -184,11 +184,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -600,
+        "home_ml": -650,
         "away_ml": 510,
-        "spread_home": -11.5,
+        "spread_home": -12.5,
         "total_ou": 215.5,
-        "best_book": "DraftKings",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -197,8 +197,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 83.9,
-        "notas": "Diferencia modelo/mercado excesiva (34%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 83.9%",
+        "prob_mercado": 84.1,
+        "notas": "Diferencia modelo/mercado excesiva (34%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 84.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
