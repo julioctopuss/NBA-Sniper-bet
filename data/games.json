@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-28T20:16:01.180704+00:00",
+  "updated_at": "2026-04-28T22:30:39.611301+00:00",
   "games": [
     {
       "id": "d749c50ad2a2660df91f9dc1b8e20d78",
@@ -70,11 +70,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -500,
-        "away_ml": 404,
+        "home_ml": -425,
+        "away_ml": 396,
         "spread_home": -10.5,
-        "total_ou": 213.5,
-        "best_book": "FanDuel",
+        "total_ou": 214.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -83,16 +83,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 81.0,
-        "prob_mercado": 80.8,
-        "notas": "Sin EV suficiente. Mejor: -2.9% (umbral 5%) | Modelo local: 81.0% | Mercado: 80.8%",
+        "prob_mercado": 80.1,
+        "notas": "Sin EV suficiente. Mejor: -0.0% (umbral 5%) | Modelo local: 81.0% | Mercado: 80.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 35.0,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +3.9 | Línea: -10.5 | Prob cubrir visitante: 70.7%",
         "ou_pick": "OVER",
-        "ou_ev": 74.3,
+        "ou_ev": 71.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 213.5 (+13.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.1 vs línea 214.5 (+12.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0
       }
@@ -180,11 +180,11 @@
       "alerta": true,
       "alerta_msg": "Keshon Gilbert Out | Jock Landale Out",
       "odds": {
-        "home_ml": -245,
+        "home_ml": -250,
         "away_ml": 215,
         "spread_home": -6.5,
-        "total_ou": 213.5,
-        "best_book": "Bovada",
+        "total_ou": 214.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -193,16 +193,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 67.5,
-        "prob_mercado": 69.1,
-        "notas": "Sin EV suficiente. Mejor: 2.4% (umbral 5%) | Modelo local: 67.5% | Mercado: 69.1%",
+        "prob_mercado": 69.2,
+        "notas": "Sin EV suficiente. Mejor: 2.4% (umbral 5%) | Modelo local: 67.5% | Mercado: 69.2%",
         "spread_lado": "VISITANTE",
         "spread_ev": 23.7,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +2.0 | Línea: -6.5 | Prob cubrir visitante: 64.8%",
         "ou_pick": "OVER",
-        "ou_ev": 82.6,
+        "ou_ev": 80.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.6 vs línea 213.5 (+17.1) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.6 vs línea 214.5 (+16.1) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
@@ -291,11 +291,11 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out | Damian Lillard Out",
       "odds": {
-        "home_ml": -562,
+        "home_ml": -550,
         "away_ml": 475,
         "spread_home": -11.5,
-        "total_ou": 216.5,
-        "best_book": "LowVig.ag",
+        "total_ou": 218.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -305,15 +305,15 @@
         "ev": null,
         "prob_modelo": 83.7,
         "prob_mercado": 83.0,
-        "notas": "Sin EV suficiente. Mejor: -1.4% (umbral 5%) | Modelo local: 83.7% | Mercado: 83.0%",
+        "notas": "Sin EV suficiente. Mejor: -1.1% (umbral 5%) | Modelo local: 83.7% | Mercado: 83.0%",
         "spread_lado": "VISITANTE",
         "spread_ev": 38.6,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +4.3 | Línea: -11.5 | Prob cubrir visitante: 72.6%",
         "ou_pick": "OVER",
-        "ou_ev": 77.6,
+        "ou_ev": 71.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 216.5 (+14.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.3 vs línea 218.5 (+12.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
