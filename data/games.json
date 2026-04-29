@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-04-29T22:29:57.950426+00:00",
+  "updated_at": "2026-04-29T23:37:13.475695+00:00",
   "games": [
     {
       "id": "912bee9cc9d36b6017819f012c0c56f1",
       "home_team": "Detroit Pistons",
       "away_team": "Orlando Magic",
-      "commence_time": "2026-04-29T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-04-29T23:09:17Z",
+      "time_et": "7:09 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "1:35",
+        "home_score": "34",
+        "away_score": "24"
       },
       "home_stats": {
         "conference": "Este",
@@ -99,29 +99,29 @@
       "alerta": true,
       "alerta_msg": "Kevin Huerter Out | Jonathan Isaac Out | Franz Wagner Out",
       "odds": {
-        "home_ml": -450,
-        "away_ml": 370,
-        "spread_home": -10.5,
-        "total_ou": 210.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": -800,
+        "away_ml": 575,
+        "spread_home": -13.5,
+        "total_ou": 223.5,
+        "best_book": "Bovada",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Orlando Magic",
+        "tipo": "ML Magic",
+        "confianza": "alta",
+        "ev": 45.7,
         "prob_modelo": 78.4,
-        "prob_mercado": 79.4,
-        "notas": "Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 78.4% | Mercado: 79.4%",
+        "prob_mercado": 85.7,
+        "notas": "Modelo: 21.6% | Mercado: 14.3% | Edge: +7.3%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 35.9,
+        "spread_ev": 50.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.8 | Línea: -10.5 | Prob cubrir visitante: 71.2%",
+        "spread_notas": "Margen proyectado: +3.8 | Línea: -13.5 | Prob cubrir visitante: 79.1%",
         "ou_pick": "OVER",
-        "ou_ev": 84.9,
+        "ou_ev": 36.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 210.5 (+18.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.1 vs línea 223.5 (+5.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -130,8 +130,8 @@
       "id": "6fa2ebdc614d327bc9a4558541adcd30",
       "home_team": "Cleveland Cavaliers",
       "away_team": "Toronto Raptors",
-      "commence_time": "2026-04-29T23:40:00Z",
-      "time_et": "7:40 PM ET",
+      "commence_time": "2026-04-29T23:42:00Z",
+      "time_et": "7:42 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
@@ -209,25 +209,25 @@
       "alerta": true,
       "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
       "odds": {
-        "home_ml": -395,
-        "away_ml": 330,
-        "spread_home": -10.5,
+        "home_ml": -375,
+        "away_ml": 335,
+        "spread_home": -9.5,
         "total_ou": 219.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "best_book": "BetMGM",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 86.6,
+        "ev": 88.8,
         "prob_modelo": 56.6,
         "prob_mercado": 77.4,
         "notas": "Modelo: 43.4% | Mercado: 22.6% | Edge: +20.8%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 51.6,
+        "spread_ev": 46.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.7 | Línea: -10.5 | Prob cubrir visitante: 79.4%",
+        "spread_notas": "Margen proyectado: +0.7 | Línea: -9.5 | Prob cubrir visitante: 77.0%",
         "ou_pick": "OVER",
         "ou_ev": 65.8,
         "ou_confianza": "media",
@@ -366,7 +366,7 @@
         "away_ml": 150,
         "spread_home": -3.5,
         "total_ou": 208.5,
-        "best_book": "BetOnline.ag",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
