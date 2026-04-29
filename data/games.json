@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T20:10:03.900328+00:00",
+  "updated_at": "2026-04-29T22:29:57.950426+00:00",
   "games": [
     {
       "id": "912bee9cc9d36b6017819f012c0c56f1",
@@ -52,9 +52,9 @@
         {
           "player": "Kevin Huerter",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "away_injuries": [
@@ -68,18 +68,18 @@
         {
           "player": "Franz Wagner",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "injuries": [
         {
           "player": "Kevin Huerter",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Jonathan Isaac",
@@ -91,19 +91,19 @@
         {
           "player": "Franz Wagner",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Jonathan Isaac Out",
+      "alerta_msg": "Kevin Huerter Out | Jonathan Isaac Out | Franz Wagner Out",
       "odds": {
-        "home_ml": -395,
-        "away_ml": 330,
+        "home_ml": -450,
+        "away_ml": 370,
         "spread_home": -10.5,
-        "total_ou": 211.5,
-        "best_book": "DraftKings",
+        "total_ou": 210.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -112,17 +112,17 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 78.4,
-        "prob_mercado": 77.4,
-        "notas": "Sin EV suficiente. Mejor: -1.7% (umbral 5%) | Modelo local: 78.4% | Mercado: 77.4%",
+        "prob_mercado": 79.4,
+        "notas": "Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 78.4% | Mercado: 79.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 35.9,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +3.8 | Línea: -10.5 | Prob cubrir visitante: 71.2%",
         "ou_pick": "OVER",
-        "ou_ev": 83.4,
+        "ou_ev": 84.9,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 211.5 (+17.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
+        "ou_notas": "Proyección 229.1 vs línea 210.5 (+18.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
     },
@@ -209,25 +209,25 @@
       "alerta": true,
       "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
       "odds": {
-        "home_ml": -390,
-        "away_ml": 325,
-        "spread_home": -9.5,
+        "home_ml": -395,
+        "away_ml": 330,
+        "spread_home": -10.5,
         "total_ou": 219.5,
-        "best_book": "FanDuel",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 84.4,
+        "ev": 86.6,
         "prob_modelo": 56.6,
-        "prob_mercado": 77.2,
-        "notas": "Modelo: 43.4% | Mercado: 22.8% | Edge: +20.6%",
+        "prob_mercado": 77.4,
+        "notas": "Modelo: 43.4% | Mercado: 22.6% | Edge: +20.8%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 46.9,
+        "spread_ev": 51.6,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.7 | Línea: -9.5 | Prob cubrir visitante: 77.0%",
+        "spread_notas": "Margen proyectado: +0.7 | Línea: -10.5 | Prob cubrir visitante: 79.4%",
         "ou_pick": "OVER",
         "ou_ev": 65.8,
         "ou_confianza": "media",
@@ -362,9 +362,9 @@
       "alerta": true,
       "alerta_msg": "Luka Doncic Out | Austin Reaves Out | Steven Adams Out | Kevin Durant Out | Fred VanVleet Out",
       "odds": {
-        "home_ml": -170,
-        "away_ml": 154,
-        "spread_home": -4.5,
+        "home_ml": -165,
+        "away_ml": 150,
+        "spread_home": -3.5,
         "total_ou": 208.5,
         "best_book": "BetOnline.ag",
         "num_books": 9
@@ -373,14 +373,14 @@
         "pick": "Houston Rockets",
         "tipo": "ML Rockets",
         "confianza": "alta",
-        "ev": 53.8,
+        "ev": 51.3,
         "prob_modelo": 39.5,
-        "prob_mercado": 61.5,
-        "notas": "Modelo: 60.5% | Mercado: 38.5% | Edge: +22.1%",
+        "prob_mercado": 60.9,
+        "notas": "Modelo: 60.5% | Mercado: 39.1% | Edge: +21.4%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 33.4,
+        "spread_ev": 27.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.8 | Línea: -4.5 | Prob cubrir visitante: 69.9%",
+        "spread_notas": "Margen proyectado: +-1.8 | Línea: -3.5 | Prob cubrir visitante: 66.9%",
         "ou_pick": "OVER",
         "ou_ev": 86.1,
         "ou_confianza": "media",
