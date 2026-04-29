@@ -1,52 +1,42 @@
 {
-  "updated_at": "2026-04-28T23:37:35.850595+00:00",
+  "updated_at": "2026-04-29T04:09:25.309621+00:00",
   "games": [
     {
-      "id": "d749c50ad2a2660df91f9dc1b8e20d78",
-      "home_team": "Boston Celtics",
-      "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-04-28T23:14:00Z",
-      "time_et": "7:14 PM ET",
+      "id": "912bee9cc9d36b6017819f012c0c56f1",
+      "home_team": "Detroit Pistons",
+      "away_team": "Orlando Magic",
+      "commence_time": "2026-04-29T23:10:00Z",
+      "time_et": "7:10 PM ET",
       "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "0.0",
-        "home_score": "23",
-        "away_score": "21"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Este",
-        "record": "56-26",
-        "seed": "2",
-        "ppg": "114.9",
-        "papg": "107.2",
-        "diff": "+7.7",
-        "home_rec": "30-11",
-        "away_rec": "26-15",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "P",
-          "P",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "home_injuries": [],
       "away_injuries": [],
@@ -54,121 +44,81 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -485,
-        "away_ml": 430,
-        "spread_home": -11.5,
-        "total_ou": 204.5,
+        "home_ml": -390,
+        "away_ml": 321,
+        "spread_home": -10.5,
+        "total_ou": 211.5,
         "best_book": "Bovada",
-        "num_books": 6
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 81.0,
-        "prob_mercado": 81.5,
-        "notas": "Sin EV suficiente. Mejor: 1.0% (umbral 5%) | Modelo local: 81.0% | Mercado: 81.5%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 40.4,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.9 | Línea: -11.5 | Prob cubrir visitante: 73.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 88.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 204.5 (+22.6) | Penalty bajas: 0.0 pts",
+        "prob_modelo": 50.0,
+        "prob_mercado": 77.0,
+        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 77.0%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
         "home_pra_out": 0,
         "away_pra_out": 0
       }
     },
     {
-      "id": "595b24bea54d0917338e4a51372398b3",
-      "home_team": "New York Knicks",
-      "away_team": "Atlanta Hawks",
-      "commence_time": "2026-04-29T00:10:00Z",
-      "time_et": "8:10 PM ET",
+      "id": "6fa2ebdc614d327bc9a4558541adcd30",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "Toronto Raptors",
+      "commence_time": "2026-04-29T23:40:00Z",
+      "time_et": "7:40 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "P",
-          "P",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "6",
-        "ppg": "118.5",
-        "papg": "116.0",
-        "diff": "+2.5",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Keshon Gilbert",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jock Landale",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Keshon Gilbert",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jock Landale",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Keshon Gilbert Out | Jock Landale Out",
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -248,
-        "away_ml": 220,
-        "spread_home": -6.5,
-        "total_ou": 214.5,
-        "best_book": "LowVig.ag",
+        "home_ml": -360,
+        "away_ml": 304,
+        "spread_home": -8.5,
+        "total_ou": 215.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -176,130 +126,89 @@
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 67.5,
-        "prob_mercado": 69.5,
-        "notas": "Sin EV suficiente. Mejor: 4.1% (umbral 5%) | Modelo local: 67.5% | Mercado: 69.5%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 23.7,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.0 | Línea: -6.5 | Prob cubrir visitante: 64.8%",
-        "ou_pick": "OVER",
-        "ou_ev": 80.7,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.6 vs línea 214.5 (+16.1) | Penalty bajas: 0.0 pts",
+        "prob_modelo": 50.0,
+        "prob_mercado": 76.0,
+        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 76.0%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
         "home_pra_out": 0,
-        "away_pra_out": 0.0
+        "away_pra_out": 0
       }
     },
     {
-      "id": "f61ea629819d5176316c94a379c02ad2",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Portland Trail Blazers",
-      "commence_time": "2026-04-29T01:40:00Z",
-      "time_et": "9:40 PM ET",
+      "id": "0d0aa62d4305ee094389473b308ce0bd",
+      "home_team": "Los Angeles Lakers",
+      "away_team": "Houston Rockets",
+      "commence_time": "2026-04-30T02:10:00Z",
+      "time_et": "10:10 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "62-20",
-        "seed": "2",
-        "ppg": "119.8",
-        "papg": "111.5",
-        "diff": "+8.3",
-        "home_rec": "32-8",
-        "away_rec": "29-12",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "42-40",
-        "seed": "7",
-        "ppg": "115.5",
-        "papg": "115.8",
-        "diff": "-0.3",
-        "home_rec": "24-17",
-        "away_rec": "18-23",
-        "streak": "W2",
-        "forma": [
-          "P",
-          "P",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Damian Lillard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "David Jones Garcia Out | Damian Lillard Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -525,
-        "away_ml": 460,
-        "spread_home": -11.5,
-        "total_ou": 218.5,
-        "best_book": "Bovada",
+        "home_ml": -180,
+        "away_ml": 158,
+        "spread_home": -4.5,
+        "total_ou": 207.5,
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 83.7,
-        "prob_mercado": 82.5,
-        "notas": "Sin EV suficiente. Mejor: -0.4% (umbral 5%) | Modelo local: 83.7% | Mercado: 82.5%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 38.6,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.3 | Línea: -11.5 | Prob cubrir visitante: 72.6%",
-        "ou_pick": "OVER",
-        "ou_ev": 71.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.3 vs línea 218.5 (+12.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "pick": "Houston Rockets",
+        "tipo": "ML Rockets",
+        "confianza": "alta",
+        "ev": 29.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 62.4,
+        "notas": "Modelo: 50.0% | Mercado: 37.6% | Edge: +12.4%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
