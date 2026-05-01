@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T04:35:41.902007+00:00",
+  "updated_at": "2026-05-01T05:43:42.095163+00:00",
   "games": [
     {
       "id": "88e10294c54deffd6e9e6efcba249d2c",
@@ -49,7 +49,7 @@
         "spread_home": 3.5,
         "total_ou": 209.5,
         "best_book": "Bovada",
-        "num_books": 9
+        "num_books": 7
       },
       "recomendacion": {
         "pick": "Orlando Magic",
@@ -114,21 +114,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 154,
+        "home_ml": 153,
         "away_ml": -172,
         "spread_home": 4.5,
         "total_ou": 219.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "best_book": "BetOnline.ag",
+        "num_books": 7
       },
       "recomendacion": {
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 27.0,
+        "ev": 26.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 38.4,
-        "notas": "Modelo: 50.0% | Mercado: 38.4% | Edge: +11.6%",
+        "prob_mercado": 38.5,
+        "notas": "Modelo: 50.0% | Mercado: 38.5% | Edge: +11.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -184,21 +184,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -160,
-        "away_ml": 144,
+        "home_ml": -162,
+        "away_ml": 145,
         "spread_home": -3.5,
         "total_ou": 206.5,
-        "best_book": "BetUS",
-        "num_books": 9
+        "best_book": "BetOnline.ag",
+        "num_books": 7
       },
       "recomendacion": {
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers",
         "confianza": "alta",
-        "ev": 22.0,
+        "ev": 22.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 60.0,
-        "notas": "Modelo: 50.0% | Mercado: 40.0% | Edge: +10.0%",
+        "prob_mercado": 60.2,
+        "notas": "Modelo: 50.0% | Mercado: 39.8% | Edge: +10.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
