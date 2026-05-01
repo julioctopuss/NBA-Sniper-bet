@@ -1,4 +1,215 @@
 {
-  "updated_at": "2026-04-30T23:36:28.422286+00:00",
-  "games": []
+  "updated_at": "2026-05-01T04:35:41.902007+00:00",
+  "games": [
+    {
+      "id": "88e10294c54deffd6e9e6efcba249d2c",
+      "home_team": "Orlando Magic",
+      "away_team": "Detroit Pistons",
+      "commence_time": "2026-05-01T23:10:00Z",
+      "time_et": "7:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": 145,
+        "away_ml": -160,
+        "spread_home": 3.5,
+        "total_ou": 209.5,
+        "best_book": "Bovada",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Orlando Magic",
+        "tipo": "ML Magic",
+        "confianza": "alta",
+        "ev": 22.5,
+        "prob_modelo": 50.0,
+        "prob_mercado": 39.9,
+        "notas": "Modelo: 50.0% | Mercado: 39.9% | Edge: +10.1%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "d1938a9c13602a661e894f996f2680e8",
+      "home_team": "Toronto Raptors",
+      "away_team": "Cleveland Cavaliers",
+      "commence_time": "2026-05-01T23:40:00Z",
+      "time_et": "7:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": 154,
+        "away_ml": -172,
+        "spread_home": 4.5,
+        "total_ou": 219.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Toronto Raptors",
+        "tipo": "ML Raptors",
+        "confianza": "alta",
+        "ev": 27.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 38.4,
+        "notas": "Modelo: 50.0% | Mercado: 38.4% | Edge: +11.6%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "c361a0b8c035a055bd9497b52674e3fb",
+      "home_team": "Houston Rockets",
+      "away_team": "Los Angeles Lakers",
+      "commence_time": "2026-05-02T01:40:00Z",
+      "time_et": "9:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -160,
+        "away_ml": 144,
+        "spread_home": -3.5,
+        "total_ou": 206.5,
+        "best_book": "BetUS",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Los Angeles Lakers",
+        "tipo": "ML Lakers",
+        "confianza": "alta",
+        "ev": 22.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 60.0,
+        "notas": "Modelo: 50.0% | Mercado: 40.0% | Edge: +10.0%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    }
+  ]
 }
