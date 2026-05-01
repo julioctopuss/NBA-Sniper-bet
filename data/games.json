@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T20:03:57.730029+00:00",
+  "updated_at": "2026-05-01T22:11:11.193436+00:00",
   "games": [
     {
       "id": "88e10294c54deffd6e9e6efcba249d2c",
@@ -68,18 +68,11 @@
       ],
       "away_injuries": [
         {
-          "player": "Tobias Harris",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Kevin Huerter",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "injuries": [
@@ -98,38 +91,31 @@
           "weight": 3
         },
         {
-          "player": "Tobias Harris",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Kevin Huerter",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Jonathan Isaac Out | Franz Wagner Out",
+      "alerta_msg": "Jonathan Isaac Out | Franz Wagner Out | Kevin Huerter Out",
       "odds": {
-        "home_ml": 142,
-        "away_ml": -160,
+        "home_ml": 140,
+        "away_ml": -157,
         "spread_home": 3.5,
         "total_ou": 210.5,
-        "best_book": "LowVig.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Detroit Pistons",
         "tipo": "ML Pistons",
         "confianza": "alta",
-        "ev": 25.8,
+        "ev": 26.7,
         "prob_modelo": 22.6,
-        "prob_mercado": 40.2,
-        "notas": "Modelo: 77.4% | Mercado: 59.8% | Edge: +17.6%",
+        "prob_mercado": 40.5,
+        "notas": "Modelo: 77.4% | Mercado: 59.5% | Edge: +17.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -139,7 +125,7 @@
         "ou_confianza": "media",
         "ou_notas": "Proyección 229.1 vs línea 210.5 (+18.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
-        "away_pra_out": 0
+        "away_pra_out": 0.0
       }
     },
     {
@@ -202,9 +188,9 @@
         {
           "player": "Brandon Ingram",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Immanuel Quickley",
@@ -226,9 +212,9 @@
         {
           "player": "Brandon Ingram",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Immanuel Quickley",
@@ -239,13 +225,13 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
+      "alerta_msg": "Chucky Hepburn Out | Brandon Ingram Out | Immanuel Quickley Out",
       "odds": {
         "home_ml": 170,
-        "away_ml": -181,
+        "away_ml": -190,
         "spread_home": 4.5,
-        "total_ou": 218.5,
-        "best_book": "Bovada",
+        "total_ou": 219.5,
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
@@ -254,16 +240,16 @@
         "confianza": "alta",
         "ev": 18.1,
         "prob_modelo": 43.7,
-        "prob_mercado": 36.5,
-        "notas": "Modelo: 43.7% | Mercado: 36.5% | Edge: +7.2%",
+        "prob_mercado": 36.1,
+        "notas": "Modelo: 43.7% | Mercado: 36.1% | Edge: +7.6%",
         "spread_lado": "LOCAL",
         "spread_ev": 19.5,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-0.7 | Línea: +4.5 | Prob cubrir local: 62.6%",
         "ou_pick": "OVER",
-        "ou_ev": 69.7,
+        "ou_ev": 65.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.7 vs línea 218.5 (+12.2) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.7 vs línea 219.5 (+11.2) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -382,21 +368,21 @@
       "alerta": true,
       "alerta_msg": "Steven Adams Out | Kevin Durant Out | Fred VanVleet Out | Luka Doncic Out",
       "odds": {
-        "home_ml": -155,
-        "away_ml": 138,
+        "home_ml": -164,
+        "away_ml": 146,
         "spread_home": -3.5,
         "total_ou": 205.5,
-        "best_book": "LowVig.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Houston Rockets",
-        "tipo": "ML Rockets",
-        "confianza": "baja",
-        "ev": 6.0,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 64.4,
-        "prob_mercado": 59.1,
-        "notas": "Modelo: 64.4% | Mercado: 59.1% | Edge: +5.3%",
+        "prob_mercado": 60.4,
+        "notas": "Sin EV suficiente. Mejor: 3.7% (umbral 5%) | Modelo local: 64.4% | Mercado: 60.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 6.5,
         "spread_conf": "baja",
