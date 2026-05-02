@@ -1,271 +1,18 @@
 {
-  "updated_at": "2026-05-01T23:37:02.684672+00:00",
+  "updated_at": "2026-05-02T03:59:18.780362+00:00",
   "games": [
-    {
-      "id": "88e10294c54deffd6e9e6efcba249d2c",
-      "home_team": "Orlando Magic",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-05-01T23:09:16Z",
-      "time_et": "7:09 PM ET",
-      "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "0.0",
-        "home_score": "25",
-        "away_score": "26"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "8",
-        "ppg": "115.7",
-        "papg": "115.1",
-        "diff": "+0.6",
-        "home_rec": "25-15",
-        "away_rec": "19-20",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "P",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "P",
-          "P",
-          "G",
-          "P"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Franz Wagner",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Franz Wagner",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jonathan Isaac Out | Franz Wagner Out | Kevin Huerter Out",
-      "odds": {
-        "home_ml": 150,
-        "away_ml": -166,
-        "spread_home": 3.5,
-        "total_ou": 207.5,
-        "best_book": "MyBookie.ag",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Detroit Pistons",
-        "tipo": "ML Pistons",
-        "confianza": "alta",
-        "ev": 24.0,
-        "prob_modelo": 22.6,
-        "prob_mercado": 39.1,
-        "notas": "Modelo: 77.4% | Mercado: 60.9% | Edge: +16.5%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-3.8 | Línea: +3.5 | Sin EV en spread (local: -6.5%, visit: -2.6%)",
-        "ou_pick": "OVER",
-        "ou_ev": 88.0,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 207.5 (+21.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "d1938a9c13602a661e894f996f2680e8",
-      "home_team": "Toronto Raptors",
-      "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-05-01T23:40:00Z",
-      "time_et": "7:40 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "5",
-        "ppg": "114.6",
-        "papg": "111.8",
-        "diff": "+2.8",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Brandon Ingram",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [],
-      "injuries": [
-        {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Brandon Ingram",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Immanuel Quickley",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Chucky Hepburn Out | Brandon Ingram Out | Immanuel Quickley Out",
-      "odds": {
-        "home_ml": 166,
-        "away_ml": -185,
-        "spread_home": 4.5,
-        "total_ou": 218.5,
-        "best_book": "FanDuel",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Toronto Raptors",
-        "tipo": "ML Raptors",
-        "confianza": "alta",
-        "ev": 16.3,
-        "prob_modelo": 43.7,
-        "prob_mercado": 36.7,
-        "notas": "Modelo: 43.7% | Mercado: 36.7% | Edge: +7.1%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 19.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-0.7 | Línea: +4.5 | Prob cubrir local: 62.6%",
-        "ou_pick": "OVER",
-        "ou_ev": 69.7,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.7 vs línea 218.5 (+12.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0
-      }
-    },
     {
       "id": "c361a0b8c035a055bd9497b52674e3fb",
       "home_team": "Houston Rockets",
       "away_team": "Los Angeles Lakers",
-      "commence_time": "2026-05-02T01:40:00Z",
-      "time_et": "9:40 PM ET",
+      "commence_time": "2026-05-02T01:48:34Z",
+      "time_et": "9:48 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "6:28",
+        "home_score": "62",
+        "away_score": "81"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -305,17 +52,17 @@
       },
       "home_injuries": [
         {
-          "player": "Steven Adams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Kevin Durant",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 36.3,
+          "weight": 3
+        },
+        {
+          "player": "Steven Adams",
+          "position": "C",
+          "status": "Out",
+          "pra": 15.9,
           "weight": 3
         },
         {
@@ -337,17 +84,17 @@
       ],
       "injuries": [
         {
-          "player": "Steven Adams",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Kevin Durant",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 36.3,
+          "weight": 3
+        },
+        {
+          "player": "Steven Adams",
+          "position": "C",
+          "status": "Out",
+          "pra": 15.9,
           "weight": 3
         },
         {
@@ -366,14 +113,14 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Steven Adams Out | Kevin Durant Out | Fred VanVleet Out | Luka Doncic Out",
+      "alerta_msg": "Kevin Durant Out (PRA 36.3) | Steven Adams Out (PRA 15.9) | Fred VanVleet Out | Luka Doncic Out",
       "odds": {
-        "home_ml": -161,
-        "away_ml": 142,
-        "spread_home": -3.5,
-        "total_ou": 203.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": null,
+        "away_ml": null,
+        "spread_home": 17.5,
+        "total_ou": 168.5,
+        "best_book": "",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -381,17 +128,17 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 64.4,
-        "prob_mercado": 59.9,
-        "notas": "Sin EV suficiente. Mejor: 4.4% (umbral 5%) | Modelo local: 64.4% | Mercado: 59.9%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 6.5,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +1.8 | Línea: -3.5 | Prob cubrir visitante: 55.8%",
+        "prob_mercado": 0,
+        "notas": "Bajas Rockets: Kevin Durant (36.3 PRA), Steven Adams (15.9 PRA) (52 PRA total)",
+        "spread_lado": "LOCAL",
+        "spread_ev": 80.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +1.8 | Línea: +17.5 | Prob cubrir local: 94.6%",
         "ou_pick": "OVER",
-        "ou_ev": 89.6,
+        "ou_ev": 90.9,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.1 vs línea 203.5 (+24.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
+        "ou_notas": "Proyección 209.8 vs línea 168.5 (+41.3) | Penalty bajas: 18.3 pts",
+        "home_pra_out": 52.2,
         "away_pra_out": 0.0
       }
     }
