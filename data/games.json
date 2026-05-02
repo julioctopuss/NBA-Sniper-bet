@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T22:05:32.956492+00:00",
+  "updated_at": "2026-05-02T23:27:26.155708+00:00",
   "games": [
     {
       "id": "a37e80a2e3cf3aaa3ae84a9124987058",
@@ -59,22 +59,7 @@
           "weight": 3
         }
       ],
-      "away_injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Paul George",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "away_injuries": [],
       "injuries": [
         {
           "player": "Jayson Tatum",
@@ -82,44 +67,30 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Paul George",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "Jayson Tatum Out",
       "odds": {
-        "home_ml": -167,
-        "away_ml": 155,
-        "spread_home": -4.5,
+        "home_ml": -156,
+        "away_ml": 144,
+        "spread_home": -3.5,
         "total_ou": 204.5,
-        "best_book": "BetOnline.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Boston Celtics",
         "tipo": "ML Celtics",
         "confianza": "alta",
-        "ev": 26.7,
+        "ev": 30.1,
         "prob_modelo": 79.3,
-        "prob_mercado": 61.5,
-        "notas": "Modelo: 79.3% | Mercado: 61.5% | Edge: +17.8%",
+        "prob_mercado": 59.8,
+        "notas": "Modelo: 79.3% | Mercado: 59.8% | Edge: +19.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +3.9 | Línea: -4.5 | Sin EV en spread (local: -8.0%, visit: -1.1%)",
+        "spread_notas": "Margen proyectado: +3.9 | Línea: -3.5 | Sin EV en spread (local: -1.7%, visit: -7.4%)",
         "ou_pick": "OVER",
         "ou_ev": 88.6,
         "ou_confianza": "media",
