@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T19:54:42.496603+00:00",
+  "updated_at": "2026-05-02T22:05:32.956492+00:00",
   "games": [
     {
       "id": "a37e80a2e3cf3aaa3ae84a9124987058",
@@ -54,9 +54,9 @@
         {
           "player": "Jayson Tatum",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "away_injuries": [
@@ -79,9 +79,9 @@
         {
           "player": "Jayson Tatum",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Joel Embiid",
@@ -98,33 +98,33 @@
           "weight": 1
         }
       ],
-      "alerta": false,
-      "alerta_msg": "",
+      "alerta": true,
+      "alerta_msg": "Jayson Tatum Out",
       "odds": {
-        "home_ml": -210,
-        "away_ml": 205,
-        "spread_home": -6.5,
-        "total_ou": 205.5,
-        "best_book": "FanDuel",
+        "home_ml": -167,
+        "away_ml": 155,
+        "spread_home": -4.5,
+        "total_ou": 204.5,
+        "best_book": "BetOnline.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Boston Celtics",
         "tipo": "ML Celtics",
         "confianza": "alta",
-        "ev": 17.0,
+        "ev": 26.7,
         "prob_modelo": 79.3,
-        "prob_mercado": 67.4,
-        "notas": "Modelo: 79.3% | Mercado: 67.4% | Edge: +11.9%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 11.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.9 | Línea: -6.5 | Prob cubrir visitante: 58.4%",
+        "prob_mercado": 61.5,
+        "notas": "Modelo: 79.3% | Mercado: 61.5% | Edge: +17.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +3.9 | Línea: -4.5 | Sin EV en spread (local: -8.0%, visit: -1.1%)",
         "ou_pick": "OVER",
-        "ou_ev": 88.0,
+        "ou_ev": 88.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 205.5 (+21.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
+        "ou_notas": "Proyección 227.1 vs línea 204.5 (+22.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     }
