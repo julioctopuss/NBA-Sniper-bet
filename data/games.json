@@ -1,145 +1,74 @@
 {
-  "updated_at": "2026-05-02T03:59:18.780362+00:00",
+  "updated_at": "2026-05-02T05:13:17.477297+00:00",
   "games": [
     {
-      "id": "c361a0b8c035a055bd9497b52674e3fb",
-      "home_team": "Houston Rockets",
-      "away_team": "Los Angeles Lakers",
-      "commence_time": "2026-05-02T01:48:34Z",
-      "time_et": "9:48 PM ET",
+      "id": "a37e80a2e3cf3aaa3ae84a9124987058",
+      "home_team": "Boston Celtics",
+      "away_team": "Philadelphia 76ers",
+      "commence_time": "2026-05-02T23:40:00Z",
+      "time_et": "7:40 PM ET",
       "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "6:28",
-        "home_score": "62",
-        "away_score": "81"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "52-30",
-        "seed": "5",
-        "ppg": "115.2",
-        "papg": "110.0",
-        "diff": "+5.2",
-        "home_rec": "30-11",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "P",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "53-29",
-        "seed": "4",
-        "ppg": "116.3",
-        "papg": "114.6",
-        "diff": "+1.7",
-        "home_rec": "28-13",
-        "away_rec": "25-16",
-        "streak": "W3",
-        "forma": [
-          "P",
-          "P",
-          "G",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Kevin Durant",
-          "position": "F",
-          "status": "Out",
-          "pra": 36.3,
-          "weight": 3
-        },
-        {
-          "player": "Steven Adams",
-          "position": "C",
-          "status": "Out",
-          "pra": 15.9,
-          "weight": 3
-        },
-        {
-          "player": "Fred VanVleet",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Kevin Durant",
-          "position": "F",
-          "status": "Out",
-          "pra": 36.3,
-          "weight": 3
-        },
-        {
-          "player": "Steven Adams",
-          "position": "C",
-          "status": "Out",
-          "pra": 15.9,
-          "weight": 3
-        },
-        {
-          "player": "Fred VanVleet",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Kevin Durant Out (PRA 36.3) | Steven Adams Out (PRA 15.9) | Fred VanVleet Out | Luka Doncic Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": null,
-        "away_ml": null,
-        "spread_home": 17.5,
-        "total_ou": 168.5,
-        "best_book": "",
-        "num_books": 6
+        "home_ml": -279,
+        "away_ml": 252,
+        "spread_home": -7.5,
+        "total_ou": 205.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 64.4,
-        "prob_mercado": 0,
-        "notas": "Bajas Rockets: Kevin Durant (36.3 PRA), Steven Adams (15.9 PRA) (52 PRA total)",
-        "spread_lado": "LOCAL",
-        "spread_ev": 80.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.8 | Línea: +17.5 | Prob cubrir local: 94.6%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.9,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 209.8 vs línea 168.5 (+41.3) | Penalty bajas: 18.3 pts",
-        "home_pra_out": 52.2,
-        "away_pra_out": 0.0
+        "pick": "Philadelphia 76ers",
+        "tipo": "ML 76ers",
+        "confianza": "alta",
+        "ev": 76.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 72.2,
+        "notas": "Modelo: 50.0% | Mercado: 27.8% | Edge: +22.2%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
