@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T19:54:22.329235+00:00",
+  "updated_at": "2026-05-03T22:06:20.590799+00:00",
   "games": [
     {
       "id": "be60e6f50fc77fc3a3cf6925472bad91",
@@ -9,10 +9,10 @@
       "time_et": "3:41 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "5:37",
-        "home_score": "12",
-        "away_score": "13"
+        "period": 4,
+        "clock": "1:33",
+        "home_score": "110",
+        "away_score": "92"
       },
       "home_stats": {
         "conference": "Este",
@@ -55,23 +55,23 @@
           "player": "Kevin Huerter",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 16.1,
           "weight": 3
         }
       ],
       "away_injuries": [
         {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Franz Wagner",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 29.1,
+          "weight": 3
+        },
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 5.5,
           "weight": 3
         }
       ],
@@ -80,52 +80,52 @@
           "player": "Kevin Huerter",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
+          "pra": 16.1,
           "weight": 3
         },
         {
           "player": "Franz Wagner",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 29.1,
+          "weight": 3
+        },
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 5.5,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Kevin Huerter Out | Jonathan Isaac Out | Franz Wagner Out",
+      "alerta_msg": "Kevin Huerter Out (PRA 16.1) | Franz Wagner Out (PRA 29.1) | Jonathan Isaac Out (PRA 5.5)",
       "odds": {
-        "home_ml": -295,
-        "away_ml": 263,
-        "spread_home": -7.5,
-        "total_ou": 197.5,
-        "best_book": "BetRivers",
-        "num_books": 8
+        "home_ml": null,
+        "away_ml": null,
+        "spread_home": -17.5,
+        "total_ou": 208.5,
+        "best_book": "",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Detroit Pistons",
-        "tipo": "ML Pistons",
-        "confianza": "baja",
-        "ev": 7.3,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 80.1,
-        "prob_mercado": 73.1,
-        "notas": "Modelo: 80.1% | Mercado: 73.1% | Edge: +7.1%",
+        "prob_mercado": 0,
+        "notas": "Bajas Magic: Franz Wagner (29.1 PRA), Jonathan Isaac (5.5 PRA) (35 PRA total)",
         "spread_lado": "VISITANTE",
-        "spread_ev": 18.6,
+        "spread_ev": 66.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.8 | Línea: -7.5 | Prob cubrir visitante: 62.1%",
+        "spread_notas": "Margen proyectado: +3.8 | Línea: -17.5 | Prob cubrir visitante: 87.3%",
         "ou_pick": "OVER",
-        "ou_ev": 90.8,
+        "ou_ev": 17.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 197.5 (+31.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "ou_notas": "Proyección 211.4 vs línea 208.5 (+2.9) | Penalty bajas: 17.7 pts",
+        "home_pra_out": 16.1,
+        "away_pra_out": 34.6
       }
     },
     {
@@ -180,78 +180,78 @@
       "home_injuries": [],
       "away_injuries": [
         {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Brandon Ingram",
           "position": "F",
           "status": "Day-To-Day",
-          "pra": 0.0,
+          "pra": 30.8,
           "weight": 1
         },
         {
           "player": "Immanuel Quickley",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 26.3,
+          "weight": 3
+        },
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 1.5,
           "weight": 3
         }
       ],
       "injuries": [
         {
-          "player": "Chucky Hepburn",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "Brandon Ingram",
           "position": "F",
           "status": "Day-To-Day",
-          "pra": 0.0,
+          "pra": 30.8,
           "weight": 1
         },
         {
           "player": "Immanuel Quickley",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 26.3,
+          "weight": 3
+        },
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 1.5,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
+      "alerta_msg": "Immanuel Quickley Out (PRA 26.3) | Chucky Hepburn Out (PRA 1.5)",
       "odds": {
-        "home_ml": -317,
-        "away_ml": 280,
+        "home_ml": -310,
+        "away_ml": 265,
         "spread_home": -8.5,
-        "total_ou": 210.5,
-        "best_book": "LowVig.ag",
+        "total_ou": 209.5,
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 67.7,
+        "ev": 61.0,
         "prob_modelo": 55.9,
-        "prob_mercado": 74.3,
-        "notas": "Modelo: 44.1% | Mercado: 25.7% | Edge: +18.4%",
+        "prob_mercado": 73.4,
+        "notas": "Bajas Raptors: Immanuel Quickley (26.3 PRA), Chucky Hepburn (1.5 PRA) (28 PRA total) | Modelo: 44.1% | Mercado: 26.6% | Edge: +17.5%",
         "spread_lado": "VISITANTE",
         "spread_ev": 41.9,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +0.7 | Línea: -8.5 | Prob cubrir visitante: 74.3%",
         "ou_pick": "OVER",
-        "ou_ev": 86.8,
+        "ou_ev": 66.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.7 vs línea 210.5 (+20.2) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 220.9 vs línea 209.5 (+11.4) | Penalty bajas: 9.7 pts",
         "home_pra_out": 0,
-        "away_pra_out": 0.0
+        "away_pra_out": 27.8
       }
     }
   ]
