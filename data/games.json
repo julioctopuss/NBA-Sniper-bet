@@ -1,74 +1,131 @@
 {
-  "updated_at": "2026-05-03T05:32:25.659528+00:00",
+  "updated_at": "2026-05-03T19:54:22.329235+00:00",
   "games": [
     {
       "id": "be60e6f50fc77fc3a3cf6925472bad91",
       "home_team": "Detroit Pistons",
       "away_team": "Orlando Magic",
-      "commence_time": "2026-05-03T19:40:00Z",
-      "time_et": "3:40 PM ET",
+      "commence_time": "2026-05-03T19:41:39Z",
+      "time_et": "3:41 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "state": "in",
+        "period": 1,
+        "clock": "5:37",
+        "home_score": "12",
+        "away_score": "13"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "60-22",
+        "seed": "1",
+        "ppg": "117.8",
+        "papg": "109.6",
+        "diff": "+8.2",
+        "home_rec": "31-9",
+        "away_rec": "28-13",
+        "streak": "W3",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "P",
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "115.7",
+        "papg": "115.1",
+        "diff": "+0.6",
+        "home_rec": "25-15",
+        "away_rec": "19-20",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "G",
+          "P"
+        ]
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "Kevin Huerter",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Franz Wagner",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Kevin Huerter",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jonathan Isaac",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Franz Wagner",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Kevin Huerter Out | Jonathan Isaac Out | Franz Wagner Out",
       "odds": {
-        "home_ml": -322,
-        "away_ml": 280,
-        "spread_home": -8.5,
-        "total_ou": 202.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": -295,
+        "away_ml": 263,
+        "spread_home": -7.5,
+        "total_ou": 197.5,
+        "best_book": "BetRivers",
+        "num_books": 8
       },
       "recomendacion": {
-        "pick": "Orlando Magic",
-        "tipo": "ML Magic",
-        "confianza": "alta",
-        "ev": 90.0,
-        "prob_modelo": 50.0,
-        "prob_mercado": 74.4,
-        "notas": "Modelo: 50.0% | Mercado: 25.6% | Edge: +24.4%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "pick": "Detroit Pistons",
+        "tipo": "ML Pistons",
+        "confianza": "baja",
+        "ev": 7.3,
+        "prob_modelo": 80.1,
+        "prob_mercado": 73.1,
+        "notas": "Modelo: 80.1% | Mercado: 73.1% | Edge: +7.1%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 18.6,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +3.8 | Línea: -7.5 | Prob cubrir visitante: 62.1%",
+        "ou_pick": "OVER",
+        "ou_ev": 90.8,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.1 vs línea 197.5 (+31.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     },
     {
@@ -80,65 +137,121 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "52-30",
+        "seed": "4",
+        "ppg": "119.5",
+        "papg": "115.4",
+        "diff": "+4.1",
+        "home_rec": "27-14",
+        "away_rec": "25-16",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "P",
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "46-36",
+        "seed": "5",
+        "ppg": "114.6",
+        "papg": "111.8",
+        "diff": "+2.8",
+        "home_rec": "24-17",
+        "away_rec": "22-19",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "G",
+          "P"
+        ]
       },
       "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "away_injuries": [
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Brandon Ingram",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Immanuel Quickley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Chucky Hepburn",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Brandon Ingram",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Immanuel Quickley",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Chucky Hepburn Out | Immanuel Quickley Out",
       "odds": {
-        "home_ml": -290,
-        "away_ml": 272,
+        "home_ml": -317,
+        "away_ml": 280,
         "spread_home": -8.5,
-        "total_ou": 211.5,
-        "best_book": "BetUS",
+        "total_ou": 210.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 86.0,
-        "prob_modelo": 50.0,
-        "prob_mercado": 73.4,
-        "notas": "Modelo: 50.0% | Mercado: 26.6% | Edge: +23.4%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
+        "ev": 67.7,
+        "prob_modelo": 55.9,
+        "prob_mercado": 74.3,
+        "notas": "Modelo: 44.1% | Mercado: 25.7% | Edge: +18.4%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 41.9,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +0.7 | Línea: -8.5 | Prob cubrir visitante: 74.3%",
+        "ou_pick": "OVER",
+        "ou_ev": 86.8,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 230.7 vs línea 210.5 (+20.2) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
-        "away_pra_out": 0
+        "away_pra_out": 0.0
       }
     }
   ]
