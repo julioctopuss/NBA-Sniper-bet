@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T20:14:27.811431+00:00",
+  "updated_at": "2026-05-04T22:32:39.336725+00:00",
   "games": [
     {
       "id": "b11391b35b7a0cf79deeef3bb3eb9009",
@@ -88,7 +88,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -275,
-        "away_ml": 235,
+        "away_ml": 238,
         "spread_home": -7.5,
         "total_ou": 213.5,
         "best_book": "BetMGM",
@@ -100,8 +100,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 76.3,
-        "prob_mercado": 71.1,
-        "notas": "Sin EV suficiente. Mejor: 4.0% (umbral 5%) | Modelo local: 76.3% | Mercado: 71.1%",
+        "prob_mercado": 71.3,
+        "notas": "Sin EV suficiente. Mejor: 4.0% (umbral 5%) | Modelo local: 76.3% | Mercado: 71.3%",
         "spread_lado": "VISITANTE",
         "spread_ev": 21.6,
         "spread_conf": "media",
@@ -243,7 +243,7 @@
       "alerta_msg": "David Jones Garcia Out | Donte DiVincenzo Out | Ayo Dosunmu Out | Anthony Edwards Out",
       "odds": {
         "home_ml": -345,
-        "away_ml": 330,
+        "away_ml": 321,
         "spread_home": -9.5,
         "total_ou": 220.5,
         "best_book": "DraftKings",
@@ -253,10 +253,10 @@
         "pick": "Minnesota Timberwolves",
         "tipo": "ML Timberwolves",
         "confianza": "alta",
-        "ev": 24.0,
+        "ev": 21.4,
         "prob_modelo": 71.2,
-        "prob_mercado": 76.9,
-        "notas": "Modelo: 28.8% | Mercado: 23.1% | Edge: +5.8%",
+        "prob_mercado": 76.5,
+        "notas": "Modelo: 28.8% | Mercado: 23.5% | Edge: +5.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 37.8,
         "spread_conf": "media",
