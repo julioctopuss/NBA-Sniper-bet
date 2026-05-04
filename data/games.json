@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T22:32:39.336725+00:00",
+  "updated_at": "2026-05-04T23:34:58.276882+00:00",
   "games": [
     {
       "id": "b11391b35b7a0cf79deeef3bb3eb9009",
@@ -50,47 +50,16 @@
           "P"
         ]
       },
-      "home_injuries": [
-        {
-          "player": "Jeremy Sochan",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jeremy Sochan",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
       "alerta": false,
       "alerta_msg": "",
       "odds": {
         "home_ml": -275,
         "away_ml": 238,
         "spread_home": -7.5,
-        "total_ou": 213.5,
+        "total_ou": 212.5,
         "best_book": "BetMGM",
         "num_books": 9
       },
@@ -107,9 +76,9 @@
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +3.3 | Línea: -7.5 | Prob cubrir visitante: 63.7%",
         "ou_pick": "OVER",
-        "ou_ev": 80.0,
+        "ou_ev": 82.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.3 vs línea 213.5 (+15.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.3 vs línea 212.5 (+16.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0
       }
@@ -168,37 +137,37 @@
           "player": "Carter Bryant",
           "position": "F",
           "status": "Day-To-Day",
-          "pra": 0.0,
+          "pra": 7.4,
           "weight": 1
         },
         {
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 5.7,
           "weight": 3
         }
       ],
       "away_injuries": [
         {
-          "player": "Donte DiVincenzo",
+          "player": "Anthony Edwards",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 37.5,
           "weight": 3
         },
         {
           "player": "Ayo Dosunmu",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 21.8,
           "weight": 3
         },
         {
-          "player": "Anthony Edwards",
+          "player": "Donte DiVincenzo",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 20.1,
           "weight": 3
         }
       ],
@@ -207,45 +176,45 @@
           "player": "Carter Bryant",
           "position": "F",
           "status": "Day-To-Day",
-          "pra": 0.0,
+          "pra": 7.4,
           "weight": 1
         },
         {
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Donte DiVincenzo",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ayo Dosunmu",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
+          "pra": 5.7,
           "weight": 3
         },
         {
           "player": "Anthony Edwards",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 37.5,
+          "weight": 3
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "position": "G",
+          "status": "Out",
+          "pra": 21.8,
+          "weight": 3
+        },
+        {
+          "player": "Donte DiVincenzo",
+          "position": "G",
+          "status": "Out",
+          "pra": 20.1,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "David Jones Garcia Out | Donte DiVincenzo Out | Ayo Dosunmu Out | Anthony Edwards Out",
+      "alerta_msg": "David Jones Garcia Out (PRA 5.7) | Anthony Edwards Out (PRA 37.5) | Ayo Dosunmu Out (PRA 21.8) | Donte DiVincenzo Out (PRA 20.1)",
       "odds": {
-        "home_ml": -345,
-        "away_ml": 321,
-        "spread_home": -9.5,
-        "total_ou": 220.5,
+        "home_ml": -360,
+        "away_ml": 335,
+        "spread_home": -10.5,
+        "total_ou": 219.5,
         "best_book": "DraftKings",
         "num_books": 9
       },
@@ -253,20 +222,20 @@
         "pick": "Minnesota Timberwolves",
         "tipo": "ML Timberwolves",
         "confianza": "alta",
-        "ev": 21.4,
+        "ev": 25.4,
         "prob_modelo": 71.2,
-        "prob_mercado": 76.5,
-        "notas": "Modelo: 28.8% | Mercado: 23.5% | Edge: +5.4%",
+        "prob_mercado": 77.3,
+        "notas": "Bajas Timberwolves: Anthony Edwards (37.5 PRA), Ayo Dosunmu (21.8 PRA) (79 PRA total) | Modelo: 28.8% | Mercado: 22.7% | Edge: +6.1%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 37.8,
+        "spread_ev": 43.0,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.4 | Línea: -9.5 | Prob cubrir visitante: 72.2%",
-        "ou_pick": "OVER",
-        "ou_ev": 66.6,
+        "spread_notas": "Margen proyectado: +2.4 | Línea: -10.5 | Prob cubrir visitante: 74.9%",
+        "ou_pick": "UNDER",
+        "ou_ev": 82.9,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.9 vs línea 220.5 (+11.4) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "ou_notas": "Proyección 202.2 vs línea 219.5 (-17.3) | Penalty bajas: 29.8 pts",
+        "home_pra_out": 5.7,
+        "away_pra_out": 79.4
       }
     }
   ]
