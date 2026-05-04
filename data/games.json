@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T04:27:35.422440+00:00",
+  "updated_at": "2026-05-04T05:36:51.320121+00:00",
   "games": [
     {
       "id": "b11391b35b7a0cf79deeef3bb3eb9009",
@@ -44,8 +44,8 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -278,
-        "away_ml": 240,
+        "home_ml": -275,
+        "away_ml": 245,
         "spread_home": -7.5,
         "total_ou": 212.5,
         "best_book": "BetRivers",
@@ -55,10 +55,10 @@
         "pick": "Philadelphia 76ers",
         "tipo": "ML 76ers",
         "confianza": "alta",
-        "ev": 70.0,
+        "ev": 72.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 71.4,
-        "notas": "Modelo: 50.0% | Mercado: 28.6% | Edge: +21.4%",
+        "prob_mercado": 71.7,
+        "notas": "Modelo: 50.0% | Mercado: 28.3% | Edge: +21.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -115,7 +115,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -650,
-        "away_ml": 550,
+        "away_ml": 540,
         "spread_home": -13.5,
         "total_ou": 217.5,
         "best_book": "LowVig.ag",
@@ -127,8 +127,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 84.9,
-        "notas": "Diferencia modelo/mercado excesiva (35%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 84.9%",
+        "prob_mercado": 84.7,
+        "notas": "Diferencia modelo/mercado excesiva (35%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 84.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
