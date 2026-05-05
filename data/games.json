@@ -1,100 +1,18 @@
 {
-  "updated_at": "2026-05-04T23:34:58.276882+00:00",
+  "updated_at": "2026-05-05T03:56:21.175712+00:00",
   "games": [
-    {
-      "id": "b11391b35b7a0cf79deeef3bb3eb9009",
-      "home_team": "New York Knicks",
-      "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-05-05T00:10:00Z",
-      "time_et": "8:10 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "P",
-          "P"
-        ]
-      },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
-      "odds": {
-        "home_ml": -275,
-        "away_ml": 238,
-        "spread_home": -7.5,
-        "total_ou": 212.5,
-        "best_book": "BetMGM",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 76.3,
-        "prob_mercado": 71.3,
-        "notas": "Sin EV suficiente. Mejor: 4.0% (umbral 5%) | Modelo local: 76.3% | Mercado: 71.3%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 21.6,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.3 | Línea: -7.5 | Prob cubrir visitante: 63.7%",
-        "ou_pick": "OVER",
-        "ou_ev": 82.0,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.3 vs línea 212.5 (+16.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
-        "away_pra_out": 0
-      }
-    },
     {
       "id": "219920e3a715ceb3dc69f3638f7571d5",
       "home_team": "San Antonio Spurs",
       "away_team": "Minnesota Timberwolves",
-      "commence_time": "2026-05-05T01:40:00Z",
-      "time_et": "9:40 PM ET",
+      "commence_time": "2026-05-05T01:43:12Z",
+      "time_et": "9:43 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "5:51",
+        "home_score": "86",
+        "away_score": "90"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -136,38 +54,31 @@
         {
           "player": "Carter Bryant",
           "position": "F",
-          "status": "Day-To-Day",
-          "pra": 7.4,
-          "weight": 1
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         },
         {
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 5.7,
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "away_injuries": [
         {
-          "player": "Anthony Edwards",
+          "player": "Donte DiVincenzo",
           "position": "G",
           "status": "Out",
-          "pra": 37.5,
+          "pra": 0.0,
           "weight": 3
         },
         {
           "player": "Ayo Dosunmu",
           "position": "G",
           "status": "Out",
-          "pra": 21.8,
-          "weight": 3
-        },
-        {
-          "player": "Donte DiVincenzo",
-          "position": "G",
-          "status": "Out",
-          "pra": 20.1,
+          "pra": 0.0,
           "weight": 3
         }
       ],
@@ -175,67 +86,60 @@
         {
           "player": "Carter Bryant",
           "position": "F",
-          "status": "Day-To-Day",
-          "pra": 7.4,
-          "weight": 1
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         },
         {
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 5.7,
-          "weight": 3
-        },
-        {
-          "player": "Anthony Edwards",
-          "position": "G",
-          "status": "Out",
-          "pra": 37.5,
-          "weight": 3
-        },
-        {
-          "player": "Ayo Dosunmu",
-          "position": "G",
-          "status": "Out",
-          "pra": 21.8,
+          "pra": 0.0,
           "weight": 3
         },
         {
           "player": "Donte DiVincenzo",
           "position": "G",
           "status": "Out",
-          "pra": 20.1,
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "David Jones Garcia Out (PRA 5.7) | Anthony Edwards Out (PRA 37.5) | Ayo Dosunmu Out (PRA 21.8) | Donte DiVincenzo Out (PRA 20.1)",
+      "alerta_msg": "Carter Bryant Out | David Jones Garcia Out | Donte DiVincenzo Out | Ayo Dosunmu Out",
       "odds": {
-        "home_ml": -360,
-        "away_ml": 335,
-        "spread_home": -10.5,
-        "total_ou": 219.5,
-        "best_book": "DraftKings",
-        "num_books": 9
+        "home_ml": 115,
+        "away_ml": 120,
+        "spread_home": 1.5,
+        "total_ou": 205.5,
+        "best_book": "BetMGM",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Minnesota Timberwolves",
-        "tipo": "ML Timberwolves",
+        "pick": "San Antonio Spurs",
+        "tipo": "ML Spurs",
         "confianza": "alta",
-        "ev": 25.4,
+        "ev": 53.0,
         "prob_modelo": 71.2,
-        "prob_mercado": 77.3,
-        "notas": "Bajas Timberwolves: Anthony Edwards (37.5 PRA), Ayo Dosunmu (21.8 PRA) (79 PRA total) | Modelo: 28.8% | Mercado: 22.7% | Edge: +6.1%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 43.0,
+        "prob_mercado": 50.6,
+        "notas": "Modelo: 71.2% | Mercado: 50.6% | Edge: +20.6%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 20.1,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.4 | Línea: -10.5 | Prob cubrir visitante: 74.9%",
-        "ou_pick": "UNDER",
-        "ou_ev": 82.9,
+        "spread_notas": "Margen proyectado: +2.4 | Línea: +1.5 | Prob cubrir local: 62.9%",
+        "ou_pick": "OVER",
+        "ou_ev": 90.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 202.2 vs línea 219.5 (-17.3) | Penalty bajas: 29.8 pts",
-        "home_pra_out": 5.7,
-        "away_pra_out": 79.4
+        "ou_notas": "Proyección 231.9 vs línea 205.5 (+26.4) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     }
   ]
