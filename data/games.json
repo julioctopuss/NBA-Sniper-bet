@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-05-06T22:12:42.536452+00:00",
+  "updated_at": "2026-05-06T23:35:44.141143+00:00",
   "games": [
     {
       "id": "d146e10295545e18ac8915a1f5860317",
       "home_team": "New York Knicks",
       "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-05-06T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-05-06T23:14:00Z",
+      "time_et": "7:14 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "4:12",
+        "home_score": "18",
+        "away_score": "19"
       },
       "home_stats": {
         "conference": "Este",
@@ -54,9 +54,9 @@
         {
           "player": "Mitchell Robinson",
           "position": "C",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "away_injuries": [
@@ -72,9 +72,9 @@
         {
           "player": "Mitchell Robinson",
           "position": "C",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Joel Embiid",
@@ -85,32 +85,32 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Joel Embiid Out",
+      "alerta_msg": "Mitchell Robinson Out | Joel Embiid Out",
       "odds": {
-        "home_ml": -444,
-        "away_ml": 356,
-        "spread_home": -10.5,
-        "total_ou": 213.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": -270,
+        "away_ml": 305,
+        "spread_home": -8.5,
+        "total_ou": 216.5,
+        "best_book": "DraftKings",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers",
+        "pick": "New York Knicks",
+        "tipo": "ML Knicks",
         "confianza": "baja",
-        "ev": 5.7,
+        "ev": 5.3,
         "prob_modelo": 76.8,
-        "prob_mercado": 78.8,
-        "notas": "Modelo: 23.2% | Mercado: 21.2% | Edge: +2.0%",
+        "prob_mercado": 74.7,
+        "notas": "Modelo: 76.8% | Mercado: 74.7% | Edge: +2.1%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 38.6,
+        "spread_ev": 27.5,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.3 | Línea: -10.5 | Prob cubrir visitante: 72.6%",
+        "spread_notas": "Margen proyectado: +3.3 | Línea: -8.5 | Prob cubrir visitante: 66.8%",
         "ou_pick": "OVER",
-        "ou_ev": 80.0,
+        "ou_ev": 71.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.3 vs línea 213.5 (+15.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
+        "ou_notas": "Proyección 229.3 vs línea 216.5 (+12.8) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
     },
@@ -229,8 +229,8 @@
       "alerta_msg": "David Jones Garcia Out | Donte DiVincenzo Out",
       "odds": {
         "home_ml": -400,
-        "away_ml": 335,
-        "spread_home": -9.5,
+        "away_ml": 336,
+        "spread_home": -10.5,
         "total_ou": 217.5,
         "best_book": "BetUS",
         "num_books": 9
@@ -239,14 +239,14 @@
         "pick": "Minnesota Timberwolves",
         "tipo": "ML Timberwolves",
         "confianza": "alta",
-        "ev": 28.1,
+        "ev": 28.4,
         "prob_modelo": 70.5,
         "prob_mercado": 77.7,
-        "notas": "Modelo: 29.4% | Mercado: 22.3% | Edge: +7.1%",
+        "notas": "Modelo: 29.4% | Mercado: 22.3% | Edge: +7.2%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 37.8,
+        "spread_ev": 43.0,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.4 | Línea: -9.5 | Prob cubrir visitante: 72.2%",
+        "spread_notas": "Margen proyectado: +2.4 | Línea: -10.5 | Prob cubrir visitante: 74.9%",
         "ou_pick": "OVER",
         "ou_ev": 76.6,
         "ou_confianza": "media",
