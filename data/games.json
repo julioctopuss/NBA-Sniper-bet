@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T20:21:54.286300+00:00",
+  "updated_at": "2026-05-06T22:12:42.536452+00:00",
   "games": [
     {
       "id": "d146e10295545e18ac8915a1f5860317",
@@ -50,7 +50,15 @@
           "P"
         ]
       },
-      "home_injuries": [],
+      "home_injuries": [
+        {
+          "player": "Mitchell Robinson",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
       "away_injuries": [
         {
           "player": "Joel Embiid",
@@ -62,6 +70,13 @@
       ],
       "injuries": [
         {
+          "player": "Mitchell Robinson",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Joel Embiid",
           "position": "C",
           "status": "Out",
@@ -72,8 +87,8 @@
       "alerta": true,
       "alerta_msg": "Joel Embiid Out",
       "odds": {
-        "home_ml": -435,
-        "away_ml": 360,
+        "home_ml": -444,
+        "away_ml": 356,
         "spread_home": -10.5,
         "total_ou": 213.5,
         "best_book": "LowVig.ag",
@@ -83,10 +98,10 @@
         "pick": "Philadelphia 76ers",
         "tipo": "ML 76ers",
         "confianza": "baja",
-        "ev": 6.6,
+        "ev": 5.7,
         "prob_modelo": 76.8,
-        "prob_mercado": 78.9,
-        "notas": "Modelo: 23.2% | Mercado: 21.1% | Edge: +2.1%",
+        "prob_mercado": 78.8,
+        "notas": "Modelo: 23.2% | Mercado: 21.2% | Edge: +2.0%",
         "spread_lado": "VISITANTE",
         "spread_ev": 38.6,
         "spread_conf": "media",
@@ -213,21 +228,21 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out | Donte DiVincenzo Out",
       "odds": {
-        "home_ml": -395,
-        "away_ml": 340,
+        "home_ml": -400,
+        "away_ml": 335,
         "spread_home": -9.5,
         "total_ou": 217.5,
-        "best_book": "LowVig.ag",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Minnesota Timberwolves",
         "tipo": "ML Timberwolves",
         "confianza": "alta",
-        "ev": 29.6,
+        "ev": 28.1,
         "prob_modelo": 70.5,
-        "prob_mercado": 77.8,
-        "notas": "Modelo: 29.4% | Mercado: 22.2% | Edge: +7.3%",
+        "prob_mercado": 77.7,
+        "notas": "Modelo: 29.4% | Mercado: 22.3% | Edge: +7.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 37.8,
         "spread_conf": "media",
