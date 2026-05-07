@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07T04:12:11.747555+00:00",
+  "updated_at": "2026-05-07T05:33:43.143742+00:00",
   "games": [
     {
       "id": "862af0717b53a01b5e93a188a655d663",
@@ -45,7 +45,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -148,
-        "away_ml": 145,
+        "away_ml": 140,
         "spread_home": -3.5,
         "total_ou": 215.5,
         "best_book": "DraftKings",
@@ -55,10 +55,10 @@
         "pick": "Cleveland Cavaliers",
         "tipo": "ML Cavaliers",
         "confianza": "alta",
-        "ev": 22.5,
+        "ev": 20.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 59.4,
-        "notas": "Modelo: 50.0% | Mercado: 40.6% | Edge: +9.4%",
+        "prob_mercado": 58.9,
+        "notas": "Modelo: 50.0% | Mercado: 41.1% | Edge: +8.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
