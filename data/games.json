@@ -1,258 +1,144 @@
 {
-  "updated_at": "2026-05-06T23:35:44.141143+00:00",
+  "updated_at": "2026-05-07T04:12:11.747555+00:00",
   "games": [
     {
-      "id": "d146e10295545e18ac8915a1f5860317",
-      "home_team": "New York Knicks",
-      "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-05-06T23:14:00Z",
-      "time_et": "7:14 PM ET",
+      "id": "862af0717b53a01b5e93a188a655d663",
+      "home_team": "Detroit Pistons",
+      "away_team": "Cleveland Cavaliers",
+      "commence_time": "2026-05-07T23:10:00Z",
+      "time_et": "7:10 PM ET",
       "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "4:12",
-        "home_score": "18",
-        "away_score": "19"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Mitchell Robinson",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Mitchell Robinson",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Mitchell Robinson Out | Joel Embiid Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -270,
-        "away_ml": 305,
-        "spread_home": -8.5,
-        "total_ou": 216.5,
+        "home_ml": -148,
+        "away_ml": 145,
+        "spread_home": -3.5,
+        "total_ou": 215.5,
         "best_book": "DraftKings",
-        "num_books": 6
+        "num_books": 9
       },
       "recomendacion": {
-        "pick": "New York Knicks",
-        "tipo": "ML Knicks",
-        "confianza": "baja",
-        "ev": 5.3,
-        "prob_modelo": 76.8,
-        "prob_mercado": 74.7,
-        "notas": "Modelo: 76.8% | Mercado: 74.7% | Edge: +2.1%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 27.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.3 | Línea: -8.5 | Prob cubrir visitante: 66.8%",
-        "ou_pick": "OVER",
-        "ou_ev": 71.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.3 vs línea 216.5 (+12.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "pick": "Cleveland Cavaliers",
+        "tipo": "ML Cavaliers",
+        "confianza": "alta",
+        "ev": 22.5,
+        "prob_modelo": 50.0,
+        "prob_mercado": 59.4,
+        "notas": "Modelo: 50.0% | Mercado: 40.6% | Edge: +9.4%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     },
     {
-      "id": "246001ab42d44857430f7fe63f423461",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Minnesota Timberwolves",
-      "commence_time": "2026-05-07T01:40:00Z",
+      "id": "a306b74e13d87d2f8d64b1e01c2cf958",
+      "home_team": "Oklahoma City Thunder",
+      "away_team": "Los Angeles Lakers",
+      "commence_time": "2026-05-08T01:40:00Z",
       "time_et": "9:40 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "62-20",
-        "seed": "2",
-        "ppg": "119.8",
-        "papg": "111.5",
-        "diff": "+8.3",
-        "home_rec": "32-8",
-        "away_rec": "29-12",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "49-33",
-        "seed": "6",
-        "ppg": "118.0",
-        "papg": "114.6",
-        "diff": "+3.4",
-        "home_rec": "26-15",
-        "away_rec": "23-18",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Carter Bryant",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Donte DiVincenzo",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Anthony Edwards",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Carter Bryant",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Donte DiVincenzo",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Anthony Edwards",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "David Jones Garcia Out | Donte DiVincenzo Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -400,
-        "away_ml": 336,
-        "spread_home": -10.5,
-        "total_ou": 217.5,
-        "best_book": "BetUS",
+        "home_ml": -810,
+        "away_ml": 700,
+        "spread_home": -15.5,
+        "total_ou": 209.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Minnesota Timberwolves",
-        "tipo": "ML Timberwolves",
-        "confianza": "alta",
-        "ev": 28.4,
-        "prob_modelo": 70.5,
-        "prob_mercado": 77.7,
-        "notas": "Modelo: 29.4% | Mercado: 22.3% | Edge: +7.2%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 43.0,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.4 | Línea: -10.5 | Prob cubrir visitante: 74.9%",
-        "ou_pick": "OVER",
-        "ou_ev": 76.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.9 vs línea 217.5 (+14.4) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 50.0,
+        "prob_mercado": 87.7,
+        "notas": "Diferencia modelo/mercado excesiva (38%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 87.7%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
