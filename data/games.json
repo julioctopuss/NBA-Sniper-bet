@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-05-07T22:33:27.524063+00:00",
+  "updated_at": "2026-05-07T23:35:26.483354+00:00",
   "games": [
     {
       "id": "862af0717b53a01b5e93a188a655d663",
       "home_team": "Detroit Pistons",
       "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-05-07T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-05-07T23:11:00Z",
+      "time_et": "7:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "1:28",
+        "home_score": "23",
+        "away_score": "14"
       },
       "home_stats": {
         "conference": "Este",
@@ -87,29 +87,29 @@
       "alerta": true,
       "alerta_msg": "Kevin Huerter Out | Sam Merrill Out",
       "odds": {
-        "home_ml": -160,
-        "away_ml": 146,
-        "spread_home": -3.5,
-        "total_ou": 215.5,
-        "best_book": "BetOnline.ag",
-        "num_books": 9
+        "home_ml": -325,
+        "away_ml": 320,
+        "spread_home": -8.5,
+        "total_ou": 204.5,
+        "best_book": "Bovada",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Detroit Pistons",
-        "tipo": "ML Pistons",
-        "confianza": "media",
-        "ev": 12.1,
+        "pick": "Cleveland Cavaliers",
+        "tipo": "ML Cavaliers",
+        "confianza": "alta",
+        "ev": 30.2,
         "prob_modelo": 69.0,
-        "prob_mercado": 60.2,
-        "notas": "Modelo: 69.0% | Mercado: 60.2% | Edge: +8.8%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +2.0 | Línea: -3.5 | Sin EV en spread (local: -13.7%, visit: 4.6%)",
+        "prob_mercado": 76.3,
+        "notas": "Modelo: 31.0% | Mercado: 23.7% | Edge: +7.2%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 34.5,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +2.0 | Línea: -8.5 | Prob cubrir visitante: 70.5%",
         "ou_pick": "OVER",
-        "ou_ev": 79.6,
+        "ou_ev": 90.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.1 vs línea 215.5 (+15.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.1 vs línea 204.5 (+26.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -242,10 +242,10 @@
       "alerta": true,
       "alerta_msg": "Thomas Sorber Out | Jalen Williams Out | Luka Doncic Out",
       "odds": {
-        "home_ml": -810,
+        "home_ml": -834,
         "away_ml": 650,
         "spread_home": -15.5,
-        "total_ou": 211.5,
+        "total_ou": 210.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -262,9 +262,9 @@
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +4.7 | Línea: -15.5 | Prob cubrir visitante: 81.6%",
         "ou_pick": "OVER",
-        "ou_ev": 83.1,
+        "ou_ev": 84.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.9 vs línea 211.5 (+17.4) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 228.9 vs línea 210.5 (+18.4) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
