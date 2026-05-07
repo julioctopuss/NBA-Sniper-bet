@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07T20:14:16.270663+00:00",
+  "updated_at": "2026-05-07T22:33:27.524063+00:00",
   "games": [
     {
       "id": "862af0717b53a01b5e93a188a655d663",
@@ -63,9 +63,9 @@
         {
           "player": "Sam Merrill",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "injuries": [
@@ -79,19 +79,19 @@
         {
           "player": "Sam Merrill",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Kevin Huerter Out",
+      "alerta_msg": "Kevin Huerter Out | Sam Merrill Out",
       "odds": {
         "home_ml": -160,
-        "away_ml": 141,
+        "away_ml": 146,
         "spread_home": -3.5,
         "total_ou": 215.5,
-        "best_book": "LowVig.ag",
+        "best_book": "BetOnline.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -100,8 +100,8 @@
         "confianza": "media",
         "ev": 12.1,
         "prob_modelo": 69.0,
-        "prob_mercado": 59.7,
-        "notas": "Modelo: 69.0% | Mercado: 59.7% | Edge: +9.3%",
+        "prob_mercado": 60.2,
+        "notas": "Modelo: 69.0% | Mercado: 60.2% | Edge: +8.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -111,7 +111,7 @@
         "ou_confianza": "media",
         "ou_notas": "Proyección 231.1 vs línea 215.5 (+15.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
-        "away_pra_out": 0
+        "away_pra_out": 0.0
       }
     },
     {
@@ -242,7 +242,7 @@
       "alerta": true,
       "alerta_msg": "Thomas Sorber Out | Jalen Williams Out | Luka Doncic Out",
       "odds": {
-        "home_ml": -851,
+        "home_ml": -810,
         "away_ml": 650,
         "spread_home": -15.5,
         "total_ou": 211.5,
@@ -256,7 +256,7 @@
         "ev": 14.3,
         "prob_modelo": 84.8,
         "prob_mercado": 87.0,
-        "notas": "Modelo: 15.2% | Mercado: 13.0% | Edge: +2.3%",
+        "notas": "Modelo: 15.2% | Mercado: 13.0% | Edge: +2.2%",
         "spread_lado": "VISITANTE",
         "spread_ev": 55.8,
         "spread_conf": "media",
