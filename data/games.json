@@ -1,131 +1,18 @@
 {
-  "updated_at": "2026-05-07T23:35:26.483354+00:00",
+  "updated_at": "2026-05-08T03:58:20.239505+00:00",
   "games": [
-    {
-      "id": "862af0717b53a01b5e93a188a655d663",
-      "home_team": "Detroit Pistons",
-      "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-05-07T23:11:00Z",
-      "time_et": "7:11 PM ET",
-      "live": {
-        "state": "in",
-        "period": 1,
-        "clock": "1:28",
-        "home_score": "23",
-        "away_score": "14"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "G",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "G",
-          "P",
-          "G",
-          "P"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Sam Merrill",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Sam Merrill",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Kevin Huerter Out | Sam Merrill Out",
-      "odds": {
-        "home_ml": -325,
-        "away_ml": 320,
-        "spread_home": -8.5,
-        "total_ou": 204.5,
-        "best_book": "Bovada",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Cleveland Cavaliers",
-        "tipo": "ML Cavaliers",
-        "confianza": "alta",
-        "ev": 30.2,
-        "prob_modelo": 69.0,
-        "prob_mercado": 76.3,
-        "notas": "Modelo: 31.0% | Mercado: 23.7% | Edge: +7.2%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 34.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.0 | Línea: -8.5 | Prob cubrir visitante: 70.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.2,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.1 vs línea 204.5 (+26.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "a306b74e13d87d2f8d64b1e01c2cf958",
       "home_team": "Oklahoma City Thunder",
       "away_team": "Los Angeles Lakers",
-      "commence_time": "2026-05-08T01:40:00Z",
-      "time_et": "9:40 PM ET",
+      "commence_time": "2026-05-08T01:45:52Z",
+      "time_et": "9:45 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 4,
+        "clock": "7:01",
+        "home_score": "102",
+        "away_score": "94"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -165,15 +52,15 @@
       },
       "home_injuries": [
         {
-          "player": "Thomas Sorber",
-          "position": "C",
+          "player": "Jalen Williams",
+          "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 27.2,
           "weight": 3
         },
         {
-          "player": "Jalen Williams",
-          "position": "G",
+          "player": "Thomas Sorber",
+          "position": "C",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -181,28 +68,28 @@
       ],
       "away_injuries": [
         {
+          "player": "Jarred Vanderbilt",
+          "position": "F",
+          "status": "Out",
+          "pra": 10.2,
+          "weight": 3
+        },
+        {
           "player": "Luka Doncic",
           "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Luke Kennard",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Jarred Vanderbilt",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "injuries": [
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 27.2,
+          "weight": 3
+        },
         {
           "player": "Thomas Sorber",
           "position": "C",
@@ -211,10 +98,10 @@
           "weight": 3
         },
         {
-          "player": "Jalen Williams",
-          "position": "G",
+          "player": "Jarred Vanderbilt",
+          "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 10.2,
           "weight": 3
         },
         {
@@ -223,50 +110,36 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Luke Kennard",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Jarred Vanderbilt",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
-      "alerta_msg": "Thomas Sorber Out | Jalen Williams Out | Luka Doncic Out",
+      "alerta_msg": "Jalen Williams Out (PRA 27.2) | Thomas Sorber Out | Jarred Vanderbilt Out (PRA 10.2) | Luka Doncic Out",
       "odds": {
-        "home_ml": -834,
-        "away_ml": 650,
-        "spread_home": -15.5,
-        "total_ou": 210.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": -1200,
+        "away_ml": 1300,
+        "spread_home": -10.5,
+        "total_ou": 225.5,
+        "best_book": "Bovada",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers",
-        "confianza": "media",
-        "ev": 14.3,
+        "confianza": "alta",
+        "ev": 113.4,
         "prob_modelo": 84.8,
-        "prob_mercado": 87.0,
-        "notas": "Modelo: 15.2% | Mercado: 13.0% | Edge: +2.2%",
+        "prob_mercado": 92.8,
+        "notas": "Bajas Thunder: Jalen Williams (27.2 PRA), Thomas Sorber (0.0 PRA) (27 PRA total) | Modelo: 15.2% | Mercado: 7.2% | Edge: +8.1%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 55.8,
+        "spread_ev": 30.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.7 | Línea: -15.5 | Prob cubrir visitante: 81.6%",
-        "ou_pick": "OVER",
-        "ou_ev": 84.6,
+        "spread_notas": "Margen proyectado: +4.7 | Línea: -10.5 | Prob cubrir visitante: 68.6%",
+        "ou_pick": "UNDER",
+        "ou_ev": 59.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.9 vs línea 210.5 (+18.4) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "ou_notas": "Proyección 215.8 vs línea 225.5 (-9.7) | Penalty bajas: 13.1 pts",
+        "home_pra_out": 27.2,
+        "away_pra_out": 10.2
       }
     }
   ]
