@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T04:54:55.346507+00:00",
+  "updated_at": "2026-05-08T20:07:08.687326+00:00",
   "games": [
     {
       "id": "30d614c5d781b768faf9cf885e890851",
@@ -10,43 +10,114 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "45-37",
+        "seed": "7",
+        "ppg": "115.9",
+        "papg": "116.1",
+        "diff": "-0.2",
+        "home_rec": "23-18",
+        "away_rec": "22-19",
+        "streak": "W2",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "G",
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "53-29",
+        "seed": "3",
+        "ppg": "116.5",
+        "papg": "110.1",
+        "diff": "+6.4",
+        "home_rec": "30-10",
+        "away_rec": "22-19",
+        "streak": "L1",
+        "forma": [
+          "G",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
+      "home_injuries": [
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "OG Anunoby",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Josh Hart",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Mitchell Robinson",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "OG Anunoby",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Josh Hart",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Mitchell Robinson",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -115,
-        "away_ml": 102,
-        "spread_home": -1.5,
+        "home_ml": -135,
+        "away_ml": 120,
+        "spread_home": -2.5,
         "total_ou": 213.5,
         "best_book": "Bovada",
         "num_books": 9
@@ -56,17 +127,17 @@
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 50.0,
-        "prob_mercado": 51.9,
-        "notas": "Sin EV suficiente. Mejor: 1.0% (umbral 5%) | Modelo local: 50.0% | Mercado: 51.9%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
+        "prob_modelo": 24.6,
+        "prob_mercado": 55.8,
+        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 24.6% | Mercado: 55.8%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 30.9,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-3.3 | Línea: -2.5 | Prob cubrir visitante: 68.6%",
+        "ou_pick": "OVER",
+        "ou_ev": 80.0,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.3 vs línea 213.5 (+15.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0
       }
@@ -80,65 +151,136 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "49-33",
+        "seed": "6",
+        "ppg": "118.0",
+        "papg": "114.6",
+        "diff": "+3.4",
+        "home_rec": "26-15",
+        "away_rec": "23-18",
+        "streak": "W2",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "P",
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "62-20",
+        "seed": "2",
+        "ppg": "119.8",
+        "papg": "111.5",
+        "diff": "+8.3",
+        "home_rec": "32-8",
+        "away_rec": "29-12",
+        "streak": "L1",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "G",
+          "G"
+        ]
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "Donte DiVincenzo",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Anthony Edwards",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Donte DiVincenzo",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Anthony Edwards",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Donte DiVincenzo Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": 175,
-        "away_ml": -190,
+        "home_ml": 180,
+        "away_ml": -200,
         "spread_home": 4.5,
         "total_ou": 216.5,
-        "best_book": "LowVig.ag",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Minnesota Timberwolves",
-        "tipo": "ML Timberwolves",
-        "confianza": "alta",
-        "ev": 37.5,
-        "prob_modelo": 50.0,
-        "prob_mercado": 35.7,
-        "notas": "Modelo: 50.0% | Mercado: 35.7% | Edge: +14.3%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "pick": "San Antonio Spurs",
+        "tipo": "ML Spurs",
+        "confianza": "baja",
+        "ev": 5.4,
+        "prob_modelo": 29.8,
+        "prob_mercado": 34.9,
+        "notas": "Modelo: 70.2% | Mercado: 65.1% | Edge: +5.1%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 8.4,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-2.4 | Línea: +4.5 | Prob cubrir local: 56.8%",
+        "ou_pick": "OVER",
+        "ou_ev": 79.1,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 231.9 vs línea 216.5 (+15.4) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
       }
     }
   ]
