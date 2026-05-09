@@ -1,104 +1,6 @@
 {
-  "updated_at": "2026-05-09T22:06:23.989933+00:00",
+  "updated_at": "2026-05-09T23:30:41.003297+00:00",
   "games": [
-    {
-      "id": "2734c350b90f332dbece882dd10b204e",
-      "home_team": "Cleveland Cavaliers",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-05-09T19:14:00Z",
-      "time_et": "3:14 PM ET",
-      "live": {
-        "state": "post",
-        "period": 4,
-        "clock": "0.0",
-        "home_score": "116",
-        "away_score": "109"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "P",
-          "G",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Kevin Huerter Out",
-      "odds": {
-        "home_ml": -10000,
-        "away_ml": 3300,
-        "spread_home": -6.5,
-        "total_ou": null,
-        "best_book": "BetMGM",
-        "num_books": 3
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 32.4,
-        "prob_mercado": 97.1,
-        "notas": "Diferencia modelo/mercado excesiva (65%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.4% | Mercado: 97.1%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 45.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-2.0 | Línea: -6.5 | Prob cubrir visitante: 76.2%",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "40c8a29efb894c4dd6bf6acc5025c9cb",
       "home_team": "Los Angeles Lakers",
@@ -155,13 +57,6 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Jarred Vanderbilt",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "away_injuries": [
@@ -189,13 +84,6 @@
           "weight": 3
         },
         {
-          "player": "Jarred Vanderbilt",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Thomas Sorber",
           "position": "C",
           "status": "Out",
@@ -213,8 +101,8 @@
       "alerta": true,
       "alerta_msg": "Luka Doncic Out | Thomas Sorber Out | Jalen Williams Out",
       "odds": {
-        "home_ml": 301,
-        "away_ml": -357,
+        "home_ml": 321,
+        "away_ml": -370,
         "spread_home": 9.5,
         "total_ou": 210.5,
         "best_book": "LowVig.ag",
@@ -224,10 +112,10 @@
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
         "confianza": "baja",
-        "ev": 7.9,
+        "ev": 7.0,
         "prob_modelo": 15.7,
-        "prob_mercado": 24.2,
-        "notas": "Modelo: 84.3% | Mercado: 75.8% | Edge: +8.5%",
+        "prob_mercado": 23.2,
+        "notas": "Modelo: 84.3% | Mercado: 76.8% | Edge: +7.4%",
         "spread_lado": "LOCAL",
         "spread_ev": 25.1,
         "spread_conf": "media",
