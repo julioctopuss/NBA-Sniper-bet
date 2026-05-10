@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T04:31:30.348577+00:00",
+  "updated_at": "2026-05-10T05:38:39.060114+00:00",
   "games": [
     {
       "id": "878243c543236baba132ad43ae333aae",
@@ -44,11 +44,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 105,
+        "home_ml": 102,
         "away_ml": -116,
         "spread_home": 1.5,
         "total_ou": 213.5,
-        "best_book": "Bovada",
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
@@ -57,8 +57,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 47.6,
-        "notas": "Sin EV suficiente. Mejor: 2.5% (umbral 5%) | Modelo local: 50.0% | Mercado: 47.6%",
+        "prob_mercado": 48.0,
+        "notas": "Sin EV suficiente. Mejor: 1.0% (umbral 5%) | Modelo local: 50.0% | Mercado: 48.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,21 +114,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 160,
-        "away_ml": -175,
+        "home_ml": 162,
+        "away_ml": -185,
         "spread_home": 4.5,
         "total_ou": 218.5,
-        "best_book": "Bovada",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Minnesota Timberwolves",
         "tipo": "ML Timberwolves",
         "confianza": "alta",
-        "ev": 30.0,
+        "ev": 31.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 37.7,
-        "notas": "Modelo: 50.0% | Mercado: 37.7% | Edge: +12.3%",
+        "prob_mercado": 37.0,
+        "notas": "Modelo: 50.0% | Mercado: 37.0% | Edge: +13.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
