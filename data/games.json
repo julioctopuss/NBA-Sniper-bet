@@ -1,110 +1,12 @@
 {
-  "updated_at": "2026-05-10T22:09:04.920564+00:00",
+  "updated_at": "2026-05-10T23:35:14.342313+00:00",
   "games": [
-    {
-      "id": "878243c543236baba132ad43ae333aae",
-      "home_team": "Philadelphia 76ers",
-      "away_team": "New York Knicks",
-      "commence_time": "2026-05-10T19:40:00Z",
-      "time_et": "3:40 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "1:17",
-        "home_score": "109",
-        "away_score": "139"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "P",
-          "P",
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "OG Anunoby",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "OG Anunoby",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "OG Anunoby Out",
-      "odds": {
-        "home_ml": null,
-        "away_ml": null,
-        "spread_home": 31.5,
-        "total_ou": 249.5,
-        "best_book": "",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 24.0,
-        "prob_mercado": 0,
-        "notas": "Sin señal clara.",
-        "spread_lado": "LOCAL",
-        "spread_ev": 89.1,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-3.3 | Línea: +31.5 | Prob cubrir local: 99.1%",
-        "ou_pick": "UNDER",
-        "ou_ev": 86.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.3 vs línea 249.5 (-20.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "77e60e525f42e8337027f550bcd2f1cc",
       "home_team": "Minnesota Timberwolves",
       "away_team": "San Antonio Spurs",
-      "commence_time": "2026-05-10T23:40:00Z",
-      "time_et": "7:40 PM ET",
+      "commence_time": "2026-05-10T23:41:00Z",
+      "time_et": "7:41 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
@@ -185,21 +87,21 @@
       "alerta": true,
       "alerta_msg": "Donte DiVincenzo Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": 172,
-        "away_ml": -190,
+        "home_ml": 165,
+        "away_ml": -182,
         "spread_home": 5.5,
         "total_ou": 218.5,
-        "best_book": "FanDuel",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
         "confianza": "media",
-        "ev": 8.2,
+        "ev": 9.8,
         "prob_modelo": 29.1,
-        "prob_mercado": 35.9,
-        "notas": "Modelo: 70.9% | Mercado: 64.1% | Edge: +6.8%",
+        "prob_mercado": 36.9,
+        "notas": "Modelo: 70.9% | Mercado: 63.1% | Edge: +7.8%",
         "spread_lado": "LOCAL",
         "spread_ev": 14.6,
         "spread_conf": "media",
