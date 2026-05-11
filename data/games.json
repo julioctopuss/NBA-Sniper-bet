@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T22:32:14.388131+00:00",
+  "updated_at": "2026-05-11T23:40:36.267366+00:00",
   "games": [
     {
       "id": "b537062ee0483d20ae932052628b663d",
@@ -50,15 +50,7 @@
           "G"
         ]
       },
-      "home_injuries": [
-        {
-          "player": "Thomas Bryant",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "home_injuries": [],
       "away_injuries": [
         {
           "player": "Kevin Huerter",
@@ -66,42 +58,21 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Caris LeVert",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "injuries": [
-        {
-          "player": "Thomas Bryant",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
         {
           "player": "Kevin Huerter",
           "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Caris LeVert",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "Kevin Huerter Out",
       "odds": {
-        "home_ml": -155,
+        "home_ml": -157,
         "away_ml": 140,
         "spread_home": -3.5,
         "total_ou": 213.5,
@@ -114,8 +85,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 32.4,
-        "prob_mercado": 59.3,
-        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.4% | Mercado: 59.3%",
+        "prob_mercado": 59.5,
+        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.4% | Mercado: 59.5%",
         "spread_lado": "VISITANTE",
         "spread_ev": 29.5,
         "spread_conf": "media",
