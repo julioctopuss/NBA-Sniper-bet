@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T04:43:49.423161+00:00",
+  "updated_at": "2026-05-11T06:00:54.462870+00:00",
   "games": [
     {
       "id": "b537062ee0483d20ae932052628b663d",
@@ -115,7 +115,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": 425,
-        "away_ml": -500,
+        "away_ml": -485,
         "spread_home": 10.5,
         "total_ou": 214.5,
         "best_book": "BetUS",
@@ -127,8 +127,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 18.6,
-        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 18.6%",
+        "prob_mercado": 18.7,
+        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 18.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
