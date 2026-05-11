@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T20:46:44.242909+00:00",
+  "updated_at": "2026-05-11T22:32:14.388131+00:00",
   "games": [
     {
       "id": "b537062ee0483d20ae932052628b663d",
@@ -101,11 +101,11 @@
       "alerta": true,
       "alerta_msg": "Kevin Huerter Out",
       "odds": {
-        "home_ml": -150,
-        "away_ml": 149,
+        "home_ml": -155,
+        "away_ml": 140,
         "spread_home": -3.5,
         "total_ou": 213.5,
-        "best_book": "Bovada",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -114,8 +114,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 32.4,
-        "prob_mercado": 59.9,
-        "notas": "Diferencia modelo/mercado excesiva (28%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.4% | Mercado: 59.9%",
+        "prob_mercado": 59.3,
+        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.4% | Mercado: 59.3%",
         "spread_lado": "VISITANTE",
         "spread_ev": 29.5,
         "spread_conf": "media",
@@ -230,7 +230,7 @@
       "odds": {
         "home_ml": 475,
         "away_ml": -575,
-        "spread_home": 11.5,
+        "spread_home": 12.5,
         "total_ou": 214.5,
         "best_book": "LowVig.ag",
         "num_books": 9
@@ -244,9 +244,9 @@
         "prob_mercado": 17.0,
         "notas": "Sin EV suficiente. Mejor: -1.1% (umbral 5%) | Modelo local: 15.7% | Mercado: 17.0%",
         "spread_lado": "LOCAL",
-        "spread_ev": 36.4,
+        "spread_ev": 41.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.7 | Línea: +11.5 | Prob cubrir local: 71.5%",
+        "spread_notas": "Margen proyectado: +-4.7 | Línea: +12.5 | Prob cubrir local: 74.2%",
         "ou_pick": "OVER",
         "ou_ev": 76.6,
         "ou_confianza": "media",
