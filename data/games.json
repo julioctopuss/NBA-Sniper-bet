@@ -1,82 +1,54 @@
 {
-  "updated_at": "2026-05-11T23:40:36.267366+00:00",
+  "updated_at": "2026-05-12T04:13:19.422495+00:00",
   "games": [
     {
-      "id": "b537062ee0483d20ae932052628b663d",
-      "home_team": "Cleveland Cavaliers",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-05-12T00:10:00Z",
+      "id": "09800f9101b348d4a66742a3d8888b82",
+      "home_team": "San Antonio Spurs",
+      "away_team": "Minnesota Timberwolves",
+      "commence_time": "2026-05-13T00:10:00Z",
       "time_et": "8:10 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "P",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Kevin Huerter Out",
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -157,
-        "away_ml": 140,
-        "spread_home": -3.5,
-        "total_ou": 213.5,
-        "best_book": "LowVig.ag",
+        "home_ml": -400,
+        "away_ml": 329,
+        "spread_home": -10.5,
+        "total_ou": 218.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -84,146 +56,19 @@
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 32.4,
-        "prob_mercado": 59.5,
-        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.4% | Mercado: 59.5%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 29.5,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-2.0 | Línea: -3.5 | Prob cubrir visitante: 67.8%",
-        "ou_pick": "OVER",
-        "ou_ev": 83.4,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 231.1 vs línea 213.5 (+17.6) | Penalty bajas: 0.0 pts",
+        "prob_modelo": 50.0,
+        "prob_mercado": 77.4,
+        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 77.4%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
         "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "0db68bfa022e22873f48b8539addd5ae",
-      "home_team": "Los Angeles Lakers",
-      "away_team": "Oklahoma City Thunder",
-      "commence_time": "2026-05-12T02:40:00Z",
-      "time_et": "10:40 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Oeste",
-        "record": "53-29",
-        "seed": "4",
-        "ppg": "116.3",
-        "papg": "114.6",
-        "diff": "+1.7",
-        "home_rec": "28-13",
-        "away_rec": "25-16",
-        "streak": "W3",
-        "forma": [
-          "P",
-          "P",
-          "P",
-          "G",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Oeste",
-        "record": "64-18",
-        "seed": "1",
-        "ppg": "119.0",
-        "papg": "107.9",
-        "diff": "+11.1",
-        "home_rec": "34-7",
-        "away_rec": "30-10",
-        "streak": "L2",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Luka Doncic Out | Thomas Sorber Out | Jalen Williams Out",
-      "odds": {
-        "home_ml": 475,
-        "away_ml": -575,
-        "spread_home": 12.5,
-        "total_ou": 214.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 15.7,
-        "prob_mercado": 17.0,
-        "notas": "Sin EV suficiente. Mejor: -1.1% (umbral 5%) | Modelo local: 15.7% | Mercado: 17.0%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 41.7,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.7 | Línea: +12.5 | Prob cubrir local: 74.2%",
-        "ou_pick": "OVER",
-        "ou_ev": 76.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 228.9 vs línea 214.5 (+14.4) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "away_pra_out": 0
       }
     }
   ]
