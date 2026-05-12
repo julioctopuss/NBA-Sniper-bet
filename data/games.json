@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T20:28:41.366535+00:00",
+  "updated_at": "2026-05-12T22:40:20.731113+00:00",
   "games": [
     {
       "id": "09800f9101b348d4a66742a3d8888b82",
@@ -115,11 +115,11 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out | Donte DiVincenzo Out",
       "odds": {
-        "home_ml": -375,
+        "home_ml": -380,
         "away_ml": 330,
         "spread_home": -9.5,
         "total_ou": 218.5,
-        "best_book": "BetMGM",
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
@@ -128,8 +128,8 @@
         "confianza": "alta",
         "ev": 24.0,
         "prob_modelo": 71.2,
-        "prob_mercado": 77.2,
-        "notas": "Modelo: 28.8% | Mercado: 22.8% | Edge: +6.1%",
+        "prob_mercado": 77.3,
+        "notas": "Modelo: 28.8% | Mercado: 22.7% | Edge: +6.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 37.8,
         "spread_conf": "media",
