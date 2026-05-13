@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T04:28:53.474312+00:00",
+  "updated_at": "2026-05-13T05:51:00.963539+00:00",
   "games": [
     {
       "id": "c3531530e77a4ada542bdbff23de5409",
@@ -45,20 +45,20 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -165,
-        "away_ml": 146,
+        "away_ml": 147,
         "spread_home": -3.5,
         "total_ou": 212.5,
-        "best_book": "BetOnline.ag",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Cleveland Cavaliers",
         "tipo": "ML Cavaliers",
         "confianza": "alta",
-        "ev": 23.0,
+        "ev": 23.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 60.5,
-        "notas": "Modelo: 50.0% | Mercado: 39.5% | Edge: +10.5%",
+        "prob_mercado": 60.6,
+        "notas": "Modelo: 50.0% | Mercado: 39.4% | Edge: +10.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
