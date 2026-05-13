@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T22:43:36.245536+00:00",
+  "updated_at": "2026-05-13T23:42:01.760165+00:00",
   "games": [
     {
       "id": "c3531530e77a4ada542bdbff23de5409",
@@ -52,58 +52,44 @@
       },
       "home_injuries": [
         {
-          "player": "Duncan Robinson",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 17.0,
-          "weight": 1
-        },
-        {
           "player": "Kevin Huerter",
           "position": "G",
           "status": "Out",
-          "pra": 16.1,
+          "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Caris LeVert",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 12.1,
-          "weight": 1
+          "player": "Duncan Robinson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         }
       ],
       "away_injuries": [],
       "injuries": [
         {
-          "player": "Duncan Robinson",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 17.0,
-          "weight": 1
-        },
-        {
           "player": "Kevin Huerter",
           "position": "G",
           "status": "Out",
-          "pra": 16.1,
+          "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Caris LeVert",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 12.1,
-          "weight": 1
+          "player": "Duncan Robinson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Kevin Huerter Out (PRA 16.1)",
+      "alerta_msg": "Kevin Huerter Out | Duncan Robinson Out",
       "odds": {
-        "home_ml": -160,
-        "away_ml": 152,
+        "home_ml": -163,
+        "away_ml": 150,
         "spread_home": -4.5,
-        "total_ou": 211.5,
+        "total_ou": 210.5,
         "best_book": "BetOnline.ag",
         "num_books": 9
       },
@@ -111,7 +97,7 @@
         "pick": "Detroit Pistons",
         "tipo": "ML Pistons",
         "confianza": "media",
-        "ev": 10.0,
+        "ev": 9.2,
         "prob_modelo": 67.7,
         "prob_mercado": 60.8,
         "notas": "Modelo: 67.7% | Mercado: 60.8% | Edge: +6.9%",
@@ -120,10 +106,10 @@
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +2.0 | Línea: -4.5 | Prob cubrir visitante: 58.1%",
         "ou_pick": "OVER",
-        "ou_ev": 75.5,
+        "ou_ev": 87.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 225.5 vs línea 211.5 (+14.0) | Penalty bajas: 5.6 pts",
-        "home_pra_out": 16.1,
+        "ou_notas": "Proyección 231.1 vs línea 210.5 (+20.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     }
