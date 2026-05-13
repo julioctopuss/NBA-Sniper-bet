@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T05:51:00.963539+00:00",
+  "updated_at": "2026-05-13T20:45:08.989596+00:00",
   "games": [
     {
       "id": "c3531530e77a4ada542bdbff23de5409",
@@ -10,64 +10,120 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "60-22",
+        "seed": "1",
+        "ppg": "117.8",
+        "papg": "109.6",
+        "diff": "+8.2",
+        "home_rec": "31-9",
+        "away_rec": "28-13",
+        "streak": "W3",
+        "forma": [
+          "P",
+          "P",
+          "G",
+          "G",
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "52-30",
+        "seed": "4",
+        "ppg": "119.5",
+        "papg": "115.4",
+        "diff": "+4.1",
+        "home_rec": "27-14",
+        "away_rec": "25-16",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "P",
+          "G"
+        ]
       },
-      "home_injuries": [],
+      "home_injuries": [
+        {
+          "player": "Kevin Huerter",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Caris LeVert",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Duncan Robinson",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
       "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "injuries": [
+        {
+          "player": "Kevin Huerter",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Caris LeVert",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Duncan Robinson",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Kevin Huerter Out",
       "odds": {
         "home_ml": -165,
-        "away_ml": 147,
+        "away_ml": 154,
         "spread_home": -3.5,
-        "total_ou": 212.5,
-        "best_book": "BetUS",
+        "total_ou": 211.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Cleveland Cavaliers",
-        "tipo": "ML Cavaliers",
-        "confianza": "alta",
-        "ev": 23.5,
-        "prob_modelo": 50.0,
-        "prob_mercado": 60.6,
-        "notas": "Modelo: 50.0% | Mercado: 39.4% | Edge: +10.6%",
+        "pick": "Detroit Pistons",
+        "tipo": "ML Pistons",
+        "confianza": "media",
+        "ev": 8.8,
+        "prob_modelo": 67.7,
+        "prob_mercado": 61.3,
+        "notas": "Modelo: 67.7% | Mercado: 61.3% | Edge: +6.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
+        "spread_notas": "Margen proyectado: +2.0 | Línea: -3.5 | Sin EV en spread (local: -13.7%, visit: 4.6%)",
+        "ou_pick": "OVER",
+        "ou_ev": 86.1,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 231.1 vs línea 211.5 (+19.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     }
