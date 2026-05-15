@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T04:34:38.603624+00:00",
+  "updated_at": "2026-05-15T05:56:43.587813+00:00",
   "games": [
     {
       "id": "745d265e0d83dac45060b44665d8cbe5",
@@ -213,21 +213,21 @@
       "alerta": true,
       "alerta_msg": "Donte DiVincenzo Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": 179,
-        "away_ml": -194,
+        "home_ml": 175,
+        "away_ml": -188,
         "spread_home": 4.5,
         "total_ou": 218.5,
-        "best_book": "LowVig.ag",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
         "confianza": "baja",
-        "ev": 6.5,
+        "ev": 7.6,
         "prob_modelo": 29.8,
-        "prob_mercado": 35.2,
-        "notas": "Modelo: 70.2% | Mercado: 64.8% | Edge: +5.4%",
+        "prob_mercado": 35.8,
+        "notas": "Modelo: 70.2% | Mercado: 64.2% | Edge: +6.0%",
         "spread_lado": "LOCAL",
         "spread_ev": 8.4,
         "spread_conf": "media",
