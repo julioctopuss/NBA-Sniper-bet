@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T20:17:02.039346+00:00",
+  "updated_at": "2026-05-15T22:29:21.464803+00:00",
   "games": [
     {
       "id": "745d265e0d83dac45060b44665d8cbe5",
@@ -51,60 +51,16 @@
         ]
       },
       "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Caris LeVert",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Duncan Robinson",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Kevin Huerter",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Caris LeVert",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Duncan Robinson",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "away_injuries": [],
+      "injuries": [],
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -174,
+        "home_ml": -170,
         "away_ml": 154,
         "spread_home": -4.5,
-        "total_ou": 210.5,
-        "best_book": "FanDuel",
+        "total_ou": 209.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -113,16 +69,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 34.4,
-        "prob_mercado": 61.7,
-        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 34.4% | Mercado: 61.7%",
+        "prob_mercado": 61.5,
+        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 34.4% | Mercado: 61.5%",
         "spread_lado": "VISITANTE",
         "spread_ev": 35.0,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-2.0 | Línea: -4.5 | Prob cubrir visitante: 70.7%",
         "ou_pick": "OVER",
-        "ou_ev": 87.2,
+        "ou_ev": 88.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.1 vs línea 210.5 (+20.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.1 vs línea 209.5 (+21.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0
       }
@@ -227,8 +183,8 @@
       "alerta": true,
       "alerta_msg": "Donte DiVincenzo Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": 190,
-        "away_ml": -212,
+        "home_ml": 200,
+        "away_ml": -223,
         "spread_home": 5.5,
         "total_ou": 218.5,
         "best_book": "Bovada",
@@ -240,8 +196,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 29.8,
-        "prob_mercado": 33.7,
-        "notas": "Sin EV suficiente. Mejor: 3.4% (umbral 5%) | Modelo local: 29.8% | Mercado: 33.7%",
+        "prob_mercado": 32.6,
+        "notas": "Sin EV suficiente. Mejor: 1.8% (umbral 5%) | Modelo local: 29.8% | Mercado: 32.6%",
         "spread_lado": "LOCAL",
         "spread_ev": 14.6,
         "spread_conf": "media",
