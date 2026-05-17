@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T20:03:58.813594+00:00",
+  "updated_at": "2026-05-17T22:13:00.600618+00:00",
   "games": [
     {
       "id": "465746f51ad349641512f36c52306968",
@@ -115,11 +115,11 @@
       "alerta": true,
       "alerta_msg": "Larry Nance Jr. Out",
       "odds": {
-        "home_ml": -180,
-        "away_ml": 167,
+        "home_ml": -182,
+        "away_ml": 165,
         "spread_home": -4.5,
         "total_ou": 205.5,
-        "best_book": "FanDuel",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
@@ -128,8 +128,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 67.0,
-        "prob_mercado": 63.2,
-        "notas": "Sin EV suficiente. Mejor: 4.3% (umbral 5%) | Modelo local: 67.0% | Mercado: 63.2%",
+        "prob_mercado": 63.1,
+        "notas": "Sin EV suficiente. Mejor: 3.9% (umbral 5%) | Modelo local: 67.0% | Mercado: 63.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 10.9,
         "spread_conf": "media",
