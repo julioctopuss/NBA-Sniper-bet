@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T22:31:49.803004+00:00",
+  "updated_at": "2026-05-18T23:45:32.482811+00:00",
   "games": [
     {
       "id": "924fe1c270c7ccb9e7a9cfa3002bdf05",
@@ -63,9 +63,9 @@
         {
           "player": "De'Aaron Fox",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "David Jones Garcia",
@@ -73,13 +73,6 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Luke Kornet",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "injuries": [
@@ -93,9 +86,9 @@
         {
           "player": "De'Aaron Fox",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "David Jones Garcia",
@@ -103,41 +96,34 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Luke Kornet",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
-      "alerta_msg": "Thomas Sorber Out | David Jones Garcia Out",
+      "alerta_msg": "Thomas Sorber Out | De'Aaron Fox Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": -225,
-        "away_ml": 202,
+        "home_ml": -238,
+        "away_ml": 220,
         "spread_home": -6.5,
-        "total_ou": 221.5,
-        "best_book": "Bovada",
+        "total_ou": 220.5,
+        "best_book": "MyBookie.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
-        "confianza": "media",
-        "ev": 11.2,
+        "confianza": "alta",
+        "ev": 17.8,
         "prob_modelo": 63.2,
-        "prob_mercado": 67.6,
-        "notas": "Modelo: 36.8% | Mercado: 32.4% | Edge: +4.5%",
+        "prob_mercado": 69.3,
+        "notas": "Modelo: 36.8% | Mercado: 30.7% | Edge: +6.1%",
         "spread_lado": "VISITANTE",
         "spread_ev": 26.9,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +1.4 | Línea: -6.5 | Prob cubrir visitante: 66.5%",
         "ou_pick": "OVER",
-        "ou_ev": 48.2,
+        "ou_ev": 53.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 221.5 (+7.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.1 vs línea 220.5 (+8.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
