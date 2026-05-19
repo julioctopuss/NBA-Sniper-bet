@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T22:43:24.420542+00:00",
+  "updated_at": "2026-05-19T23:45:22.409039+00:00",
   "games": [
     {
       "id": "7e2d40a6d3b163e318b7abbe026c40c1",
@@ -50,48 +50,17 @@
           "G"
         ]
       },
-      "home_injuries": [
-        {
-          "player": "OG Anunoby",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Larry Nance Jr.",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "injuries": [
-        {
-          "player": "OG Anunoby",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Larry Nance Jr.",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "OG Anunoby Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -220,
+        "home_ml": -225,
         "away_ml": 200,
         "spread_home": -6.5,
         "total_ou": 218.5,
-        "best_book": "FanDuel",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
@@ -100,8 +69,8 @@
         "confianza": "alta",
         "ev": 15.6,
         "prob_modelo": 61.5,
-        "prob_mercado": 67.3,
-        "notas": "Modelo: 38.5% | Mercado: 32.7% | Edge: +5.9%",
+        "prob_mercado": 67.5,
+        "notas": "Modelo: 38.5% | Mercado: 32.5% | Edge: +6.0%",
         "spread_lado": "VISITANTE",
         "spread_ev": 28.3,
         "spread_conf": "media",
@@ -110,7 +79,7 @@
         "ou_ev": 70.0,
         "ou_confianza": "media",
         "ou_notas": "Proyección 230.8 vs línea 218.5 (+12.3) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
+        "home_pra_out": 0,
         "away_pra_out": 0
       }
     }
