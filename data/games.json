@@ -1,131 +1,74 @@
 {
-  "updated_at": "2026-05-18T23:45:32.482811+00:00",
+  "updated_at": "2026-05-19T04:41:55.009157+00:00",
   "games": [
     {
-      "id": "924fe1c270c7ccb9e7a9cfa3002bdf05",
-      "home_team": "Oklahoma City Thunder",
-      "away_team": "San Antonio Spurs",
-      "commence_time": "2026-05-19T00:40:00Z",
-      "time_et": "8:40 PM ET",
+      "id": "7e2d40a6d3b163e318b7abbe026c40c1",
+      "home_team": "New York Knicks",
+      "away_team": "Cleveland Cavaliers",
+      "commence_time": "2026-05-20T00:10:00Z",
+      "time_et": "8:10 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "64-18",
-        "seed": "1",
-        "ppg": "119.0",
-        "papg": "107.9",
-        "diff": "+11.1",
-        "home_rec": "34-7",
-        "away_rec": "30-10",
-        "streak": "L2",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "62-20",
-        "seed": "2",
-        "ppg": "119.8",
-        "papg": "111.5",
-        "diff": "+8.3",
-        "home_rec": "32-8",
-        "away_rec": "29-12",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "De'Aaron Fox",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "De'Aaron Fox",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Thomas Sorber Out | De'Aaron Fox Out | David Jones Garcia Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -238,
-        "away_ml": 220,
-        "spread_home": -6.5,
-        "total_ou": 220.5,
-        "best_book": "MyBookie.ag",
+        "home_ml": -260,
+        "away_ml": 225,
+        "spread_home": -7.5,
+        "total_ou": 217.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "San Antonio Spurs",
-        "tipo": "ML Spurs",
+        "pick": "Cleveland Cavaliers",
+        "tipo": "ML Cavaliers",
         "confianza": "alta",
-        "ev": 17.8,
-        "prob_modelo": 63.2,
-        "prob_mercado": 69.3,
-        "notas": "Modelo: 36.8% | Mercado: 30.7% | Edge: +6.1%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 26.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.4 | Línea: -6.5 | Prob cubrir visitante: 66.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 53.7,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 220.5 (+8.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "ev": 62.5,
+        "prob_modelo": 50.0,
+        "prob_mercado": 70.1,
+        "notas": "Modelo: 50.0% | Mercado: 29.9% | Edge: +20.1%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
