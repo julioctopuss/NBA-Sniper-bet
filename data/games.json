@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T20:29:28.837527+00:00",
+  "updated_at": "2026-05-19T22:43:24.420542+00:00",
   "games": [
     {
       "id": "7e2d40a6d3b163e318b7abbe026c40c1",
@@ -87,10 +87,10 @@
       "alerta": true,
       "alerta_msg": "OG Anunoby Out",
       "odds": {
-        "home_ml": -230,
-        "away_ml": 206,
+        "home_ml": -220,
+        "away_ml": 200,
         "spread_home": -6.5,
-        "total_ou": 217.5,
+        "total_ou": 218.5,
         "best_book": "FanDuel",
         "num_books": 9
       },
@@ -98,18 +98,18 @@
         "pick": "Cleveland Cavaliers",
         "tipo": "ML Cavaliers",
         "confianza": "alta",
-        "ev": 17.9,
+        "ev": 15.6,
         "prob_modelo": 61.5,
-        "prob_mercado": 68.1,
-        "notas": "Modelo: 38.5% | Mercado: 31.9% | Edge: +6.6%",
+        "prob_mercado": 67.3,
+        "notas": "Modelo: 38.5% | Mercado: 32.7% | Edge: +5.9%",
         "spread_lado": "VISITANTE",
         "spread_ev": 28.3,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +1.2 | Línea: -6.5 | Prob cubrir visitante: 67.2%",
         "ou_pick": "OVER",
-        "ou_ev": 73.4,
+        "ou_ev": 70.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.8 vs línea 217.5 (+13.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.8 vs línea 218.5 (+12.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
