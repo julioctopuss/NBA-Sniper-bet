@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T04:45:52.809230+00:00",
+  "updated_at": "2026-05-20T06:09:56.637897+00:00",
   "games": [
     {
       "id": "51176769d0f89d3e39adc8e90922f84d",
@@ -44,21 +44,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -230,
-        "away_ml": 210,
+        "home_ml": -238,
+        "away_ml": 215,
         "spread_home": -6.5,
         "total_ou": 215.5,
-        "best_book": "FanDuel",
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
         "confianza": "alta",
-        "ev": 55.0,
+        "ev": 57.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 68.4,
-        "notas": "Modelo: 50.0% | Mercado: 31.6% | Edge: +18.4%",
+        "prob_mercado": 68.9,
+        "notas": "Modelo: 50.0% | Mercado: 31.1% | Edge: +18.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
