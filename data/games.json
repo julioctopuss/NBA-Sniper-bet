@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T20:58:56.386820+00:00",
+  "updated_at": "2026-05-20T22:50:22.571743+00:00",
   "games": [
     {
       "id": "51176769d0f89d3e39adc8e90922f84d",
@@ -101,21 +101,21 @@
       "alerta": true,
       "alerta_msg": "Thomas Sorber Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": -230,
-        "away_ml": 210,
+        "home_ml": -250,
+        "away_ml": 225,
         "spread_home": -7.0,
         "total_ou": 216.5,
-        "best_book": "DraftKings",
+        "best_book": "BetMGM",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
         "confianza": "alta",
-        "ev": 16.3,
+        "ev": 21.9,
         "prob_modelo": 62.5,
-        "prob_mercado": 68.4,
-        "notas": "Modelo: 37.5% | Mercado: 31.6% | Edge: +5.9%",
+        "prob_mercado": 69.9,
+        "notas": "Modelo: 37.5% | Mercado: 30.1% | Edge: +7.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 29.8,
         "spread_conf": "media",
