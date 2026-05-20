@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T22:50:22.571743+00:00",
+  "updated_at": "2026-05-20T23:53:45.627227+00:00",
   "games": [
     {
       "id": "51176769d0f89d3e39adc8e90922f84d",
@@ -63,9 +63,9 @@
         {
           "player": "De'Aaron Fox",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "David Jones Garcia",
@@ -86,9 +86,9 @@
         {
           "player": "De'Aaron Fox",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "David Jones Garcia",
@@ -99,13 +99,13 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Thomas Sorber Out | David Jones Garcia Out",
+      "alerta_msg": "Thomas Sorber Out | De'Aaron Fox Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": -250,
+        "home_ml": -255,
         "away_ml": 225,
-        "spread_home": -7.0,
-        "total_ou": 216.5,
-        "best_book": "BetMGM",
+        "spread_home": -8.0,
+        "total_ou": 215.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -114,16 +114,16 @@
         "confianza": "alta",
         "ev": 21.9,
         "prob_modelo": 62.5,
-        "prob_mercado": 69.9,
-        "notas": "Modelo: 37.5% | Mercado: 30.1% | Edge: +7.4%",
+        "prob_mercado": 70.0,
+        "notas": "Modelo: 37.5% | Mercado: 30.0% | Edge: +7.5%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 29.8,
+        "spread_ev": 35.3,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.4 | Línea: -7.0 | Prob cubrir visitante: 68.0%",
+        "spread_notas": "Margen proyectado: +1.4 | Línea: -8.0 | Prob cubrir visitante: 70.9%",
         "ou_pick": "OVER",
-        "ou_ev": 71.1,
+        "ou_ev": 74.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 216.5 (+12.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.1 vs línea 215.5 (+13.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
