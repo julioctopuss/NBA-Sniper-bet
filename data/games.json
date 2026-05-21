@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T22:48:11.866542+00:00",
+  "updated_at": "2026-05-21T23:41:12.877745+00:00",
   "games": [
     {
       "id": "dc45982e3723fb38d8477a1a75395594",
@@ -56,8 +56,8 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -195,
-        "away_ml": 172,
+        "home_ml": -190,
+        "away_ml": 170,
         "spread_home": -5.5,
         "total_ou": 215.5,
         "best_book": "BetOnline.ag",
@@ -69,8 +69,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 62.2,
-        "prob_mercado": 64.3,
-        "notas": "Sin EV suficiente. Mejor: 2.9% (umbral 5%) | Modelo local: 62.2% | Mercado: 64.3%",
+        "prob_mercado": 63.9,
+        "notas": "Sin EV suficiente. Mejor: 2.1% (umbral 5%) | Modelo local: 62.2% | Mercado: 63.9%",
         "spread_lado": "VISITANTE",
         "spread_ev": 22.5,
         "spread_conf": "media",
