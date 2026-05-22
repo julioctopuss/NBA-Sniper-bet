@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T20:42:52.650602+00:00",
+  "updated_at": "2026-05-22T22:33:33.978192+00:00",
   "games": [
     {
       "id": "7b814a0bc57622abcbc708d9e9a27fca",
@@ -55,38 +55,38 @@
           "player": "De'Aaron Fox",
           "position": "G",
           "status": "Day-To-Day",
-          "pra": 28.6,
+          "pra": 0.0,
           "weight": 1
         },
         {
           "player": "Dylan Harper",
           "position": "G",
           "status": "Day-To-Day",
-          "pra": 19.1,
+          "pra": 0.0,
           "weight": 1
         },
         {
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 5.7,
+          "pra": 0.0,
           "weight": 3
         }
       ],
       "away_injuries": [
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 27.2,
-          "weight": 1
-        },
         {
           "player": "Thomas Sorber",
           "position": "C",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
         }
       ],
       "injuries": [
@@ -94,29 +94,22 @@
           "player": "De'Aaron Fox",
           "position": "G",
           "status": "Day-To-Day",
-          "pra": 28.6,
+          "pra": 0.0,
           "weight": 1
         },
         {
           "player": "Dylan Harper",
           "position": "G",
           "status": "Day-To-Day",
-          "pra": 19.1,
+          "pra": 0.0,
           "weight": 1
         },
         {
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 5.7,
+          "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 27.2,
-          "weight": 1
         },
         {
           "player": "Thomas Sorber",
@@ -124,35 +117,42 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
         }
       ],
       "alerta": true,
-      "alerta_msg": "David Jones Garcia Out (PRA 5.7) | Thomas Sorber Out",
+      "alerta_msg": "David Jones Garcia Out | Thomas Sorber Out",
       "odds": {
         "home_ml": -120,
-        "away_ml": 112,
+        "away_ml": 110,
         "spread_home": -1.5,
-        "total_ou": 217.5,
-        "best_book": "Bovada",
+        "total_ou": 218.5,
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
         "confianza": "alta",
-        "ev": 30.1,
+        "ev": 28.9,
         "prob_modelo": 38.6,
-        "prob_mercado": 53.6,
-        "notas": "Modelo: 61.4% | Mercado: 46.4% | Edge: +15.0%",
+        "prob_mercado": 53.4,
+        "notas": "Modelo: 61.4% | Mercado: 46.6% | Edge: +14.7%",
         "spread_lado": "VISITANTE",
         "spread_ev": 13.7,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-1.4 | Línea: -1.5 | Prob cubrir visitante: 59.5%",
         "ou_pick": "OVER",
-        "ou_ev": 58.7,
+        "ou_ev": 63.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 217.5 (+9.6) | Penalty bajas: 2.0 pts",
-        "home_pra_out": 5.7,
+        "ou_notas": "Proyección 229.1 vs línea 218.5 (+10.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
     }
