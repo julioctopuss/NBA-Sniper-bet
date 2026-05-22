@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T04:43:21.522008+00:00",
+  "updated_at": "2026-05-22T06:09:35.891899+00:00",
   "games": [
     {
       "id": "7b814a0bc57622abcbc708d9e9a27fca",
@@ -44,21 +44,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -122,
-        "away_ml": 112,
+        "home_ml": -124,
+        "away_ml": 115,
         "spread_home": -1.5,
         "total_ou": 217.5,
         "best_book": "FanDuel",
-        "num_books": 9
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
         "confianza": "baja",
-        "ev": 6.0,
+        "ev": 7.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 53.8,
-        "notas": "Modelo: 50.0% | Mercado: 46.2% | Edge: +3.8%",
+        "prob_mercado": 54.3,
+        "notas": "Modelo: 50.0% | Mercado: 45.7% | Edge: +4.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
