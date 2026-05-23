@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T20:04:34.128410+00:00",
+  "updated_at": "2026-05-23T22:13:41.788518+00:00",
   "games": [
     {
       "id": "4247d31ac7706ebe455b8f221c9e4184",
@@ -56,25 +56,25 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -134,
-        "away_ml": 125,
-        "spread_home": -2.5,
+        "home_ml": -140,
+        "away_ml": 127,
+        "spread_home": -3.5,
         "total_ou": 215.5,
-        "best_book": "LowVig.ag",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "New York Knicks",
         "tipo": "ML Knicks",
         "confianza": "alta",
-        "ev": 35.2,
+        "ev": 36.4,
         "prob_modelo": 39.9,
-        "prob_mercado": 56.3,
-        "notas": "Modelo: 60.1% | Mercado: 43.7% | Edge: +16.4%",
+        "prob_mercado": 57.0,
+        "notas": "Modelo: 60.1% | Mercado: 43.0% | Edge: +17.1%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 18.3,
+        "spread_ev": 24.2,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.2 | Línea: -2.5 | Prob cubrir visitante: 61.9%",
+        "spread_notas": "Margen proyectado: +-1.2 | Línea: -3.5 | Prob cubrir visitante: 65.1%",
         "ou_pick": "OVER",
         "ou_ev": 78.9,
         "ou_confianza": "media",
