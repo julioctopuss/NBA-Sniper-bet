@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T20:22:35.813696+00:00",
+  "updated_at": "2026-05-25T22:33:15.228014+00:00",
   "games": [
     {
       "id": "a752ca36635e2ccb1bb5a9f387282e1c",
@@ -50,13 +50,29 @@
           "G"
         ]
       },
-      "home_injuries": [],
+      "home_injuries": [
+        {
+          "player": "Dennis Schroder",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
       "away_injuries": [],
-      "injuries": [],
+      "injuries": [
+        {
+          "player": "Dennis Schroder",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 114,
+        "home_ml": 120,
         "away_ml": -123,
         "spread_home": 2.5,
         "total_ou": 218.5,
@@ -69,8 +85,8 @@
         "confianza": "media",
         "ev": 10.2,
         "prob_modelo": 39.2,
-        "prob_mercado": 45.9,
-        "notas": "Modelo: 60.8% | Mercado: 54.1% | Edge: +6.7%",
+        "prob_mercado": 45.2,
+        "notas": "Modelo: 60.8% | Mercado: 54.8% | Edge: +6.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
