@@ -1,145 +1,74 @@
 {
-  "updated_at": "2026-05-24T23:43:33.782830+00:00",
+  "updated_at": "2026-05-25T05:02:59.118528+00:00",
   "games": [
     {
-      "id": "74cd3b630383a2e3eff3afd92006ebb3",
-      "home_team": "San Antonio Spurs",
-      "away_team": "Oklahoma City Thunder",
-      "commence_time": "2026-05-25T00:10:00Z",
+      "id": "a752ca36635e2ccb1bb5a9f387282e1c",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "New York Knicks",
+      "commence_time": "2026-05-26T00:10:00Z",
       "time_et": "8:10 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Oeste",
-        "record": "62-20",
-        "seed": "2",
-        "ppg": "119.8",
-        "papg": "111.5",
-        "diff": "+8.3",
-        "home_rec": "32-8",
-        "away_rec": "29-12",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "P",
-          "G",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Oeste",
-        "record": "64-18",
-        "seed": "1",
-        "ppg": "119.0",
-        "papg": "107.9",
-        "diff": "+11.1",
-        "home_rec": "34-7",
-        "away_rec": "30-10",
-        "streak": "L2",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Ajay Mitchell",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "David Jones Garcia",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ajay Mitchell",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Thomas Sorber",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "David Jones Garcia Out | Ajay Mitchell Out | Thomas Sorber Out | Jalen Williams Out",
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": -138,
-        "away_ml": 130,
-        "spread_home": -2.5,
-        "total_ou": 219.5,
-        "best_book": "LowVig.ag",
+        "home_ml": 120,
+        "away_ml": -130,
+        "spread_home": 2.5,
+        "total_ou": 217.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Oklahoma City Thunder",
-        "tipo": "ML Thunder",
-        "confianza": "alta",
-        "ev": 41.1,
-        "prob_modelo": 38.6,
-        "prob_mercado": 57.1,
-        "notas": "Modelo: 61.4% | Mercado: 42.9% | Edge: +18.5%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 19.8,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.4 | Línea: -2.5 | Prob cubrir visitante: 62.7%",
-        "ou_pick": "OVER",
-        "ou_ev": 58.7,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 219.5 (+9.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "pick": "Cleveland Cavaliers",
+        "tipo": "ML Cavaliers",
+        "confianza": "media",
+        "ev": 10.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 44.6,
+        "notas": "Modelo: 50.0% | Mercado: 44.6% | Edge: +5.4%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
