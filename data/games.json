@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T06:37:30.038838+00:00",
+  "updated_at": "2026-05-25T20:22:35.813696+00:00",
   "games": [
     {
       "id": "a752ca36635e2ccb1bb5a9f387282e1c",
@@ -10,33 +10,45 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "52-30",
+        "seed": "4",
+        "ppg": "119.5",
+        "papg": "115.4",
+        "diff": "+4.1",
+        "home_rec": "27-14",
+        "away_rec": "25-16",
+        "streak": "W1",
+        "forma": [
+          "P",
+          "P",
+          "P",
+          "G",
+          "P"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Este",
+        "record": "53-29",
+        "seed": "3",
+        "ppg": "116.5",
+        "papg": "110.1",
+        "diff": "+6.4",
+        "home_rec": "30-10",
+        "away_rec": "22-19",
+        "streak": "L1",
+        "forma": [
+          "G",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
       },
       "home_injuries": [],
       "away_injuries": [],
@@ -44,29 +56,29 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 120,
-        "away_ml": -130,
+        "home_ml": 114,
+        "away_ml": -123,
         "spread_home": 2.5,
-        "total_ou": 217.5,
-        "best_book": "Bovada",
+        "total_ou": 218.5,
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Cleveland Cavaliers",
-        "tipo": "ML Cavaliers",
+        "pick": "New York Knicks",
+        "tipo": "ML Knicks",
         "confianza": "media",
-        "ev": 10.0,
-        "prob_modelo": 50.0,
-        "prob_mercado": 44.6,
-        "notas": "Modelo: 50.0% | Mercado: 44.6% | Edge: +5.4%",
+        "ev": 10.2,
+        "prob_modelo": 39.2,
+        "prob_mercado": 45.9,
+        "notas": "Modelo: 60.8% | Mercado: 54.1% | Edge: +6.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
+        "spread_notas": "Margen proyectado: +-1.2 | Línea: +2.5 | Sin EV en spread (local: 4.0%, visit: -13.1%)",
+        "ou_pick": "OVER",
+        "ou_ev": 70.0,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 230.8 vs línea 218.5 (+12.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0
       }
