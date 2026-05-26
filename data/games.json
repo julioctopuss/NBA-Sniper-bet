@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T20:52:03.485113+00:00",
+  "updated_at": "2026-05-26T22:46:35.779859+00:00",
   "games": [
     {
       "id": "197dd95ba7880a2cd6a00df88014610b",
@@ -116,8 +116,8 @@
       "alerta_msg": "Jalen Williams Out (PRA 27.2) | Ajay Mitchell Out (PRA 20.5) | Thomas Sorber Out | David Jones Garcia Out (PRA 5.7)",
       "odds": {
         "home_ml": -160,
-        "away_ml": 141,
-        "spread_home": -4.5,
+        "away_ml": 144,
+        "spread_home": -3.5,
         "total_ou": 217.5,
         "best_book": "LowVig.ag",
         "num_books": 9
@@ -128,12 +128,12 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 62.5,
-        "prob_mercado": 59.7,
-        "notas": "Bajas Thunder: Jalen Williams (27.2 PRA), Ajay Mitchell (20.5 PRA) (48 PRA total) | Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 62.5% | Mercado: 59.7%",
+        "prob_mercado": 60.0,
+        "notas": "Bajas Thunder: Jalen Williams (27.2 PRA), Ajay Mitchell (20.5 PRA) (48 PRA total) | Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 62.5% | Mercado: 60.0%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 14.9,
+        "spread_ev": 8.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.4 | Línea: -4.5 | Prob cubrir visitante: 60.2%",
+        "spread_notas": "Margen proyectado: +1.4 | Línea: -3.5 | Prob cubrir visitante: 56.9%",
         "ou_pick": "UNDER",
         "ou_ev": 45.3,
         "ou_confianza": "media",
