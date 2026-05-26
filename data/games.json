@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T06:09:01.129895+00:00",
+  "updated_at": "2026-05-26T20:52:03.485113+00:00",
   "games": [
     {
       "id": "197dd95ba7880a2cd6a00df88014610b",
@@ -10,65 +10,136 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "64-18",
+        "seed": "1",
+        "ppg": "119.0",
+        "papg": "107.9",
+        "diff": "+11.1",
+        "home_rec": "34-7",
+        "away_rec": "30-10",
+        "streak": "L2",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "P",
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "62-20",
+        "seed": "2",
+        "ppg": "119.8",
+        "papg": "111.5",
+        "diff": "+8.3",
+        "home_rec": "32-8",
+        "away_rec": "29-12",
+        "streak": "L1",
+        "forma": [
+          "G",
+          "P",
+          "P",
+          "G",
+          "G"
+        ]
       },
-      "home_injuries": [],
-      "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "home_injuries": [
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 27.2,
+          "weight": 3
+        },
+        {
+          "player": "Ajay Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 20.5,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 5.7,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 27.2,
+          "weight": 3
+        },
+        {
+          "player": "Ajay Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 20.5,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 5.7,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jalen Williams Out (PRA 27.2) | Ajay Mitchell Out (PRA 20.5) | Thomas Sorber Out | David Jones Garcia Out (PRA 5.7)",
       "odds": {
-        "home_ml": -175,
-        "away_ml": 164,
-        "spread_home": -5.5,
-        "total_ou": 216.5,
-        "best_book": "BetUS",
+        "home_ml": -160,
+        "away_ml": 141,
+        "spread_home": -4.5,
+        "total_ou": 217.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "San Antonio Spurs",
-        "tipo": "ML Spurs",
-        "confianza": "alta",
-        "ev": 32.0,
-        "prob_modelo": 50.0,
-        "prob_mercado": 62.7,
-        "notas": "Modelo: 50.0% | Mercado: 37.3% | Edge: +12.7%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
-        "away_pra_out": 0
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 62.5,
+        "prob_mercado": 59.7,
+        "notas": "Bajas Thunder: Jalen Williams (27.2 PRA), Ajay Mitchell (20.5 PRA) (48 PRA total) | Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 62.5% | Mercado: 59.7%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 14.9,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +1.4 | Línea: -4.5 | Prob cubrir visitante: 60.2%",
+        "ou_pick": "UNDER",
+        "ou_ev": 45.3,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 210.4 vs línea 217.5 (-7.1) | Penalty bajas: 18.7 pts",
+        "home_pra_out": 47.7,
+        "away_pra_out": 5.7
       }
     }
   ]
