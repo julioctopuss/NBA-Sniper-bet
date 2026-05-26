@@ -1,101 +1,73 @@
 {
-  "updated_at": "2026-05-25T23:45:24.072610+00:00",
+  "updated_at": "2026-05-26T04:43:11.666858+00:00",
   "games": [
     {
-      "id": "a752ca36635e2ccb1bb5a9f387282e1c",
-      "home_team": "Cleveland Cavaliers",
-      "away_team": "New York Knicks",
-      "commence_time": "2026-05-26T00:10:00Z",
-      "time_et": "8:10 PM ET",
+      "id": "197dd95ba7880a2cd6a00df88014610b",
+      "home_team": "Oklahoma City Thunder",
+      "away_team": "San Antonio Spurs",
+      "commence_time": "2026-05-27T00:40:00Z",
+      "time_et": "8:40 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "P",
-          "P",
-          "P",
-          "G",
-          "P"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
-      "home_injuries": [
-        {
-          "player": "Dennis Schroder",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
+      "home_injuries": [],
       "away_injuries": [],
-      "injuries": [
-        {
-          "player": "Dennis Schroder",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Dennis Schroder Out",
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
       "odds": {
-        "home_ml": 115,
-        "away_ml": -125,
-        "spread_home": 2.5,
-        "total_ou": 218.5,
-        "best_book": "BetMGM",
+        "home_ml": -185,
+        "away_ml": 166,
+        "spread_home": -5.5,
+        "total_ou": 216.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "New York Knicks",
-        "tipo": "ML Knicks",
-        "confianza": "media",
-        "ev": 9.4,
-        "prob_modelo": 39.2,
-        "prob_mercado": 45.6,
-        "notas": "Modelo: 60.8% | Mercado: 54.4% | Edge: +6.4%",
+        "pick": "San Antonio Spurs",
+        "tipo": "ML Spurs",
+        "confianza": "alta",
+        "ev": 33.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 63.3,
+        "notas": "Modelo: 50.0% | Mercado: 36.7% | Edge: +13.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-1.2 | Línea: +2.5 | Sin EV en spread (local: 4.0%, visit: -13.1%)",
-        "ou_pick": "OVER",
-        "ou_ev": 70.0,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.8 vs línea 218.5 (+12.3) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
         "away_pra_out": 0
       }
     }
