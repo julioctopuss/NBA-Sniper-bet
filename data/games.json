@@ -1,4 +1,146 @@
 {
-  "updated_at": "2026-05-27T23:47:43.436082+00:00",
-  "games": []
+  "updated_at": "2026-05-28T04:49:45.113739+00:00",
+  "games": [
+    {
+      "id": "78fd894a8789f5fd7f2318cc85b2fc44",
+      "home_team": "San Antonio Spurs",
+      "away_team": "Oklahoma City Thunder",
+      "commence_time": "2026-05-29T00:40:00Z",
+      "time_et": "8:40 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "62-20",
+        "seed": "2",
+        "ppg": "119.8",
+        "papg": "111.5",
+        "diff": "+8.3",
+        "home_rec": "32-8",
+        "away_rec": "29-12",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "P",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "64-18",
+        "seed": "1",
+        "ppg": "119.0",
+        "papg": "107.9",
+        "diff": "+11.1",
+        "home_rec": "34-7",
+        "away_rec": "30-10",
+        "streak": "L2",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "G",
+          "P"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Ajay Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "David Jones Garcia",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ajay Mitchell",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Thomas Sorber",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "David Jones Garcia Out | Ajay Mitchell Out | Thomas Sorber Out | Jalen Williams Out",
+      "odds": {
+        "home_ml": -155,
+        "away_ml": 138,
+        "spread_home": -3.5,
+        "total_ou": 219.5,
+        "best_book": "BetUS",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Oklahoma City Thunder",
+        "tipo": "ML Thunder",
+        "confianza": "alta",
+        "ev": 46.0,
+        "prob_modelo": 38.6,
+        "prob_mercado": 59.1,
+        "notas": "Modelo: 61.4% | Mercado: 40.9% | Edge: +20.5%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 25.7,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-1.4 | Línea: -3.5 | Prob cubrir visitante: 65.8%",
+        "ou_pick": "OVER",
+        "ou_ev": 58.7,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.1 vs línea 219.5 (+9.6) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    }
+  ]
 }
