@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T04:49:45.113739+00:00",
+  "updated_at": "2026-05-28T06:14:35.252009+00:00",
   "games": [
     {
       "id": "78fd894a8789f5fd7f2318cc85b2fc44",
@@ -55,28 +55,28 @@
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 5.7,
           "weight": 3
         }
       ],
       "away_injuries": [
         {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 27.2,
+          "weight": 3
+        },
+        {
           "player": "Ajay Mitchell",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 20.5,
           "weight": 3
         },
         {
           "player": "Thomas Sorber",
           "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -87,14 +87,21 @@
           "player": "David Jones Garcia",
           "position": "F",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 5.7,
+          "weight": 3
+        },
+        {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Out",
+          "pra": 27.2,
           "weight": 3
         },
         {
           "player": "Ajay Mitchell",
           "position": "G",
           "status": "Out",
-          "pra": 0.0,
+          "pra": 20.5,
           "weight": 3
         },
         {
@@ -103,23 +110,16 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Jalen Williams",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "David Jones Garcia Out | Ajay Mitchell Out | Thomas Sorber Out | Jalen Williams Out",
+      "alerta_msg": "David Jones Garcia Out (PRA 5.7) | Jalen Williams Out (PRA 27.2) | Ajay Mitchell Out (PRA 20.5) | Thomas Sorber Out",
       "odds": {
-        "home_ml": -155,
+        "home_ml": -145,
         "away_ml": 138,
         "spread_home": -3.5,
         "total_ou": 219.5,
-        "best_book": "BetUS",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -128,18 +128,18 @@
         "confianza": "alta",
         "ev": 46.0,
         "prob_modelo": 38.6,
-        "prob_mercado": 59.1,
-        "notas": "Modelo: 61.4% | Mercado: 40.9% | Edge: +20.5%",
+        "prob_mercado": 58.5,
+        "notas": "Bajas Thunder: Jalen Williams (27.2 PRA), Ajay Mitchell (20.5 PRA) (48 PRA total) | Modelo: 61.4% | Mercado: 41.5% | Edge: +19.8%",
         "spread_lado": "VISITANTE",
         "spread_ev": 25.7,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-1.4 | Línea: -3.5 | Prob cubrir visitante: 65.8%",
-        "ou_pick": "OVER",
-        "ou_ev": 58.7,
+        "ou_pick": "UNDER",
+        "ou_ev": 56.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 219.5 (+9.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "ou_notas": "Proyección 210.4 vs línea 219.5 (-9.1) | Penalty bajas: 18.7 pts",
+        "home_pra_out": 5.7,
+        "away_pra_out": 47.7
       }
     }
   ]
