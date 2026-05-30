@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T20:08:53.873633+00:00",
+  "updated_at": "2026-05-30T22:30:16.628542+00:00",
   "games": [
     {
       "id": "c2c2561efd4d4f69367aa83be60995a0",
@@ -115,7 +115,7 @@
       "alerta": true,
       "alerta_msg": "Ajay Mitchell Out | Thomas Sorber Out | Jalen Williams Out | David Jones Garcia Out",
       "odds": {
-        "home_ml": -144,
+        "home_ml": -146,
         "away_ml": 130,
         "spread_home": -3.5,
         "total_ou": 212.5,
@@ -126,10 +126,10 @@
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
         "confianza": "baja",
-        "ev": 7.1,
+        "ev": 6.5,
         "prob_modelo": 63.2,
-        "prob_mercado": 57.6,
-        "notas": "Modelo: 63.2% | Mercado: 57.6% | Edge: +5.6%",
+        "prob_mercado": 57.7,
+        "notas": "Modelo: 63.2% | Mercado: 57.7% | Edge: +5.5%",
         "spread_lado": "VISITANTE",
         "spread_ev": 8.7,
         "spread_conf": "media",
