@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T23:16:57.608606+00:00",
+  "updated_at": "2026-06-04T00:21:04.340341+00:00",
   "games": [
     {
       "id": "1aae688472781f1a1aaf3efdb38e884b",
@@ -59,15 +59,7 @@
           "weight": 3
         }
       ],
-      "away_injuries": [
-        {
-          "player": "Mitchell Robinson",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "away_injuries": [],
       "injuries": [
         {
           "player": "David Jones Garcia",
@@ -75,24 +67,17 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Mitchell Robinson",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out",
       "odds": {
-        "home_ml": -186,
+        "home_ml": -170,
         "away_ml": 163,
         "spread_home": -4.5,
         "total_ou": 217.5,
-        "best_book": "BetOnline.ag",
-        "num_books": 6
+        "best_book": "DraftKings",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "New York Knicks",
@@ -100,8 +85,8 @@
         "confianza": "baja",
         "ev": 7.6,
         "prob_modelo": 59.1,
-        "prob_mercado": 63.1,
-        "notas": "Modelo: 40.9% | Mercado: 36.9% | Edge: +4.0%",
+        "prob_mercado": 62.3,
+        "notas": "Modelo: 40.9% | Mercado: 37.7% | Edge: +3.3%",
         "spread_lado": "VISITANTE",
         "spread_ev": 17.7,
         "spread_conf": "media",
