@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T04:56:21.384923+00:00",
+  "updated_at": "2026-06-05T06:25:17.994450+00:00",
   "games": [
     {
       "id": "2852e944f8ef0bc3eba79f883b9101ba",
@@ -88,7 +88,7 @@
       "alerta_msg": "David Jones Garcia Out",
       "odds": {
         "home_ml": -218,
-        "away_ml": 200,
+        "away_ml": 195,
         "spread_home": -6.5,
         "total_ou": 214.5,
         "best_book": "DraftKings",
@@ -98,10 +98,10 @@
         "pick": "New York Knicks",
         "tipo": "ML Knicks",
         "confianza": "alta",
-        "ev": 22.8,
+        "ev": 20.7,
         "prob_modelo": 59.1,
-        "prob_mercado": 67.3,
-        "notas": "Modelo: 40.9% | Mercado: 32.7% | Edge: +8.2%",
+        "prob_mercado": 66.9,
+        "notas": "Modelo: 40.9% | Mercado: 33.1% | Edge: +7.8%",
         "spread_lado": "VISITANTE",
         "spread_ev": 29.5,
         "spread_conf": "media",
