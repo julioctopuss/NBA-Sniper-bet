@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T22:54:46.023492+00:00",
+  "updated_at": "2026-06-08T23:50:42.942135+00:00",
   "games": [
     {
       "id": "0707c5b20ff523e730c85090c7faffdf",
@@ -72,11 +72,11 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out",
       "odds": {
-        "home_ml": -123,
+        "home_ml": -120,
         "away_ml": 110,
         "spread_home": -1.5,
         "total_ou": 215.5,
-        "best_book": "LowVig.ag",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
@@ -85,8 +85,8 @@
         "confianza": "alta",
         "ev": 15.4,
         "prob_modelo": 45.0,
-        "prob_mercado": 53.7,
-        "notas": "Modelo: 55.0% | Mercado: 46.3% | Edge: +8.6%",
+        "prob_mercado": 53.4,
+        "notas": "Modelo: 55.0% | Mercado: 46.6% | Edge: +8.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 10.9,
         "spread_conf": "media",
