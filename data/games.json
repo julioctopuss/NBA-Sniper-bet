@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T21:11:10.288707+00:00",
+  "updated_at": "2026-06-08T22:54:46.023492+00:00",
   "games": [
     {
       "id": "0707c5b20ff523e730c85090c7faffdf",
@@ -72,29 +72,29 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out",
       "odds": {
-        "home_ml": -125,
-        "away_ml": 112,
+        "home_ml": -123,
+        "away_ml": 110,
         "spread_home": -1.5,
-        "total_ou": 216.5,
-        "best_book": "DraftKings",
+        "total_ou": 215.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
         "confianza": "alta",
-        "ev": 16.5,
+        "ev": 15.4,
         "prob_modelo": 45.0,
-        "prob_mercado": 54.1,
-        "notas": "Modelo: 55.0% | Mercado: 45.9% | Edge: +9.1%",
+        "prob_mercado": 53.7,
+        "notas": "Modelo: 55.0% | Mercado: 46.3% | Edge: +8.6%",
         "spread_lado": "VISITANTE",
         "spread_ev": 10.9,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-0.9 | Línea: -1.5 | Prob cubrir visitante: 58.1%",
         "ou_pick": "OVER",
-        "ou_ev": 70.4,
+        "ou_ev": 73.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.9 vs línea 216.5 (+12.4) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 228.9 vs línea 215.5 (+13.4) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
