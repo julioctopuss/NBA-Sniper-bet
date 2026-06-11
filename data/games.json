@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T23:06:40.506829+00:00",
+  "updated_at": "2026-06-11T00:03:57.743858+00:00",
   "games": [
     {
       "id": "9ea306ebbe68ff94dfa5b88d1e250b37",
@@ -72,21 +72,21 @@
       "alerta": true,
       "alerta_msg": "David Jones Garcia Out",
       "odds": {
-        "home_ml": -130,
-        "away_ml": 119,
+        "home_ml": -132,
+        "away_ml": 118,
         "spread_home": -2.5,
         "total_ou": 216.5,
-        "best_book": "FanDuel",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "San Antonio Spurs",
         "tipo": "ML Spurs",
         "confianza": "alta",
-        "ev": 23.6,
+        "ev": 23.1,
         "prob_modelo": 43.5,
-        "prob_mercado": 55.3,
-        "notas": "Modelo: 56.5% | Mercado: 44.7% | Edge: +11.8%",
+        "prob_mercado": 55.4,
+        "notas": "Modelo: 56.5% | Mercado: 44.6% | Edge: +11.8%",
         "spread_lado": "VISITANTE",
         "spread_ev": 17.1,
         "spread_conf": "media",
