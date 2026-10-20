@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-20T22:06:46.494752+00:00",
+  "updated_at": "2026-10-20T23:59:58.583489+00:00",
   "games": [
     {
       "id": "2b042ddad3d3c6c6fe5b7005dc26c775",
       "home_team": "New York Knicks",
       "away_team": "Philadelphia 76ers",
-      "commence_time": "2026-10-20T23:00:00Z",
-      "time_et": "7:00 PM ET",
+      "commence_time": "2026-10-20T23:18:02Z",
+      "time_et": "7:18 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 2,
+        "clock": "8:40",
+        "home_score": "35",
+        "away_score": "28"
       },
       "home_stats": {
         "conference": "Este",
@@ -60,13 +60,6 @@
           "weight": 3
         },
         {
-          "player": "Adem Bona",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Tacko Fall",
           "position": "C",
           "status": "Out",
@@ -81,18 +74,11 @@
           "weight": 3
         },
         {
-          "player": "Anfernee Simons",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Dean Wade",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "injuries": [
@@ -104,13 +90,6 @@
           "weight": 3
         },
         {
-          "player": "Adem Bona",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Tacko Fall",
           "position": "C",
           "status": "Out",
@@ -125,46 +104,39 @@
           "weight": 3
         },
         {
-          "player": "Anfernee Simons",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Dean Wade",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Dominick Barlow Out | Tacko Fall Out | Ariel Hukporti Out",
+      "alerta_msg": "Dominick Barlow Out | Tacko Fall Out | Ariel Hukporti Out | Dean Wade Out",
       "odds": {
-        "home_ml": -165,
-        "away_ml": 150,
-        "spread_home": -4.5,
-        "total_ou": 231.5,
-        "best_book": "Bovada",
-        "num_books": 9
+        "home_ml": -200,
+        "away_ml": 265,
+        "spread_home": -7.5,
+        "total_ou": 219.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "New York Knicks",
         "tipo": "ML Knicks",
         "confianza": "alta",
-        "ev": 24.2,
+        "ev": 16.0,
         "prob_modelo": 77.4,
-        "prob_mercado": 60.9,
-        "notas": "Modelo: 77.4% | Mercado: 60.9% | Edge: +16.5%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +3.3 | Línea: -4.5 | Sin EV en spread (local: -12.2%, visit: 3.1%)",
-        "ou_pick": "UNDER",
-        "ou_ev": 12.1,
+        "prob_mercado": 70.9,
+        "notas": "Modelo: 77.4% | Mercado: 70.9% | Edge: +6.5%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 21.6,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +3.3 | Línea: -7.5 | Prob cubrir visitante: 63.7%",
+        "ou_pick": "OVER",
+        "ou_ev": 59.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.3 vs línea 231.5 (-2.2) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.3 vs línea 219.5 (+9.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
@@ -297,29 +269,29 @@
       "alerta": true,
       "alerta_msg": "Tobias Harris Out | Jayden Quaintance Out | Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out",
       "odds": {
-        "home_ml": 102,
-        "away_ml": -114,
+        "home_ml": 103,
+        "away_ml": -110,
         "spread_home": 1.5,
-        "total_ou": 231.5,
+        "total_ou": 230.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
-        "confianza": "media",
-        "ev": 13.9,
+        "confianza": "alta",
+        "ev": 15.8,
         "prob_modelo": 39.4,
-        "prob_mercado": 48.2,
-        "notas": "Modelo: 60.7% | Mercado: 51.8% | Edge: +8.8%",
+        "prob_mercado": 48.5,
+        "notas": "Modelo: 60.7% | Mercado: 51.5% | Edge: +9.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
         "spread_notas": "Margen proyectado: +-1.4 | Línea: +1.5 | Sin EV en spread (local: -3.9%, visit: -5.2%)",
         "ou_pick": "UNDER",
-        "ou_ev": 13.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 231.5 (-2.4) | Penalty bajas: 0.0 pts",
+        "ou_ev": 6.1,
+        "ou_confianza": "baja",
+        "ou_notas": "Proyección 229.1 vs línea 230.5 (-1.4) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
