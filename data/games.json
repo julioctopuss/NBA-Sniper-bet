@@ -1,119 +1,6 @@
 {
-  "updated_at": "2026-10-20T07:15:36.474956+00:00",
+  "updated_at": "2026-10-20T22:06:46.494752+00:00",
   "games": [
-    {
-      "id": "26b036ff107f3c658258eaf4a6f26228",
-      "home_team": "Detroit Pistons",
-      "away_team": "Boston Celtics",
-      "commence_time": "2026-10-20T19:00:00Z",
-      "time_et": "3:00 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "P",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "56-26",
-        "seed": "2",
-        "ppg": "114.9",
-        "papg": "107.2",
-        "diff": "+7.7",
-        "home_rec": "30-11",
-        "away_rec": "26-15",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Taurean Prince",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Devin Carter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Taurean Prince",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Devin Carter",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Devin Carter Out",
-      "odds": {
-        "home_ml": 100,
-        "away_ml": -115,
-        "spread_home": 1.5,
-        "total_ou": 222.5,
-        "best_book": "BetRivers",
-        "num_books": 8
-      },
-      "recomendacion": {
-        "pick": "Detroit Pistons",
-        "tipo": "ML Pistons",
-        "confianza": "baja",
-        "ev": 7.2,
-        "prob_modelo": 53.6,
-        "prob_mercado": 48.3,
-        "notas": "Modelo: 53.6% | Mercado: 48.3% | Edge: +5.3%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 6.5,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +0.2 | Línea: +1.5 | Prob cubrir local: 55.8%",
-        "ou_pick": "OVER",
-        "ou_ev": 12.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 224.8 vs línea 222.5 (+2.3) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "2b042ddad3d3c6c6fe5b7005dc26c775",
       "home_team": "New York Knicks",
@@ -255,21 +142,21 @@
       "alerta": true,
       "alerta_msg": "Dominick Barlow Out | Tacko Fall Out | Ariel Hukporti Out",
       "odds": {
-        "home_ml": -170,
+        "home_ml": -165,
         "away_ml": 150,
         "spread_home": -4.5,
         "total_ou": 231.5,
-        "best_book": "BetOnline.ag",
-        "num_books": 8
+        "best_book": "Bovada",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "New York Knicks",
         "tipo": "ML Knicks",
         "confianza": "alta",
-        "ev": 22.9,
+        "ev": 24.2,
         "prob_modelo": 77.4,
-        "prob_mercado": 61.2,
-        "notas": "Modelo: 77.4% | Mercado: 61.2% | Edge: +16.2%",
+        "prob_mercado": 60.9,
+        "notas": "Modelo: 77.4% | Mercado: 60.9% | Edge: +16.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -410,29 +297,29 @@
       "alerta": true,
       "alerta_msg": "Tobias Harris Out | Jayden Quaintance Out | Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out",
       "odds": {
-        "home_ml": -118,
-        "away_ml": 102,
-        "spread_home": -1.5,
-        "total_ou": 233.5,
-        "best_book": "BetMGM",
-        "num_books": 8
+        "home_ml": 102,
+        "away_ml": -114,
+        "spread_home": 1.5,
+        "total_ou": 231.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
-        "confianza": "alta",
-        "ev": 22.5,
+        "confianza": "media",
+        "ev": 13.9,
         "prob_modelo": 39.4,
-        "prob_mercado": 52.2,
-        "notas": "Modelo: 60.7% | Mercado: 47.8% | Edge: +12.9%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 13.7,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.4 | Línea: -1.5 | Prob cubrir visitante: 59.5%",
+        "prob_mercado": 48.2,
+        "notas": "Modelo: 60.7% | Mercado: 51.8% | Edge: +8.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +-1.4 | Línea: +1.5 | Sin EV en spread (local: -3.9%, visit: -5.2%)",
         "ou_pick": "UNDER",
-        "ou_ev": 27.9,
+        "ou_ev": 13.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 233.5 (-4.4) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.1 vs línea 231.5 (-2.4) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
