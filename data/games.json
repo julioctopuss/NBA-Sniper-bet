@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T05:10:42.384751+00:00",
+  "updated_at": "2026-10-22T07:13:26.068062+00:00",
   "games": [
     {
       "id": "110e33c79c5ec8c0377702aff685f83b",
@@ -44,11 +44,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -146,
+        "home_ml": -148,
         "away_ml": 135,
         "spread_home": -2.5,
         "total_ou": 235.5,
-        "best_book": "FanDuel",
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
@@ -57,8 +57,8 @@
         "confianza": "alta",
         "ev": 17.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 58.2,
-        "notas": "Modelo: 50.0% | Mercado: 41.8% | Edge: +8.2%",
+        "prob_mercado": 58.4,
+        "notas": "Modelo: 50.0% | Mercado: 41.6% | Edge: +8.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,11 +114,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -297,
+        "home_ml": -290,
         "away_ml": 270,
         "spread_home": -8.5,
         "total_ou": 235.5,
-        "best_book": "LowVig.ag",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -127,8 +127,8 @@
         "confianza": "alta",
         "ev": 85.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 73.5,
-        "notas": "Modelo: 50.0% | Mercado: 26.5% | Edge: +23.5%",
+        "prob_mercado": 73.3,
+        "notas": "Modelo: 50.0% | Mercado: 26.7% | Edge: +23.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
