@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-22T22:06:14.448832+00:00",
+  "updated_at": "2026-10-23T00:03:31.832528+00:00",
   "games": [
     {
       "id": "110e33c79c5ec8c0377702aff685f83b",
       "home_team": "Philadelphia 76ers",
       "away_team": "Cleveland Cavaliers",
-      "commence_time": "2026-10-22T23:10:00Z",
-      "time_et": "7:10 PM ET",
+      "commence_time": "2026-10-22T23:13:54Z",
+      "time_et": "7:13 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 2,
+        "clock": "5:51",
+        "home_score": "30",
+        "away_score": "54"
       },
       "home_stats": {
         "conference": "Este",
@@ -75,34 +75,12 @@
         {
           "player": "Dean Wade",
           "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Jarrett Allen",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Khalifa Diop",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Nae'Qwan Tomlin",
-          "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         }
       ],
+      "away_injuries": [],
       "injuries": [
         {
           "player": "Dominick Barlow",
@@ -128,60 +106,39 @@
         {
           "player": "Dean Wade",
           "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Jarrett Allen",
-          "position": "C",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Khalifa Diop",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Nae'Qwan Tomlin",
-          "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Dominick Barlow Out | Tacko Fall Out | Ariel Hukporti Out | Khalifa Diop Out | Nae'Qwan Tomlin Out",
+      "alerta_msg": "Dominick Barlow Out | Tacko Fall Out | Ariel Hukporti Out | Dean Wade Out",
       "odds": {
-        "home_ml": -136,
-        "away_ml": 122,
-        "spread_home": -2.5,
-        "total_ou": 236.5,
-        "best_book": "BetRivers",
-        "num_books": 9
+        "home_ml": 750,
+        "away_ml": -1111,
+        "spread_home": 16.5,
+        "total_ou": 234.5,
+        "best_book": "FanDuel",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Cleveland Cavaliers",
-        "tipo": "ML Cavaliers",
+        "pick": "Philadelphia 76ers",
+        "tipo": "ML 76ers",
         "confianza": "alta",
-        "ev": 52.2,
+        "ev": 167.1,
         "prob_modelo": 31.4,
-        "prob_mercado": 56.1,
-        "notas": "Modelo: 68.6% | Mercado: 43.9% | Edge: +24.7%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 24.2,
+        "prob_mercado": 11.4,
+        "notas": "Modelo: 31.4% | Mercado: 11.4% | Edge: +20.1%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 68.8,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-2.1 | Línea: -2.5 | Prob cubrir visitante: 65.1%",
-        "ou_pick": "UNDER",
-        "ou_ev": 18.7,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 233.4 vs línea 236.5 (-3.1) | Penalty bajas: 0.0 pts",
+        "spread_notas": "Margen proyectado: +-2.1 | Línea: +16.5 | Prob cubrir local: 88.4%",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección 233.4 vs línea 234.5 (-1.1) | Penalty bajas: 0.0 pts — sin EV suficiente",
         "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "away_pra_out": 0
       }
     },
     {
@@ -313,8 +270,8 @@
       "alerta_msg": "Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out | Julian Strawther Out",
       "odds": {
         "home_ml": -300,
-        "away_ml": 280,
-        "spread_home": -8.5,
+        "away_ml": 271,
+        "spread_home": -7.5,
         "total_ou": 236.5,
         "best_book": "Bovada",
         "num_books": 9
@@ -325,12 +282,12 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 72.8,
-        "prob_mercado": 74.0,
-        "notas": "Sin EV suficiente. Mejor: 3.2% (umbral 5%) | Modelo local: 72.8% | Mercado: 74.0%",
+        "prob_mercado": 73.6,
+        "notas": "Sin EV suficiente. Mejor: 0.8% (umbral 5%) | Modelo local: 72.8% | Mercado: 73.6%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 29.5,
+        "spread_ev": 23.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.0 | Línea: -8.5 | Prob cubrir visitante: 67.8%",
+        "spread_notas": "Margen proyectado: +3.0 | Línea: -7.5 | Prob cubrir visitante: 64.8%",
         "ou_pick": "UNDER",
         "ou_ev": 22.3,
         "ou_confianza": "media",
