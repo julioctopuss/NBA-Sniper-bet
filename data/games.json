@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T00:03:31.832528+00:00",
+  "updated_at": "2026-10-23T00:57:28.782703+00:00",
   "games": [
     {
       "id": "110e33c79c5ec8c0377702aff685f83b",
@@ -9,10 +9,10 @@
       "time_et": "7:13 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "5:51",
-        "home_score": "30",
-        "away_score": "54"
+        "period": 3,
+        "clock": "4:33",
+        "home_score": "75",
+        "away_score": "80"
       },
       "home_stats": {
         "conference": "Este",
@@ -114,29 +114,29 @@
       "alerta": true,
       "alerta_msg": "Dominick Barlow Out | Tacko Fall Out | Ariel Hukporti Out | Dean Wade Out",
       "odds": {
-        "home_ml": 750,
-        "away_ml": -1111,
-        "spread_home": 16.5,
-        "total_ou": 234.5,
-        "best_book": "FanDuel",
+        "home_ml": 195,
+        "away_ml": -130,
+        "spread_home": 1.5,
+        "total_ou": 237.5,
+        "best_book": "MyBookie.ag",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers",
+        "pick": "Cleveland Cavaliers",
+        "tipo": "ML Cavaliers",
         "confianza": "alta",
-        "ev": 167.1,
+        "ev": 21.3,
         "prob_modelo": 31.4,
-        "prob_mercado": 11.4,
-        "notas": "Modelo: 31.4% | Mercado: 11.4% | Edge: +20.1%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 68.8,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-2.1 | Línea: +16.5 | Prob cubrir local: 88.4%",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Proyección 233.4 vs línea 234.5 (-1.1) | Penalty bajas: 0.0 pts — sin EV suficiente",
+        "prob_mercado": 37.5,
+        "notas": "Modelo: 68.6% | Mercado: 62.5% | Edge: +6.1%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +-2.1 | Línea: +1.5 | Sin EV en spread (local: -8.7%, visit: -0.4%)",
+        "ou_pick": "UNDER",
+        "ou_ev": 25.8,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 233.4 vs línea 237.5 (-4.1) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -217,9 +217,9 @@
         {
           "player": "Spencer Jones",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Julian Strawther",
@@ -254,9 +254,9 @@
         {
           "player": "Spencer Jones",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Julian Strawther",
@@ -267,13 +267,13 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out | Julian Strawther Out",
+      "alerta_msg": "Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out | Spencer Jones Out | Julian Strawther Out",
       "odds": {
         "home_ml": -300,
         "away_ml": 271,
-        "spread_home": -7.5,
+        "spread_home": -8.5,
         "total_ou": 236.5,
-        "best_book": "Bovada",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
@@ -285,9 +285,9 @@
         "prob_mercado": 73.6,
         "notas": "Sin EV suficiente. Mejor: 0.8% (umbral 5%) | Modelo local: 72.8% | Mercado: 73.6%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 23.7,
+        "spread_ev": 29.5,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.0 | Línea: -7.5 | Prob cubrir visitante: 64.8%",
+        "spread_notas": "Margen proyectado: +3.0 | Línea: -8.5 | Prob cubrir visitante: 67.8%",
         "ou_pick": "UNDER",
         "ou_ev": 22.3,
         "ou_confianza": "media",
