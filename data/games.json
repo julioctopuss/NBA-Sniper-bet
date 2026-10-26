@@ -1,36 +1,332 @@
 {
-  "updated_at": "2026-10-26T00:43:50.967977+00:00",
+  "updated_at": "2026-10-26T05:08:05.190972+00:00",
   "games": [
     {
-      "id": "3f57b691d91174cd878320071f585c11",
-      "home_team": "Brooklyn Nets",
-      "away_team": "Indiana Pacers",
-      "commence_time": "2026-10-25T22:10:45Z",
-      "time_et": "6:10 PM ET",
+      "id": "3354649681943139cafc0049d42d9c8c",
+      "home_team": "Charlotte Hornets",
+      "away_team": "Washington Wizards",
+      "commence_time": "2026-10-26T23:10:00Z",
+      "time_et": "7:10 PM ET",
       "live": {
-        "state": "post",
-        "period": 4,
-        "clock": "0.0",
-        "home_score": "109",
-        "away_score": "136"
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
       },
       "home_stats": {
-        "conference": "Este",
-        "record": "20-62",
-        "seed": "13",
-        "ppg": "105.9",
-        "papg": "115.9",
-        "diff": "-10.0",
-        "home_rec": "12-29",
-        "away_rec": "8-33",
-        "streak": "L3",
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -120,
+        "away_ml": 112,
+        "spread_home": -1.5,
+        "total_ou": 227.5,
+        "best_book": "DraftKings",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Washington Wizards",
+        "tipo": "ML Wizards",
+        "confianza": "baja",
+        "ev": 6.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 53.6,
+        "notas": "Modelo: 50.0% | Mercado: 46.4% | Edge: +3.6%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "d639f79210d0b4b17c8f293c53c8c5aa",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "Minnesota Timberwolves",
+      "commence_time": "2026-10-26T23:10:00Z",
+      "time_et": "7:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "Oeste",
+        "record": "49-33",
+        "seed": "6",
+        "ppg": "118.0",
+        "papg": "114.6",
+        "diff": "+3.4",
+        "home_rec": "26-15",
+        "away_rec": "23-18",
+        "streak": "W2",
         "forma": [
-          "P",
-          "P",
+          "G",
+          "G",
           "P",
           "G",
-          "G"
+          "P"
         ]
+      },
+      "home_injuries": [],
+      "away_injuries": [
+        {
+          "player": "Donte DiVincenzo",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Donte DiVincenzo",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Donte DiVincenzo Out",
+      "odds": {
+        "home_ml": -138,
+        "away_ml": 130,
+        "spread_home": -3.5,
+        "total_ou": 233.5,
+        "best_book": "LowVig.ag",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Minnesota Timberwolves",
+        "tipo": "ML Timberwolves",
+        "confianza": "alta",
+        "ev": 52.1,
+        "prob_modelo": 33.9,
+        "prob_mercado": 57.1,
+        "notas": "Modelo: 66.1% | Mercado: 42.9% | Edge: +23.3%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "32ac8b94cc41f272efa96f0cf993e07a",
+      "home_team": "Boston Celtics",
+      "away_team": "Chicago Bulls",
+      "commence_time": "2026-10-26T23:30:00Z",
+      "time_et": "7:30 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -699,
+        "away_ml": 590,
+        "spread_home": -13.5,
+        "total_ou": 233.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 50.0,
+        "prob_mercado": 85.8,
+        "notas": "Diferencia modelo/mercado excesiva (36%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 85.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "69aa52b674648238de10389a3d343208",
+      "home_team": "Miami Heat",
+      "away_team": "Dallas Mavericks",
+      "commence_time": "2026-10-26T23:30:00Z",
+      "time_et": "7:30 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -317,
+        "away_ml": 270,
+        "spread_home": -8.5,
+        "total_ou": 236.5,
+        "best_book": "LowVig.ag",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Dallas Mavericks",
+        "tipo": "ML Mavericks",
+        "confianza": "alta",
+        "ev": 85.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 73.8,
+        "notas": "Modelo: 50.0% | Mercado: 26.2% | Edge: +23.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "a423c3941aa43179ca93caf6b689a0ce",
+      "home_team": "Milwaukee Bucks",
+      "away_team": "Indiana Pacers",
+      "commence_time": "2026-10-27T00:10:00Z",
+      "time_et": "8:10 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
       },
       "away_stats": {
         "conference": "Este",
@@ -50,22 +346,7 @@
           "P"
         ]
       },
-      "home_injuries": [
-        {
-          "player": "Tyler Bilodeau",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mikel Brown Jr.",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
+      "home_injuries": [],
       "away_injuries": [
         {
           "player": "T.J. McConnell",
@@ -91,20 +372,6 @@
       ],
       "injuries": [
         {
-          "player": "Tyler Bilodeau",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mikel Brown Jr.",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
           "player": "T.J. McConnell",
           "position": "G",
           "status": "Out",
@@ -127,202 +394,47 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Tyler Bilodeau Out | Mikel Brown Jr. Out | T.J. McConnell Out | Ben Sheppard Out",
+      "alerta_msg": "T.J. McConnell Out | Ben Sheppard Out",
       "odds": {
-        "home_ml": null,
-        "away_ml": null,
-        "spread_home": 26.5,
-        "total_ou": 247.5,
-        "best_book": "",
-        "num_books": 5
+        "home_ml": 150,
+        "away_ml": -149,
+        "spread_home": 4.5,
+        "total_ou": 239.5,
+        "best_book": "Bovada",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 43.8,
-        "prob_mercado": 0,
-        "notas": "Sin señal clara.",
-        "spread_lado": "LOCAL",
-        "spread_ev": 87.7,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.0 | Línea: +26.5 | Prob cubrir local: 98.3%",
-        "ou_pick": "UNDER",
-        "ou_ev": 86.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.3 vs línea 247.5 (-20.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
+        "prob_modelo": 80.3,
+        "prob_mercado": 40.1,
+        "notas": "Diferencia modelo/mercado excesiva (40%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 80.3% | Mercado: 40.1%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
         "away_pra_out": 0.0
       }
     },
     {
-      "id": "4bdaabae0c074d48156aaa3e315a5c4d",
-      "home_team": "New York Knicks",
-      "away_team": "Orlando Magic",
-      "commence_time": "2026-10-25T23:09:00Z",
-      "time_et": "7:09 PM ET",
-      "live": {
-        "state": "in",
-        "period": 3,
-        "clock": "1:35",
-        "home_score": "75",
-        "away_score": "69"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "8",
-        "ppg": "115.7",
-        "papg": "115.1",
-        "diff": "+0.6",
-        "home_rec": "25-15",
-        "away_rec": "19-20",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Jose Alvarado",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Paolo Banchero",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Izaiyah Nelson",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Noah Penda",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jose Alvarado",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Paolo Banchero",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jonathan Isaac",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Izaiyah Nelson",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Noah Penda",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jose Alvarado Out | Paolo Banchero Out | Jonathan Isaac Out | Izaiyah Nelson Out | Noah Penda Out",
-      "odds": {
-        "home_ml": -325,
-        "away_ml": 475,
-        "spread_home": -7.0,
-        "total_ou": 204.5,
-        "best_book": "BetMGM",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Orlando Magic",
-        "tipo": "ML Magic",
-        "confianza": "alta",
-        "ev": 47.9,
-        "prob_modelo": 74.3,
-        "prob_mercado": 81.5,
-        "notas": "Modelo: 25.7% | Mercado: 18.5% | Edge: +7.2%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 21.0,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.9 | Línea: -7.0 | Prob cubrir visitante: 63.4%",
-        "ou_pick": "OVER",
-        "ou_ev": 89.4,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 228.7 vs línea 204.5 (+24.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "e6834225d7e218a59333dbbc01fe67ab",
+      "id": "90620ab57facf54f629af8beec468e54",
       "home_team": "Oklahoma City Thunder",
-      "away_team": "Los Angeles Clippers",
-      "commence_time": "2026-10-25T23:10:32Z",
-      "time_et": "7:10 PM ET",
+      "away_team": "Phoenix Suns",
+      "commence_time": "2026-10-27T00:10:00Z",
+      "time_et": "8:10 PM ET",
       "live": {
-        "state": "in",
-        "period": 3,
-        "clock": "0.0",
-        "home_score": "77",
-        "away_score": "76"
+        "state": "post",
+        "period": 4,
+        "clock": "12:00",
+        "home_score": "108",
+        "away_score": "101"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -384,11 +496,18 @@
           "weight": 1
         },
         {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Jaylin Williams",
           "position": "F",
-          "status": "Out",
+          "status": "Day-To-Day",
           "pra": 0.0,
-          "weight": 3
+          "weight": 1
         }
       ],
       "away_injuries": [],
@@ -422,31 +541,38 @@
           "weight": 1
         },
         {
+          "player": "Jalen Williams",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Jaylin Williams",
           "position": "F",
-          "status": "Out",
+          "status": "Day-To-Day",
           "pra": 0.0,
-          "weight": 3
+          "weight": 1
         }
       ],
       "alerta": true,
-      "alerta_msg": "Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out | Jaylin Williams Out",
+      "alerta_msg": "Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out",
       "odds": {
-        "home_ml": -700,
-        "away_ml": 725,
+        "home_ml": -360,
+        "away_ml": 315,
         "spread_home": -8.5,
-        "total_ou": 208.5,
-        "best_book": "DraftKings",
-        "num_books": 6
+        "total_ou": 218.5,
+        "best_book": "FanDuel",
+        "num_books": 8
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Oklahoma City Thunder",
+        "tipo": "ML Thunder",
+        "confianza": "media",
+        "ev": 13.1,
         "prob_modelo": 88.5,
-        "prob_mercado": 87.8,
-        "notas": "Sin EV suficiente. Mejor: 1.1% (umbral 5%) | Modelo local: 88.5% | Mercado: 87.8%",
+        "prob_mercado": 76.5,
+        "notas": "Modelo: 88.5% | Mercado: 76.5% | Edge: +12.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -460,372 +586,104 @@
       }
     },
     {
-      "id": "b9f6f078c66480af12ca8bcc44969097",
-      "home_team": "Minnesota Timberwolves",
-      "away_team": "Toronto Raptors",
-      "commence_time": "2026-10-25T23:14:09Z",
-      "time_et": "7:14 PM ET",
-      "live": {
-        "state": "in",
-        "period": 3,
-        "clock": "7:19",
-        "home_score": "71",
-        "away_score": "51"
-      },
-      "home_stats": {
-        "conference": "Oeste",
-        "record": "49-33",
-        "seed": "6",
-        "ppg": "118.0",
-        "papg": "114.6",
-        "diff": "+3.4",
-        "home_rec": "26-15",
-        "away_rec": "23-18",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "5",
-        "ppg": "114.6",
-        "papg": "111.8",
-        "diff": "+2.8",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "G",
-          "G",
-          "P"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Donte DiVincenzo",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Nate Bittle",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kawhi Leonard",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Donte DiVincenzo",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Nate Bittle",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kawhi Leonard",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Donte DiVincenzo Out | Nate Bittle Out | Kawhi Leonard Out",
-      "odds": {
-        "home_ml": -1111,
-        "away_ml": 1100,
-        "spread_home": -15.5,
-        "total_ou": 215.5,
-        "best_book": "MyBookie.ag",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 53.5,
-        "prob_mercado": 91.7,
-        "notas": "Diferencia modelo/mercado excesiva (38%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 53.5% | Mercado: 91.7%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 71.3,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.3 | Línea: -15.5 | Prob cubrir visitante: 89.7%",
-        "ou_pick": "OVER",
-        "ou_ev": 75.5,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.5 vs línea 215.5 (+14.0) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "252f3af49fb5271bb040e95e0119f207",
-      "home_team": "Philadelphia 76ers",
-      "away_team": "Detroit Pistons",
-      "commence_time": "2026-10-25T23:41:00Z",
-      "time_et": "7:41 PM ET",
-      "live": {
-        "state": "in",
-        "period": 2,
-        "clock": "2:25",
-        "home_score": "35",
-        "away_score": "53"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "45-37",
-        "seed": "7",
-        "ppg": "115.9",
-        "papg": "116.1",
-        "diff": "-0.2",
-        "home_rec": "23-18",
-        "away_rec": "22-19",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "P",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Dominick Barlow",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "VJ Edgecombe",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tacko Fall",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ariel Hukporti",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jabari Walker",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Jalen Duren",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Isaiah Joe",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Ausar Thompson",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Dominick Barlow",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "VJ Edgecombe",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Joel Embiid",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tacko Fall",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ariel Hukporti",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jabari Walker",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jalen Duren",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Isaiah Joe",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "Ausar Thompson",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Dominick Barlow Out | VJ Edgecombe Out | Joel Embiid Out | Tacko Fall Out | Ariel Hukporti Out | Jabari Walker Out | Jalen Duren Out | Ausar Thompson Out",
-      "odds": {
-        "home_ml": 560,
-        "away_ml": -650,
-        "spread_home": 12.5,
-        "total_ou": 212.5,
-        "best_book": "FanDuel",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Philadelphia 76ers",
-        "tipo": "ML 76ers",
-        "confianza": "alta",
-        "ev": 22.4,
-        "prob_modelo": 18.5,
-        "prob_mercado": 14.9,
-        "notas": "Modelo: 18.5% | Mercado: 14.9% | Edge: +3.7%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 44.2,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.2 | Línea: +12.5 | Prob cubrir local: 75.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 82.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.7 vs línea 212.5 (+17.2) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "dcc4a1c7f0427d8e1b2ee7d3f1d48e8a",
-      "home_team": "Sacramento Kings",
-      "away_team": "Memphis Grizzlies",
-      "commence_time": "2026-10-26T01:00:00Z",
-      "time_et": "9:00 PM ET",
+      "id": "b57695c11301fc8264db6b94a5ea2485",
+      "home_team": "Houston Rockets",
+      "away_team": "Atlanta Hawks",
+      "commence_time": "2026-10-27T00:30:00Z",
+      "time_et": "8:30 PM ET",
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -190,
+        "away_ml": 180,
+        "spread_home": -5.5,
+        "total_ou": 229.5,
+        "best_book": "FanDuel",
+        "num_books": 9
+      },
+      "recomendacion": {
+        "pick": "Atlanta Hawks",
+        "tipo": "ML Hawks",
+        "confianza": "alta",
+        "ev": 40.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 64.7,
+        "notas": "Modelo: 50.0% | Mercado: 35.3% | Edge: +14.7%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "fe453388be0a3bc6a39c847479cac46b",
+      "home_team": "Utah Jazz",
+      "away_team": "Memphis Grizzlies",
+      "commence_time": "2026-10-27T01:10:00Z",
+      "time_et": "9:10 PM ET",
+      "live": {
+        "state": "post",
+        "period": 4,
+        "clock": "12:00",
+        "home_score": "123",
+        "away_score": "132"
       },
       "home_stats": {
         "conference": "Oeste",
         "record": "22-60",
-        "seed": "14",
-        "ppg": "111.0",
-        "papg": "121.0",
-        "diff": "-10.0",
-        "home_rec": "15-26",
-        "away_rec": "7-34",
+        "seed": "15",
+        "ppg": "117.6",
+        "papg": "126.0",
+        "diff": "-8.4",
+        "home_rec": "14-27",
+        "away_rec": "8-33",
         "streak": "L1",
         "forma": [
           "P",
           "G",
           "P",
           "P",
-          "G"
+          "P"
         ]
       },
       "away_stats": {
@@ -848,29 +706,22 @@
       },
       "home_injuries": [
         {
-          "player": "Dylan Cardwell",
-          "position": "C",
+          "player": "Trey Alexander",
+          "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Keegan Murray",
+          "player": "Blake Hinson",
           "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Maxime Raynaud",
+          "player": "Jusuf Nurkic",
           "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ben Simmons",
-          "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -894,29 +745,22 @@
       ],
       "injuries": [
         {
-          "player": "Dylan Cardwell",
-          "position": "C",
+          "player": "Trey Alexander",
+          "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Keegan Murray",
+          "player": "Blake Hinson",
           "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
         },
         {
-          "player": "Maxime Raynaud",
+          "player": "Jusuf Nurkic",
           "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ben Simmons",
-          "position": "G",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -937,33 +781,103 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Dylan Cardwell Out | Keegan Murray Out | Maxime Raynaud Out | Ben Simmons Out | Zach Edey Out | Karim Lopez Out",
+      "alerta_msg": "Trey Alexander Out | Blake Hinson Out | Jusuf Nurkic Out | Zach Edey Out | Karim Lopez Out",
       "odds": {
-        "home_ml": 154,
-        "away_ml": -159,
-        "spread_home": 4.0,
+        "home_ml": -115,
+        "away_ml": 107,
+        "spread_home": -1.5,
+        "total_ou": 238.5,
+        "best_book": "DraftKings",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Memphis Grizzlies",
+        "tipo": "ML Grizzlies",
+        "confianza": "alta",
+        "ev": 20.4,
+        "prob_modelo": 41.8,
+        "prob_mercado": 52.5,
+        "notas": "Modelo: 58.2% | Mercado: 47.5% | Edge: +10.7%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 12.4,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-1.2 | Línea: -1.5 | Prob cubrir visitante: 58.9%",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección 239.5 vs línea 238.5 (+1.0) | Penalty bajas: 0.0 pts — sin EV suficiente",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "d7f8398941d7c90befa60f35876a3ae7",
+      "home_team": "Denver Nuggets",
+      "away_team": "Golden State Warriors",
+      "commence_time": "2026-10-27T02:00:00Z",
+      "time_et": "10:00 PM ET",
+      "live": {
+        "state": "pre",
+        "period": 0,
+        "clock": "",
+        "home_score": null,
+        "away_score": null
+      },
+      "home_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [],
+      "away_injuries": [],
+      "injuries": [],
+      "alerta": false,
+      "alerta_msg": "",
+      "odds": {
+        "home_ml": -287,
+        "away_ml": 250,
+        "spread_home": -7.5,
         "total_ou": 234.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 36.6,
-        "prob_mercado": 39.1,
-        "notas": "Sin EV suficiente. Mejor: 3.3% (umbral 5%) | Modelo local: 36.6% | Mercado: 39.1%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 8.1,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-2.0 | Línea: +4.0 | Prob cubrir local: 56.6%",
+        "pick": "Golden State Warriors",
+        "tipo": "ML Warriors",
+        "confianza": "alta",
+        "ev": 75.0,
+        "prob_modelo": 50.0,
+        "prob_mercado": 72.2,
+        "notas": "Modelo: 50.0% | Mercado: 27.8% | Edge: +22.2%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
         "ou_pick": null,
         "ou_ev": null,
         "ou_confianza": "—",
-        "ou_notas": "Proyección 233.7 vs línea 234.5 (-0.8) | Penalty bajas: 0.0 pts — sin EV suficiente",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0,
+        "away_pra_out": 0
       }
     }
   ]
