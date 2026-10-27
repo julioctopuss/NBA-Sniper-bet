@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T05:22:41.127663+00:00",
+  "updated_at": "2026-10-27T07:25:42.014691+00:00",
   "games": [
     {
       "id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
@@ -66,11 +66,11 @@
       "alerta": true,
       "alerta_msg": "Devin Carter Out",
       "odds": {
-        "home_ml": -560,
-        "away_ml": 450,
+        "home_ml": -575,
+        "away_ml": 456,
         "spread_home": -11.5,
-        "total_ou": 220.5,
-        "best_book": "FanDuel",
+        "total_ou": 221.5,
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
@@ -79,8 +79,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 81.4,
-        "prob_mercado": 82.4,
-        "notas": "Sin EV suficiente. Mejor: 2.4% (umbral 5%) | Modelo local: 81.4% | Mercado: 82.4%",
+        "prob_mercado": 82.6,
+        "notas": "Sin EV suficiente. Mejor: 3.5% (umbral 5%) | Modelo local: 81.4% | Mercado: 82.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -137,8 +137,8 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -155,
-        "away_ml": 150,
-        "spread_home": -3.5,
+        "away_ml": 146,
+        "spread_home": -4.5,
         "total_ou": 218.5,
         "best_book": "DraftKings",
         "num_books": 9
@@ -147,10 +147,10 @@
         "pick": "Detroit Pistons",
         "tipo": "ML Pistons",
         "confianza": "alta",
-        "ev": 25.0,
+        "ev": 23.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 60.3,
-        "notas": "Modelo: 50.0% | Mercado: 39.7% | Edge: +10.3%",
+        "prob_mercado": 59.9,
+        "notas": "Modelo: 50.0% | Mercado: 40.1% | Edge: +9.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -206,11 +206,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -1600,
+        "home_ml": -1667,
         "away_ml": 1092,
         "spread_home": -18.5,
         "total_ou": 229.5,
-        "best_book": "FanDuel",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
