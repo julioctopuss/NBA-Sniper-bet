@@ -1,203 +1,6 @@
 {
-  "updated_at": "2026-10-27T00:39:33.850654+00:00",
+  "updated_at": "2026-10-27T01:37:40.284253+00:00",
   "games": [
-    {
-      "id": "3354649681943139cafc0049d42d9c8c",
-      "home_team": "Charlotte Hornets",
-      "away_team": "Washington Wizards",
-      "commence_time": "2026-10-26T23:10:34Z",
-      "time_et": "7:10 PM ET",
-      "live": {
-        "state": "in",
-        "period": 3,
-        "clock": "5:38",
-        "home_score": "64",
-        "away_score": "59"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "44-38",
-        "seed": "9",
-        "ppg": "116.0",
-        "papg": "111.2",
-        "diff": "+4.8",
-        "home_rec": "21-20",
-        "away_rec": "23-18",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "17-65",
-        "seed": "15",
-        "ppg": "112.9",
-        "papg": "124.9",
-        "diff": "-12.0",
-        "home_rec": "11-30",
-        "away_rec": "6-35",
-        "streak": "L10",
-        "forma": [
-          "P",
-          "P",
-          "P",
-          "P",
-          "P"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Kylan Boswell",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kon Knueppel",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Coby White",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Grant Williams",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Justin Champagnie",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "AJ Dybantsa",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tristan Vukcevic",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jamir Watkins",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Kylan Boswell",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kon Knueppel",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Coby White",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Grant Williams",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Justin Champagnie",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
-          "player": "AJ Dybantsa",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tristan Vukcevic",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jamir Watkins",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Kylan Boswell Out | Kon Knueppel Out | Coby White Out | Grant Williams Out | AJ Dybantsa Out | Tristan Vukcevic Out | Jamir Watkins Out",
-      "odds": {
-        "home_ml": -182,
-        "away_ml": 210,
-        "spread_home": -4.5,
-        "total_ou": 202.5,
-        "best_book": "MyBookie.ag",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Charlotte Hornets",
-        "tipo": "ML Hornets",
-        "confianza": "alta",
-        "ev": 41.1,
-        "prob_modelo": 91.1,
-        "prob_mercado": 66.7,
-        "notas": "Modelo: 91.1% | Mercado: 66.7% | Edge: +24.4%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 19.8,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +8.4 | Línea: -4.5 | Prob cubrir local: 62.7%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 232.5 vs línea 202.5 (+30.0) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "d639f79210d0b4b17c8f293c53c8c5aa",
       "home_team": "Cleveland Cavaliers",
@@ -206,10 +9,10 @@
       "time_et": "7:13 PM ET",
       "live": {
         "state": "in",
-        "period": 3,
-        "clock": "7:49",
-        "home_score": "56",
-        "away_score": "67"
+        "period": 4,
+        "clock": "0.0",
+        "home_score": "113",
+        "away_score": "113"
       },
       "home_stats": {
         "conference": "Este",
@@ -269,11 +72,11 @@
       "alerta": true,
       "alerta_msg": "Donte DiVincenzo Out",
       "odds": {
-        "home_ml": 350,
-        "away_ml": -295,
-        "spread_home": 7.5,
-        "total_ou": 223.5,
-        "best_book": "MyBookie.ag",
+        "home_ml": -120,
+        "away_ml": 106,
+        "spread_home": -1.5,
+        "total_ou": 250.5,
+        "best_book": "BetMGM",
         "num_books": 6
       },
       "recomendacion": {
@@ -282,16 +85,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 54.7,
-        "prob_mercado": 22.9,
-        "notas": "Diferencia modelo/mercado excesiva (32%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 54.7% | Mercado: 22.9%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 41.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +0.3 | Línea: +7.5 | Prob cubrir local: 74.3%",
-        "ou_pick": "OVER",
-        "ou_ev": 62.0,
+        "prob_mercado": 52.9,
+        "notas": "Sin EV suficiente. Mejor: 0.2% (umbral 5%) | Modelo local: 54.7% | Mercado: 52.9%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +0.3 | Línea: -1.5 | Sin EV en spread (local: -11.8%, visit: 2.7%)",
+        "ou_pick": "UNDER",
+        "ou_ev": 81.8,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 233.8 vs línea 223.5 (+10.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 233.8 vs línea 250.5 (-16.7) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
@@ -304,10 +107,10 @@
       "time_et": "7:40 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "0.0",
-        "home_score": "66",
-        "away_score": "54"
+        "period": 4,
+        "clock": "7:22",
+        "home_score": "114",
+        "away_score": "83"
       },
       "home_stats": {
         "conference": "Este",
@@ -396,29 +199,29 @@
       "alerta": true,
       "alerta_msg": "Devin Carter Out | Nic Claxton Out | Patrick Williams Out",
       "odds": {
-        "home_ml": -1600,
-        "away_ml": 1100,
-        "spread_home": -16.5,
-        "total_ou": 240.5,
-        "best_book": "Bovada",
+        "home_ml": null,
+        "away_ml": null,
+        "spread_home": -30.5,
+        "total_ou": 233.5,
+        "best_book": "",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Chicago Bulls",
-        "tipo": "ML Bulls",
-        "confianza": "alta",
-        "ev": 17.6,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 90.2,
-        "prob_mercado": 91.9,
-        "notas": "Modelo: 9.8% | Mercado: 8.1% | Edge: +1.7%",
+        "prob_mercado": 0,
+        "notas": "Sin señal clara.",
         "spread_lado": "VISITANTE",
-        "spread_ev": 52.5,
+        "spread_ev": 86.6,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +6.5 | Línea: -16.5 | Prob cubrir visitante: 79.9%",
+        "spread_notas": "Margen proyectado: +6.5 | Línea: -30.5 | Prob cubrir visitante: 97.7%",
         "ou_pick": "UNDER",
-        "ou_ev": 63.3,
+        "ou_ev": 22.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.9 vs línea 240.5 (-10.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.9 vs línea 233.5 (-3.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -431,10 +234,10 @@
       "time_et": "7:41 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "30.7",
-        "home_score": "52",
-        "away_score": "50"
+        "period": 4,
+        "clock": "8:51",
+        "home_score": "90",
+        "away_score": "90"
       },
       "home_stats": {
         "conference": "Este",
@@ -564,25 +367,25 @@
       "alerta": true,
       "alerta_msg": "Santi Aldama Out | Tarik Biberovic Out | Dereck Lively II Out | Naji Marshall Out | Caleb Martin Out",
       "odds": {
-        "home_ml": -245,
-        "away_ml": 240,
-        "spread_home": -5.5,
+        "home_ml": -192,
+        "away_ml": 205,
+        "spread_home": -3.5,
         "total_ou": 222.5,
-        "best_book": "DraftKings",
+        "best_book": "FanDuel",
         "num_books": 6
       },
       "recomendacion": {
         "pick": "Miami Heat",
         "tipo": "ML Heat",
-        "confianza": "media",
-        "ev": 14.8,
+        "confianza": "alta",
+        "ev": 24.0,
         "prob_modelo": 81.6,
-        "prob_mercado": 70.7,
-        "notas": "Modelo: 81.6% | Mercado: 70.7% | Edge: +10.8%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 5.3,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +4.0 | Línea: -5.5 | Prob cubrir visitante: 55.1%",
+        "prob_mercado": 66.7,
+        "notas": "Modelo: 81.6% | Mercado: 66.7% | Edge: +14.8%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +4.0 | Línea: -3.5 | Sin EV en spread (local: -1.7%, visit: -7.4%)",
         "ou_pick": "OVER",
         "ou_ev": 75.8,
         "ou_confianza": "media",
@@ -599,10 +402,10 @@
       "time_et": "8:10 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "0.0",
-        "home_score": "31",
-        "away_score": "29"
+        "period": 3,
+        "clock": "4:31",
+        "home_score": "73",
+        "away_score": "73"
       },
       "home_stats": {
         "conference": "Este",
@@ -704,29 +507,29 @@
       "alerta": true,
       "alerta_msg": "T.J. McConnell Out | Andrew Nembhard Out | Ben Sheppard Out | Ivica Zubac Out",
       "odds": {
-        "home_ml": 104,
-        "away_ml": -111,
+        "home_ml": 115,
+        "away_ml": -128,
         "spread_home": 1.5,
-        "total_ou": 241.5,
-        "best_book": "FanDuel",
+        "total_ou": 229.5,
+        "best_book": "BetMGM",
         "num_books": 6
       },
       "recomendacion": {
         "pick": "Milwaukee Bucks",
         "tipo": "ML Bucks",
         "confianza": "alta",
-        "ev": 24.2,
+        "ev": 30.9,
         "prob_modelo": 60.9,
-        "prob_mercado": 48.2,
-        "notas": "Modelo: 60.9% | Mercado: 48.2% | Edge: +12.7%",
+        "prob_mercado": 45.3,
+        "notas": "Modelo: 60.9% | Mercado: 45.3% | Edge: +15.6%",
         "spread_lado": "LOCAL",
         "spread_ev": 10.6,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +0.9 | Línea: +1.5 | Prob cubrir local: 57.9%",
-        "ou_pick": "UNDER",
-        "ou_ev": 66.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.1 vs línea 241.5 (-11.4) | Penalty bajas: 0.0 pts",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Proyección 230.1 vs línea 229.5 (+0.6) | Penalty bajas: 0.0 pts — sin EV suficiente",
         "home_pra_out": 0,
         "away_pra_out": 0.0
       }
@@ -739,10 +542,10 @@
       "time_et": "8:11 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "11:21",
-        "home_score": "35",
-        "away_score": "27"
+        "period": 3,
+        "clock": "4:40",
+        "home_score": "84",
+        "away_score": "69"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -781,6 +584,13 @@
         ]
       },
       "home_injuries": [
+        {
+          "player": "Alex Caruso",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
         {
           "player": "Chet Holmgren",
           "position": "C",
@@ -842,6 +652,13 @@
       ],
       "injuries": [
         {
+          "player": "Alex Caruso",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Chet Holmgren",
           "position": "C",
           "status": "Out",
@@ -901,29 +718,29 @@
       "alerta": true,
       "alerta_msg": "Chet Holmgren Out | Otega Oweh Out | Thomas Sorber Out | Nikola Topic Out | Cason Wallace Out | Jalen Williams Out | Oso Ighodaro Out | Mark Williams Out",
       "odds": {
-        "home_ml": -400,
-        "away_ml": 375,
-        "spread_home": -10.5,
-        "total_ou": 225.5,
-        "best_book": "DraftKings",
+        "home_ml": -1000,
+        "away_ml": 1500,
+        "spread_home": -15.5,
+        "total_ou": 228.5,
+        "best_book": "MyBookie.ag",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Oklahoma City Thunder",
-        "tipo": "ML Thunder",
-        "confianza": "baja",
-        "ev": 5.9,
+        "pick": "Phoenix Suns",
+        "tipo": "ML Suns",
+        "confianza": "alta",
+        "ev": 144.3,
         "prob_modelo": 84.7,
-        "prob_mercado": 79.2,
-        "notas": "Modelo: 84.7% | Mercado: 79.2% | Edge: +5.6%",
+        "prob_mercado": 93.6,
+        "notas": "Modelo: 15.3% | Mercado: 6.4% | Edge: +8.8%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 30.3,
+        "spread_ev": 55.4,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +4.8 | Línea: -10.5 | Prob cubrir visitante: 68.3%",
-        "ou_pick": null,
-        "ou_ev": null,
-        "ou_confianza": "—",
-        "ou_notas": "Proyección 225.3 vs línea 225.5 (-0.2) | Penalty bajas: 0.0 pts — sin EV suficiente",
+        "spread_notas": "Margen proyectado: +4.8 | Línea: -15.5 | Prob cubrir visitante: 81.4%",
+        "ou_pick": "UNDER",
+        "ou_ev": 19.4,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 225.3 vs línea 228.5 (-3.2) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -932,14 +749,14 @@
       "id": "b57695c11301fc8264db6b94a5ea2485",
       "home_team": "Houston Rockets",
       "away_team": "Atlanta Hawks",
-      "commence_time": "2026-10-27T00:40:00Z",
+      "commence_time": "2026-10-27T00:40:32Z",
       "time_et": "8:40 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
+        "state": "in",
+        "period": 2,
         "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "home_score": "63",
+        "away_score": "66"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -1042,29 +859,29 @@
       "alerta": true,
       "alerta_msg": "Steven Adams Out | Marcus Smart Out | Mouhamed Gueye Out | Henri Veesaar Out",
       "odds": {
-        "home_ml": -184,
-        "away_ml": 175,
-        "spread_home": -4.5,
-        "total_ou": 228.5,
-        "best_book": "FanDuel",
-        "num_books": 9
+        "home_ml": 100,
+        "away_ml": 125,
+        "spread_home": -1.5,
+        "total_ou": 240.5,
+        "best_book": "BetRivers",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Houston Rockets",
+        "tipo": "ML Rockets",
+        "confianza": "alta",
+        "ev": 28.5,
         "prob_modelo": 64.3,
-        "prob_mercado": 64.1,
-        "notas": "Sin EV suficiente. Mejor: -0.8% (umbral 5%) | Modelo local: 64.3% | Mercado: 64.1%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 15.2,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.3 | Línea: -4.5 | Prob cubrir visitante: 60.4%",
-        "ou_pick": "OVER",
-        "ou_ev": 5.3,
-        "ou_confianza": "baja",
-        "ou_notas": "Proyección 229.8 vs línea 228.5 (+1.3) | Penalty bajas: 0.0 pts",
+        "prob_mercado": 52.9,
+        "notas": "Modelo: 64.3% | Mercado: 52.9% | Edge: +11.3%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +1.3 | Línea: -1.5 | Sin EV en spread (local: -5.5%, visit: -3.6%)",
+        "ou_pick": "UNDER",
+        "ou_ev": 63.7,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 229.8 vs línea 240.5 (-10.7) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -1073,14 +890,14 @@
       "id": "fe453388be0a3bc6a39c847479cac46b",
       "home_team": "Utah Jazz",
       "away_team": "Memphis Grizzlies",
-      "commence_time": "2026-10-27T01:10:00Z",
-      "time_et": "9:10 PM ET",
+      "commence_time": "2026-10-27T01:12:00Z",
+      "time_et": "9:12 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "1:45",
+        "home_score": "17",
+        "away_score": "23"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -1141,6 +958,13 @@
           "weight": 3
         },
         {
+          "player": "Lauri Markkanen",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Jusuf Nurkic",
           "position": "C",
           "status": "Out",
@@ -1172,6 +996,13 @@
           "weight": 3
         },
         {
+          "player": "Lauri Markkanen",
+          "position": "F",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
           "player": "Jusuf Nurkic",
           "position": "C",
           "status": "Out",
@@ -1182,29 +1013,29 @@
       "alerta": true,
       "alerta_msg": "Trey Alexander Out | Jaxson Hayes Out | Blake Hinson Out | Jusuf Nurkic Out",
       "odds": {
-        "home_ml": -102,
-        "away_ml": -108,
-        "spread_home": 1.5,
-        "total_ou": 237.5,
-        "best_book": "BetMGM",
-        "num_books": 9
+        "home_ml": 176,
+        "away_ml": -143,
+        "spread_home": 6.5,
+        "total_ou": 223.5,
+        "best_book": "FanDuel",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Memphis Grizzlies",
-        "tipo": "ML Grizzlies",
-        "confianza": "media",
-        "ev": 12.0,
+        "pick": "Utah Jazz",
+        "tipo": "ML Jazz",
+        "confianza": "alta",
+        "ev": 15.4,
         "prob_modelo": 41.8,
-        "prob_mercado": 49.3,
-        "notas": "Modelo: 58.2% | Mercado: 50.7% | Edge: +7.5%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-1.2 | Línea: +1.5 | Sin EV en spread (local: -2.6%, visit: -6.5%)",
+        "prob_mercado": 38.1,
+        "notas": "Modelo: 41.8% | Mercado: 38.1% | Edge: +3.7%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 28.0,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-1.2 | Línea: +6.5 | Prob cubrir local: 67.1%",
         "ou_pick": "OVER",
-        "ou_ev": 10.6,
+        "ou_ev": 80.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 239.5 vs línea 237.5 (+2.0) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 239.5 vs línea 223.5 (+16.0) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -1269,9 +1100,9 @@
         {
           "player": "Cameron Johnson",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Spencer Jones",
@@ -1322,9 +1153,9 @@
         {
           "player": "Cameron Johnson",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Spencer Jones",
@@ -1363,23 +1194,23 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Alpha Diallo Out | Spencer Jones Out | Julian Strawther Out | Jimmy Butler III Out | Moses Moody Out | Kristaps Porzingis Out",
+      "alerta_msg": "Alpha Diallo Out | Cameron Johnson Out | Spencer Jones Out | Julian Strawther Out | Jimmy Butler III Out | Moses Moody Out | Kristaps Porzingis Out",
       "odds": {
-        "home_ml": -260,
+        "home_ml": -263,
         "away_ml": 230,
         "spread_home": -7.5,
         "total_ou": 236.5,
-        "best_book": "FanDuel",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Denver Nuggets",
         "tipo": "ML Nuggets",
         "confianza": "baja",
-        "ev": 6.5,
+        "ev": 6.2,
         "prob_modelo": 76.9,
-        "prob_mercado": 70.4,
-        "notas": "Modelo: 76.9% | Mercado: 70.4% | Edge: +6.5%",
+        "prob_mercado": 70.5,
+        "notas": "Modelo: 76.9% | Mercado: 70.5% | Edge: +6.4%",
         "spread_lado": "VISITANTE",
         "spread_ev": 23.9,
         "spread_conf": "media",
