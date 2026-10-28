@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T00:37:30.460365+00:00",
+  "updated_at": "2026-10-28T01:43:42.568107+00:00",
   "games": [
     {
       "id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
@@ -9,10 +9,10 @@
       "time_et": "7:41 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "1:40",
-        "home_score": "51",
-        "away_score": "57"
+        "period": 4,
+        "clock": "4:32",
+        "home_score": "102",
+        "away_score": "102"
       },
       "home_stats": {
         "conference": "Este",
@@ -66,6 +66,13 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Egor Demin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
         }
       ],
       "injuries": [
@@ -82,34 +89,41 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Egor Demin",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "Devin Carter Out | Tyler Bilodeau Out",
       "odds": {
-        "home_ml": -220,
-        "away_ml": 245,
-        "spread_home": -5.5,
-        "total_ou": 227.5,
-        "best_book": "FanDuel",
+        "home_ml": -190,
+        "away_ml": 185,
+        "spread_home": -1.5,
+        "total_ou": 226.5,
+        "best_book": "BetRivers",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Boston Celtics",
-        "tipo": "ML Celtics",
-        "confianza": "alta",
-        "ev": 33.3,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 91.6,
-        "prob_mercado": 70.3,
-        "notas": "Modelo: 91.6% | Mercado: 70.3% | Edge: +21.3%",
+        "prob_mercado": 65.1,
+        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 91.6% | Mercado: 65.1%",
         "spread_lado": "LOCAL",
-        "spread_ev": 16.4,
+        "spread_ev": 39.3,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +8.8 | Línea: -5.5 | Prob cubrir local: 61.0%",
+        "spread_notas": "Margen proyectado: +8.8 | Línea: -1.5 | Prob cubrir local: 73.0%",
         "ou_pick": "UNDER",
-        "ou_ev": 35.3,
+        "ou_ev": 28.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 222.0 vs línea 227.5 (-5.5) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 222.0 vs línea 226.5 (-4.5) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -122,10 +136,10 @@
       "time_et": "8:13 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "3:20",
-        "home_score": "18",
-        "away_score": "23"
+        "period": 3,
+        "clock": "10:33",
+        "home_score": "57",
+        "away_score": "50"
       },
       "home_stats": {
         "conference": "Este",
@@ -214,29 +228,29 @@
       "alerta": true,
       "alerta_msg": "Jose Alvarado Out | Jalen Duren Out | Isaiah Joe Out",
       "odds": {
-        "home_ml": -106,
-        "away_ml": 100,
-        "spread_home": -1.5,
-        "total_ou": 220.5,
-        "best_book": "FanDuel",
+        "home_ml": -182,
+        "away_ml": 300,
+        "spread_home": -7.5,
+        "total_ou": 206.5,
+        "best_book": "MyBookie.ag",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Detroit Pistons",
-        "tipo": "ML Pistons",
-        "confianza": "media",
-        "ev": 13.0,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 43.5,
-        "prob_mercado": 50.7,
-        "notas": "Modelo: 56.5% | Mercado: 49.3% | Edge: +7.2%",
+        "prob_mercado": 72.1,
+        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 43.5% | Mercado: 72.1%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 10.6,
+        "spread_ev": 44.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-0.9 | Línea: -1.5 | Prob cubrir visitante: 57.9%",
+        "spread_notas": "Margen proyectado: +-0.9 | Línea: -7.5 | Prob cubrir visitante: 75.8%",
         "ou_pick": "OVER",
-        "ou_ev": 41.7,
+        "ou_ev": 87.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.0 vs línea 220.5 (+6.5) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.0 vs línea 206.5 (+20.5) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -249,10 +263,10 @@
       "time_et": "8:15 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "10.9",
-        "home_score": "38",
-        "away_score": "27"
+        "period": 3,
+        "clock": "4:38",
+        "home_score": "99",
+        "away_score": "73"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -383,29 +397,29 @@
       "alerta": true,
       "alerta_msg": "Tobias Harris Out | Jayden Quaintance Out | Dylan Cardwell Out | Keegan Murray Out | Maxime Raynaud Out | Ben Simmons Out",
       "odds": {
-        "home_ml": -1667,
-        "away_ml": 1850,
-        "spread_home": -20.5,
-        "total_ou": 239.5,
-        "best_book": "MyBookie.ag",
+        "home_ml": -10000,
+        "away_ml": 3300,
+        "spread_home": -31.5,
+        "total_ou": 251.5,
+        "best_book": "BetMGM",
         "num_books": 6
       },
       "recomendacion": {
         "pick": "Sacramento Kings",
         "tipo": "ML Kings",
         "confianza": "alta",
-        "ev": 59.1,
+        "ev": 177.4,
         "prob_modelo": 91.8,
-        "prob_mercado": 94.8,
-        "notas": "Modelo: 8.2% | Mercado: 5.2% | Edge: +3.0%",
+        "prob_mercado": 97.1,
+        "notas": "Modelo: 8.2% | Mercado: 2.9% | Edge: +5.3%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 58.1,
+        "spread_ev": 84.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +9.2 | Línea: -20.5 | Prob cubrir visitante: 82.8%",
+        "spread_notas": "Margen proyectado: +9.2 | Línea: -31.5 | Prob cubrir visitante: 96.9%",
         "ou_pick": "UNDER",
-        "ou_ev": 49.4,
+        "ou_ev": 86.4,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.7 vs línea 239.5 (-7.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.7 vs línea 251.5 (-19.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -538,7 +552,7 @@
       "alerta": true,
       "alerta_msg": "Cameron Carr Out | Adou Thiero Out | Shaedon Sharpe Out | Chris Youngblood Out",
       "odds": {
-        "home_ml": -120,
+        "home_ml": -121,
         "away_ml": 110,
         "spread_home": -1.5,
         "total_ou": 233.5,
@@ -549,10 +563,10 @@
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers",
         "confianza": "media",
-        "ev": 11.3,
+        "ev": 10.9,
         "prob_modelo": 60.7,
-        "prob_mercado": 53.4,
-        "notas": "Modelo: 60.7% | Mercado: 53.4% | Edge: +7.3%",
+        "prob_mercado": 53.5,
+        "notas": "Modelo: 60.7% | Mercado: 53.5% | Edge: +7.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
