@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T06:11:43.099358+00:00",
+  "updated_at": "2026-10-29T08:08:48.952318+00:00",
   "games": [
     {
       "id": "b123d92eb8046e43fabf95a33a676634",
@@ -86,11 +86,11 @@
       "alerta": true,
       "alerta_msg": "Mouhamed Gueye Out | Henri Veesaar Out",
       "odds": {
-        "home_ml": -110,
+        "home_ml": -108,
         "away_ml": -104,
         "spread_home": -1.5,
         "total_ou": 239.5,
-        "best_book": "DraftKings",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -99,8 +99,8 @@
         "confianza": "media",
         "ev": 14.2,
         "prob_modelo": 41.8,
-        "prob_mercado": 50.7,
-        "notas": "Modelo: 58.2% | Mercado: 49.3% | Edge: +8.9%",
+        "prob_mercado": 50.5,
+        "notas": "Modelo: 58.2% | Mercado: 49.5% | Edge: +8.7%",
         "spread_lado": "VISITANTE",
         "spread_ev": 10.0,
         "spread_conf": "media",
@@ -192,11 +192,11 @@
       "alerta": true,
       "alerta_msg": "Yves Missi Out",
       "odds": {
-        "home_ml": -210,
+        "home_ml": -214,
         "away_ml": 195,
         "spread_home": -5.5,
         "total_ou": 237.5,
-        "best_book": "FanDuel",
+        "best_book": "MyBookie.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -205,8 +205,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 32.3,
-        "prob_mercado": 66.6,
-        "notas": "Diferencia modelo/mercado excesiva (34%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.3% | Mercado: 66.6%",
+        "prob_mercado": 66.8,
+        "notas": "Diferencia modelo/mercado excesiva (34%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.3% | Mercado: 66.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -263,7 +263,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -265,
-        "away_ml": 240,
+        "away_ml": 235,
         "spread_home": -7.5,
         "total_ou": 234.5,
         "best_book": "DraftKings",
@@ -273,10 +273,10 @@
         "pick": "Memphis Grizzlies",
         "tipo": "ML Grizzlies",
         "confianza": "alta",
-        "ev": 70.0,
+        "ev": 67.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 71.2,
-        "notas": "Modelo: 50.0% | Mercado: 28.8% | Edge: +21.2%",
+        "prob_mercado": 70.9,
+        "notas": "Modelo: 50.0% | Mercado: 29.1% | Edge: +20.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
