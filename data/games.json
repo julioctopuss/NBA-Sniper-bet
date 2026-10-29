@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T08:08:48.952318+00:00",
+  "updated_at": "2026-10-29T23:06:04.950754+00:00",
   "games": [
     {
       "id": "b123d92eb8046e43fabf95a33a676634",
@@ -8,11 +8,11 @@
       "commence_time": "2026-10-30T00:10:00Z",
       "time_et": "8:10 PM ET",
       "live": {
-        "state": "post",
-        "period": 4,
-        "clock": "12:00",
-        "home_score": "117",
-        "away_score": "129"
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
         "conference": "Este",
@@ -66,7 +66,22 @@
           "weight": 3
         }
       ],
-      "away_injuries": [],
+      "away_injuries": [
+        {
+          "player": "Meleek Thomas",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jaylon Tyson",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        }
+      ],
       "injuries": [
         {
           "player": "Mouhamed Gueye",
@@ -81,34 +96,48 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Meleek Thomas",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Jaylon Tyson",
+          "position": "G",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "Mouhamed Gueye Out | Henri Veesaar Out",
       "odds": {
-        "home_ml": -108,
-        "away_ml": -104,
+        "home_ml": -113,
+        "away_ml": 100,
         "spread_home": -1.5,
-        "total_ou": 239.5,
-        "best_book": "FanDuel",
+        "total_ou": 237.5,
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Cleveland Cavaliers",
         "tipo": "ML Cavaliers",
-        "confianza": "media",
-        "ev": 14.2,
+        "confianza": "alta",
+        "ev": 16.4,
         "prob_modelo": 41.8,
-        "prob_mercado": 50.5,
-        "notas": "Modelo: 58.2% | Mercado: 49.5% | Edge: +8.7%",
+        "prob_mercado": 51.5,
+        "notas": "Modelo: 58.2% | Mercado: 48.5% | Edge: +9.7%",
         "spread_lado": "VISITANTE",
         "spread_ev": 10.0,
         "spread_conf": "media",
         "spread_notas": "Margen proyectado: +-0.8 | Línea: -1.5 | Prob cubrir visitante: 57.6%",
         "ou_pick": "UNDER",
-        "ou_ev": 30.7,
+        "ou_ev": 16.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 234.7 vs línea 239.5 (-4.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 234.7 vs línea 237.5 (-2.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -120,11 +149,11 @@
       "commence_time": "2026-10-30T00:10:00Z",
       "time_et": "8:10 PM ET",
       "live": {
-        "state": "post",
-        "period": 4,
-        "clock": "12:00",
-        "home_score": "91",
-        "away_score": "104"
+        "state": "pre",
+        "period": 0,
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -145,16 +174,22 @@
         ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "22-60",
+        "seed": "14",
+        "ppg": "111.0",
+        "papg": "121.0",
+        "diff": "-10.0",
+        "home_rec": "15-26",
+        "away_rec": "7-34",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "P",
+          "P",
+          "G"
+        ]
       },
       "home_injuries": [
         {
@@ -165,14 +200,50 @@
           "weight": 3
         },
         {
+          "player": "Dejounte Murray",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
           "player": "Jordan Poole",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         }
       ],
-      "away_injuries": [],
+      "away_injuries": [
+        {
+          "player": "Dylan Cardwell",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keegan Murray",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Maxime Raynaud",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ben Simmons",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
       "injuries": [
         {
           "player": "Yves Missi",
@@ -182,21 +253,56 @@
           "weight": 3
         },
         {
+          "player": "Dejounte Murray",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
           "player": "Jordan Poole",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
+        },
+        {
+          "player": "Dylan Cardwell",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Keegan Murray",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Maxime Raynaud",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Ben Simmons",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Yves Missi Out",
+      "alerta_msg": "Yves Missi Out | Dejounte Murray Out | Jordan Poole Out | Dylan Cardwell Out | Keegan Murray Out | Maxime Raynaud Out | Ben Simmons Out",
       "odds": {
-        "home_ml": -214,
-        "away_ml": 195,
+        "home_ml": -235,
+        "away_ml": 203,
         "spread_home": -5.5,
-        "total_ou": 237.5,
-        "best_book": "MyBookie.ag",
+        "total_ou": 234.5,
+        "best_book": "BetMGM",
         "num_books": 9
       },
       "recomendacion": {
@@ -204,19 +310,19 @@
         "tipo": "NO BET",
         "confianza": "—",
         "ev": null,
-        "prob_modelo": 32.3,
-        "prob_mercado": 66.8,
-        "notas": "Diferencia modelo/mercado excesiva (34%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 32.3% | Mercado: 66.8%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
+        "prob_modelo": 72.6,
+        "prob_mercado": 68.0,
+        "notas": "Sin EV suficiente. Mejor: 3.5% (umbral 5%) | Modelo local: 72.6% | Mercado: 68.0%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 12.8,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +2.8 | Línea: -5.5 | Prob cubrir visitante: 59.1%",
         "ou_pick": null,
         "ou_ev": null,
         "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
+        "ou_notas": "Proyección 233.8 vs línea 234.5 (-0.7) | Penalty bajas: 0.0 pts — sin EV suficiente",
         "home_pra_out": 0.0,
-        "away_pra_out": 0
+        "away_pra_out": 0.0
       }
     },
     {
@@ -228,64 +334,120 @@
       "live": {
         "state": "pre",
         "period": 0,
-        "clock": "",
-        "home_score": null,
-        "away_score": null
+        "clock": "0.0",
+        "home_score": "0",
+        "away_score": "0"
       },
       "home_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "42-40",
+        "seed": "7",
+        "ppg": "115.5",
+        "papg": "115.8",
+        "diff": "-0.3",
+        "home_rec": "24-17",
+        "away_rec": "18-23",
+        "streak": "W2",
+        "forma": [
+          "G",
+          "G",
+          "P",
+          "P",
+          "G"
+        ]
       },
       "away_stats": {
-        "conference": "—",
-        "record": "—",
-        "seed": "—",
-        "ppg": "—",
-        "papg": "—",
-        "diff": "—",
-        "home_rec": "—",
-        "away_rec": "—",
-        "streak": "—",
-        "forma": []
+        "conference": "Oeste",
+        "record": "25-57",
+        "seed": "13",
+        "ppg": "114.7",
+        "papg": "120.7",
+        "diff": "-6.0",
+        "home_rec": "13-27",
+        "away_rec": "11-29",
+        "streak": "L8",
+        "forma": [
+          "P",
+          "P",
+          "P",
+          "P",
+          "P"
+        ]
       },
-      "home_injuries": [],
+      "home_injuries": [
+        {
+          "player": "Shaedon Sharpe",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Robert Williams III",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Chris Youngblood",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
       "away_injuries": [],
-      "injuries": [],
-      "alerta": false,
-      "alerta_msg": "",
+      "injuries": [
+        {
+          "player": "Shaedon Sharpe",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Robert Williams III",
+          "position": "C",
+          "status": "Day-To-Day",
+          "pra": 0.0,
+          "weight": 1
+        },
+        {
+          "player": "Chris Youngblood",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Shaedon Sharpe Out | Chris Youngblood Out",
       "odds": {
-        "home_ml": -265,
-        "away_ml": 235,
+        "home_ml": -280,
+        "away_ml": 245,
         "spread_home": -7.5,
-        "total_ou": 234.5,
-        "best_book": "DraftKings",
+        "total_ou": 232.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Memphis Grizzlies",
-        "tipo": "ML Grizzlies",
-        "confianza": "alta",
-        "ev": 67.5,
-        "prob_modelo": 50.0,
-        "prob_mercado": 70.9,
-        "notas": "Modelo: 50.0% | Mercado: 29.1% | Edge: +20.9%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Sin datos para spread.",
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 76.1,
+        "prob_mercado": 71.8,
+        "notas": "Sin EV suficiente. Mejor: 3.2% (umbral 5%) | Modelo local: 76.1% | Mercado: 71.8%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 24.2,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +2.8 | Línea: -7.5 | Prob cubrir visitante: 65.1%",
         "ou_pick": null,
         "ou_ev": null,
         "ou_confianza": "—",
-        "ou_notas": "Sin datos.",
-        "home_pra_out": 0,
+        "ou_notas": "Proyección 233.3 vs línea 232.5 (+0.8) | Penalty bajas: 0.0 pts — sin EV suficiente",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     }
