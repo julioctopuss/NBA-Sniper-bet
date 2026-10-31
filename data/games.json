@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T06:05:50.019383+00:00",
+  "updated_at": "2026-10-31T08:04:11.029771+00:00",
   "games": [
     {
       "id": "d47417c3b1a2cd427cce74c9d00f1046",
@@ -45,7 +45,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": 203,
-        "away_ml": -225,
+        "away_ml": -235,
         "spread_home": 6.5,
         "total_ou": 232.5,
         "best_book": "BetUS",
@@ -57,8 +57,8 @@
         "confianza": "alta",
         "ev": 51.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 32.3,
-        "notas": "Modelo: 50.0% | Mercado: 32.3% | Edge: +17.7%",
+        "prob_mercado": 32.0,
+        "notas": "Modelo: 50.0% | Mercado: 32.0% | Edge: +18.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -256,11 +256,11 @@
       "alerta_msg": "Kylan Boswell Out | Kon Knueppel Out | Coby White Out | Grant Williams Out | Dominick Barlow Out | Tacko Fall Out | Ariel Hukporti Out | Jabari Walker Out",
       "odds": {
         "home_ml": 102,
-        "away_ml": -116,
+        "away_ml": -118,
         "spread_home": 1.5,
         "total_ou": 216.5,
-        "best_book": "LowVig.ag",
-        "num_books": 7
+        "best_book": "FanDuel",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Charlotte Hornets",
@@ -268,8 +268,8 @@
         "confianza": "alta",
         "ev": 40.7,
         "prob_modelo": 69.7,
-        "prob_mercado": 48.0,
-        "notas": "Modelo: 69.7% | Mercado: 48.0% | Edge: +21.7%",
+        "prob_mercado": 47.8,
+        "notas": "Modelo: 69.7% | Mercado: 47.8% | Edge: +21.9%",
         "spread_lado": "LOCAL",
         "spread_ev": 20.4,
         "spread_conf": "media",
@@ -396,7 +396,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": 297,
-        "away_ml": -335,
+        "away_ml": -350,
         "spread_home": 8.5,
         "total_ou": 237.5,
         "best_book": "LowVig.ag",
@@ -408,8 +408,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 24.6,
-        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 24.6%",
+        "prob_mercado": 24.5,
+        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 24.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -465,11 +465,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -450,
-        "away_ml": 410,
+        "home_ml": -469,
+        "away_ml": 400,
         "spread_home": -10.5,
         "total_ou": 233.5,
-        "best_book": "FanDuel",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -478,8 +478,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 80.7,
-        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 80.7%",
+        "prob_mercado": 80.5,
+        "notas": "Diferencia modelo/mercado excesiva (30%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 80.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -571,12 +571,12 @@
       "alerta": true,
       "alerta_msg": "Donte DiVincenzo Out | Anthony Edwards Out",
       "odds": {
-        "home_ml": -550,
+        "home_ml": -480,
         "away_ml": 456,
         "spread_home": -11.5,
         "total_ou": 226.5,
-        "best_book": "FanDuel",
-        "num_books": 8
+        "best_book": "BetRivers",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -584,8 +584,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 33.9,
-        "prob_mercado": 82.5,
-        "notas": "Diferencia modelo/mercado excesiva (49%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 33.9% | Mercado: 82.5%",
+        "prob_mercado": 82.1,
+        "notas": "Diferencia modelo/mercado excesiva (48%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 33.9% | Mercado: 82.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -691,21 +691,21 @@
       "alerta": true,
       "alerta_msg": "Steven Adams Out",
       "odds": {
-        "home_ml": -166,
-        "away_ml": 160,
+        "home_ml": -155,
+        "away_ml": 146,
         "spread_home": -4.5,
         "total_ou": 217.5,
-        "best_book": "FanDuel",
-        "num_books": 7
+        "best_book": "LowVig.ag",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Houston Rockets",
         "tipo": "ML Rockets",
         "confianza": "alta",
-        "ev": 19.3,
+        "ev": 22.5,
         "prob_modelo": 74.5,
-        "prob_mercado": 61.9,
-        "notas": "Modelo: 74.5% | Mercado: 61.9% | Edge: +12.6%",
+        "prob_mercado": 59.9,
+        "notas": "Modelo: 74.5% | Mercado: 59.9% | Edge: +14.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
