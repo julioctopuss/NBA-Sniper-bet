@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T06:35:34.781915+00:00",
+  "updated_at": "2026-11-01T08:50:44.823138+00:00",
   "games": [
     {
       "id": "e8559eaac12af915cfe6597644620c13",
@@ -48,7 +48,7 @@
         "away_ml": -240,
         "spread_home": 6.5,
         "total_ou": 222.5,
-        "best_book": "DraftKings",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -116,7 +116,7 @@
       "odds": {
         "home_ml": -165,
         "away_ml": 146,
-        "spread_home": -4.5,
+        "spread_home": -3.5,
         "total_ou": 230.5,
         "best_book": "LowVig.ag",
         "num_books": 9
@@ -189,7 +189,7 @@
         "spread_home": -1.5,
         "total_ou": 219.5,
         "best_book": "FanDuel",
-        "num_books": 7
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Los Angeles Clippers",
@@ -258,7 +258,7 @@
         "away_ml": 162,
         "spread_home": -4.5,
         "total_ou": 227.5,
-        "best_book": "DraftKings",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
