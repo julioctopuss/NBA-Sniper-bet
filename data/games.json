@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:35:42.034372+00:00",
+  "updated_at": "2026-11-02T08:58:34.077111+00:00",
   "games": [
     {
       "id": "0a12a55607db0bd7eeafee050c45988e",
@@ -45,20 +45,20 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -170,
-        "away_ml": 156,
+        "away_ml": 150,
         "spread_home": -4.5,
         "total_ou": 228.5,
         "best_book": "LowVig.ag",
-        "num_books": 9
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
         "confianza": "alta",
-        "ev": 28.0,
+        "ev": 25.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 61.7,
-        "notas": "Modelo: 50.0% | Mercado: 38.3% | Edge: +11.7%",
+        "prob_mercado": 61.2,
+        "notas": "Modelo: 50.0% | Mercado: 38.8% | Edge: +11.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -211,7 +211,7 @@
         "spread_home": 5.5,
         "total_ou": 232.5,
         "best_book": "LowVig.ag",
-        "num_books": 7
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Atlanta Hawks",
@@ -329,7 +329,7 @@
         "home_ml": -834,
         "away_ml": 625,
         "spread_home": -14.5,
-        "total_ou": 221.5,
+        "total_ou": 220.5,
         "best_book": "LowVig.ag",
         "num_books": 8
       },
@@ -396,21 +396,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 150,
-        "away_ml": -166,
+        "home_ml": 160,
+        "away_ml": -170,
         "spread_home": 4.5,
         "total_ou": 210.5,
-        "best_book": "LowVig.ag",
+        "best_book": "Bovada",
         "num_books": 8
       },
       "recomendacion": {
         "pick": "Charlotte Hornets",
         "tipo": "ML Hornets",
         "confianza": "alta",
-        "ev": 25.0,
+        "ev": 30.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 39.1,
-        "notas": "Modelo: 50.0% | Mercado: 39.1% | Edge: +10.9%",
+        "prob_mercado": 37.9,
+        "notas": "Modelo: 50.0% | Mercado: 37.9% | Edge: +12.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -466,12 +466,12 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -530,
+        "home_ml": -542,
         "away_ml": 425,
         "spread_home": -11.5,
-        "total_ou": 239.5,
-        "best_book": "BetRivers",
-        "num_books": 9
+        "total_ou": 240.5,
+        "best_book": "LowVig.ag",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -479,8 +479,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 81.5,
-        "notas": "Diferencia modelo/mercado excesiva (32%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 81.5%",
+        "prob_mercado": 81.6,
+        "notas": "Diferencia modelo/mercado excesiva (32%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 81.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -614,12 +614,12 @@
       "alerta": true,
       "alerta_msg": "Paolo Banchero Out | Jonathan Isaac Out | Izaiyah Nelson Out | Noah Penda Out | Jalen Suggs Out",
       "odds": {
-        "home_ml": -135,
-        "away_ml": 125,
-        "spread_home": -2.5,
-        "total_ou": 224.5,
-        "best_book": "DraftKings",
-        "num_books": 9
+        "home_ml": -128,
+        "away_ml": 122,
+        "spread_home": -1.5,
+        "total_ou": 223.5,
+        "best_book": "LowVig.ag",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -627,8 +627,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 56.8,
-        "prob_mercado": 56.4,
-        "notas": "Sin EV suficiente. Mejor: -1.1% (umbral 5%) | Modelo local: 56.8% | Mercado: 56.4%",
+        "prob_mercado": 55.5,
+        "notas": "Sin EV suficiente. Mejor: 1.2% (umbral 5%) | Modelo local: 56.8% | Mercado: 55.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -685,11 +685,11 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -386,
-        "away_ml": 320,
+        "away_ml": 340,
         "spread_home": -9.5,
         "total_ou": 234.5,
         "best_book": "LowVig.ag",
-        "num_books": 9
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -697,8 +697,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 76.9,
-        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 76.9%",
+        "prob_mercado": 77.8,
+        "notas": "Diferencia modelo/mercado excesiva (28%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 77.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -755,20 +755,20 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -214,
-        "away_ml": 188,
+        "away_ml": 195,
         "spread_home": -6.5,
-        "total_ou": 235.5,
+        "total_ou": 234.5,
         "best_book": "LowVig.ag",
-        "num_books": 9
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "New Orleans Pelicans",
         "tipo": "ML Pelicans",
         "confianza": "alta",
-        "ev": 44.0,
+        "ev": 47.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 66.2,
-        "notas": "Modelo: 50.0% | Mercado: 33.8% | Edge: +16.2%",
+        "prob_mercado": 66.8,
+        "notas": "Modelo: 50.0% | Mercado: 33.2% | Edge: +16.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -824,12 +824,12 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -415,
-        "away_ml": 370,
+        "home_ml": -444,
+        "away_ml": 356,
         "spread_home": -10.5,
-        "total_ou": 233.5,
-        "best_book": "Bovada",
-        "num_books": 9
+        "total_ou": 234.5,
+        "best_book": "LowVig.ag",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -837,8 +837,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 79.1,
-        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 79.1%",
+        "prob_mercado": 78.8,
+        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 78.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -930,12 +930,12 @@
       "alerta": true,
       "alerta_msg": "Devin Carter Out | Mitchell Robinson Out",
       "odds": {
-        "home_ml": -195,
-        "away_ml": 175,
-        "spread_home": -5.5,
-        "total_ou": 218.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": -185,
+        "away_ml": 171,
+        "spread_home": -4.5,
+        "total_ou": 219.5,
+        "best_book": "Bovada",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -943,8 +943,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 19.3,
-        "prob_mercado": 64.5,
-        "notas": "Diferencia modelo/mercado excesiva (45%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 19.3% | Mercado: 64.5%",
+        "prob_mercado": 63.8,
+        "notas": "Diferencia modelo/mercado excesiva (44%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 19.3% | Mercado: 63.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -1000,11 +1000,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -1126,
-        "away_ml": 800,
+        "home_ml": -1100,
+        "away_ml": 757,
         "spread_home": -16.5,
-        "total_ou": 230.5,
-        "best_book": "LowVig.ag",
+        "total_ou": 231.5,
+        "best_book": "Bovada",
         "num_books": 8
       },
       "recomendacion": {
@@ -1013,8 +1013,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 89.2,
-        "notas": "Diferencia modelo/mercado excesiva (39%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 89.2%",
+        "prob_mercado": 88.7,
+        "notas": "Diferencia modelo/mercado excesiva (39%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 88.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -1071,20 +1071,20 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": -164,
-        "away_ml": 150,
+        "away_ml": 155,
         "spread_home": -4.5,
-        "total_ou": 229.5,
+        "total_ou": 230.5,
         "best_book": "FanDuel",
-        "num_books": 9
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Portland Trail Blazers",
         "tipo": "ML Blazers",
         "confianza": "alta",
-        "ev": 25.0,
+        "ev": 27.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 60.8,
-        "notas": "Modelo: 50.0% | Mercado: 39.2% | Edge: +10.8%",
+        "prob_mercado": 61.3,
+        "notas": "Modelo: 50.0% | Mercado: 38.7% | Edge: +11.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -1232,21 +1232,21 @@
       "alerta": true,
       "alerta_msg": "Jimmy Butler III Out | Stephen Curry Out | Draymond Green Out | Moses Moody Out | Kristaps Porzingis Out",
       "odds": {
-        "home_ml": -180,
-        "away_ml": 160,
+        "home_ml": -175,
+        "away_ml": 152,
         "spread_home": -4.5,
         "total_ou": 227.5,
-        "best_book": "FanDuel",
-        "num_books": 9
+        "best_book": "Bovada",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Phoenix Suns",
         "tipo": "ML Suns",
         "confianza": "alta",
-        "ev": 33.3,
+        "ev": 29.2,
         "prob_modelo": 48.7,
-        "prob_mercado": 62.6,
-        "notas": "Modelo: 51.3% | Mercado: 37.4% | Edge: +13.8%",
+        "prob_mercado": 61.6,
+        "notas": "Modelo: 51.3% | Mercado: 38.4% | Edge: +12.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -1352,12 +1352,12 @@
       "alerta": true,
       "alerta_msg": "Nate Bittle Out | Kawhi Leonard Out",
       "odds": {
-        "home_ml": 166,
-        "away_ml": -190,
+        "home_ml": 175,
+        "away_ml": -194,
         "spread_home": 5.5,
         "total_ou": 219.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "best_book": "Bovada",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -1365,8 +1365,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 36.3,
-        "prob_mercado": 36.5,
-        "notas": "Sin EV suficiente. Mejor: -2.8% (umbral 5%) | Modelo local: 36.3% | Mercado: 36.5%",
+        "prob_mercado": 35.5,
+        "notas": "Sin EV suficiente. Mejor: -0.1% (umbral 5%) | Modelo local: 36.3% | Mercado: 35.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -1458,21 +1458,21 @@
       "alerta": true,
       "alerta_msg": "Adou Thiero Out | Ziaire Williams Out",
       "odds": {
-        "home_ml": -125,
+        "home_ml": -134,
         "away_ml": 120,
         "spread_home": -2.5,
-        "total_ou": 238.5,
-        "best_book": "BetRivers",
-        "num_books": 9
+        "total_ou": 237.5,
+        "best_book": "FanDuel",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers",
-        "confianza": "media",
-        "ev": 9.8,
+        "confianza": "baja",
+        "ev": 6.6,
         "prob_modelo": 61.0,
-        "prob_mercado": 55.0,
-        "notas": "Modelo: 61.0% | Mercado: 55.0% | Edge: +6.0%",
+        "prob_mercado": 55.7,
+        "notas": "Modelo: 61.0% | Mercado: 55.7% | Edge: +5.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
