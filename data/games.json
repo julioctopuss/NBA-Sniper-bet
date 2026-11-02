@@ -1,229 +1,18 @@
 {
-  "updated_at": "2026-11-02T00:56:42.988020+00:00",
+  "updated_at": "2026-11-02T01:50:08.166753+00:00",
   "games": [
-    {
-      "id": "fc3e945a5be88d3f933456bc512c956d",
-      "home_team": "Indiana Pacers",
-      "away_team": "Brooklyn Nets",
-      "commence_time": "2026-11-01T22:10:50Z",
-      "time_et": "6:10 PM ET",
-      "live": {
-        "state": "post",
-        "period": 4,
-        "clock": "0.0",
-        "home_score": "90",
-        "away_score": "98"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "19-63",
-        "seed": "14",
-        "ppg": "112.4",
-        "papg": "120.4",
-        "diff": "-8.0",
-        "home_rec": "11-30",
-        "away_rec": "8-33",
-        "streak": "L2",
-        "forma": [
-          "P",
-          "P",
-          "G",
-          "P",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "20-62",
-        "seed": "13",
-        "ppg": "105.9",
-        "papg": "115.9",
-        "diff": "-10.0",
-        "home_rec": "12-29",
-        "away_rec": "8-33",
-        "streak": "L3",
-        "forma": [
-          "P",
-          "P",
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Johnny Furphy",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tyrese Haliburton",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "T.J. McConnell",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ben Sheppard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Obi Toppin",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ivica Zubac",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Tyler Bilodeau",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mikel Brown Jr.",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Egor Demin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Johnny Furphy",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tyrese Haliburton",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "T.J. McConnell",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ben Sheppard",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Obi Toppin",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Ivica Zubac",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tyler Bilodeau",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Mikel Brown Jr.",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Egor Demin",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Johnny Furphy Out | Tyrese Haliburton Out | T.J. McConnell Out | Ben Sheppard Out | Obi Toppin Out | Ivica Zubac Out | Tyler Bilodeau Out | Mikel Brown Jr. Out | Egor Demin Out",
-      "odds": {
-        "home_ml": 3300,
-        "away_ml": -10000,
-        "spread_home": 8.5,
-        "total_ou": 193.5,
-        "best_book": "BetMGM",
-        "num_books": 3
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 58.1,
-        "prob_mercado": 2.9,
-        "notas": "Diferencia modelo/mercado excesiva (55%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 58.1% | Mercado: 2.9%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 50.0,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +1.0 | Línea: +8.5 | Prob cubrir local: 78.6%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.8,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.3 vs línea 193.5 (+33.8) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "094b083ace229ca31ff360a80e35a1a8",
       "home_team": "Golden State Warriors",
       "away_team": "Los Angeles Clippers",
-      "commence_time": "2026-11-02T01:40:00Z",
-      "time_et": "9:40 PM ET",
+      "commence_time": "2026-11-02T01:42:00Z",
+      "time_et": "9:42 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "7:30",
+        "home_score": "9",
+        "away_score": "14"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -333,21 +122,21 @@
       "alerta": true,
       "alerta_msg": "Jimmy Butler III Out | Stephen Curry Out | Draymond Green Out | Moses Moody Out | Kristaps Porzingis Out",
       "odds": {
-        "home_ml": -125,
-        "away_ml": 114,
-        "spread_home": -2.5,
+        "home_ml": 110,
+        "away_ml": 112,
+        "spread_home": 1.5,
         "total_ou": 220.5,
-        "best_book": "DraftKings",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Los Angeles Clippers",
         "tipo": "ML Clippers",
         "confianza": "media",
-        "ev": 9.7,
+        "ev": 8.7,
         "prob_modelo": 48.7,
-        "prob_mercado": 54.3,
-        "notas": "Modelo: 51.3% | Mercado: 45.7% | Edge: +5.6%",
+        "prob_mercado": 50.2,
+        "notas": "Modelo: 51.3% | Mercado: 49.8% | Edge: +1.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -439,6 +228,13 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Jakob Poeltl",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         }
       ],
       "injuries": [
@@ -469,13 +265,20 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Jakob Poeltl",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Adou Thiero Out | Ziaire Williams Out | Nate Bittle Out | Kawhi Leonard Out",
+      "alerta_msg": "Adou Thiero Out | Ziaire Williams Out | Nate Bittle Out | Kawhi Leonard Out | Jakob Poeltl Out",
       "odds": {
-        "home_ml": -152,
-        "away_ml": 138,
+        "home_ml": -155,
+        "away_ml": 141,
         "spread_home": -3.5,
         "total_ou": 223.5,
         "best_book": "BetRivers",
@@ -485,10 +288,10 @@
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 25.7,
+        "ev": 27.3,
         "prob_modelo": 47.2,
-        "prob_mercado": 58.9,
-        "notas": "Modelo: 52.8% | Mercado: 41.1% | Edge: +11.8%",
+        "prob_mercado": 59.4,
+        "notas": "Modelo: 52.8% | Mercado: 40.6% | Edge: +12.3%",
         "spread_lado": "VISITANTE",
         "spread_ev": 20.7,
         "spread_conf": "media",
