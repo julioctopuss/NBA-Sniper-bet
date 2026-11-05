@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T07:09:32.598490+00:00",
+  "updated_at": "2026-11-05T09:04:31.876965+00:00",
   "games": [
     {
       "id": "2a76b31e02d1416de069a995589515fc",
@@ -94,21 +94,21 @@
       "alerta": true,
       "alerta_msg": "Rasheer Fleming Out | Jordan Goodwin Out | Mark Williams Out",
       "odds": {
-        "home_ml": -112,
-        "away_ml": 110,
+        "home_ml": -108,
+        "away_ml": 101,
         "spread_home": -1.5,
         "total_ou": 223.5,
-        "best_book": "FanDuel",
-        "num_books": 8
+        "best_book": "BetRivers",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Phoenix Suns",
         "tipo": "ML Suns",
         "confianza": "media",
-        "ev": 12.6,
+        "ev": 14.5,
         "prob_modelo": 59.5,
-        "prob_mercado": 52.6,
-        "notas": "Modelo: 59.5% | Mercado: 52.6% | Edge: +6.9%",
+        "prob_mercado": 51.1,
+        "notas": "Modelo: 59.5% | Mercado: 51.1% | Edge: +8.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -170,12 +170,12 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -274,
+        "home_ml": -275,
         "away_ml": 255,
-        "spread_home": -6.5,
+        "spread_home": -7.5,
         "total_ou": 235.5,
-        "best_book": "DraftKings",
-        "num_books": 8
+        "best_book": "Bovada",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sin pick",
