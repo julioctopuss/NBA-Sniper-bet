@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:56:54.881885+00:00",
+  "updated_at": "2026-11-06T01:41:49.728475+00:00",
   "games": [
     {
       "id": "2a76b31e02d1416de069a995589515fc",
@@ -171,8 +171,8 @@
       "alerta": true,
       "alerta_msg": "Rasheer Fleming Out | Jordan Goodwin Out | Mark Williams Out | Paolo Banchero Out | Jonathan Isaac Out | Izaiyah Nelson Out | Noah Penda Out | Jalen Suggs Out",
       "odds": {
-        "home_ml": -110,
-        "away_ml": 106,
+        "home_ml": -116,
+        "away_ml": 102,
         "spread_home": -1.5,
         "total_ou": 222.5,
         "best_book": "FanDuel",
@@ -184,8 +184,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 54.3,
-        "prob_mercado": 51.9,
-        "notas": "Sin EV suficiente. Mejor: 3.6% (umbral 5%) | Modelo local: 54.3% | Mercado: 51.9%",
+        "prob_mercado": 52.0,
+        "notas": "Sin EV suficiente. Mejor: 1.1% (umbral 5%) | Modelo local: 54.3% | Mercado: 52.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -311,21 +311,21 @@
       "alerta": true,
       "alerta_msg": "Jimmy Butler III Out | Moses Moody Out | Kristaps Porzingis Out | Gui Santos Out",
       "odds": {
-        "home_ml": -160,
-        "away_ml": 145,
+        "home_ml": -164,
+        "away_ml": 146,
         "spread_home": -3.5,
         "total_ou": 235.5,
-        "best_book": "BetOnline.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Miami Heat",
         "tipo": "ML Heat",
         "confianza": "alta",
-        "ev": 52.1,
+        "ev": 52.7,
         "prob_modelo": 37.9,
-        "prob_mercado": 60.1,
-        "notas": "Modelo: 62.1% | Mercado: 39.9% | Edge: +22.2%",
+        "prob_mercado": 60.4,
+        "notas": "Modelo: 62.1% | Mercado: 39.6% | Edge: +22.5%",
         "spread_lado": "VISITANTE",
         "spread_ev": 26.3,
         "spread_conf": "media",
