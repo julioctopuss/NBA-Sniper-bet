@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T00:49:29.691509+00:00",
+  "updated_at": "2026-11-08T01:50:40.204305+00:00",
   "games": [
     {
       "id": "ee45341df802cfb42dd48f1ad60c8b81",
@@ -9,10 +9,10 @@
       "time_et": "8:40 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "8:01",
-        "home_score": "4",
-        "away_score": "12"
+        "period": 2,
+        "clock": "0.1",
+        "home_score": "66",
+        "away_score": "70"
       },
       "home_stats": {
         "conference": "Este",
@@ -157,170 +157,29 @@
       "alerta": true,
       "alerta_msg": "Keshon Gilbert Out | Mouhamed Gueye Out | Jock Landale Out | Asa Newell Out | Henri Veesaar Out | Egor Demin Out",
       "odds": {
-        "home_ml": -130,
-        "away_ml": 225,
-        "spread_home": -1.5,
-        "total_ou": 223.5,
-        "best_book": "DraftKings",
-        "num_books": 8
+        "home_ml": -172,
+        "away_ml": 145,
+        "spread_home": -2.5,
+        "total_ou": 248.5,
+        "best_book": "FanDuel",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Atlanta Hawks",
-        "tipo": "ML Hawks",
-        "confianza": "alta",
-        "ev": 58.3,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 89.5,
-        "prob_mercado": 64.8,
-        "notas": "Modelo: 89.5% | Mercado: 64.8% | Edge: +24.7%",
+        "prob_mercado": 60.8,
+        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 89.5% | Mercado: 60.8%",
         "spread_lado": "LOCAL",
-        "spread_ev": 24.8,
+        "spread_ev": 18.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +6.2 | Línea: -1.5 | Prob cubrir local: 65.4%",
-        "ou_pick": "OVER",
-        "ou_ev": 30.0,
+        "spread_notas": "Margen proyectado: +6.2 | Línea: -2.5 | Prob cubrir local: 62.3%",
+        "ou_pick": "UNDER",
+        "ou_ev": 86.9,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.2 vs línea 223.5 (+4.7) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "fdf3b77f50b2fad3988193af5ef4b00e",
-      "home_team": "Cleveland Cavaliers",
-      "away_team": "New York Knicks",
-      "commence_time": "2026-11-08T01:10:00Z",
-      "time_et": "9:10 PM ET",
-      "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "52-30",
-        "seed": "4",
-        "ppg": "119.5",
-        "papg": "115.4",
-        "diff": "+4.1",
-        "home_rec": "27-14",
-        "away_rec": "25-16",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Jarrett Allen",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Sam Merrill",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jaylon Tyson",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Josh Hart",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jarrett Allen",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Sam Merrill",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Jaylon Tyson",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Josh Hart",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jarrett Allen Out | Sam Merrill Out | Jaylon Tyson Out | Josh Hart Out",
-      "odds": {
-        "home_ml": 171,
-        "away_ml": -186,
-        "spread_home": 4.5,
-        "total_ou": 223.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
-      },
-      "recomendacion": {
-        "pick": "Cleveland Cavaliers",
-        "tipo": "ML Cavaliers",
-        "confianza": "media",
-        "ev": 14.1,
-        "prob_modelo": 42.1,
-        "prob_mercado": 36.2,
-        "notas": "Modelo: 42.1% | Mercado: 36.2% | Edge: +5.9%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 16.4,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.2 | Línea: +4.5 | Prob cubrir local: 61.0%",
-        "ou_pick": "OVER",
-        "ou_ev": 46.5,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 230.8 vs línea 223.5 (+7.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 228.2 vs línea 248.5 (-20.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -329,14 +188,14 @@
       "id": "6faeaee3bdf2a167eb67f93c44d3ef37",
       "home_team": "Oklahoma City Thunder",
       "away_team": "Washington Wizards",
-      "commence_time": "2026-11-08T01:10:00Z",
-      "time_et": "9:10 PM ET",
+      "commence_time": "2026-11-08T01:11:00Z",
+      "time_et": "9:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 2,
+        "clock": "7:29",
+        "home_score": "35",
+        "away_score": "23"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -523,29 +382,170 @@
       "alerta": true,
       "alerta_msg": "Chet Holmgren Out | Thomas Sorber Out | Cason Wallace Out | Jalen Williams Out | Jaylin Williams Out | Reece Beekman Out | Justin Champagnie Out | Anthony Davis Out | Tristan Vukcevic Out | Jamir Watkins Out",
       "odds": {
-        "home_ml": -600,
-        "away_ml": 510,
-        "spread_home": -12.5,
-        "total_ou": 224.5,
-        "best_book": "BetUS",
-        "num_books": 9
+        "home_ml": -1800,
+        "away_ml": 1100,
+        "spread_home": -15.5,
+        "total_ou": 203.5,
+        "best_book": "Bovada",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Oklahoma City Thunder",
-        "tipo": "ML Thunder",
-        "confianza": "media",
-        "ev": 8.8,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 93.2,
-        "prob_mercado": 83.9,
-        "notas": "Modelo: 93.2% | Mercado: 83.9% | Edge: +9.3%",
+        "prob_mercado": 91.9,
+        "notas": "Sin EV suficiente. Mejor: -1.6% (umbral 5%) | Modelo local: 93.2% | Mercado: 91.9%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 20.1,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +11.5 | Línea: -15.5 | Prob cubrir visitante: 62.9%",
+        "ou_pick": "OVER",
+        "ou_ev": 90.5,
+        "ou_confianza": "media",
+        "ou_notas": "Proyección 232.4 vs línea 203.5 (+28.9) | Penalty bajas: 0.0 pts",
+        "home_pra_out": 0.0,
+        "away_pra_out": 0.0
+      }
+    },
+    {
+      "id": "fdf3b77f50b2fad3988193af5ef4b00e",
+      "home_team": "Cleveland Cavaliers",
+      "away_team": "New York Knicks",
+      "commence_time": "2026-11-08T01:13:00Z",
+      "time_et": "9:13 PM ET",
+      "live": {
+        "state": "in",
+        "period": 2,
+        "clock": "8:17",
+        "home_score": "36",
+        "away_score": "32"
+      },
+      "home_stats": {
+        "conference": "Este",
+        "record": "52-30",
+        "seed": "4",
+        "ppg": "119.5",
+        "papg": "115.4",
+        "diff": "+4.1",
+        "home_rec": "27-14",
+        "away_rec": "25-16",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "Este",
+        "record": "53-29",
+        "seed": "3",
+        "ppg": "116.5",
+        "papg": "110.1",
+        "diff": "+6.4",
+        "home_rec": "30-10",
+        "away_rec": "22-19",
+        "streak": "L1",
+        "forma": [
+          "P",
+          "G",
+          "G",
+          "G",
+          "G"
+        ]
+      },
+      "home_injuries": [
+        {
+          "player": "Jarrett Allen",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Sam Merrill",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaylon Tyson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [
+        {
+          "player": "Josh Hart",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "injuries": [
+        {
+          "player": "Jarrett Allen",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Sam Merrill",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Jaylon Tyson",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Josh Hart",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jarrett Allen Out | Sam Merrill Out | Jaylon Tyson Out | Josh Hart Out",
+      "odds": {
+        "home_ml": 135,
+        "away_ml": 100,
+        "spread_home": 1.5,
+        "total_ou": 216.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 6
+      },
+      "recomendacion": {
+        "pick": "New York Knicks",
+        "tipo": "ML Knicks",
+        "confianza": "alta",
+        "ev": 15.8,
+        "prob_modelo": 42.1,
+        "prob_mercado": 46.0,
+        "notas": "Modelo: 57.9% | Mercado: 54.0% | Edge: +3.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +11.5 | Línea: -12.5 | Sin EV en spread (local: -10.6%, visit: 1.5%)",
+        "spread_notas": "Margen proyectado: +-1.2 | Línea: +1.5 | Sin EV en spread (local: -2.3%, visit: -6.8%)",
         "ou_pick": "OVER",
-        "ou_ev": 49.9,
+        "ou_ev": 76.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 232.4 vs línea 224.5 (+7.9) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.8 vs línea 216.5 (+14.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -554,14 +554,14 @@
       "id": "39099dc03208d0771daaab5f7993478a",
       "home_team": "Golden State Warriors",
       "away_team": "Orlando Magic",
-      "commence_time": "2026-11-08T01:40:00Z",
-      "time_et": "9:40 PM ET",
+      "commence_time": "2026-11-08T01:43:00Z",
+      "time_et": "9:43 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "7:55",
+        "home_score": "15",
+        "away_score": "9"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -734,11 +734,11 @@
       "alerta": true,
       "alerta_msg": "Jimmy Butler III Out | Moses Moody Out | Kristaps Porzingis Out | Paolo Banchero Out | Desmond Bane Out | Jonathan Isaac Out | Izaiyah Nelson Out | Noah Penda Out | Jalen Suggs Out",
       "odds": {
-        "home_ml": -275,
-        "away_ml": 265,
-        "spread_home": -7.5,
-        "total_ou": 220.5,
-        "best_book": "BetRivers",
+        "home_ml": -307,
+        "away_ml": 375,
+        "spread_home": -9.5,
+        "total_ou": 225.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -747,16 +747,16 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 43.5,
-        "prob_mercado": 72.8,
-        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 43.5% | Mercado: 72.8%",
+        "prob_mercado": 78.2,
+        "notas": "Diferencia modelo/mercado excesiva (35%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 43.5% | Mercado: 78.2%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 43.2,
+        "spread_ev": 52.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-0.6 | Línea: -7.5 | Prob cubrir visitante: 75.0%",
+        "spread_notas": "Margen proyectado: +-0.6 | Línea: -9.5 | Prob cubrir visitante: 80.0%",
         "ou_pick": "OVER",
-        "ou_ev": 59.7,
+        "ou_ev": 30.7,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.3 vs línea 220.5 (+9.8) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.3 vs línea 225.5 (+4.8) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -812,18 +812,11 @@
       },
       "home_injuries": [
         {
-          "player": "Rasheer Fleming",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Jordan Goodwin",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Mark Williams",
@@ -851,18 +844,11 @@
       ],
       "injuries": [
         {
-          "player": "Rasheer Fleming",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        },
-        {
           "player": "Jordan Goodwin",
           "position": "G",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Mark Williams",
@@ -887,7 +873,7 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Mark Williams Out | Steven Adams Out | Clint Capela Out",
+      "alerta_msg": "Jordan Goodwin Out | Mark Williams Out | Steven Adams Out | Clint Capela Out",
       "odds": {
         "home_ml": 225,
         "away_ml": -250,
