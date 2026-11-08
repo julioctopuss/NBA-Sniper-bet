@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T06:28:37.710694+00:00",
+  "updated_at": "2026-11-08T08:41:19.753681+00:00",
   "games": [
     {
       "id": "a5d2d9c68b7446860de658aa4bc33c5b",
@@ -45,7 +45,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": 340,
-        "away_ml": -376,
+        "away_ml": -385,
         "spread_home": 9.5,
         "total_ou": 238.5,
         "best_book": "FanDuel",
@@ -184,11 +184,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -581,
+        "home_ml": -560,
         "away_ml": 460,
         "spread_home": -11.5,
         "total_ou": 223.5,
-        "best_book": "LowVig.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -197,8 +197,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 82.7,
-        "notas": "Diferencia modelo/mercado excesiva (33%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 82.7%",
+        "prob_mercado": 82.6,
+        "notas": "Diferencia modelo/mercado excesiva (33%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 82.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -290,21 +290,21 @@
       "alerta": true,
       "alerta_msg": "Mikel Brown Jr. Out | Egor Demin Out",
       "odds": {
-        "home_ml": -345,
+        "home_ml": -360,
         "away_ml": 329,
         "spread_home": -9.5,
         "total_ou": 218.5,
-        "best_book": "BetRivers",
+        "best_book": "FanDuel",
         "num_books": 8
       },
       "recomendacion": {
         "pick": "Dallas Mavericks",
         "tipo": "ML Mavericks",
         "confianza": "media",
-        "ev": 9.1,
+        "ev": 8.1,
         "prob_modelo": 84.6,
-        "prob_mercado": 76.9,
-        "notas": "Modelo: 84.6% | Mercado: 76.9% | Edge: +7.7%",
+        "prob_mercado": 77.1,
+        "notas": "Modelo: 84.6% | Mercado: 77.1% | Edge: +7.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
