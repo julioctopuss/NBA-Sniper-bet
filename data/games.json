@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:00:03.849922+00:00",
+  "updated_at": "2026-11-09T09:18:30.122688+00:00",
   "games": [
     {
       "id": "07361a8381206817e27bd2697fad7479",
@@ -81,7 +81,7 @@
       "alerta_msg": "Luka Doncic Out",
       "odds": {
         "home_ml": 120,
-        "away_ml": -128,
+        "away_ml": -126,
         "spread_home": 2.5,
         "total_ou": 236.5,
         "best_book": "Bovada",
@@ -90,11 +90,11 @@
       "recomendacion": {
         "pick": "Los Angeles Lakers",
         "tipo": "ML Lakers",
-        "confianza": "baja",
-        "ev": 7.3,
+        "confianza": "media",
+        "ev": 8.1,
         "prob_modelo": 39.8,
-        "prob_mercado": 44.7,
-        "notas": "Modelo: 60.2% | Mercado: 55.3% | Edge: +5.0%",
+        "prob_mercado": 44.9,
+        "notas": "Modelo: 60.2% | Mercado: 55.1% | Edge: +5.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -150,11 +150,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 290,
+        "home_ml": 295,
         "away_ml": -335,
         "spread_home": 9.5,
         "total_ou": 215.5,
-        "best_book": "FanDuel",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -163,8 +163,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 25.0,
-        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 25.0%",
+        "prob_mercado": 24.7,
+        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 24.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -257,7 +257,7 @@
       "alerta_msg": "Jalen Duren Out | Isaiah Joe Out",
       "odds": {
         "home_ml": -444,
-        "away_ml": 390,
+        "away_ml": 385,
         "spread_home": -10.5,
         "total_ou": 218.5,
         "best_book": "LowVig.ag",
@@ -269,8 +269,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 82.9,
-        "prob_mercado": 80.0,
-        "notas": "Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 82.9% | Mercado: 80.0%",
+        "prob_mercado": 79.8,
+        "notas": "Sin EV suficiente. Mejor: 1.5% (umbral 5%) | Modelo local: 82.9% | Mercado: 79.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -446,11 +446,11 @@
       "alerta": true,
       "alerta_msg": "Tarik Biberovic Out | Sergio de Larrea Out | Dereck Lively II Out",
       "odds": {
-        "home_ml": -164,
-        "away_ml": 154,
+        "home_ml": -146,
+        "away_ml": 135,
         "spread_home": -3.5,
-        "total_ou": 221.5,
-        "best_book": "FanDuel",
+        "total_ou": 222.5,
+        "best_book": "LowVig.ag",
         "num_books": 8
       },
       "recomendacion": {
@@ -459,8 +459,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 29.2,
-        "prob_mercado": 61.2,
-        "notas": "Diferencia modelo/mercado excesiva (32%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 29.2% | Mercado: 61.2%",
+        "prob_mercado": 58.2,
+        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 29.2% | Mercado: 58.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -589,7 +589,7 @@
         "home_ml": 295,
         "away_ml": -335,
         "spread_home": 8.5,
-        "total_ou": 228.5,
+        "total_ou": 227.5,
         "best_book": "FanDuel",
         "num_books": 9
       },
