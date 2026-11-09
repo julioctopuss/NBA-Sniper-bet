@@ -1,133 +1,6 @@
 {
-  "updated_at": "2026-11-09T01:04:31.696929+00:00",
+  "updated_at": "2026-11-09T01:59:05.807061+00:00",
   "games": [
-    {
-      "id": "182e2b5349fa0ff4ad3c0e8359c1a9a0",
-      "home_team": "Detroit Pistons",
-      "away_team": "Los Angeles Lakers",
-      "commence_time": "2026-11-08T23:11:00Z",
-      "time_et": "7:11 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "7:55",
-        "home_score": "89",
-        "away_score": "92"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "60-22",
-        "seed": "1",
-        "ppg": "117.8",
-        "papg": "109.6",
-        "diff": "+8.2",
-        "home_rec": "31-9",
-        "away_rec": "28-13",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "P",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Oeste",
-        "record": "53-29",
-        "seed": "4",
-        "ppg": "116.3",
-        "papg": "114.6",
-        "diff": "+1.7",
-        "home_rec": "28-13",
-        "away_rec": "25-16",
-        "streak": "W3",
-        "forma": [
-          "G",
-          "G",
-          "G",
-          "P",
-          "P"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Jalen Duren",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Isaiah Joe",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "away_injuries": [
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Jalen Duren",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Isaiah Joe",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Luka Doncic",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Jalen Duren Out | Isaiah Joe Out | Luka Doncic Out",
-      "odds": {
-        "home_ml": 140,
-        "away_ml": -110,
-        "spread_home": 1.5,
-        "total_ou": 220.5,
-        "best_book": "MyBookie.ag",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 76.1,
-        "prob_mercado": 44.3,
-        "notas": "Diferencia modelo/mercado excesiva (32%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 76.1% | Mercado: 44.3%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 24.8,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.2 | Línea: +1.5 | Prob cubrir local: 65.4%",
-        "ou_pick": "OVER",
-        "ou_ev": 53.7,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 229.1 vs línea 220.5 (+8.6) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0.0
-      }
-    },
     {
       "id": "758ca94b2abd151c0593b182254dab32",
       "home_team": "Minnesota Timberwolves",
@@ -136,10 +9,10 @@
       "time_et": "8:11 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "1:54",
-        "home_score": "51",
-        "away_score": "44"
+        "period": 3,
+        "clock": "0.7",
+        "home_score": "89",
+        "away_score": "78"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -256,29 +129,29 @@
       "alerta": true,
       "alerta_msg": "Donte DiVincenzo Out | Anthony Edwards Out | Jaren Jackson Jr. Out | Lauri Markkanen Out | Jusuf Nurkic Out",
       "odds": {
-        "home_ml": -1000,
-        "away_ml": 1100,
-        "spread_home": -15.5,
-        "total_ou": 217.5,
-        "best_book": "MyBookie.ag",
+        "home_ml": -1600,
+        "away_ml": 1200,
+        "spread_home": -12.5,
+        "total_ou": 222.5,
+        "best_book": "DraftKings",
         "num_books": 6
       },
       "recomendacion": {
         "pick": "Utah Jazz",
         "tipo": "ML Jazz",
         "confianza": "alta",
-        "ev": 22.4,
+        "ev": 32.6,
         "prob_modelo": 89.8,
-        "prob_mercado": 91.6,
-        "notas": "Modelo: 10.2% | Mercado: 8.4% | Edge: +1.8%",
+        "prob_mercado": 92.4,
+        "notas": "Modelo: 10.2% | Mercado: 7.6% | Edge: +2.6%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 50.5,
+        "spread_ev": 35.3,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +5.9 | Línea: -15.5 | Prob cubrir visitante: 78.8%",
+        "spread_notas": "Margen proyectado: +5.9 | Línea: -12.5 | Prob cubrir visitante: 70.9%",
         "ou_pick": "OVER",
-        "ou_ev": 87.2,
+        "ou_ev": 79.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 238.1 vs línea 217.5 (+20.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 238.1 vs línea 222.5 (+15.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -291,10 +164,10 @@
       "time_et": "8:41 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "2:34",
-        "home_score": "27",
-        "away_score": "18"
+        "period": 2,
+        "clock": "0.0",
+        "home_score": "66",
+        "away_score": "46"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -425,29 +298,29 @@
       "alerta": true,
       "alerta_msg": "Tarik Biberovic Out | Sergio de Larrea Out | Dereck Lively II Out | Mikel Brown Jr. Out | Egor Demin Out",
       "odds": {
-        "home_ml": -575,
-        "away_ml": 475,
-        "spread_home": -10.5,
-        "total_ou": 224.5,
+        "home_ml": -6000,
+        "away_ml": 2000,
+        "spread_home": -20.5,
+        "total_ou": 222.5,
         "best_book": "DraftKings",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Brooklyn Nets",
-        "tipo": "ML Nets",
-        "confianza": "alta",
-        "ev": 75.9,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 69.4,
-        "prob_mercado": 83.0,
-        "notas": "Modelo: 30.6% | Mercado: 17.0% | Edge: +13.6%",
+        "prob_mercado": 95.4,
+        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 69.4% | Mercado: 95.4%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 44.0,
+        "spread_ev": 78.7,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +2.2 | Línea: -10.5 | Prob cubrir visitante: 75.4%",
+        "spread_notas": "Margen proyectado: +2.2 | Línea: -20.5 | Prob cubrir visitante: 93.6%",
         "ou_pick": "OVER",
-        "ou_ev": 20.1,
+        "ou_ev": 34.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.8 vs línea 224.5 (+3.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.8 vs línea 222.5 (+5.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -456,14 +329,14 @@
       "id": "98eae523edadc7d4d42ab37222eb2c88",
       "home_team": "Milwaukee Bucks",
       "away_team": "Boston Celtics",
-      "commence_time": "2026-11-09T01:10:00Z",
-      "time_et": "9:10 PM ET",
+      "commence_time": "2026-11-09T01:12:00Z",
+      "time_et": "9:12 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 2,
+        "clock": "2:38",
+        "home_score": "39",
+        "away_score": "54"
       },
       "home_stats": {
         "conference": "Este",
@@ -523,29 +396,29 @@
       "alerta": true,
       "alerta_msg": "Gary Trent Jr. Out",
       "odds": {
-        "home_ml": 590,
-        "away_ml": -770,
-        "spread_home": 13.5,
-        "total_ou": 221.5,
-        "best_book": "FanDuel",
-        "num_books": 9
+        "home_ml": 1700,
+        "away_ml": -1667,
+        "spread_home": 18.5,
+        "total_ou": 214.5,
+        "best_book": "DraftKings",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Milwaukee Bucks",
+        "tipo": "ML Bucks",
+        "confianza": "alta",
+        "ev": 90.4,
         "prob_modelo": 10.6,
-        "prob_mercado": 14.1,
-        "notas": "Sin EV suficiente. Mejor: 1.0% (umbral 5%) | Modelo local: 10.6% | Mercado: 14.1%",
+        "prob_mercado": 5.6,
+        "notas": "Modelo: 10.6% | Mercado: 5.6% | Edge: +5.0%",
         "spread_lado": "LOCAL",
-        "spread_ev": 35.0,
+        "spread_ev": 58.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-6.9 | Línea: +13.5 | Prob cubrir local: 70.7%",
+        "spread_notas": "Margen proyectado: +-6.9 | Línea: +18.5 | Prob cubrir local: 83.2%",
         "ou_pick": "OVER",
-        "ou_ev": 20.1,
+        "ou_ev": 62.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 224.8 vs línea 221.5 (+3.3) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 224.8 vs línea 214.5 (+10.3) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -615,7 +488,7 @@
       "alerta": true,
       "alerta_msg": "Yves Missi Out",
       "odds": {
-        "home_ml": 107,
+        "home_ml": 114,
         "away_ml": -115,
         "spread_home": 1.5,
         "total_ou": 226.5,
@@ -626,10 +499,10 @@
         "pick": "Los Angeles Clippers",
         "tipo": "ML Clippers",
         "confianza": "alta",
-        "ev": 44.0,
+        "ev": 48.9,
         "prob_modelo": 69.6,
-        "prob_mercado": 47.5,
-        "notas": "Modelo: 69.6% | Mercado: 47.5% | Edge: +22.1%",
+        "prob_mercado": 46.6,
+        "notas": "Modelo: 69.6% | Mercado: 46.6% | Edge: +23.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -702,9 +575,9 @@
         {
           "player": "Domantas Sabonis",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Ben Simmons",
@@ -726,9 +599,9 @@
         {
           "player": "Domantas Sabonis",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Ben Simmons",
@@ -739,12 +612,12 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Maxime Raynaud Out | Ben Simmons Out",
+      "alerta_msg": "Maxime Raynaud Out | Domantas Sabonis Out | Ben Simmons Out",
       "odds": {
-        "home_ml": 456,
-        "away_ml": -480,
+        "home_ml": 430,
+        "away_ml": -525,
         "spread_home": 11.5,
-        "total_ou": 236.5,
+        "total_ou": 235.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -752,10 +625,10 @@
         "pick": "Miami Heat",
         "tipo": "ML Heat",
         "confianza": "baja",
-        "ev": 6.6,
+        "ev": 5.0,
         "prob_modelo": 11.8,
-        "prob_mercado": 17.9,
-        "notas": "Modelo: 88.2% | Mercado: 82.1% | Edge: +6.1%",
+        "prob_mercado": 18.3,
+        "notas": "Modelo: 88.2% | Mercado: 81.7% | Edge: +6.5%",
         "spread_lado": "LOCAL",
         "spread_ev": 28.0,
         "spread_conf": "media",
@@ -763,7 +636,7 @@
         "ou_pick": null,
         "ou_ev": null,
         "ou_confianza": "—",
-        "ou_notas": "Proyección 235.7 vs línea 236.5 (-0.8) | Penalty bajas: 0.0 pts — sin EV suficiente",
+        "ou_notas": "Proyección 235.7 vs línea 235.5 (+0.2) | Penalty bajas: 0.0 pts — sin EV suficiente",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
