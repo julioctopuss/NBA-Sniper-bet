@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:19:39.945527+00:00",
+  "updated_at": "2026-11-10T07:36:53.852107+00:00",
   "games": [
     {
       "id": "3689d555c9a1c81e3d300375b4c80530",
@@ -44,11 +44,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -1180,
-        "away_ml": 750,
+        "home_ml": -1028,
+        "away_ml": 810,
         "spread_home": -15.5,
         "total_ou": 219.5,
-        "best_book": "DraftKings",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -57,8 +57,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 88.7,
-        "notas": "Diferencia modelo/mercado excesiva (39%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 88.7%",
+        "prob_mercado": 89.2,
+        "notas": "Diferencia modelo/mercado excesiva (39%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 89.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,8 +114,8 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 104,
-        "away_ml": -117,
+        "home_ml": 106,
+        "away_ml": -115,
         "spread_home": 1.5,
         "total_ou": 217.5,
         "best_book": "BetRivers",
@@ -128,7 +128,7 @@
         "ev": null,
         "prob_modelo": 50.0,
         "prob_mercado": 47.6,
-        "notas": "Sin EV suficiente. Mejor: 2.0% (umbral 5%) | Modelo local: 50.0% | Mercado: 47.6%",
+        "notas": "Sin EV suficiente. Mejor: 3.0% (umbral 5%) | Modelo local: 50.0% | Mercado: 47.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -138,6 +138,112 @@
         "ou_confianza": "—",
         "ou_notas": "Sin datos.",
         "home_pra_out": 0,
+        "away_pra_out": 0
+      }
+    },
+    {
+      "id": "8178ff2ec61f604b61dfe6d7b8d71103",
+      "home_team": "Phoenix Suns",
+      "away_team": "Los Angeles Clippers",
+      "commence_time": "2026-11-11T02:10:00Z",
+      "time_et": "10:10 PM ET",
+      "live": {
+        "state": "post",
+        "period": 4,
+        "clock": "12:00",
+        "home_score": "96",
+        "away_score": "122"
+      },
+      "home_stats": {
+        "conference": "Oeste",
+        "record": "45-37",
+        "seed": "8",
+        "ppg": "112.6",
+        "papg": "111.1",
+        "diff": "+1.5",
+        "home_rec": "25-16",
+        "away_rec": "20-21",
+        "streak": "W1",
+        "forma": [
+          "G",
+          "P",
+          "G",
+          "P",
+          "G"
+        ]
+      },
+      "away_stats": {
+        "conference": "—",
+        "record": "—",
+        "seed": "—",
+        "ppg": "—",
+        "papg": "—",
+        "diff": "—",
+        "home_rec": "—",
+        "away_rec": "—",
+        "streak": "—",
+        "forma": []
+      },
+      "home_injuries": [
+        {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "away_injuries": [],
+      "injuries": [
+        {
+          "player": "Jordan Goodwin",
+          "position": "G",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "Mark Williams",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        }
+      ],
+      "alerta": true,
+      "alerta_msg": "Jordan Goodwin Out | Mark Williams Out",
+      "odds": {
+        "home_ml": -157,
+        "away_ml": 148,
+        "spread_home": -4.5,
+        "total_ou": 225.5,
+        "best_book": "BetRivers",
+        "num_books": 8
+      },
+      "recomendacion": {
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
+        "prob_modelo": 59.5,
+        "prob_mercado": 60.2,
+        "notas": "Sin EV suficiente. Mejor: 0.5% (umbral 5%) | Modelo local: 59.5% | Mercado: 60.2%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Sin datos para spread.",
+        "ou_pick": null,
+        "ou_ev": null,
+        "ou_confianza": "—",
+        "ou_notas": "Sin datos.",
+        "home_pra_out": 0.0,
         "away_pra_out": 0
       }
     },
@@ -185,7 +291,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": 350,
-        "away_ml": -423,
+        "away_ml": -380,
         "spread_home": 9.5,
         "total_ou": 227.5,
         "best_book": "FanDuel",
@@ -197,8 +303,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 21.6,
-        "notas": "Diferencia modelo/mercado excesiva (28%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 21.6%",
+        "prob_mercado": 21.9,
+        "notas": "Diferencia modelo/mercado excesiva (28%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 21.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -254,21 +360,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 200,
-        "away_ml": -218,
+        "home_ml": 198,
+        "away_ml": -225,
         "spread_home": 6.5,
         "total_ou": 221.5,
-        "best_book": "Bovada",
-        "num_books": 8
+        "best_book": "LowVig.ag",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sacramento Kings",
         "tipo": "ML Kings",
         "confianza": "alta",
-        "ev": 50.0,
+        "ev": 49.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 32.7,
-        "notas": "Modelo: 50.0% | Mercado: 32.7% | Edge: +17.3%",
+        "prob_mercado": 32.6,
+        "notas": "Modelo: 50.0% | Mercado: 32.6% | Edge: +17.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
