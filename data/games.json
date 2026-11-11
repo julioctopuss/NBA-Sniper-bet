@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:21:09.910270+00:00",
+  "updated_at": "2026-11-11T02:15:59.797363+00:00",
   "games": [
     {
       "id": "3689d555c9a1c81e3d300375b4c80530",
@@ -9,10 +9,10 @@
       "time_et": "8:41 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "4:57",
-        "home_score": "45",
-        "away_score": "26"
+        "period": 3,
+        "clock": "1:18",
+        "home_score": "83",
+        "away_score": "64"
       },
       "home_stats": {
         "conference": "Este",
@@ -87,29 +87,29 @@
       "alerta": true,
       "alerta_msg": "Josh Hart Out | Tyler Herro Out",
       "odds": {
-        "home_ml": -5000,
-        "away_ml": 2800,
-        "spread_home": -23.5,
-        "total_ou": 207.5,
-        "best_book": "MyBookie.ag",
+        "home_ml": -50000,
+        "away_ml": 3000,
+        "spread_home": -20.5,
+        "total_ou": 210.5,
+        "best_book": "FanDuel",
         "num_books": 6
       },
       "recomendacion": {
         "pick": "Milwaukee Bucks",
         "tipo": "ML Bucks",
         "confianza": "alta",
-        "ev": 184.2,
+        "ev": 203.8,
         "prob_modelo": 90.2,
-        "prob_mercado": 96.6,
-        "notas": "Modelo: 9.8% | Mercado: 3.4% | Edge: +6.4%",
+        "prob_mercado": 96.9,
+        "notas": "Modelo: 9.8% | Mercado: 3.1% | Edge: +6.7%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 76.4,
+        "spread_ev": 68.3,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +6.3 | Línea: -23.5 | Prob cubrir visitante: 92.4%",
+        "spread_notas": "Margen proyectado: +6.3 | Línea: -20.5 | Prob cubrir visitante: 88.2%",
         "ou_pick": "OVER",
-        "ou_ev": 86.0,
+        "ou_ev": 81.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.0 vs línea 207.5 (+19.5) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.0 vs línea 210.5 (+16.5) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -122,10 +122,10 @@
       "time_et": "9:14 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "7:58",
-        "home_score": "10",
-        "away_score": "13"
+        "period": 2,
+        "clock": "0.0",
+        "home_score": "51",
+        "away_score": "62"
       },
       "home_stats": {
         "conference": "Este",
@@ -213,29 +213,29 @@
       "alerta": true,
       "alerta_msg": "Dominick Barlow Out | Adem Bona Out | Ariel Hukporti Out",
       "odds": {
-        "home_ml": 124,
-        "away_ml": -125,
-        "spread_home": 2.5,
-        "total_ou": 222.5,
-        "best_book": "FanDuel",
-        "num_books": 8
+        "home_ml": 330,
+        "away_ml": -275,
+        "spread_home": 7.5,
+        "total_ou": 219.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Boston Celtics",
         "tipo": "ML Celtics",
-        "confianza": "alta",
-        "ev": 43.7,
+        "confianza": "media",
+        "ev": 8.9,
         "prob_modelo": 20.2,
-        "prob_mercado": 44.6,
-        "notas": "Modelo: 79.8% | Mercado: 55.4% | Edge: +24.4%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +-3.9 | Línea: +2.5 | Sin EV en spread (local: -13.7%, visit: 4.6%)",
+        "prob_mercado": 24.1,
+        "notas": "Modelo: 79.8% | Mercado: 75.9% | Edge: +3.9%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 17.7,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-3.9 | Línea: +7.5 | Prob cubrir local: 61.6%",
         "ou_pick": "OVER",
-        "ou_ev": 29.3,
+        "ou_ev": 48.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 222.5 (+4.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.1 vs línea 219.5 (+7.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -244,13 +244,13 @@
       "id": "8178ff2ec61f604b61dfe6d7b8d71103",
       "home_team": "Phoenix Suns",
       "away_team": "Los Angeles Clippers",
-      "commence_time": "2026-11-11T02:10:00Z",
-      "time_et": "10:10 PM ET",
+      "commence_time": "2026-11-11T02:11:00Z",
+      "time_et": "10:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
+        "state": "in",
+        "period": 1,
+        "clock": "8:18",
+        "home_score": "4",
         "away_score": "0"
       },
       "home_stats": {
@@ -305,21 +305,21 @@
       "alerta": true,
       "alerta_msg": "Mark Williams Out",
       "odds": {
-        "home_ml": -161,
-        "away_ml": 154,
-        "spread_home": -3.5,
-        "total_ou": 224.5,
-        "best_book": "MyBookie.ag",
+        "home_ml": -160,
+        "away_ml": 190,
+        "spread_home": -5.5,
+        "total_ou": 215.5,
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Los Angeles Clippers",
+        "tipo": "ML Clippers",
+        "confianza": "alta",
+        "ev": 17.6,
         "prob_modelo": 59.5,
-        "prob_mercado": 61.0,
-        "notas": "Sin EV suficiente. Mejor: 3.0% (umbral 5%) | Modelo local: 59.5% | Mercado: 61.0%",
+        "prob_mercado": 64.1,
+        "notas": "Modelo: 40.5% | Mercado: 35.9% | Edge: +4.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -336,14 +336,14 @@
       "id": "9ac02cb22adf276b325b1e9c9c6c588e",
       "home_team": "Utah Jazz",
       "away_team": "Miami Heat",
-      "commence_time": "2026-11-11T02:10:00Z",
-      "time_et": "10:10 PM ET",
+      "commence_time": "2026-11-11T02:12:00Z",
+      "time_et": "10:12 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "9:17",
+        "home_score": "10",
+        "away_score": "8"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -445,29 +445,29 @@
       "alerta": true,
       "alerta_msg": "Keyonte George Out | Jaren Jackson Jr. Out | Lauri Markkanen Out | Jusuf Nurkic Out",
       "odds": {
-        "home_ml": 295,
-        "away_ml": -331,
-        "spread_home": 8.5,
-        "total_ou": 227.5,
-        "best_book": "BetRivers",
+        "home_ml": 271,
+        "away_ml": -235,
+        "spread_home": 6.5,
+        "total_ou": 233.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Miami Heat",
         "tipo": "ML Heat",
-        "confianza": "media",
-        "ev": 12.5,
+        "confianza": "alta",
+        "ev": 23.2,
         "prob_modelo": 13.6,
-        "prob_mercado": 24.8,
-        "notas": "Modelo: 86.4% | Mercado: 75.2% | Edge: +11.2%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 14.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-5.4 | Línea: +8.5 | Prob cubrir local: 60.2%",
+        "prob_mercado": 27.8,
+        "notas": "Modelo: 86.4% | Mercado: 72.2% | Edge: +14.1%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +-5.4 | Línea: +6.5 | Sin EV en spread (local: 2.4%, visit: -11.5%)",
         "ou_pick": "OVER",
-        "ou_ev": 75.5,
+        "ou_ev": 50.5,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 241.5 vs línea 227.5 (+14.0) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 241.5 vs línea 233.5 (+8.0) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -548,9 +548,9 @@
         {
           "player": "Tristan da Silva",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Jonathan Isaac",
@@ -606,9 +606,9 @@
         {
           "player": "Tristan da Silva",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Jonathan Isaac",
@@ -640,7 +640,7 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Maxime Raynaud Out | Ben Simmons Out | Paolo Banchero Out | Jonathan Isaac Out | Izaiyah Nelson Out | Noah Penda Out | Jalen Suggs Out",
+      "alerta_msg": "Maxime Raynaud Out | Ben Simmons Out | Paolo Banchero Out | Tristan da Silva Out | Jonathan Isaac Out | Izaiyah Nelson Out | Noah Penda Out | Jalen Suggs Out",
       "odds": {
         "home_ml": 188,
         "away_ml": -196,
