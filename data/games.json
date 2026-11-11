@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-10T23:54:57.692247+00:00",
+  "updated_at": "2026-11-11T01:21:09.910270+00:00",
   "games": [
     {
       "id": "3689d555c9a1c81e3d300375b4c80530",
       "home_team": "New York Knicks",
       "away_team": "Milwaukee Bucks",
-      "commence_time": "2026-11-11T00:40:00Z",
-      "time_et": "8:40 PM ET",
+      "commence_time": "2026-11-11T00:41:00Z",
+      "time_et": "8:41 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 2,
+        "clock": "4:57",
+        "home_score": "45",
+        "away_score": "26"
       },
       "home_stats": {
         "conference": "Este",
@@ -87,29 +87,29 @@
       "alerta": true,
       "alerta_msg": "Josh Hart Out | Tyler Herro Out",
       "odds": {
-        "home_ml": -1000,
-        "away_ml": 800,
-        "spread_home": -16.5,
-        "total_ou": 221.5,
-        "best_book": "FanDuel",
-        "num_books": 9
+        "home_ml": -5000,
+        "away_ml": 2800,
+        "spread_home": -23.5,
+        "total_ou": 207.5,
+        "best_book": "MyBookie.ag",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Milwaukee Bucks",
+        "tipo": "ML Bucks",
+        "confianza": "alta",
+        "ev": 184.2,
         "prob_modelo": 90.2,
-        "prob_mercado": 89.1,
-        "notas": "Sin EV suficiente. Mejor: -0.8% (umbral 5%) | Modelo local: 90.2% | Mercado: 89.1%",
+        "prob_mercado": 96.6,
+        "notas": "Modelo: 9.8% | Mercado: 3.4% | Edge: +6.4%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 53.2,
+        "spread_ev": 76.4,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +6.3 | Línea: -16.5 | Prob cubrir visitante: 80.2%",
+        "spread_notas": "Margen proyectado: +6.3 | Línea: -23.5 | Prob cubrir visitante: 92.4%",
         "ou_pick": "OVER",
-        "ou_ev": 35.3,
+        "ou_ev": 86.0,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.0 vs línea 221.5 (+5.5) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.0 vs línea 207.5 (+19.5) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -118,14 +118,14 @@
       "id": "cfa503c66cd505776a910921875ef7dd",
       "home_team": "Philadelphia 76ers",
       "away_team": "Boston Celtics",
-      "commence_time": "2026-11-11T01:10:00Z",
-      "time_et": "9:10 PM ET",
+      "commence_time": "2026-11-11T01:14:00Z",
+      "time_et": "9:14 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "7:58",
+        "home_score": "10",
+        "away_score": "13"
       },
       "home_stats": {
         "conference": "Este",
@@ -213,29 +213,29 @@
       "alerta": true,
       "alerta_msg": "Dominick Barlow Out | Adem Bona Out | Ariel Hukporti Out",
       "odds": {
-        "home_ml": 107,
-        "away_ml": -120,
-        "spread_home": 1.5,
-        "total_ou": 217.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": 124,
+        "away_ml": -125,
+        "spread_home": 2.5,
+        "total_ou": 222.5,
+        "best_book": "FanDuel",
+        "num_books": 8
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Boston Celtics",
+        "tipo": "ML Celtics",
+        "confianza": "alta",
+        "ev": 43.7,
         "prob_modelo": 20.2,
-        "prob_mercado": 47.0,
-        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 20.2% | Mercado: 47.0%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 10.9,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-3.9 | Línea: +1.5 | Prob cubrir visitante: 58.1%",
+        "prob_mercado": 44.6,
+        "notas": "Modelo: 79.8% | Mercado: 55.4% | Edge: +24.4%",
+        "spread_lado": null,
+        "spread_ev": null,
+        "spread_conf": "—",
+        "spread_notas": "Margen proyectado: +-3.9 | Línea: +2.5 | Sin EV en spread (local: -13.7%, visit: 4.6%)",
         "ou_pick": "OVER",
-        "ou_ev": 58.7,
+        "ou_ev": 29.3,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 227.1 vs línea 217.5 (+9.6) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 227.1 vs línea 222.5 (+4.6) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0
       }
@@ -306,7 +306,7 @@
       "alerta_msg": "Mark Williams Out",
       "odds": {
         "home_ml": -161,
-        "away_ml": 155,
+        "away_ml": 154,
         "spread_home": -3.5,
         "total_ou": 224.5,
         "best_book": "MyBookie.ag",
@@ -318,8 +318,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 59.5,
-        "prob_mercado": 61.1,
-        "notas": "Sin EV suficiente. Mejor: 3.4% (umbral 5%) | Modelo local: 59.5% | Mercado: 61.1%",
+        "prob_mercado": 61.0,
+        "notas": "Sin EV suficiente. Mejor: 3.0% (umbral 5%) | Modelo local: 59.5% | Mercado: 61.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -411,15 +411,7 @@
           "weight": 3
         }
       ],
-      "away_injuries": [
-        {
-          "player": "Giannis Antetokounmpo",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
+      "away_injuries": [],
       "injuries": [
         {
           "player": "Keyonte George",
@@ -448,37 +440,30 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
-        },
-        {
-          "player": "Giannis Antetokounmpo",
-          "position": "F",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
         }
       ],
       "alerta": true,
       "alerta_msg": "Keyonte George Out | Jaren Jackson Jr. Out | Lauri Markkanen Out | Jusuf Nurkic Out",
       "odds": {
-        "home_ml": 329,
-        "away_ml": -380,
-        "spread_home": 9.5,
+        "home_ml": 295,
+        "away_ml": -331,
+        "spread_home": 8.5,
         "total_ou": 227.5,
-        "best_book": "LowVig.ag",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Miami Heat",
         "tipo": "ML Heat",
         "confianza": "media",
-        "ev": 9.1,
+        "ev": 12.5,
         "prob_modelo": 13.6,
-        "prob_mercado": 22.7,
-        "notas": "Modelo: 86.4% | Mercado: 77.3% | Edge: +9.1%",
+        "prob_mercado": 24.8,
+        "notas": "Modelo: 86.4% | Mercado: 75.2% | Edge: +11.2%",
         "spread_lado": "LOCAL",
-        "spread_ev": 21.0,
+        "spread_ev": 14.9,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-5.4 | Línea: +9.5 | Prob cubrir local: 63.4%",
+        "spread_notas": "Margen proyectado: +-5.4 | Línea: +8.5 | Prob cubrir local: 60.2%",
         "ou_pick": "OVER",
         "ou_ev": 75.5,
         "ou_confianza": "media",
@@ -657,21 +642,21 @@
       "alerta": true,
       "alerta_msg": "Maxime Raynaud Out | Ben Simmons Out | Paolo Banchero Out | Jonathan Isaac Out | Izaiyah Nelson Out | Noah Penda Out | Jalen Suggs Out",
       "odds": {
-        "home_ml": 190,
-        "away_ml": -200,
+        "home_ml": 188,
+        "away_ml": -196,
         "spread_home": 5.5,
         "total_ou": 221.5,
-        "best_book": "BetMGM",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Orlando Magic",
         "tipo": "ML Magic",
         "confianza": "alta",
-        "ev": 29.4,
+        "ev": 30.3,
         "prob_modelo": 13.7,
-        "prob_mercado": 34.1,
-        "notas": "Modelo: 86.3% | Mercado: 65.9% | Edge: +20.4%",
+        "prob_mercado": 34.4,
+        "notas": "Modelo: 86.3% | Mercado: 65.6% | Edge: +20.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
