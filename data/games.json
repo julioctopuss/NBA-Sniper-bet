@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:30:51.605722+00:00",
+  "updated_at": "2026-11-12T09:24:01.801811+00:00",
   "games": [
     {
       "id": "d5c5ae8d56762b45d1ec4b85337878f3",
@@ -108,7 +108,7 @@
       "alerta": true,
       "alerta_msg": "Reece Beekman Out | Justin Champagnie Out | Tristan Vukcevic Out | Jamir Watkins Out",
       "odds": {
-        "home_ml": 340,
+        "home_ml": 350,
         "away_ml": -400,
         "spread_home": 9.5,
         "total_ou": 220.5,
@@ -121,8 +121,8 @@
         "confianza": "media",
         "ev": 10.8,
         "prob_modelo": 11.4,
-        "prob_mercado": 22.1,
-        "notas": "Modelo: 88.6% | Mercado: 77.9% | Edge: +10.8%",
+        "prob_mercado": 21.7,
+        "notas": "Modelo: 88.6% | Mercado: 78.3% | Edge: +10.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -312,11 +312,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -210,
+        "home_ml": -195,
         "away_ml": 188,
         "spread_home": -5.5,
         "total_ou": 226.5,
-        "best_book": "FanDuel",
+        "best_book": "BetUS",
         "num_books": 9
       },
       "recomendacion": {
@@ -325,8 +325,8 @@
         "confianza": "alta",
         "ev": 44.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 66.1,
-        "notas": "Modelo: 50.0% | Mercado: 33.9% | Edge: +16.1%",
+        "prob_mercado": 65.6,
+        "notas": "Modelo: 50.0% | Mercado: 34.4% | Edge: +15.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -382,11 +382,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -243,
+        "home_ml": -235,
         "away_ml": 206,
         "spread_home": -6.5,
         "total_ou": 214.5,
-        "best_book": "LowVig.ag",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -395,8 +395,8 @@
         "confianza": "alta",
         "ev": 53.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 68.4,
-        "notas": "Modelo: 50.0% | Mercado: 31.6% | Edge: +18.4%",
+        "prob_mercado": 68.2,
+        "notas": "Modelo: 50.0% | Mercado: 31.8% | Edge: +18.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
