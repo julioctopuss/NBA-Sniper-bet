@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:02:04.450963+00:00",
+  "updated_at": "2026-11-13T09:11:33.521037+00:00",
   "games": [
     {
       "id": "6669b911691463c669a5c10574742e8e",
@@ -44,10 +44,10 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 229,
+        "home_ml": 237,
         "away_ml": -265,
-        "spread_home": 6.5,
-        "total_ou": 219.5,
+        "spread_home": 7.5,
+        "total_ou": 220.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -55,10 +55,10 @@
         "pick": "Indiana Pacers",
         "tipo": "ML Pacers",
         "confianza": "alta",
-        "ev": 64.5,
+        "ev": 68.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 29.5,
-        "notas": "Modelo: 50.0% | Mercado: 29.5% | Edge: +20.5%",
+        "prob_mercado": 29.0,
+        "notas": "Modelo: 50.0% | Mercado: 29.0% | Edge: +21.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,11 +114,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -375,
-        "away_ml": 330,
+        "home_ml": -360,
+        "away_ml": 320,
         "spread_home": -8.5,
         "total_ou": 223.5,
-        "best_book": "BetMGM",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -127,8 +127,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 77.2,
-        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 77.2%",
+        "prob_mercado": 76.7,
+        "notas": "Diferencia modelo/mercado excesiva (27%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 76.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -185,7 +185,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": 235,
-        "away_ml": -265,
+        "away_ml": -275,
         "spread_home": 7.5,
         "total_ou": 245.5,
         "best_book": "Bovada",
@@ -197,8 +197,8 @@
         "confianza": "alta",
         "ev": 67.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 29.1,
-        "notas": "Modelo: 50.0% | Mercado: 29.1% | Edge: +20.9%",
+        "prob_mercado": 28.9,
+        "notas": "Modelo: 50.0% | Mercado: 28.9% | Edge: +21.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -397,7 +397,7 @@
         "home_ml": -1464,
         "away_ml": 910,
         "spread_home": -17.5,
-        "total_ou": 218.5,
+        "total_ou": 219.5,
         "best_book": "LowVig.ag",
         "num_books": 9
       },
@@ -467,7 +467,7 @@
         "home_ml": -670,
         "away_ml": 541,
         "spread_home": -12.5,
-        "total_ou": 219.5,
+        "total_ou": 220.5,
         "best_book": "BetRivers",
         "num_books": 9
       },
@@ -608,7 +608,7 @@
         "away_ml": -265,
         "spread_home": 7.5,
         "total_ou": 222.5,
-        "best_book": "FanDuel",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
