@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T06:52:08.656625+00:00",
+  "updated_at": "2026-11-14T08:42:15.857580+00:00",
   "games": [
     {
       "id": "6cb4c8feeadd57aa6ab46ebdee60818a",
@@ -123,11 +123,11 @@
       "alerta_msg": "Bryce McGowens Out | Yves Missi Out | Trey Murphy III Out | Dejounte Murray Out | Trendon Watford Out",
       "odds": {
         "home_ml": 475,
-        "away_ml": -556,
+        "away_ml": -542,
         "spread_home": 11.5,
         "total_ou": 234.5,
         "best_book": "Bovada",
-        "num_books": 7
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "New Orleans Pelicans",
@@ -135,8 +135,8 @@
         "confianza": "alta",
         "ev": 85.8,
         "prob_modelo": 32.3,
-        "prob_mercado": 17.0,
-        "notas": "Modelo: 32.3% | Mercado: 17.0% | Edge: +15.3%",
+        "prob_mercado": 17.1,
+        "notas": "Modelo: 32.3% | Mercado: 17.1% | Edge: +15.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -243,11 +243,11 @@
       "alerta_msg": "Sam Merrill Out | Evan Mobley Out | Nae'Qwan Tomlin Out",
       "odds": {
         "home_ml": -126,
-        "away_ml": 114,
+        "away_ml": 112,
         "spread_home": -2.5,
         "total_ou": 231.5,
         "best_book": "FanDuel",
-        "num_books": 6
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Cleveland Cavaliers",
@@ -255,8 +255,8 @@
         "confianza": "alta",
         "ev": 25.9,
         "prob_modelo": 70.2,
-        "prob_mercado": 54.4,
-        "notas": "Modelo: 70.2% | Mercado: 54.4% | Edge: +15.8%",
+        "prob_mercado": 54.2,
+        "notas": "Modelo: 70.2% | Mercado: 54.2% | Edge: +16.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -377,11 +377,11 @@
       "alerta_msg": "Zach Edey Out | Scotty Pippen Jr. Out | Quinten Post Out | Richie Saunders Out",
       "odds": {
         "home_ml": -215,
-        "away_ml": 186,
+        "away_ml": 191,
         "spread_home": -5.5,
-        "total_ou": 225.5,
+        "total_ou": 226.5,
         "best_book": "FanDuel",
-        "num_books": 6
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -389,8 +389,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 25.9,
-        "prob_mercado": 66.1,
-        "notas": "Diferencia modelo/mercado excesiva (40%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 25.9% | Mercado: 66.1%",
+        "prob_mercado": 66.5,
+        "notas": "Diferencia modelo/mercado excesiva (41%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 25.9% | Mercado: 66.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -510,21 +510,21 @@
       "alerta": true,
       "alerta_msg": "Tobe Awaka Out | Dailyn Swain Out | Caleb Wilson Out",
       "odds": {
-        "home_ml": -835,
-        "away_ml": 640,
+        "home_ml": -834,
+        "away_ml": 650,
         "spread_home": -14.5,
-        "total_ou": 236.5,
-        "best_book": "BetRivers",
-        "num_books": 6
+        "total_ou": 235.5,
+        "best_book": "LowVig.ag",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Chicago Bulls",
         "tipo": "ML Bulls",
         "confianza": "alta",
-        "ev": 118.9,
+        "ev": 121.8,
         "prob_modelo": 70.4,
-        "prob_mercado": 86.9,
-        "notas": "Modelo: 29.6% | Mercado: 13.1% | Edge: +16.4%",
+        "prob_mercado": 87.0,
+        "notas": "Modelo: 29.6% | Mercado: 13.0% | Edge: +16.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -616,12 +616,12 @@
       "alerta": true,
       "alerta_msg": "Pelle Larsson Out | Klay Thompson Out",
       "odds": {
-        "home_ml": 170,
+        "home_ml": 166,
         "away_ml": -174,
         "spread_home": 4.5,
         "total_ou": 228.5,
-        "best_book": "Bovada",
-        "num_books": 7
+        "best_book": "LowVig.ag",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -629,8 +629,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 63.2,
-        "prob_mercado": 36.8,
-        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 63.2% | Mercado: 36.8%",
+        "prob_mercado": 37.2,
+        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 63.2% | Mercado: 37.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
