@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T07:01:59.289990+00:00",
+  "updated_at": "2026-11-16T09:06:15.536856+00:00",
   "games": [
     {
       "id": "7c2ac54a119f461bf8fc1a23da536f29",
@@ -50,11 +50,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -376,
-        "away_ml": 330,
+        "home_ml": -350,
+        "away_ml": 308,
         "spread_home": -9.5,
         "total_ou": 210.5,
-        "best_book": "LowVig.ag",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -63,8 +63,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 81.4,
-        "prob_mercado": 77.3,
-        "notas": "Sin EV suficiente. Mejor: 3.0% (umbral 5%) | Modelo local: 81.4% | Mercado: 77.3%",
+        "prob_mercado": 76.0,
+        "notas": "Sin EV suficiente. Mejor: 4.6% (umbral 5%) | Modelo local: 81.4% | Mercado: 76.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -523,7 +523,7 @@
       "alerta_msg": "Clint Capela Out | Fred VanVleet Out",
       "odds": {
         "home_ml": 123,
-        "away_ml": -130,
+        "away_ml": -128,
         "spread_home": 2.5,
         "total_ou": 229.5,
         "best_book": "BetRivers",
@@ -533,10 +533,10 @@
         "pick": "Houston Rockets",
         "tipo": "ML Rockets",
         "confianza": "alta",
-        "ev": 28.7,
+        "ev": 29.6,
         "prob_modelo": 27.3,
-        "prob_mercado": 44.2,
-        "notas": "Modelo: 72.7% | Mercado: 55.8% | Edge: +17.0%",
+        "prob_mercado": 44.4,
+        "notas": "Modelo: 72.7% | Mercado: 55.6% | Edge: +17.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -596,7 +596,7 @@
         "away_ml": -149,
         "spread_home": 2.5,
         "total_ou": 225.5,
-        "best_book": "Bovada",
+        "best_book": "BetMGM",
         "num_books": 9
       },
       "recomendacion": {
@@ -662,21 +662,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -135,
-        "away_ml": 122,
+        "home_ml": -129,
+        "away_ml": 120,
         "spread_home": -2.5,
         "total_ou": 228.5,
-        "best_book": "Bovada",
+        "best_book": "MyBookie.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Portland Trail Blazers",
         "tipo": "ML Blazers",
         "confianza": "media",
-        "ev": 11.0,
+        "ev": 10.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 56.1,
-        "notas": "Modelo: 50.0% | Mercado: 43.9% | Edge: +6.1%",
+        "prob_mercado": 55.3,
+        "notas": "Modelo: 50.0% | Mercado: 44.7% | Edge: +5.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
