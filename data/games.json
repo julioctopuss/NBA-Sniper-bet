@@ -1,300 +1,6 @@
 {
-  "updated_at": "2026-11-16T01:14:50.500018+00:00",
+  "updated_at": "2026-11-16T02:23:52.460931+00:00",
   "games": [
-    {
-      "id": "956532b58659658093d93e24e83f5213",
-      "home_team": "Boston Celtics",
-      "away_team": "Dallas Mavericks",
-      "commence_time": "2026-11-15T23:11:00Z",
-      "time_et": "7:11 PM ET",
-      "live": {
-        "state": "post",
-        "period": 4,
-        "clock": "0.0",
-        "home_score": "131",
-        "away_score": "94"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "56-26",
-        "seed": "2",
-        "ppg": "114.9",
-        "papg": "107.2",
-        "diff": "+7.7",
-        "home_rec": "30-11",
-        "away_rec": "26-15",
-        "streak": "W2",
-        "forma": [
-          "G",
-          "G",
-          "P",
-          "G",
-          "G"
-        ]
-      },
-      "away_stats": {
-        "conference": "Oeste",
-        "record": "26-56",
-        "seed": "12",
-        "ppg": "114.1",
-        "papg": "119.6",
-        "diff": "-5.5",
-        "home_rec": "16-25",
-        "away_rec": "10-30",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "P",
-          "P",
-          "G"
-        ]
-      },
-      "home_injuries": [],
-      "away_injuries": [
-        {
-          "player": "Santi Aldama",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tarik Biberovic",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Max Christie",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Sergio de Larrea",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kyrie Irving",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Dereck Lively II",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "injuries": [
-        {
-          "player": "Santi Aldama",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Tarik Biberovic",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Max Christie",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Sergio de Larrea",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kyrie Irving",
-          "position": "G",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Dereck Lively II",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Santi Aldama Out | Tarik Biberovic Out | Max Christie Out | Sergio de Larrea Out | Kyrie Irving Out | Dereck Lively II Out",
-      "odds": {
-        "home_ml": null,
-        "away_ml": null,
-        "spread_home": -37.5,
-        "total_ou": 225.5,
-        "best_book": "",
-        "num_books": 5
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 90.5,
-        "prob_mercado": 0,
-        "notas": "Sin señal clara.",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 90.0,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +6.6 | Línea: -37.5 | Prob cubrir visitante: 99.5%",
-        "ou_pick": "OVER",
-        "ou_ev": 13.6,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 227.9 vs línea 225.5 (+2.4) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0,
-        "away_pra_out": 0.0
-      }
-    },
-    {
-      "id": "78f61a78b70b9d79f38eb7648eac1a08",
-      "home_team": "Toronto Raptors",
-      "away_team": "New York Knicks",
-      "commence_time": "2026-11-15T23:12:00Z",
-      "time_et": "7:12 PM ET",
-      "live": {
-        "state": "in",
-        "period": 4,
-        "clock": "7:17",
-        "home_score": "84",
-        "away_score": "75"
-      },
-      "home_stats": {
-        "conference": "Este",
-        "record": "46-36",
-        "seed": "5",
-        "ppg": "114.6",
-        "papg": "111.8",
-        "diff": "+2.8",
-        "home_rec": "24-17",
-        "away_rec": "22-19",
-        "streak": "W1",
-        "forma": [
-          "G",
-          "P",
-          "G",
-          "G",
-          "P"
-        ]
-      },
-      "away_stats": {
-        "conference": "Este",
-        "record": "53-29",
-        "seed": "3",
-        "ppg": "116.5",
-        "papg": "110.1",
-        "diff": "+6.4",
-        "home_rec": "30-10",
-        "away_rec": "22-19",
-        "streak": "L1",
-        "forma": [
-          "P",
-          "G",
-          "G",
-          "G",
-          "G"
-        ]
-      },
-      "home_injuries": [
-        {
-          "player": "Nate Bittle",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kawhi Leonard",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kevin McCullar Jr.",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "away_injuries": [],
-      "injuries": [
-        {
-          "player": "Nate Bittle",
-          "position": "C",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kawhi Leonard",
-          "position": "F",
-          "status": "Out",
-          "pra": 0.0,
-          "weight": 3
-        },
-        {
-          "player": "Kevin McCullar Jr.",
-          "position": "G",
-          "status": "Day-To-Day",
-          "pra": 0.0,
-          "weight": 1
-        }
-      ],
-      "alerta": true,
-      "alerta_msg": "Nate Bittle Out | Kawhi Leonard Out",
-      "odds": {
-        "home_ml": -575,
-        "away_ml": 625,
-        "spread_home": -7.5,
-        "total_ou": 191.5,
-        "best_book": "DraftKings",
-        "num_books": 6
-      },
-      "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
-        "prob_modelo": 35.6,
-        "prob_mercado": 86.1,
-        "notas": "Diferencia modelo/mercado excesiva (50%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 35.6% | Mercado: 86.1%",
-        "spread_lado": "VISITANTE",
-        "spread_ev": 49.1,
-        "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-1.8 | Línea: -7.5 | Prob cubrir visitante: 78.1%",
-        "ou_pick": "OVER",
-        "ou_ev": 90.9,
-        "ou_confianza": "media",
-        "ou_notas": "Proyección 226.5 vs línea 191.5 (+35.0) | Penalty bajas: 0.0 pts",
-        "home_pra_out": 0.0,
-        "away_pra_out": 0
-      }
-    },
     {
       "id": "488c2bc1e099361f06015cf126f95fd6",
       "home_team": "Washington Wizards",
@@ -303,10 +9,10 @@
       "time_et": "8:11 PM ET",
       "live": {
         "state": "in",
-        "period": 2,
-        "clock": "0.0",
-        "home_score": "54",
-        "away_score": "73"
+        "period": 4,
+        "clock": "4:27",
+        "home_score": "102",
+        "away_score": "134"
       },
       "home_stats": {
         "conference": "Este",
@@ -465,29 +171,29 @@
       "alerta": true,
       "alerta_msg": "Reece Beekman Out | Justin Champagnie Out | Tre Johnson Out | Tristan Vukcevic Out | Jamir Watkins Out | Clint Capela Out | Fred VanVleet Out",
       "odds": {
-        "home_ml": 1900,
-        "away_ml": -2800,
-        "spread_home": 19.5,
-        "total_ou": 241.5,
-        "best_book": "DraftKings",
+        "home_ml": null,
+        "away_ml": null,
+        "spread_home": 30.5,
+        "total_ou": 258.5,
+        "best_book": "",
         "num_books": 6
       },
       "recomendacion": {
-        "pick": "Washington Wizards",
-        "tipo": "ML Wizards",
-        "confianza": "alta",
-        "ev": 78.8,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 8.9,
-        "prob_mercado": 4.9,
-        "notas": "Modelo: 8.9% | Mercado: 4.9% | Edge: +4.0%",
+        "prob_mercado": 0,
+        "notas": "Sin señal clara.",
         "spread_lado": "LOCAL",
-        "spread_ev": 56.2,
+        "spread_ev": 84.4,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-8.6 | Línea: +19.5 | Prob cubrir local: 81.8%",
+        "spread_notas": "Margen proyectado: +-8.6 | Línea: +30.5 | Prob cubrir local: 96.6%",
         "ou_pick": "UNDER",
-        "ou_ev": 60.6,
+        "ou_ev": 90.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 231.5 vs línea 241.5 (-10.0) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 231.5 vs línea 258.5 (-27.0) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -500,10 +206,10 @@
       "time_et": "9:11 PM ET",
       "live": {
         "state": "in",
-        "period": 1,
-        "clock": "9:05",
-        "home_score": "5",
-        "away_score": "4"
+        "period": 3,
+        "clock": "9:01",
+        "home_score": "56",
+        "away_score": "61"
       },
       "home_stats": {
         "conference": "Este",
@@ -662,29 +368,29 @@
       "alerta": true,
       "alerta_msg": "Ousmane Dieng Out | Ryan Rollins Out | Kingston Flemings Out | Keshon Gilbert Out | Mouhamed Gueye Out | Jock Landale Out | Asa Newell Out | Henri Veesaar Out",
       "odds": {
-        "home_ml": 285,
-        "away_ml": -310,
-        "spread_home": 8.5,
-        "total_ou": 227.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "home_ml": 575,
+        "away_ml": -430,
+        "spread_home": 7.5,
+        "total_ou": 216.5,
+        "best_book": "BetMGM",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Atlanta Hawks",
-        "tipo": "ML Hawks",
-        "confianza": "baja",
-        "ev": 7.1,
+        "pick": "Milwaukee Bucks",
+        "tipo": "ML Bucks",
+        "confianza": "alta",
+        "ev": 28.6,
         "prob_modelo": 19.1,
-        "prob_mercado": 25.6,
-        "notas": "Modelo: 81.0% | Mercado: 74.4% | Edge: +6.5%",
+        "prob_mercado": 15.4,
+        "notas": "Modelo: 19.1% | Mercado: 15.4% | Edge: +3.6%",
         "spread_lado": "LOCAL",
-        "spread_ev": 21.3,
+        "spread_ev": 15.2,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-4.4 | Línea: +8.5 | Prob cubrir local: 63.5%",
+        "spread_notas": "Margen proyectado: +-4.4 | Línea: +7.5 | Prob cubrir local: 60.4%",
         "ou_pick": "OVER",
-        "ou_ev": 20.9,
+        "ou_ev": 76.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 230.9 vs línea 227.5 (+3.4) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 230.9 vs línea 216.5 (+14.4) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -693,14 +399,14 @@
       "id": "f8334b355cf9346d423fa9eb93b425f0",
       "home_team": "Sacramento Kings",
       "away_team": "Oklahoma City Thunder",
-      "commence_time": "2026-11-16T02:10:00Z",
-      "time_et": "10:10 PM ET",
+      "commence_time": "2026-11-16T02:11:00Z",
+      "time_et": "10:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "6:51",
+        "home_score": "6",
+        "away_score": "17"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -749,9 +455,9 @@
         {
           "player": "De'Andre Hunter",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Zach LaVine",
@@ -823,9 +529,9 @@
         {
           "player": "De'Andre Hunter",
           "position": "F",
-          "status": "Day-To-Day",
+          "status": "Out",
           "pra": 0.0,
-          "weight": 1
+          "weight": 3
         },
         {
           "player": "Zach LaVine",
@@ -885,31 +591,31 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Precious Achiuwa Out | Zach LaVine Out | Maxime Raynaud Out | Ben Simmons Out | Chet Holmgren Out | Thomas Sorber Out | Cason Wallace Out | Jalen Williams Out | Jaylin Williams Out",
+      "alerta_msg": "Precious Achiuwa Out | De'Andre Hunter Out | Zach LaVine Out | Maxime Raynaud Out | Ben Simmons Out | Chet Holmgren Out | Thomas Sorber Out | Cason Wallace Out | Jalen Williams Out | Jaylin Williams Out",
       "odds": {
-        "home_ml": 490,
-        "away_ml": -526,
-        "spread_home": 12.5,
-        "total_ou": 221.5,
+        "home_ml": 1200,
+        "away_ml": -591,
+        "spread_home": 21.5,
+        "total_ou": 222.5,
         "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
-        "pick": "Oklahoma City Thunder",
-        "tipo": "ML Thunder",
+        "pick": "Sacramento Kings",
+        "tipo": "ML Kings",
         "confianza": "media",
-        "ev": 8.9,
+        "ev": 10.1,
         "prob_modelo": 8.5,
-        "prob_mercado": 16.8,
-        "notas": "Modelo: 91.5% | Mercado: 83.2% | Edge: +8.3%",
+        "prob_mercado": 8.3,
+        "notas": "Modelo: 8.5% | Mercado: 8.3% | Edge: +0.2%",
         "spread_lado": "LOCAL",
-        "spread_ev": 7.8,
-        "spread_conf": "baja",
-        "spread_notas": "Margen proyectado: +-10.5 | Línea: +12.5 | Prob cubrir local: 56.5%",
+        "spread_ev": 56.4,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +-10.5 | Línea: +21.5 | Prob cubrir local: 81.9%",
         "ou_pick": "OVER",
-        "ou_ev": 49.9,
+        "ou_ev": 44.1,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 229.4 vs línea 221.5 (+7.9) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 229.4 vs línea 222.5 (+6.9) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
