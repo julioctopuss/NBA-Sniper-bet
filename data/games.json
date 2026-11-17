@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T04:03:40.974631+00:00",
+  "updated_at": "2026-11-17T04:47:12.429996+00:00",
   "games": [
     {
       "id": "5ff20ee6933177d35e4f8c875842a0b4",
@@ -44,8 +44,8 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 133,
-        "away_ml": -145,
+        "home_ml": 140,
+        "away_ml": -141,
         "spread_home": 3.5,
         "total_ou": 216.5,
         "best_book": "BetRivers",
@@ -55,10 +55,10 @@
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 16.5,
+        "ev": 20.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 42.0,
-        "notas": "Modelo: 50.0% | Mercado: 42.0% | Edge: +8.0%",
+        "prob_mercado": 41.6,
+        "notas": "Modelo: 50.0% | Mercado: 41.6% | Edge: +8.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,11 +114,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -340,
+        "home_ml": -336,
         "away_ml": 290,
         "spread_home": -8.5,
-        "total_ou": 220.5,
-        "best_book": "BetUS",
+        "total_ou": 221.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -127,8 +127,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 75.1,
-        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 75.1%",
+        "prob_mercado": 75.0,
+        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 75.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -311,21 +311,21 @@
       "alerta": true,
       "alerta_msg": "Jaylen Clark Out | Donte DiVincenzo Out | Anthony Edwards Out | Vit Krejci Out | Ja Morant Out | Shaedon Sharpe Out | Chris Youngblood Out",
       "odds": {
-        "home_ml": -132,
+        "home_ml": -131,
         "away_ml": 118,
         "spread_home": -2.5,
         "total_ou": 226.5,
         "best_book": "DraftKings",
-        "num_books": 4
+        "num_books": 3
       },
       "recomendacion": {
         "pick": "Minnesota Timberwolves",
         "tipo": "ML Timberwolves",
         "confianza": "alta",
-        "ev": 17.0,
+        "ev": 17.4,
         "prob_modelo": 66.6,
-        "prob_mercado": 55.4,
-        "notas": "Modelo: 66.6% | Mercado: 55.4% | Edge: +11.2%",
+        "prob_mercado": 55.3,
+        "notas": "Modelo: 66.6% | Mercado: 55.3% | Edge: +11.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -384,8 +384,8 @@
         "home_ml": -219,
         "away_ml": 188,
         "spread_home": -5.5,
-        "total_ou": 223.5,
-        "best_book": "DraftKings",
+        "total_ou": 224.5,
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
