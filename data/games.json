@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T04:47:12.429996+00:00",
+  "updated_at": "2026-11-17T08:16:35.730223+00:00",
   "games": [
     {
       "id": "5ff20ee6933177d35e4f8c875842a0b4",
@@ -44,21 +44,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 140,
-        "away_ml": -141,
+        "home_ml": 134,
+        "away_ml": -145,
         "spread_home": 3.5,
         "total_ou": 216.5,
-        "best_book": "BetRivers",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Toronto Raptors",
         "tipo": "ML Raptors",
         "confianza": "alta",
-        "ev": 20.0,
+        "ev": 17.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 41.6,
-        "notas": "Modelo: 50.0% | Mercado: 41.6% | Edge: +8.4%",
+        "prob_mercado": 41.9,
+        "notas": "Modelo: 50.0% | Mercado: 41.9% | Edge: +8.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,11 +114,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -336,
-        "away_ml": 290,
-        "spread_home": -8.5,
+        "home_ml": -360,
+        "away_ml": 310,
+        "spread_home": -9.5,
         "total_ou": 221.5,
-        "best_book": "LowVig.ag",
+        "best_book": "BetRivers",
         "num_books": 9
       },
       "recomendacion": {
@@ -127,8 +127,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 75.0,
-        "notas": "Diferencia modelo/mercado excesiva (25%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 75.0%",
+        "prob_mercado": 76.2,
+        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 76.2%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -315,8 +315,8 @@
         "away_ml": 118,
         "spread_home": -2.5,
         "total_ou": 226.5,
-        "best_book": "DraftKings",
-        "num_books": 3
+        "best_book": "LowVig.ag",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Minnesota Timberwolves",
@@ -381,21 +381,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -219,
-        "away_ml": 188,
-        "spread_home": -5.5,
-        "total_ou": 224.5,
-        "best_book": "LowVig.ag",
+        "home_ml": -230,
+        "away_ml": 205,
+        "spread_home": -6.5,
+        "total_ou": 225.5,
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Utah Jazz",
         "tipo": "ML Jazz",
         "confianza": "alta",
-        "ev": 44.0,
+        "ev": 52.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 66.4,
-        "notas": "Modelo: 50.0% | Mercado: 33.6% | Edge: +16.4%",
+        "prob_mercado": 68.0,
+        "notas": "Modelo: 50.0% | Mercado: 32.0% | Edge: +18.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
