@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T07:45:19.508554+00:00",
+  "updated_at": "2026-11-19T09:58:10.889745+00:00",
   "games": [
     {
       "id": "3c082b72aa002131c276ff5e24bada1b",
@@ -213,11 +213,11 @@
       "alerta": true,
       "alerta_msg": "GG Jackson Out | Ty Jerome Out | Scotty Pippen Jr. Out | Richie Saunders Out | Isaiah Stewart Out | Jimmy Butler III Out | Stephen Curry Out | Al Horford Out | Moses Moody Out | Kristaps Porzingis Out | Brandon Williams Out",
       "odds": {
-        "home_ml": -325,
-        "away_ml": 280,
-        "spread_home": -8.5,
+        "home_ml": -285,
+        "away_ml": 255,
+        "spread_home": -7.5,
         "total_ou": 225.5,
-        "best_book": "BetMGM",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -226,12 +226,12 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 28.4,
-        "prob_mercado": 74.4,
-        "notas": "Diferencia modelo/mercado excesiva (46%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 28.4% | Mercado: 74.4%",
+        "prob_mercado": 72.4,
+        "notas": "Diferencia modelo/mercado excesiva (44%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 28.4% | Mercado: 72.4%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 57.4,
+        "spread_ev": 53.2,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-2.7 | Línea: -8.5 | Prob cubrir visitante: 82.5%",
+        "spread_notas": "Margen proyectado: +-2.7 | Línea: -7.5 | Prob cubrir visitante: 80.2%",
         "ou_pick": "OVER",
         "ou_ev": 45.3,
         "ou_confianza": "media",
@@ -283,11 +283,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -1200,
+        "home_ml": -1100,
         "away_ml": 826,
         "spread_home": -16.5,
-        "total_ou": 226.5,
-        "best_book": "FanDuel",
+        "total_ou": 225.5,
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
@@ -297,7 +297,7 @@
         "ev": null,
         "prob_modelo": 50.0,
         "prob_mercado": 89.5,
-        "notas": "Diferencia modelo/mercado excesiva (40%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 89.5%",
+        "notas": "Diferencia modelo/mercado excesiva (39%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 89.5%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -389,21 +389,21 @@
       "alerta": true,
       "alerta_msg": "Ousmane Dieng Out | Ryan Rollins Out",
       "odds": {
-        "home_ml": 310,
-        "away_ml": -345,
+        "home_ml": 329,
+        "away_ml": -395,
         "spread_home": 9.5,
-        "total_ou": 225.5,
-        "best_book": "FanDuel",
+        "total_ou": 227.5,
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Milwaukee Bucks",
         "tipo": "ML Bucks",
-        "confianza": "media",
-        "ev": 13.2,
+        "confianza": "alta",
+        "ev": 18.4,
         "prob_modelo": 27.6,
-        "prob_mercado": 23.9,
-        "notas": "Modelo: 27.6% | Mercado: 23.9% | Edge: +3.7%",
+        "prob_mercado": 22.6,
+        "notas": "Modelo: 27.6% | Mercado: 22.6% | Edge: +5.0%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -462,9 +462,9 @@
         "home_ml": 107,
         "away_ml": -115,
         "spread_home": 1.5,
-        "total_ou": 216.5,
+        "total_ou": 215.5,
         "best_book": "LowVig.ag",
-        "num_books": 8
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sin pick",
