@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-21T23:42:35.297187+00:00",
+  "updated_at": "2026-11-22T01:28:37.799911+00:00",
   "games": [
     {
       "id": "232f705eea406644ff14ad17bcf9aea6",
       "home_team": "New York Knicks",
       "away_team": "Portland Trail Blazers",
-      "commence_time": "2026-11-22T00:40:00Z",
-      "time_et": "8:40 PM ET",
+      "commence_time": "2026-11-22T00:42:00Z",
+      "time_et": "8:42 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 2,
+        "clock": "3:54",
+        "home_score": "55",
+        "away_score": "38"
       },
       "home_stats": {
         "conference": "Este",
@@ -157,29 +157,29 @@
       "alerta": true,
       "alerta_msg": "OG Anunoby Out | Jordan Clarkson Out | Karl-Anthony Towns Out | Vit Krejci Out | Ja Morant Out | Shaedon Sharpe Out | Chris Youngblood Out",
       "odds": {
-        "home_ml": -102,
-        "away_ml": -112,
-        "spread_home": 1.5,
-        "total_ou": 213.5,
+        "home_ml": -500,
+        "away_ml": 500,
+        "spread_home": -10.5,
+        "total_ou": 217.5,
         "best_book": "MyBookie.ag",
-        "num_books": 9
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "Portland Trail Blazers",
+        "tipo": "ML Blazers",
+        "confianza": "alta",
+        "ev": 32.7,
         "prob_modelo": 77.9,
-        "prob_mercado": 48.9,
-        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 77.9% | Mercado: 48.9%",
-        "spread_lado": "LOCAL",
-        "spread_ev": 25.4,
+        "prob_mercado": 83.3,
+        "notas": "Modelo: 22.1% | Mercado: 16.7% | Edge: +5.5%",
+        "spread_lado": "VISITANTE",
+        "spread_ev": 38.3,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +3.4 | Línea: +1.5 | Prob cubrir local: 65.7%",
+        "spread_notas": "Margen proyectado: +3.4 | Línea: -10.5 | Prob cubrir visitante: 72.4%",
         "ou_pick": "OVER",
-        "ou_ev": 79.1,
+        "ou_ev": 66.6,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 228.9 vs línea 213.5 (+15.4) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 228.9 vs línea 217.5 (+11.4) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -188,14 +188,14 @@
       "id": "293cafe6913a9bd59328c98049266ad0",
       "home_team": "Dallas Mavericks",
       "away_team": "Los Angeles Clippers",
-      "commence_time": "2026-11-22T01:10:00Z",
-      "time_et": "9:10 PM ET",
+      "commence_time": "2026-11-22T01:11:00Z",
+      "time_et": "9:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "2:46",
+        "home_score": "14",
+        "away_score": "17"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -305,12 +305,12 @@
       "alerta": true,
       "alerta_msg": "Tarik Biberovic Out | Sergio de Larrea Out | Tobi Lawal Out | Dereck Lively II Out | P.J. Washington Out",
       "odds": {
-        "home_ml": -190,
-        "away_ml": 170,
-        "spread_home": -5.5,
-        "total_ou": 230.5,
-        "best_book": "BetOnline.ag",
-        "num_books": 9
+        "home_ml": -140,
+        "away_ml": 128,
+        "spread_home": -1.5,
+        "total_ou": 218.5,
+        "best_book": "DraftKings",
+        "num_books": 6
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -318,8 +318,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 29.2,
-        "prob_mercado": 63.9,
-        "notas": "Diferencia modelo/mercado excesiva (35%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 29.2% | Mercado: 63.9%",
+        "prob_mercado": 57.1,
+        "notas": "Diferencia modelo/mercado excesiva (28%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 29.2% | Mercado: 57.1%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -336,14 +336,14 @@
       "id": "37e3f99d7ee68587400e99e417db0e6a",
       "home_team": "Minnesota Timberwolves",
       "away_team": "Memphis Grizzlies",
-      "commence_time": "2026-11-22T01:10:00Z",
-      "time_et": "9:10 PM ET",
+      "commence_time": "2026-11-22T01:11:00Z",
+      "time_et": "9:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "3:00",
+        "home_score": "17",
+        "away_score": "28"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -516,25 +516,25 @@
       "alerta": true,
       "alerta_msg": "Jaylen Clark Out | Donte DiVincenzo Out | Anthony Edwards Out | Cameron Boozer Out | Jerami Grant Out | GG Jackson Out | Scotty Pippen Jr. Out | Richie Saunders Out | Javon Small Out",
       "odds": {
-        "home_ml": -214,
-        "away_ml": 190,
-        "spread_home": -5.5,
+        "home_ml": 118,
+        "away_ml": 140,
+        "spread_home": 1.5,
         "total_ou": 229.5,
-        "best_book": "LowVig.ag",
-        "num_books": 9
+        "best_book": "BetMGM",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Minnesota Timberwolves",
-        "tipo": "ML Timberwolves",
-        "confianza": "alta",
-        "ev": 25.5,
+        "pick": "Sin pick",
+        "tipo": "NO BET",
+        "confianza": "—",
+        "ev": null,
         "prob_modelo": 85.6,
-        "prob_mercado": 66.4,
-        "notas": "Modelo: 85.6% | Mercado: 66.4% | Edge: +19.2%",
-        "spread_lado": null,
-        "spread_ev": null,
-        "spread_conf": "—",
-        "spread_notas": "Margen proyectado: +4.7 | Línea: -5.5 | Sin EV en spread (local: -9.6%, visit: 0.5%)",
+        "prob_mercado": 52.4,
+        "notas": "Diferencia modelo/mercado excesiva (33%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 85.6% | Mercado: 52.4%",
+        "spread_lado": "LOCAL",
+        "spread_ev": 33.1,
+        "spread_conf": "media",
+        "spread_notas": "Margen proyectado: +4.7 | Línea: +1.5 | Prob cubrir local: 69.7%",
         "ou_pick": "OVER",
         "ou_ev": 28.6,
         "ou_confianza": "media",
@@ -547,14 +547,14 @@
       "id": "1139ffb82856378723c5465df4e13d96",
       "home_team": "San Antonio Spurs",
       "away_team": "New Orleans Pelicans",
-      "commence_time": "2026-11-22T01:10:00Z",
-      "time_et": "9:10 PM ET",
+      "commence_time": "2026-11-22T01:11:00Z",
+      "time_et": "9:11 PM ET",
       "live": {
-        "state": "pre",
-        "period": 0,
-        "clock": "0.0",
-        "home_score": "0",
-        "away_score": "0"
+        "state": "in",
+        "period": 1,
+        "clock": "5:37",
+        "home_score": "17",
+        "away_score": "13"
       },
       "home_stats": {
         "conference": "Oeste",
@@ -650,6 +650,13 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Zion Williamson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         }
       ],
       "injuries": [
@@ -708,34 +715,41 @@
           "status": "Out",
           "pra": 0.0,
           "weight": 3
+        },
+        {
+          "player": "Zion Williamson",
+          "position": "F",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
         }
       ],
       "alerta": true,
-      "alerta_msg": "Dylan Harper Out | Tobias Harris Out | Jayden Quaintance Out | Bennedict Mathurin Out | Bryce McGowens Out | Trey Murphy III Out | Dejounte Murray Out | Trendon Watford Out",
+      "alerta_msg": "Dylan Harper Out | Tobias Harris Out | Jayden Quaintance Out | Bennedict Mathurin Out | Bryce McGowens Out | Trey Murphy III Out | Dejounte Murray Out | Trendon Watford Out | Zion Williamson Out",
       "odds": {
-        "home_ml": -1550,
-        "away_ml": 1040,
-        "spread_home": -18.5,
-        "total_ou": 228.5,
-        "best_book": "BetUS",
-        "num_books": 9
+        "home_ml": -2000,
+        "away_ml": 1300,
+        "spread_home": -20.5,
+        "total_ou": 223.5,
+        "best_book": "DraftKings",
+        "num_books": 6
       },
       "recomendacion": {
-        "pick": "Sin pick",
-        "tipo": "NO BET",
-        "confianza": "—",
-        "ev": null,
+        "pick": "New Orleans Pelicans",
+        "tipo": "ML Pelicans",
+        "confianza": "alta",
+        "ev": 28.7,
         "prob_modelo": 90.8,
-        "prob_mercado": 91.5,
-        "notas": "Sin EV suficiente. Mejor: 4.8% (umbral 5%) | Modelo local: 90.8% | Mercado: 91.5%",
+        "prob_mercado": 93.0,
+        "notas": "Modelo: 9.2% | Mercado: 7.0% | Edge: +2.2%",
         "spread_lado": "VISITANTE",
-        "spread_ev": 61.0,
+        "spread_ev": 68.0,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +6.4 | Línea: -18.5 | Prob cubrir visitante: 84.3%",
+        "spread_notas": "Margen proyectado: +6.4 | Línea: -20.5 | Prob cubrir visitante: 88.0%",
         "ou_pick": "OVER",
-        "ou_ev": 31.3,
+        "ou_ev": 60.2,
         "ou_confianza": "media",
-        "ou_notas": "Proyección 233.4 vs línea 228.5 (+4.9) | Penalty bajas: 0.0 pts",
+        "ou_notas": "Proyección 233.4 vs línea 223.5 (+9.9) | Penalty bajas: 0.0 pts",
         "home_pra_out": 0.0,
         "away_pra_out": 0.0
       }
@@ -882,11 +896,11 @@
       "alerta": true,
       "alerta_msg": "Maxime Raynaud Out | Ben Simmons Out | Mitchell Robinson Out | Jayson Tatum Out | Derrick White Out",
       "odds": {
-        "home_ml": 456,
+        "home_ml": 520,
         "away_ml": -591,
-        "spread_home": 11.5,
+        "spread_home": 12.5,
         "total_ou": 216.5,
-        "best_book": "LowVig.ag",
+        "best_book": "FanDuel",
         "num_books": 9
       },
       "recomendacion": {
@@ -895,12 +909,12 @@
         "confianza": "baja",
         "ev": 6.0,
         "prob_modelo": 9.3,
-        "prob_mercado": 17.4,
-        "notas": "Modelo: 90.7% | Mercado: 82.6% | Edge: +8.0%",
+        "prob_mercado": 15.9,
+        "notas": "Modelo: 90.7% | Mercado: 84.1% | Edge: +6.5%",
         "spread_lado": "LOCAL",
-        "spread_ev": 12.1,
+        "spread_ev": 18.3,
         "spread_conf": "media",
-        "spread_notas": "Margen proyectado: +-8.9 | Línea: +11.5 | Prob cubrir local: 58.7%",
+        "spread_notas": "Margen proyectado: +-8.9 | Línea: +12.5 | Prob cubrir local: 61.9%",
         "ou_pick": "OVER",
         "ou_ev": 63.3,
         "ou_confianza": "media",
