@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T07:15:14.240806+00:00",
+  "updated_at": "2026-11-22T09:27:35.938289+00:00",
   "games": [
     {
       "id": "222a2887819bb18d9b9572aef63d9b9e",
@@ -114,21 +114,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -136,
-        "away_ml": 130,
+        "home_ml": -138,
+        "away_ml": 125,
         "spread_home": -2.5,
         "total_ou": 231.5,
-        "best_book": "FanDuel",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Oklahoma City Thunder",
         "tipo": "ML Thunder",
-        "confianza": "alta",
-        "ev": 15.0,
+        "confianza": "media",
+        "ev": 12.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 57.0,
-        "notas": "Modelo: 50.0% | Mercado: 43.0% | Edge: +7.0%",
+        "prob_mercado": 56.6,
+        "notas": "Modelo: 50.0% | Mercado: 43.4% | Edge: +6.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -185,7 +185,7 @@
       "alerta_msg": "",
       "odds": {
         "home_ml": 308,
-        "away_ml": -330,
+        "away_ml": -360,
         "spread_home": 8.5,
         "total_ou": 237.5,
         "best_book": "LowVig.ag",
@@ -197,8 +197,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 24.2,
-        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 24.2%",
+        "prob_mercado": 23.8,
+        "notas": "Diferencia modelo/mercado excesiva (26%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 23.8%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -337,7 +337,7 @@
         "spread_home": 1.5,
         "total_ou": 225.5,
         "best_book": "Bovada",
-        "num_books": 8
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -402,8 +402,8 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 195,
-        "away_ml": -206,
+        "home_ml": 191,
+        "away_ml": -220,
         "spread_home": 5.5,
         "total_ou": 221.5,
         "best_book": "LowVig.ag",
@@ -413,10 +413,10 @@
         "pick": "Washington Wizards",
         "tipo": "ML Wizards",
         "confianza": "alta",
-        "ev": 47.5,
+        "ev": 45.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 33.5,
-        "notas": "Modelo: 50.0% | Mercado: 33.5% | Edge: +16.5%",
+        "prob_mercado": 33.3,
+        "notas": "Modelo: 50.0% | Mercado: 33.3% | Edge: +16.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -522,12 +522,12 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -360,
-        "away_ml": 312,
+        "home_ml": -340,
+        "away_ml": 308,
         "spread_home": -9.5,
         "total_ou": 216.5,
         "best_book": "FanDuel",
-        "num_books": 8
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -535,8 +535,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 78.1,
-        "prob_mercado": 76.3,
-        "notas": "Sin EV suficiente. Mejor: -0.2% (umbral 5%) | Modelo local: 78.1% | Mercado: 76.3%",
+        "prob_mercado": 75.9,
+        "notas": "Sin EV suficiente. Mejor: 1.1% (umbral 5%) | Modelo local: 78.1% | Mercado: 75.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -642,12 +642,12 @@
       "alerta": true,
       "alerta_msg": "Mitchell Robinson Out | Jayson Tatum Out | Derrick White Out",
       "odds": {
-        "home_ml": 329,
-        "away_ml": -400,
+        "home_ml": 330,
+        "away_ml": -386,
         "spread_home": 9.5,
-        "total_ou": 212.5,
-        "best_book": "LowVig.ag",
-        "num_books": 6
+        "total_ou": 211.5,
+        "best_book": "FanDuel",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -656,7 +656,7 @@
         "ev": null,
         "prob_modelo": 19.3,
         "prob_mercado": 22.6,
-        "notas": "Sin EV suficiente. Mejor: 0.9% (umbral 5%) | Modelo local: 19.3% | Mercado: 22.6%",
+        "notas": "Sin EV suficiente. Mejor: 1.6% (umbral 5%) | Modelo local: 19.3% | Mercado: 22.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
