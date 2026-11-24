@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T04:10:52.154231+00:00",
+  "updated_at": "2026-11-24T05:24:10.629114+00:00",
   "games": [
     {
       "id": "42f48a4769eab3d1472d76aac0fd0fa7",
@@ -44,21 +44,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 112,
+        "home_ml": 115,
         "away_ml": -125,
         "spread_home": 1.5,
         "total_ou": 213.5,
-        "best_book": "FanDuel",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Orlando Magic",
         "tipo": "ML Magic",
         "confianza": "baja",
-        "ev": 6.0,
+        "ev": 7.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 45.9,
-        "notas": "Modelo: 50.0% | Mercado: 45.9% | Edge: +4.1%",
+        "prob_mercado": 45.6,
+        "notas": "Modelo: 50.0% | Mercado: 45.6% | Edge: +4.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -114,11 +114,11 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 390,
+        "home_ml": 367,
         "away_ml": -450,
         "spread_home": 10.5,
         "total_ou": 217.5,
-        "best_book": "Bovada",
+        "best_book": "LowVig.ag",
         "num_books": 9
       },
       "recomendacion": {
@@ -127,8 +127,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 50.0,
-        "prob_mercado": 20.0,
-        "notas": "Diferencia modelo/mercado excesiva (30%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 20.0%",
+        "prob_mercado": 20.7,
+        "notas": "Diferencia modelo/mercado excesiva (29%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 50.0% | Mercado: 20.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -184,21 +184,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": -310,
-        "away_ml": 280,
+        "home_ml": -322,
+        "away_ml": 267,
         "spread_home": -8.5,
         "total_ou": 231.5,
-        "best_book": "MyBookie.ag",
+        "best_book": "DraftKings",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Dallas Mavericks",
         "tipo": "ML Mavericks",
         "confianza": "alta",
-        "ev": 90.0,
+        "ev": 83.5,
         "prob_modelo": 50.0,
-        "prob_mercado": 74.2,
-        "notas": "Modelo: 50.0% | Mercado: 25.8% | Edge: +24.2%",
+        "prob_mercado": 73.7,
+        "notas": "Modelo: 50.0% | Mercado: 26.3% | Edge: +23.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
