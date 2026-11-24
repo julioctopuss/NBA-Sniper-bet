@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T10:14:00.144739+00:00",
+  "updated_at": "2026-11-24T12:05:38.291780+00:00",
   "games": [
     {
       "id": "42f48a4769eab3d1472d76aac0fd0fa7",
@@ -44,21 +44,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 117,
+        "home_ml": 120,
         "away_ml": -130,
         "spread_home": 1.5,
         "total_ou": 212.5,
-        "best_book": "LowVig.ag",
+        "best_book": "Bovada",
         "num_books": 9
       },
       "recomendacion": {
         "pick": "Orlando Magic",
         "tipo": "ML Magic",
         "confianza": "media",
-        "ev": 8.5,
+        "ev": 10.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 44.9,
-        "notas": "Modelo: 50.0% | Mercado: 44.9% | Edge: +5.1%",
+        "prob_mercado": 44.6,
+        "notas": "Modelo: 50.0% | Mercado: 44.6% | Edge: +5.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -186,7 +186,7 @@
       "odds": {
         "home_ml": -300,
         "away_ml": 275,
-        "spread_home": -7.5,
+        "spread_home": -8.5,
         "total_ou": 233.5,
         "best_book": "Bovada",
         "num_books": 9
