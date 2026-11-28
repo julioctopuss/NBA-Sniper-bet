@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T04:15:16.744765+00:00",
+  "updated_at": "2026-11-28T08:15:47.179435+00:00",
   "games": [
     {
       "id": "2f2c60fafdc3fd106d71517a9de4f2b1",
@@ -44,21 +44,21 @@
       "alerta": false,
       "alerta_msg": "",
       "odds": {
-        "home_ml": 152,
+        "home_ml": 150,
         "away_ml": -160,
         "spread_home": 3.5,
-        "total_ou": 217.5,
-        "best_book": "FanDuel",
-        "num_books": 8
+        "total_ou": 218.5,
+        "best_book": "BetRivers",
+        "num_books": 9
       },
       "recomendacion": {
         "pick": "Washington Wizards",
         "tipo": "ML Wizards",
         "confianza": "alta",
-        "ev": 26.0,
+        "ev": 25.0,
         "prob_modelo": 50.0,
-        "prob_mercado": 39.2,
-        "notas": "Modelo: 50.0% | Mercado: 39.2% | Edge: +10.8%",
+        "prob_mercado": 39.4,
+        "notas": "Modelo: 50.0% | Mercado: 39.4% | Edge: +10.6%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -151,11 +151,11 @@
       "alerta_msg": "Nolan Traore Out | Moritz Wagner Out",
       "odds": {
         "home_ml": -223,
-        "away_ml": 200,
+        "away_ml": 210,
         "spread_home": -5.5,
         "total_ou": 213.5,
         "best_book": "LowVig.ag",
-        "num_books": 7
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Charlotte Hornets",
@@ -163,8 +163,8 @@
         "confianza": "alta",
         "ev": 22.5,
         "prob_modelo": 84.6,
-        "prob_mercado": 67.4,
-        "notas": "Modelo: 84.6% | Mercado: 67.4% | Edge: +17.1%",
+        "prob_mercado": 68.2,
+        "notas": "Modelo: 84.6% | Mercado: 68.2% | Edge: +16.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -271,11 +271,11 @@
       "alerta_msg": "Tyrese Haliburton Out | T.J. McConnell Out | Ben Sheppard Out",
       "odds": {
         "home_ml": -138,
-        "away_ml": 125,
+        "away_ml": 123,
         "spread_home": -2.5,
         "total_ou": 235.5,
         "best_book": "LowVig.ag",
-        "num_books": 7
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Chicago Bulls",
@@ -283,8 +283,8 @@
         "confianza": "alta",
         "ev": 38.5,
         "prob_modelo": 80.3,
-        "prob_mercado": 56.6,
-        "notas": "Modelo: 80.3% | Mercado: 56.6% | Edge: +23.7%",
+        "prob_mercado": 56.4,
+        "notas": "Modelo: 80.3% | Mercado: 56.4% | Edge: +23.9%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -362,21 +362,21 @@
       "alerta": true,
       "alerta_msg": "Kasparas Jakucionis Out",
       "odds": {
-        "home_ml": 430,
+        "home_ml": 440,
         "away_ml": -550,
         "spread_home": 11.5,
         "total_ou": 228.5,
-        "best_book": "LowVig.ag",
-        "num_books": 7
+        "best_book": "FanDuel",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Milwaukee Bucks",
         "tipo": "ML Bucks",
         "confianza": "alta",
-        "ev": 46.3,
+        "ev": 49.1,
         "prob_modelo": 27.6,
-        "prob_mercado": 18.2,
-        "notas": "Modelo: 27.6% | Mercado: 18.2% | Edge: +9.4%",
+        "prob_mercado": 18.0,
+        "notas": "Modelo: 27.6% | Mercado: 18.0% | Edge: +9.7%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
@@ -442,8 +442,22 @@
           "weight": 3
         },
         {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
           "player": "Ariel Hukporti",
           "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LeBron James",
+          "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -465,8 +479,22 @@
           "weight": 3
         },
         {
+          "player": "Joel Embiid",
+          "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
           "player": "Ariel Hukporti",
           "position": "C",
+          "status": "Out",
+          "pra": 0.0,
+          "weight": 3
+        },
+        {
+          "player": "LeBron James",
+          "position": "F",
           "status": "Out",
           "pra": 0.0,
           "weight": 3
@@ -480,14 +508,14 @@
         }
       ],
       "alerta": true,
-      "alerta_msg": "Jaylen Brown Out | Ariel Hukporti Out | Dean Wade Out",
+      "alerta_msg": "Jaylen Brown Out | Joel Embiid Out | Ariel Hukporti Out | LeBron James Out | Dean Wade Out",
       "odds": {
-        "home_ml": -510,
-        "away_ml": 390,
+        "home_ml": -483,
+        "away_ml": 425,
         "spread_home": -12.5,
-        "total_ou": 221.5,
-        "best_book": "FanDuel",
-        "num_books": 1
+        "total_ou": 219.5,
+        "best_book": "LowVig.ag",
+        "num_books": 8
       },
       "recomendacion": {
         "pick": "Sin pick",
@@ -495,8 +523,8 @@
         "confianza": "—",
         "ev": null,
         "prob_modelo": 48.9,
-        "prob_mercado": 80.4,
-        "notas": "Diferencia modelo/mercado excesiva (31%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 48.9% | Mercado: 80.4%",
+        "prob_mercado": 81.3,
+        "notas": "Diferencia modelo/mercado excesiva (32%) — mercado probablemente incorporó bajas u otra info reciente. | Modelo local: 48.9% | Mercado: 81.3%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
