@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T08:15:47.179435+00:00",
+  "updated_at": "2026-11-28T09:53:39.634509+00:00",
   "games": [
     {
       "id": "2f2c60fafdc3fd106d71517a9de4f2b1",
@@ -270,8 +270,8 @@
       "alerta": true,
       "alerta_msg": "Tyrese Haliburton Out | T.J. McConnell Out | Ben Sheppard Out",
       "odds": {
-        "home_ml": -138,
-        "away_ml": 123,
+        "home_ml": -142,
+        "away_ml": 125,
         "spread_home": -2.5,
         "total_ou": 235.5,
         "best_book": "LowVig.ag",
@@ -281,10 +281,10 @@
         "pick": "Chicago Bulls",
         "tipo": "ML Bulls",
         "confianza": "alta",
-        "ev": 38.5,
+        "ev": 36.9,
         "prob_modelo": 80.3,
-        "prob_mercado": 56.4,
-        "notas": "Modelo: 80.3% | Mercado: 56.4% | Edge: +23.9%",
+        "prob_mercado": 56.9,
+        "notas": "Modelo: 80.3% | Mercado: 56.9% | Edge: +23.4%",
         "spread_lado": null,
         "spread_ev": null,
         "spread_conf": "—",
